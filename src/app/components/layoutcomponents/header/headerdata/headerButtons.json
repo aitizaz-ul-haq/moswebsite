@@ -1,0 +1,40 @@
+[
+  {
+    "name": "SERVICES",
+    "link": "/services",
+    "subpages": [
+      { "name": "Operations Support", "link": "/services/operationssupport" },
+      {
+        "name": "Data Management",
+        "link": "/services/datamanagement"
+      },
+      { "name": "Project Management", "link": "/services/projectmanagement" },
+      {
+        "name": "Accounting & Reporting",
+        "link": "/services/accountingandreporting"
+      },
+      { "name": "Web Development", "link": "/services/webdevelopment" },
+      { "name": "Human Resources", "link": "/services/humanresources" }
+    ]
+  },
+  {
+    "name": "INDUSTRIES",
+    "link": "/industries",
+    "subpages": [
+      {
+        "name": "Financial Services",
+        "link": "/industries#financial-services"
+      },
+      {
+        "name": "Accountancy & Finance",
+        "link": "/industries#accountancy-finance"
+      },
+      { "name": "Tech Support", "link": "/industries#tech-support" },
+      { "name": "Fintech", "link": "/industries#fintech" },
+      { "name": "Insurance", "link": "/industries#insurance" }
+    ]
+  },
+  { "name": "TEAM", "link": "/team" },
+  { "name": "ABOUT", "link": "/about" },
+  { "name": "CAREERS", "link": "/careers" }
+]

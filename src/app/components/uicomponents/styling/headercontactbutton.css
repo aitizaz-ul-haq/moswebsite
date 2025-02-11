@@ -1,0 +1,10 @@
+.header-contact-button {
+  width: 118px;
+  height: 38px;
+  padding: 0.5rem;
+  border: 1px solid #ffd37e;
+  background: #f6f1d1;
+  font-size: 12px;
+  color: #4b4e6d;
+  font-weight: 800;
+}
