@@ -4,6 +4,11 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     "textOrientation": "homeright",
     "backgroundImages": {
+      "320px": "/320_background.png",
+      "360px": "/360_background.png",
+      "375px": "/375_background.png",
+      "390px": "/390_background.png",
+      "430px": "/430_background.png",
       "480px": "/480_background.png",
       "600px": "/600_background.png",
       "768px": "/768_background.png",

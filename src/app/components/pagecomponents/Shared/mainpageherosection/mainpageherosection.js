@@ -24,7 +24,11 @@ export default function MainPageHeroSection({
     <div
       className="hero-section"
       style={{
-        // "--bg-320": `url(${backgroundImages["320px"]})`,
+        "--bg-320": `url(${backgroundImages["320px"]})`,
+        "--bg-360": `url(${backgroundImages["360px"]})`,
+        "--bg-375": `url(${backgroundImages["375px"]})`,
+        "--bg-390": `url(${backgroundImages["390px"]})`,
+        "--bg-430": `url(${backgroundImages["430px"]})`,
         "--bg-480": `url(${backgroundImages["480px"]})`,
         "--bg-600": `url(${backgroundImages["600px"]})`,
         "--bg-768": `url(${backgroundImages["768px"]})`,
