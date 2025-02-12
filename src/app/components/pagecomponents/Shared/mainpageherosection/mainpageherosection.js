@@ -1,8 +1,8 @@
-import "../styles/mainpageherosection.css";
 import HomeRight from "./mainherosectionsubcomponents/homeright";
 import FeaturesRight from "./mainherosectionsubcomponents/featuresright";
 import IndustriesLeft from "./mainherosectionsubcomponents/industriesleft";
 import TeamCenter from "./mainherosectionsubcomponents/teamcenter";
+import "../styles/mainpageherosection.css";
 
 export default function MainPageHeroSection({
   title,
