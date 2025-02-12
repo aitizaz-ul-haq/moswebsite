@@ -43,7 +43,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/480_background.png");
+    /* background-image: url("/480_background.png"); */
+    background-image: var(--bg-320) !important;
   }
 
   .hero-content-industries {
@@ -97,7 +98,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/480_background.png");
+    /* background-image: url("/480_background.png"); */
+    background-image: var(--bg-360) !important;
   }
 
   .hero-content-industries {
@@ -151,7 +153,118 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/480_background.png");
+    /* background-image: url("/480_background.png"); */
+    background-image: var(--bg-375) !important;
+  }
+
+  .hero-content-industries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .hero-title-industries {
+    font-size: 21px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+
+  .hero-paragraph-industries {
+    font-size: 14px;
+    max-width: 439px;
+    text-align: center;
+  }
+
+  .hero-button-container-industries {
+    width: 100%;
+  }
+
+  .hero-button-industries {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 700;
+    gap: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: var(--light-yellow);
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-image: url("/480_background.png"); */
+    background-image: var(--bg-390) !important;
+  }
+
+  .hero-content-industries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .hero-title-industries {
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+
+  .hero-paragraph-industries {
+    font-size: 14px;
+    max-width: 439px;
+    text-align: center;
+  }
+
+  .hero-button-industries-container-industries {
+    width: 100%;
+  }
+
+  .hero-button-industries {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 700;
+    gap: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: var(--light-yellow);
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-image: url("/480_background.png"); */
+    background-image: var(--bg-430) !important;
   }
 
   .hero-content-industries {
@@ -198,115 +311,6 @@
   }
 }
 
-/* iPhone 14, 15 (standard model) */
-@media (min-width: 390px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("/480_background.png");
-  }
-
-  .hero-content-industries {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .hero-title-industries {
-    font-size: 34px;
-    font-weight: 400;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0rem;
-  }
-
-  .hero-paragraph-industries {
-    font-size: 14px;
-    max-width: 439px;
-    text-align: center;
-  }
-
-  .hero-button-industries-container-industries {
-    width: 100%;
-  }
-
-  .hero-button-industries {
-    height: 62px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    color: var(--text-color);
-    font-size: 13px;
-    font-weight: 700;
-    gap: 1.2rem;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    margin-top: 10px;
-    background-color: var(--light-yellow);
-  }
-}
-
-/* iPhone 14 Pro, 15 Pro */
-@media (min-width: 430px) {
-  .hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    /* background-image: url("/480_background.png"); */
-    background-image: var(--bg-480);
-  }
-
-  .hero-content-industries {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-  }
-
-  .hero-title-industries {
-    font-size: 34px;
-    font-weight: 400;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0rem;
-  }
-
-  .hero-paragraph-industries {
-    font-size: 14px;
-    max-width: 439px;
-    text-align: center;
-  }
-
-  .hero-button-industries-container-industries {
-    width: 100%;
-  }
-
-  .hero-button-industries {
-    height: 62px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    color: var(--text-color);
-    font-size: 13px;
-    font-weight: 700;
-    gap: 1.2rem;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    margin-top: 10px;
-    background-color: var(--light-yellow);
-  }
-}
-
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
   .hero-section {
@@ -315,7 +319,7 @@
     justify-content: flex-end;
     align-items: center;
     /* background-image: url("/480_background.png"); */
-    background-image: var(--bg-480);
+    background-image: var(--bg-480) !important;
   }
 
   .hero-content-industries {
@@ -328,7 +332,7 @@
   }
 
   .hero-title-industries {
-    font-size: 43px;
+    font-size: 31px;
     font-weight: 400;
     width: 100%;
     text-align: center;
@@ -368,9 +372,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/600_background.png"); */
-    background-image: var(--bg-600);
+    background-image: var(--bg-600) !important;
   }
 
   .hero-content-industries {
@@ -380,17 +384,18 @@
   }
 
   .hero-title-industries {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 400;
     width: 90%;
     text-align: left;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    width: 90%;
   }
 
   .hero-button-industries-container-industries {
@@ -402,9 +407,13 @@
     margin-top: 20px;
   }
 
+  .hero-button-container-industries {
+    width: 91%;
+  }
+
   .hero-paragraph-industries {
     font-size: 14px;
-    max-width: 403px;
+    max-width: 307px;
     text-align: left;
   }
 
@@ -430,9 +439,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/768_background.png"); */
-    background-image: var(--bg-768);
+    background-image: var(--bg-768) !important;
   }
 
   .hero-content-industries {
@@ -477,15 +486,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1024_background.png"); */
-    background-image: var(--bg-1024);
+    background-image: var(--bg-1024) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 66%;
+    width: 79%;
   }
 
   .hero-title-industries {
@@ -494,25 +503,23 @@
     width: 90%;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 
-  .hero-button-industries-container-industries {
+  .hero-button-container-industries {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 67%;
+    width: 29%;
     margin-top: 8px;
   }
 
   .hero-paragraph-industries {
     font-size: 14px;
-    max-width: 423px;
+    max-width: 456px;
   }
 }
 
@@ -522,15 +529,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1280_background.png"); */
-    background-image: var(--bg-1280);
+    background-image: var(--bg-1280) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 72%;
+    width: 79%;
   }
 
   .hero-title-industries {
@@ -539,10 +546,10 @@
     width: 90%;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 
@@ -557,7 +564,8 @@
 
   .hero-paragraph-industries {
     font-size: 18px;
-    max-width: 550px;
+    max-width: 579px;
+    margin-top: 14px;
   }
 }
 
@@ -567,15 +575,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1440_background.png"); */
-    background-image: var(--bg-1440);
+    background-image: var(--bg-1440) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 68%;
+    width: 80%;
   }
 
   .hero-title-industries {
@@ -585,12 +593,12 @@
     line-height: 5rem;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    width: 72%;
+    width: 75%;
   }
 
   .hero-button-industries-container-industries {
@@ -609,15 +617,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1600_background.png"); */
-    background-image: var(--bg-1600);
+    background-image: var(--bg-1600) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 63%;
+    width: 78%;
   }
 
   .hero-title-industries {
@@ -627,7 +635,7 @@
     line-height: 5rem;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -635,12 +643,12 @@
     margin-top: 10px;
   }
 
-  .hero-button-industries-container-industries {
+  .hero-button-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 41%;
+    width: 20%;
     margin-top: 9px;
   }
 }
@@ -651,36 +659,42 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1920_background.png"); */
-    background-image: var(--bg-1920);
+    background-image: var(--bg-1920) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 58%;
+    width: 85%;
   }
 
   .hero-title-industries {
-    font-size: 76px;
+    font-size: 100px;
     font-weight: 400;
     width: 90%;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 
-  .hero-button-industries-container-industries {
+  .hero-paragraph-industries {
+    font-size: 21px;
+    max-width: 706px;
+    margin-top: 14px;
+  }
+
+  .hero-button-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 51%;
+    width: 14%;
     margin-top: 11px;
   }
 }
@@ -691,42 +705,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     /* background-image: url("/1920_background.png"); */
-    background-image: var(--bg-2560);
+    background-image: var(--bg-2560) !important;
   }
 
   .hero-content-industries {
     display: flex;
     flex-direction: column;
-    width: 58%;
+    width: 80%;
   }
 
   .hero-title-industries {
-    font-size: 96px;
+    font-size: 138px;
     font-weight: 400;
     width: 90%;
     line-height: 7rem;
   }
 
-  .hero-paragraph-industries-container-industries {
+  .hero-paragraph-container-industries {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    width: 90%;
   }
 
   .hero-paragraph-industries {
-    font-size: 24px;
-    max-width: 827px;
+    font-size: 32px;
+    max-width: 1050px;
   }
 
-  .hero-button-industries-container-industries {
+  .hero-button-container-industries {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 72%;
+    width: 15%;
     margin-top: 20px;
   }
 
