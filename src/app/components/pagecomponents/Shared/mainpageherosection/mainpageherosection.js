@@ -1,4 +1,8 @@
 import "../styles/mainpageherosection.css";
+import HomeRight from "./mainherosectionsubcomponents/homeright";
+import FeaturesRight from "./mainherosectionsubcomponents/featuresright";
+import IndustriesLeft from "./mainherosectionsubcomponents/industriesleft";
+import TeamCenter from "./mainherosectionsubcomponents/teamcenter";
 
 export default function MainPageHeroSection({
   title,
@@ -6,6 +10,16 @@ export default function MainPageHeroSection({
   textOrientation,
   backgroundImages,
 }) {
+  let TextComponent;
+  if (textOrientation === "homeright") {
+    TextComponent = HomeRight;
+  } else if (textOrientation === "featuresright") {
+    TextComponent = FeaturesRight;
+  } else if (textOrientation === "industriesleft") {
+    TextComponent = IndustriesLeft;
+  } else if (textOrientation === "teamcenter") {
+    TextComponent = TeamCenter;
+  }
   return (
     <div
       className="hero-section"
@@ -22,15 +36,7 @@ export default function MainPageHeroSection({
         "--bg-2560": `url(${backgroundImages["2560px"]})`,
       }}
     >
-      <div className="hero-content">
-        <h1 className="hero-title font-poppins">{title}</h1>
-        <div className="hero-paragraph-container">
-          <p className="hero-paragraph font-nunito">{paragraph}</p>
-        </div>
-        <div className="hero-button-container">
-          <div className="hero-button font-nunito">TALK TO US NOW</div>
-        </div>
-      </div>
+      <TextComponent title={title} paragraph={paragraph} />
     </div>
   );
 }
