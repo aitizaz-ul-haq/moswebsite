@@ -1,0 +1,681 @@
+.homeright-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+  /* background-color: brown; */
+}
+
+.homeright-text-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.homeright-title-container {
+  width: 70%;
+}
+
+.homeright-title {
+  font-size: 76px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  line-height: 5.5rem;
+  color: var(--text-color);
+}
+
+.homeright-paragraph-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.homeright-paragraph {
+  font-size: 22px;
+  width: 70%;
+  font-weight: 300;
+}
+
+.homeright-button-container {
+  margin-top: 12px;
+  width: 66%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homeright-button {
+  height: 80px;
+  width: 263px;
+  display: flex;
+  flex-direction: row;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 700;
+  gap: 1.2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--light-yellow);
+  border: none;
+}
+
+.homeright-button:hover {
+  color: var(--text-color);
+  background-color: var(--light-orange);
+}
+
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.8rem;
+  }
+
+  .homeright-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeright-title-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeright-title {
+    font-size: 26px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+  }
+
+  .homeright-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 13px;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 60px;
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.8rem;
+  }
+
+  .homeright-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+          align-items: center; */
+  }
+
+  .homeright-title-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeright-title {
+    font-size: 26px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+  }
+
+  .homeright-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 13px;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 60px;
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.8rem;
+  }
+
+  .homeright-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeright-title-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeright-title {
+    font-size: 32px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
+
+  .homeright-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 13px;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 60px;
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.8rem;
+  }
+
+  .homeright-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeright-title-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeright-title {
+    font-size: 32px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
+
+  .homeright-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 14px;
+    width: 100%;
+    font-weight: 300;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 60px;
+    width: 100%;
+    font-size: 13px;
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .homeright-title {
+    font-size: 37px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .homeright-title {
+    font-size: 43px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 3.1rem;
+  }
+
+  .homeright-paragraph {
+    font-size: 15px;
+  }
+}
+
+/* Tablets (>= 600px) */
+@media (min-width: 600px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .homeright-text-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeright-title-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeright-title {
+    font-size: 42px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .homeright-paragraph-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 14px;
+    width: 80%;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 60px;
+    width: 233px;
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    gap: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--light-yellow);
+    border: none;
+  }
+}
+
+/* Small laptops and larger tablets (>= 768px) */
+@media (min-width: 768px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+  .homeright-text-container {
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeright-title {
+    font-size: 48px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 3.1rem;
+    text-align: center;
+  }
+
+  .homeright-paragraph-container {
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 14px;
+    width: 64%;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Medium laptops (>= 1024px) */
+@media (min-width: 1024px) {
+  .homeright-text-container {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeright-title-container {
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .homeright-title {
+    font-size: 58px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 4.1rem;
+    text-align: left;
+    width: 70%;
+  }
+
+  .homeright-paragraph-container {
+    width: 89%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 17px;
+    width: 49%;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .homeright-button-container {
+    margin-top: 12px;
+    width: 71%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Large laptops and desktops (>= 1280px) */
+@media (min-width: 1280px) {
+  .homeright-title-container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .homeright-title {
+    font-size: 67px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 4.6rem;
+    text-align: left;
+    width: 70%;
+  }
+
+  .homeright-paragraph-container {
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 19px;
+    width: 49%;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .homeright-button-container {
+    margin-top: 16px;
+    width: 64%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Extra-large desktops (>= 1440px) */
+@media (min-width: 1440px) {
+  .homeright-title {
+    font-size: 76px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 5rem;
+    text-align: left;
+    width: 70%;
+  }
+
+  .homeright-paragraph-container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 21px;
+    width: 49%;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 13px;
+  }
+
+  .homeright-button-container {
+    margin-top: 21px;
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .homeright-button {
+    height: 80px;
+    width: 263px;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1600px) {
+  .homeright-paragraph-container {
+    width: 81%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-button-container {
+    margin-top: 21px;
+    width: 59%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .homeright-text-container {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeright-title {
+    font-size: 88px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 6rem;
+    text-align: left;
+    width: 70%;
+  }
+
+  .homeright-paragraph-container {
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-button-container {
+    margin-top: 21px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* 4K screens (>= 1920px) */
+@media (min-width: 2560px) {
+  .homeright-text-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+  }
+  .homeright-title {
+    font-size: 121px;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 8rem;
+    text-align: left;
+    width: 70%;
+  }
+
+  .homeright-paragraph-container {
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .homeright-paragraph {
+    font-size: 32px;
+    width: 46%;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 13px;
+  }
+
+  .homeright-button-container {
+    margin-top: 21px;
+    width: 58%;
+  }
+
+  .homeright-button {
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+  }
+}
