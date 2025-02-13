@@ -2,16 +2,16 @@ import "./styles/teamcenter.css";
 
 export default function TeamCenter({ title, paragraph }) {
   return (
-    <div className="homeright-text-wrapper">
-      <div className="homeright-text-container">
-        <div className="homeright-title-container">
-          <h1 className="homeright-title font-poppins">{title}</h1>
+    <div className="teamcenter-text-wrapper">
+      <div className="teamcenter-text-container">
+        <div className="teamcenter-title-container">
+          <h1 className="teamcenter-title font-poppins">{title}</h1>
         </div>
-        <div className="homeright-paragraph-container">
-          <p className="homeright-paragraph font-nunito">{paragraph}</p>
+        <div className="teamcenter-paragraph-container">
+          <p className="teamcenter-paragraph font-nunito">{paragraph}</p>
         </div>
-        <div className="homeright-button-container">
-          <button className="homeright-button font-nunito">
+        <div className="teamcenter-button-container">
+          <button className="teamcenter-button font-nunito">
             TALK TO US NOW
           </button>
         </div>

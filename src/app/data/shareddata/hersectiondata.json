@@ -62,15 +62,20 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     "textOrientation": "teamcenter",
     "backgroundImages": {
-      "480px": "/480_background.png",
-      "600px": "/600_background.png",
-      "768px": "/768_background.png",
-      "1024px": "/1024_background.png",
-      "1280px": "/1280_background.png",
-      "1440px": "/1440_background.png",
-      "1600px": "/1600_background.png",
-      "1920px": "/1920_background.png",
-      "2560px": "/1920_background.png"
+      "320px": "/team_320_background.png",
+      "360px": "/team_360_background.png",
+      "375px": "/team_375_background.png",
+      "390px": "/team_390_background.png",
+      "430px": "/team_430_background.png",
+      "480px": "/team_480_background.png",
+      "600px": "/team_600_background.png",
+      "768px": "/team_768_background.png",
+      "1024px": "/team_1024_background.png",
+      "1280px": "/team_1280_background.png",
+      "1440px": "/team_1440_background.png",
+      "1600px": "/team_1600_background.png",
+      "1920px": "/team_1920_background.png",
+      "2560px": "/team_1920_background.png"
     }
   },
   "about": {
