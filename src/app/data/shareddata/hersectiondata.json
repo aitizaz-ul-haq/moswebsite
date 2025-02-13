@@ -78,15 +78,20 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     "textOrientation": "industriesleft",
     "backgroundImages": {
-      "480px": "/480_background.png",
-      "600px": "/600_background.png",
-      "768px": "/768_background.png",
-      "1024px": "/1024_background.png",
-      "1280px": "/1280_background.png",
-      "1440px": "/1440_background.png",
-      "1600px": "/1600_background.png",
-      "1920px": "/1920_background.png",
-      "2560px": "/1920_background.png"
+      "320px": "/industries_320_background.png",
+      "360px": "/industries_360_background.png",
+      "375px": "/industries_375_background.png",
+      "390px": "/industries_390_background.png",
+      "430px": "/industries_430_background.png",
+      "480px": "/industries_480_background.png",
+      "600px": "/industries_600_background.png",
+      "768px": "/industries_768_background.png",
+      "1024px": "/industries_1024_background.png",
+      "1280px": "/industries_1280_background.png",
+      "1440px": "/industries_1440_background.png",
+      "1600px": "/industries_1600_background.png",
+      "1920px": "/industries_1920_background.png",
+      "2560px": "/industries_1920_background.png"
     }
   },
   "careers": {
@@ -94,15 +99,20 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     "textOrientation": "industriesleft",
     "backgroundImages": {
-      "480px": "/480_background.png",
-      "600px": "/600_background.png",
-      "768px": "/768_background.png",
-      "1024px": "/1024_background.png",
-      "1280px": "/1280_background.png",
-      "1440px": "/1440_background.png",
-      "1600px": "/1600_background.png",
-      "1920px": "/1920_background.png",
-      "2560px": "/1920_background.png"
+      "320px": "/industries_320_background.png",
+      "360px": "/industries_360_background.png",
+      "375px": "/industries_375_background.png",
+      "390px": "/industries_390_background.png",
+      "430px": "/industries_430_background.png",
+      "480px": "/industries_480_background.png",
+      "600px": "/industries_600_background.png",
+      "768px": "/industries_768_background.png",
+      "1024px": "/industries_1024_background.png",
+      "1280px": "/industries_1280_background.png",
+      "1440px": "/industries_1440_background.png",
+      "1600px": "/industries_1600_background.png",
+      "1920px": "/industries_1920_background.png",
+      "2560px": "/industries_1920_background.png"
     }
   },
   "connect": {
@@ -110,15 +120,20 @@
     "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     "textOrientation": "industriesleft",
     "backgroundImages": {
-      "480px": "/480_background.png",
-      "600px": "/600_background.png",
-      "768px": "/768_background.png",
-      "1024px": "/1024_background.png",
-      "1280px": "/1280_background.png",
-      "1440px": "/1440_background.png",
-      "1600px": "/1600_background.png",
-      "1920px": "/1920_background.png",
-      "2560px": "/1920_background.png"
+      "320px": "/industries_320_background.png",
+      "360px": "/industries_360_background.png",
+      "375px": "/industries_375_background.png",
+      "390px": "/industries_390_background.png",
+      "430px": "/industries_430_background.png",
+      "480px": "/industries_480_background.png",
+      "600px": "/industries_600_background.png",
+      "768px": "/industries_768_background.png",
+      "1024px": "/industries_1024_background.png",
+      "1280px": "/industries_1280_background.png",
+      "1440px": "/industries_1440_background.png",
+      "1600px": "/industries_1600_background.png",
+      "1920px": "/industries_1920_background.png",
+      "2560px": "/industries_1920_background.png"
     }
   }
 }
