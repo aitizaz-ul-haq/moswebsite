@@ -22,18 +22,23 @@
   },
   "features": {
     "title": "Optimizing Your Processes for Maximum Efficiency.",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting",
     "textOrientation": "featuresright",
     "backgroundImages": {
-      "480px": "/480_background.png",
-      "600px": "/600_background.png",
-      "768px": "/768_background.png",
-      "1024px": "/1024_background.png",
-      "1280px": "/1280_background.png",
-      "1440px": "/1440_background.png",
-      "1600px": "/1600_background.png",
-      "1920px": "/1920_background.png",
-      "2560px": "/1920_background.png"
+      "320px": "/features_320_background.png",
+      "360px": "/features_360_background.png",
+      "375px": "/features_375_background.png",
+      "390px": "/features_390_background.png",
+      "430px": "/features_430_background.png",
+      "480px": "/features_480_background.png",
+      "600px": "/features_600_background.png",
+      "768px": "/features_768_background.png",
+      "1024px": "/features_1024_background.png",
+      "1280px": "/features_1280_background.png",
+      "1440px": "/features_1440_background.png",
+      "1600px": "/features_1600_background.png",
+      "1920px": "/features_1920_background.png",
+      "2560px": "/features_1920_background.png"
     }
   },
   "industries": {
