@@ -334,14 +334,114 @@
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .mainheadingsection-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: var(--bg-768);
+    height: 100vh;
+  }
+
+  .mainheadingsection-container {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mainheadingsection-title-container {
+    width: 90%;
+  }
+
+  .mainheadingsection-title {
+    font-size: 135px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .mainheadingsection-lowersection-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .mainheadingsection-tex-container {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainheadingsection-tag {
+    width: fit-content;
+    background-color: #ffd37e;
+    margin-bottom: 10px;
+    font-size: 26px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: var(--text-color);
+  }
+
+  .mainpageheadingsection-description {
+    font-size: 22px;
+    font-weight: 300;
   }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .mainheadingsection-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: var(--bg-1024);
+    height: 100vh;
+  }
+
+  .mainheadingsection-container {
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mainheadingsection-title-container {
+    width: 90%;
+  }
+
+  .mainheadingsection-title {
+    font-size: 181px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .mainheadingsection-lowersection-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .mainheadingsection-tex-container {
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainheadingsection-tag {
+    width: fit-content;
+    background-color: #ffd37e;
+    margin-bottom: 10px;
+    font-size: 26px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: var(--text-color);
+  }
+
+  .mainpageheadingsection-description {
+    font-size: 22px;
+    font-weight: 300;
   }
 }
 
@@ -350,12 +450,22 @@
   .mainheadingsection-wrapper {
     background-image: var(--bg-1280);
   }
+
+  .mainheadingsection-title {
+    font-size: 189px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .mainheadingsection-wrapper {
     background-image: var(--bg-1440);
+  }
+
+  .mainheadingsection-title {
+    font-size: 207px;
   }
 }
 
@@ -364,6 +474,10 @@
   .mainheadingsection-wrapper {
     background-image: var(--bg-1600);
   }
+
+  .mainheadingsection-title {
+    font-size: 220px;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -371,13 +485,36 @@
   .mainheadingsection-wrapper {
     background-image: var(--bg-1920);
   }
+
+  .mainheadingsection-title {
+    font-size: 245px;
+  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .mainheadingsection-wrapper {
-    /* background-image: url("/1920_background.png"); */
     background-image: var(--bg-2560);
+  }
+
+  .mainheadingsection-title {
+    font-size: 327px;
+  }
+
+  .mainpageheadingsection-description {
+    font-size: 34px;
+    font-weight: 300;
+  }
+
+  .mainheadingsection-tag {
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #ffd37e;
+    margin-bottom: 10px;
+    font-size: 46px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: var(--text-color);
   }
 }
 
