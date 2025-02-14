@@ -5,7 +5,7 @@ import Connectheadingsectiondata from "@/app/data/shareddata/mainheadingsectiond
 
 export default function Connect() {
   return (
-    <>
+    <div>
       <MainPageHeroSection
         title={ContactHeroData.connect.title}
         paragraph={ContactHeroData.connect.paragraph}
@@ -19,6 +19,6 @@ export default function Connect() {
         tagtext={Connectheadingsectiondata.connect.tagtext}
         backgroundImages={Connectheadingsectiondata.connect.backgroundImages}
       />
-    </>
+    </div>
   );
 }
