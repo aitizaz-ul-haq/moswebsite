@@ -1,0 +1,149 @@
+{
+  "home": {
+    "title": "Expertise.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "Our Expertise",
+    "backgroundImages": {
+      "320px": "/320_background.png",
+      "360px": "/360_background.png",
+      "375px": "/375_background.png",
+      "390px": "/390_background.png",
+      "430px": "/430_background.png",
+      "480px": "/480_background.png",
+      "600px": "/600_background.png",
+      "768px": "/768_background.png",
+      "1024px": "/1024_background.png",
+      "1280px": "/1280_background.png",
+      "1440px": "/1440_background.png",
+      "1600px": "/1600_background.png",
+      "1920px": "/mainheading_home_1920_background.png",
+      "2560px": "/1920_background.png"
+    }
+  },
+  "features": {
+    "title": "Features.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting",
+    "tagtext": "Our Features",
+    "backgroundImages": {
+      "320px": "/features_320_background.png",
+      "360px": "/features_360_background.png",
+      "375px": "/features_375_background.png",
+      "390px": "/features_390_background.png",
+      "430px": "/features_430_background.png",
+      "480px": "/features_480_background.png",
+      "600px": "/features_600_background.png",
+      "768px": "/features_768_background.png",
+      "1024px": "/features_1024_background.png",
+      "1280px": "/features_1280_background.png",
+      "1440px": "/features_1440_background.png",
+      "1600px": "/features_1600_background.png",
+      "1920px": "/features_1920_background.png",
+      "2560px": "/features_1920_background.png"
+    }
+  },
+  "industries": {
+    "title": "Industries.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "Industries",
+    "backgroundImages": {
+      "320px": "/industries_320_background.png",
+      "360px": "/industries_360_background.png",
+      "375px": "/industries_375_background.png",
+      "390px": "/industries_390_background.png",
+      "430px": "/industries_430_background.png",
+      "480px": "/industries_480_background.png",
+      "600px": "/industries_600_background.png",
+      "768px": "/industries_768_background.png",
+      "1024px": "/industries_1024_background.png",
+      "1280px": "/industries_1280_background.png",
+      "1440px": "/industries_1440_background.png",
+      "1600px": "/industries_1600_background.png",
+      "1920px": "/industries_1920_background.png",
+      "2560px": "/industries_1920_background.png"
+    }
+  },
+  "team": {
+    "title": "Team.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "Our Team",
+    "backgroundImages": {
+      "320px": "/team_320_background.png",
+      "360px": "/team_360_background.png",
+      "375px": "/team_375_background.png",
+      "390px": "/team_390_background.png",
+      "430px": "/team_430_background.png",
+      "480px": "/team_480_background.png",
+      "600px": "/team_600_background.png",
+      "768px": "/team_768_background.png",
+      "1024px": "/team_1024_background.png",
+      "1280px": "/team_1280_background.png",
+      "1440px": "/team_1440_background.png",
+      "1600px": "/team_1600_background.png",
+      "1920px": "/team_1920_background.png",
+      "2560px": "/team_1920_background.png"
+    }
+  },
+  "about": {
+    "title": "About.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "About Us",
+    "backgroundImages": {
+      "320px": "/about_320_background.png",
+      "360px": "/about_360_background.png",
+      "375px": "/about_375_background.png",
+      "390px": "/about_390_background.png",
+      "430px": "/about_430_background.png",
+      "480px": "/about_480_background.png",
+      "600px": "/about_600_background.png",
+      "768px": "/about_768_background.png",
+      "1024px": "/about_1024_background.png",
+      "1280px": "/about_1280_background.png",
+      "1440px": "/about_1440_background.png",
+      "1600px": "/about_1600_background.png",
+      "1920px": "/about_1920_background.png",
+      "2560px": "/about_1920_background.png"
+    }
+  },
+  "careers": {
+    "title": "Careers.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "industriesleft",
+    "backgroundImages": {
+      "320px": "/careers_320_background.png",
+      "360px": "/careers_360_background.png",
+      "375px": "/careers_375_background.png",
+      "390px": "/careers_390_background.png",
+      "430px": "/careers_430_background.png",
+      "480px": "/careers_480_background.png",
+      "600px": "/careers_600_background.png",
+      "768px": "/careers_768_background.png",
+      "1024px": "/careers_1024_background.png",
+      "1280px": "/careers_1280_background.png",
+      "1440px": "/careers_1440_background.png",
+      "1600px": "/careers_1600_background.png",
+      "1920px": "/careers_1920_background.png",
+      "2560px": "/careers_1920_background.png"
+    }
+  },
+  "connect": {
+    "title": "Connect.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "Careers",
+    "backgroundImages": {
+      "320px": "/connect_320_background.png",
+      "360px": "/connect_360_background.png",
+      "375px": "/connect_375_background.png",
+      "390px": "/connect_390_background.png",
+      "430px": "/connect_430_background.png",
+      "480px": "/connect_480_background.png",
+      "600px": "/connect_600_background.png",
+      "768px": "/connect_768_background.png",
+      "1024px": "/connect_1024_background.png",
+      "1280px": "/connect_1280_background.png",
+      "1440px": "/connect_1440_background.png",
+      "1600px": "/connect_1600_background.png",
+      "1920px": "/connect_1920_background.png",
+      "2560px": "/connect_1920_background.png"
+    }
+  }
+}
