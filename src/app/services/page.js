@@ -3,8 +3,10 @@ import MainHeadingSection from "../components/pagecomponents/Shared/mainheadings
 import ServicesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
+import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 
 export default function Services() {
+  const cards = cardData.features.cards;
   return (
     <>
       <MainPageHeroSection
@@ -21,7 +23,7 @@ export default function Services() {
         backgroundImages={Servicesheadingsectiondata.features.backgroundImages}
       />
 
-      <CardCollection />
+      <CardCollection cards={cards} />
     </>
   );
 }

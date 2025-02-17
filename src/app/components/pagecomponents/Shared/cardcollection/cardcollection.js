@@ -1,10 +1,7 @@
 import "../styles/cardcollection.css";
 import CardSection from "./subcomponents/cardsection";
-import cardData from "@/app/data/shareddata/cardcollectiondata.json"; // Import JSON
 
-export default function CardCollection() {
-  const cards = cardData.features.cards; // Extract cards from JSON
-
+export default function CardCollection({ cards }) {
   return (
     <div className="cardcollection-main-container">
       <CardSection cards={cards} />

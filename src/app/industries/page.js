@@ -2,8 +2,11 @@ import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageher
 import IndustriesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import Industriesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
+import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
+import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 
 export default function Industries() {
+  const cards = cardData.industries.cards;
   return (
     <>
       <MainPageHeroSection
@@ -21,6 +24,8 @@ export default function Industries() {
           Industriesheadingsectiondata.industries.backgroundImages
         }
       />
+
+      <CardCollection cards={cards} />
     </>
   );
 }
