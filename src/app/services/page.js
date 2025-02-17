@@ -2,6 +2,7 @@ import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageher
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import ServicesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
+import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
 
 export default function Services() {
   return (
@@ -19,6 +20,8 @@ export default function Services() {
         tagtext={Servicesheadingsectiondata.features.tagtext}
         backgroundImages={Servicesheadingsectiondata.features.backgroundImages}
       />
+
+      <CardCollection />
     </>
   );
 }
