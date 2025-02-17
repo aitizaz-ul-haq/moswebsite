@@ -32,7 +32,7 @@ export default function CardCollection() {
                 className="card-collection-middle-image"
                 width={290}
                 height={320}
-                src="/card-collection-icon.png"
+                src="/card-collection-icon-cardone.png"
               />
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function CardCollection() {
                 className="card-collection-middle-image"
                 width={290}
                 height={320}
-                src="/card-collection-icon.png"
+                src="/card-collection-icon-cardone.png"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function CardCollection() {
                 className="card-collection-middle-image"
                 width={290}
                 height={320}
-                src="/card-collection-icon.png"
+                src="/card-collection-icon-cardone.png"
               />
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function CardCollection() {
                 className="card-collection-middle-image"
                 width={290}
                 height={320}
-                src="/card-collection-icon.png"
+                src="/card-collection-icon-cardone.png"
               />
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function CardCollection() {
                 className="card-collection-middle-image"
                 width={290}
                 height={320}
-                src="/card-collection-icon.png"
+                src="/card-collection-icon-cardone.png"
               />
             </div>
           </div>
