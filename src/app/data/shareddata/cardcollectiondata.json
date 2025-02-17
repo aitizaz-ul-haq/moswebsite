@@ -1,81 +1,91 @@
 {
   "features": {
-    "carddata": {
-      "cardone": {
-        "id": "1",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon-cardone.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+    "cards": [
+      {
+        "id": "arrow",
+        "type": "arrow",
+        "image": "card-collection-rightarrow-icon.png"
       },
-      "cardtwo": {
+      {
         "id": "1",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon-cardtwo.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardone.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardthree": {
-        "id": "1",
+      {
+        "id": "2",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon-cardthree.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardtwo.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardfour": {
-        "id": "1",
+      {
+        "id": "3",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon-cardfour.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardthree.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardfive": {
-        "id": "1",
+      {
+        "id": "4",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon-cardfive.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardfour.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+      },
+      {
+        "id": "5",
+        "firsttext": "Turning Plans into Results.",
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardfive.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       }
-    }
+    ]
   },
 
   "industries": {
-    "carddata": {
-      "cardone": {
-        "id": "1",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+    "cards": [
+      {
+        "id": "arrow",
+        "type": "arrow",
+        "image": "card-collection-rightarrow-icon.png"
       },
-      "cardtwo": {
+      {
         "id": "1",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardone.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardthree": {
-        "id": "1",
+      {
+        "id": "2",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardtwo.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardfour": {
-        "id": "1",
+      {
+        "id": "3",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardthree.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
-      "cardfive": {
-        "id": "1",
+      {
+        "id": "4",
         "firsttext": "Turning Plans into Results.",
-        "secondtext": " is simply dummy text of the printing.",
-        "middlesectionimageicon": "card-collection-icon.png",
-        "card-collection-bottom-text": "is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardfour.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+      },
+      {
+        "id": "5",
+        "firsttext": "Turning Plans into Results.",
+        "secondtext": "is simply dummy text of the printing.",
+        "image": "card-collection-icon-cardfive.png",
+        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       }
-    }
+    ]
   }
 }
