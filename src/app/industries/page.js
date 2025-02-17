@@ -5,7 +5,7 @@ import Industriesheadingsectiondata from "@/app/data/shareddata/mainheadingsecti
 
 export default function Industries() {
   return (
-    <div>
+    <>
       <MainPageHeroSection
         title={IndustriesHeroData.industries.title}
         paragraph={IndustriesHeroData.industries.paragraph}
@@ -21,6 +21,6 @@ export default function Industries() {
           Industriesheadingsectiondata.industries.backgroundImages
         }
       />
-    </div>
+    </>
   );
 }

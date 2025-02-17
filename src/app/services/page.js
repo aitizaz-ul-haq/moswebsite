@@ -5,7 +5,7 @@ import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsection
 
 export default function Services() {
   return (
-    <div>
+    <>
       <MainPageHeroSection
         title={ServicesHeroData.features.title}
         paragraph={ServicesHeroData.features.paragraph}
@@ -19,6 +19,6 @@ export default function Services() {
         tagtext={Servicesheadingsectiondata.features.tagtext}
         backgroundImages={Servicesheadingsectiondata.features.backgroundImages}
       />
-    </div>
+    </>
   );
 }

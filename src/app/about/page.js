@@ -5,7 +5,7 @@ import MainHeadingSection from "../components/pagecomponents/Shared/mainheadings
 
 export default function About() {
   return (
-    <div>
+    <>
       <MainPageHeroSection
         title={AboutHeroData.about.title}
         paragraph={AboutHeroData.about.paragraph}
@@ -18,6 +18,6 @@ export default function About() {
         tagtext={Aboutheadingsectiondata.about.tagtext}
         backgroundImages={Aboutheadingsectiondata.about.backgroundImages}
       />
-    </div>
+    </>
   );
 }

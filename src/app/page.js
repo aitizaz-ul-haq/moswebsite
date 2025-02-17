@@ -5,7 +5,7 @@ import Homepageheadingsectiondata from "@/app/data/shareddata/mainheadingsection
 
 export default function Home() {
   return (
-    <main>
+    <>
       <MainPageHeroSection
         title={Homepageherodata.home.title}
         paragraph={Homepageherodata.home.paragraph}
@@ -19,6 +19,6 @@ export default function Home() {
         tagtext={Homepageheadingsectiondata.home.tagtext}
         backgroundImages={Homepageheadingsectiondata.home.backgroundImages}
       />
-    </main>
+    </>
   );
 }

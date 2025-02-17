@@ -5,7 +5,7 @@ import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiond
 
 export default function Careers() {
   return (
-    <div>
+    <>
       <MainPageHeroSection
         title={CareersHeroData.careers.title}
         paragraph={CareersHeroData.careers.paragraph}
@@ -19,6 +19,6 @@ export default function Careers() {
         tagtext={Careersheadingsectiondata.careers.tagtext}
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
-    </div>
+    </>
   );
 }

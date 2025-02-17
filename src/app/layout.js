@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${nunito.variable} ${poppins.variable}`}>
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

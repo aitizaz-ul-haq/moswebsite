@@ -5,7 +5,7 @@ import Teamheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata
 
 export default function Team() {
   return (
-    <div>
+    <>
       <MainPageHeroSection
         title={TeamHeroData.team.title}
         paragraph={TeamHeroData.team.paragraph}
@@ -19,6 +19,6 @@ export default function Team() {
         tagtext={Teamheadingsectiondata.team.tagtext}
         backgroundImages={Teamheadingsectiondata.team.backgroundImages}
       />
-    </div>
+    </>
   );
 }
