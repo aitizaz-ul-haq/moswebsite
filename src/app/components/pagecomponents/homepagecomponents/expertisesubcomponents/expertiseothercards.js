@@ -1,12 +1,12 @@
-import TopSection from "./othercardscomponents/topsection";
-import MiddleSection from "./othercardscomponents/middlesection";
-import BottomSection from "./othercardscomponents/bottomsection";
+import EcardTopSection from "./expertiseothercardscomponents/ecardtopsection";
+import EcardMiddleSection from "./expertiseothercardscomponents/ecardmiddlesection";
+import EcardBottomSection from "./expertiseothercardscomponents/ecardbottomsection";
 export default function ExpertiseOtherCards({ card }) {
   return (
-    <div className="cardcollection-card">
-      {/* <TopSection card={card} />
-      <MiddleSection card={card} />
-      <BottomSection card={card} /> */}
+    <div className="expertisecard-cardcollection-card">
+      <EcardTopSection card={card} />
+      <EcardMiddleSection card={card} />
+      <EcardBottomSection card={card} />
     </div>
   );
 }

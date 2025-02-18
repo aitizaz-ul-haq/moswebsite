@@ -3,7 +3,7 @@ import ExpertiseOtherCards from "./expertiseothercards";
 
 export default function ExpertiseCardSection({ cards }) {
   return (
-    <div className="cardcollection-card-section">
+    <div className="expertisecard-cardcollection-card-section">
       {cards.map((card) =>
         card.type === "arrow" ? (
           // ✅ Special case: Arrow card
