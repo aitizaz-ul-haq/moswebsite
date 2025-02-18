@@ -106,18 +106,134 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
+  .arrow-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardcollection-card-section {
+    justify-content: center;
+  }
+
+  .cardcollection-card {
+    flex-basis: calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0rem;
+  }
+
+  .card-collection-first-text {
+    font-size: 21px;
+  }
+
+  .card-collection-second-text {
+    font-size: 16px;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 92%;
+  }
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .arrow-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardcollection-card-section {
+    justify-content: center;
+  }
+
+  .cardcollection-card {
+    flex-basis: calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0rem;
+  }
+
+  .card-collection-first-text {
+    font-size: 21px;
+  }
+
+  .card-collection-second-text {
+    font-size: 16px;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 92%;
+  }
 }
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .arrow-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardcollection-card-section {
+    justify-content: center;
+  }
+
+  .cardcollection-card {
+    flex-basis: calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0rem;
+  }
+
+  .card-collection-first-text {
+    font-size: 21px;
+  }
+
+  .card-collection-second-text {
+    font-size: 16px;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 92%;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .arrow-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardcollection-card-section {
+    justify-content: center;
+  }
+
+  .cardcollection-card {
+    flex-basis: calc(100% - 1rem);
+    max-width: calc(100% - 1rem);
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0rem;
+  }
+
+  .card-collection-first-text {
+    font-size: 21px;
+  }
+
+  .card-collection-second-text {
+    font-size: 16px;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 92%;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -126,22 +242,95 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .card-collection-middle-image {
+    width: 324px;
+    height: auto;
+  }
+
+  .card-collection-topsection-container {
+    width: 324px;
+    text-align: center;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 92%;
+    text-align: center;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .cardcollection-card {
+    flex-basis: calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    position: relative; /* Required for pseudo-elements */
+    border-bottom: 1px solid lightgray;
+    margin-top: 0rem;
+  }
+
+  /* ✅ Creates a shorter left border */
+  .cardcollection-card::before {
+    content: "";
+    position: absolute;
+    top: 3%; /* Adjust start position */
+    bottom: 12%; /* Adjust end position */
+    left: 0;
+    width: 1px; /* Border thickness */
+    background-color: lightgray;
+  }
+
+  .card-collection-topsection-container {
+    width: 324px;
+    text-align: center;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
+  .cardcollection-card {
+    flex-basis: calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    position: relative; /* Required for pseudo-elements */
+    border-bottom: 1px solid lightgray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* ✅ Creates a shorter left border */
+  .cardcollection-card::before {
+    content: "";
+    position: absolute;
+    top: 3%; /* Adjust start position */
+    bottom: 12%; /* Adjust end position */
+    left: 0;
+    width: 1px; /* Border thickness */
+    background-color: lightgray;
+  }
+
+  .card-collection-topsection-container {
+    width: 324px;
+    text-align: left;
+  }
+
+  .card-collection-bottom-text {
+    text-align: left;
+  }
+
+  .card-collection-bottomsection-container {
+    width: 324px;
+  }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .card-collection-bottom-text {
+    font-size: 14px;
+    width: 100%;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
