@@ -15,19 +15,26 @@
 .expertisecard-cardcollection-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   flex: 1 1 calc(33.33% - 1rem); /* Ensures 3 cards per row */
   max-width: calc(33.33% - 1rem); /* Restricts max width to 3 per row */
   box-sizing: border-box; /* Ensures padding doesn't affect width */
   border-left: 1px soild #ffd37e;
-  margin-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  /* margin-top: 3rem; */
+}
+
+.expertisecard-card-collection-topsection-container {
+  width: 100%;
+  text-align: left;
 }
 
 .expertisecard-card-collection-first-text {
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .expertisecard-card-collection-second-text {
@@ -38,14 +45,15 @@
 .expertisecard-card-collection-middlesection-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 1.8rem;
   margin-bottom: 1.8rem;
+  width: 100%;
 }
 
 .expertisecard-card-collection-middle-image {
-  width: 100%;
+  width: 63px;
   height: auto;
 }
 
@@ -54,15 +62,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: left;
+  width: 100%;
+}
+
+.expertisecard-card-collection-bottomsection-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.expertisecard-card-collection-bottomsection-button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2.2rem;
+  padding-left: 2.2rem;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1rem;
+  background-color: var(--light-yellow);
+  border: 1px solid var(--text-color);
+  /* border-top-left-radius: 15px; */
+  border-radius: 55px;
 }
 
 .expertisecard-card-collection-bottom-text {
   font-size: 20px;
   font-weight: 300;
-  width: 65%;
+  width: 100%;
 }
 
-.arrow-card {
+.briefcase-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +106,7 @@
 
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
-  .arrow-image {
+  /* .arrow-image {
     width: 100%;
     height: auto;
   }
@@ -101,12 +134,12 @@
   .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
-  }
+  } */
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
-  .arrow-image {
+  /* .arrow-image {
     width: 100%;
     height: auto;
   }
@@ -134,12 +167,12 @@
   .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
-  }
+  } */
 }
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
-  .arrow-image {
+  /* .arrow-image {
     width: 100%;
     height: auto;
   }
@@ -167,12 +200,12 @@
   .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
-  }
+  } */
 }
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
-  .arrow-image {
+  /* .arrow-image {
     width: 100%;
     height: auto;
   }
@@ -200,12 +233,12 @@
   .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
-  }
+  } */
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
-  .arrow-image {
+  /* .arrow-image {
     width: 100%;
     height: auto;
   }
@@ -233,7 +266,7 @@
   .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
-  }
+  } */
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -242,72 +275,72 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
-  .expertisecard-card-collection-middle-image {
-    width: 324px;
+  /* .expertisecard-card-collection-middle-image {
+    width: 63px;
     height: auto;
   }
 
   .expertisecard-card-collection-topsection-container {
     width: 324px;
     text-align: center;
-  }
+  } */
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
-  .expertisecard-card-collection-bottom-text {
+  /* .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 92%;
     text-align: center;
-  }
+  } */
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
-  .expertisecard-cardcollection-card {
+  /* .expertisecard-cardcollection-card {
     flex-basis: calc(50% - 1rem);
     max-width: calc(50% - 1rem);
-    position: relative; /* Required for pseudo-elements */
+    position: relative; 
     border-bottom: 1px solid lightgray;
     margin-top: 0rem;
   }
 
-  /* ✅ Creates a shorter left border */
+  
   .expertisecard-cardcollection-card::before {
     content: "";
     position: absolute;
-    top: 3%; /* Adjust start position */
-    bottom: 12%; /* Adjust end position */
+    top: 3%; 
+    bottom: 12%; 
     left: 0;
-    width: 1px; /* Border thickness */
+    width: 1px; 
     background-color: var(--light-orange);
   }
 
   .expertisecard-card-collection-topsection-container {
     width: 324px;
     text-align: center;
-  }
+  } */
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
-  .expertisecard-cardcollection-card {
+  /* .expertisecard-cardcollection-card {
     flex-basis: calc(33.33% - 1rem);
     max-width: calc(33.33% - 1rem);
-    position: relative; /* Required for pseudo-elements */
+    position: relative; 
     border-bottom: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
-  /* ✅ Creates a shorter left border */
+  
   .expertisecard-cardcollection-card::before {
     content: "";
     position: absolute;
-    top: 3%; /* Adjust start position */
-    bottom: 12%; /* Adjust end position */
+    top: 3%;
+    bottom: 12%; 
     left: 0;
-    width: 1px; /* Border thickness */
+    width: 1px; 
     background-color: var(--light-orange);
   }
 
@@ -322,23 +355,55 @@
 
   .expertisecard-card-collection-bottomsection-container {
     width: 324px;
-  }
+  } */
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
-  .expertisecard-card-collection-bottom-text {
+  /* .expertisecard-card-collection-bottom-text {
     font-size: 14px;
     width: 100%;
-  }
+  } */
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .expertisecard-cardcollection-card {
+    flex-basis: calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .expertisecard-cardcollection-card::before {
+    content: "";
+    position: absolute;
+    top: 3%;
+    bottom: 3%;
+    left: 0;
+    width: 1px;
+    background-color: var(--light-orange);
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .expertisecard-cardcollection-card {
+    flex-basis: calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+    position: relative;
+    margin-top: 0rem;
+  }
+
+  .expertisecard-cardcollection-card::before {
+    content: "";
+    position: absolute;
+    top: 3%;
+    bottom: 12%;
+    left: 0;
+    width: 1px;
+    background-color: var(--light-orange);
+  }
 }
 
 /* 4K screens (>= 1920px) */

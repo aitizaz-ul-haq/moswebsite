@@ -5,7 +5,7 @@ export default function ExpertiseCardSection({ cards }) {
   return (
     <div className="expertisecard-cardcollection-card-section">
       {cards.map((card) =>
-        card.type === "arrow" ? (
+        card.type === "briefcase" ? (
           // ✅ Special case: Arrow card
           <BriefCaseCard key={card.id} card={card} />
         ) : (

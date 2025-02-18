@@ -4,9 +4,9 @@ export default function EcardTopSection({ card }) {
       <p className="expertisecard-card-collection-first-text font-poppins">
         {card.firsttext}
       </p>
-      <p className="expertisecard-card-collection-second-text font-nunito">
+      {/* <p className="expertisecard-card-collection-second-text font-nunito">
         {card.secondtext}
-      </p>
+      </p> */}
     </div>
   );
 }

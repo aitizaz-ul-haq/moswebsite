@@ -4,8 +4,8 @@ import EcardBottomSection from "./expertiseothercardscomponents/ecardbottomsecti
 export default function ExpertiseOtherCards({ card }) {
   return (
     <div className="expertisecard-cardcollection-card">
-      <EcardTopSection card={card} />
       <EcardMiddleSection card={card} />
+      <EcardTopSection card={card} />
       <EcardBottomSection card={card} />
     </div>
   );
