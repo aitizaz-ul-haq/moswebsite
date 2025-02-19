@@ -1,0 +1,45 @@
+{
+  "team": {
+    "executivecards": [
+      {
+        "id": "1",
+        "title": "Pier Alberto Furno",
+        "designation": "Senior Board Member",
+        "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+        "image": "executive_image_one.png",
+        "linkdinlink": "/",
+        "linkdinicon": "/executive_social_icon_linkdin.png",
+        "facebooklink": "/",
+        "facebookicon": "/executive_social_icon_facebook.png",
+        "twitterlink": "/",
+        "twittericon": "/executive_social_icon_x.png"
+      },
+      {
+        "id": "2",
+        "title": "Pier Alberto Furno",
+        "designation": "Senior Board Member",
+        "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+        "image": "executive_image_one.png",
+        "linkdinlink": "/",
+        "linkdinicon": "/executive_social_icon_linkdin.png",
+        "facebooklink": "/",
+        "facebookicon": "/executive_social_icon_facebook.png",
+        "twitterlink": "/",
+        "twittericon": "/executive_social_icon_x.png"
+      },
+      {
+        "id": "3",
+        "title": "Pier Alberto Furno",
+        "designation": "Senior Board Member",
+        "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
+        "image": "executive_image_one.png",
+        "linkdinlink": "/",
+        "linkdinicon": "/executive_social_icon_linkdin.png",
+        "facebooklink": "/",
+        "facebookicon": "/executive_social_icon_facebook.png",
+        "twitterlink": "/",
+        "twittericon": "/executive_social_icon_x.png"
+      }
+    ]
+  }
+}
