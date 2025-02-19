@@ -1,7 +1,7 @@
 import TeamCardRightSection from "./teamcardrightsection";
 import TeamCardLeftSection from "./teamcardleftsection";
 
-export default function OtherRow() {
+export default function OtherRow({ executivecards }) {
   return (
     <div className="teamcards-cards-row">
       {executivecards.map((card, index) => (
