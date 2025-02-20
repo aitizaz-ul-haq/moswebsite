@@ -8,9 +8,9 @@ export default function ContactFormSection() {
         <div className="contactformsection-top-text-section">
           <div className="contactformsection-top-logo-container">
             <Image
+              width={240}
+              height={190}
               className="contact-form-logo"
-              width={280}
-              height={220}
               src="/mos_logo.png"
             />
           </div>
@@ -84,7 +84,6 @@ export default function ContactFormSection() {
                   />
                 </div>
               </div>
-
               <div className="form-row">
                 <div className="form-group email">
                   <label htmlFor="email" className="form-label font-poppins">
@@ -111,7 +110,6 @@ export default function ContactFormSection() {
                   />
                 </div>
               </div>
-
               <div className="form-row">
                 <div className="form-group company">
                   <label htmlFor="company" className="form-label font-poppins">
@@ -125,7 +123,6 @@ export default function ContactFormSection() {
                   />
                 </div>
               </div>
-
               <div className="form-row">
                 <div className="form-group subject full-width">
                   <label htmlFor="subject" className="form-label font-poppins">
@@ -140,7 +137,6 @@ export default function ContactFormSection() {
                   />
                 </div>
               </div>
-
               <div className="form-row">
                 <div className="form-group message full-width">
                   <label htmlFor="message" className="form-label font-poppins">
@@ -155,7 +151,6 @@ export default function ContactFormSection() {
                   ></textarea>
                 </div>
               </div>
-
               <div className="form-row button-row">
                 <button
                   type="submit"
