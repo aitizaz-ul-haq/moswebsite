@@ -1,0 +1,111 @@
+.positions-section-container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  background-image: url(/1920_positions_about_careers_section.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.positions-section-list-container {
+  width: 90%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.positionsbanner {
+  height: 100%;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.positions-section-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; */
+  gap: 1.5rem;
+}
+
+.top-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+  padding-left: 2rem;
+  background-color: rgb(246, 241, 209, 60%);
+  border-top-left-radius: 80px;
+}
+
+.mid-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+  padding-left: 2rem;
+  background-color: rgb(246, 241, 209, 60%);
+}
+
+.bottom-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.3rem;
+  padding-bottom: 3.3rem;
+  padding-left: 2rem;
+  background-color: rgb(246, 241, 209, 60%);
+  border-bottom-left-radius: 80px;
+}
+
+.position-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.position-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.positions-details-button {
+  background-color: #f6f1d1;
+  border: 1px solid #ffd37e;
+  padding: 1rem;
+  width: 140px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.position-heading {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.position-description {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 400;
+}

@@ -2,6 +2,7 @@ import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageher
 import CareersHeroData from "@/app/data/shareddata/hersectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
+import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
 
 export default function Careers() {
   return (
@@ -19,6 +20,8 @@ export default function Careers() {
         tagtext={Careersheadingsectiondata.careers.tagtext}
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
+
+      <PositionsSections />
     </>
   );
 }
