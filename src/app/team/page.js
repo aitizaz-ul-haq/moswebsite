@@ -3,7 +3,7 @@ import TeamHeroData from "@/app/data/shareddata/hersectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import Teamheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import ExecutiveTeamSection from "../components/pagecomponents/teampagecomponents/executiveteamsection";
-import Teampagedata from "@/app/data/team/teampagedata.json";
+import Teampagedata from "@/app/data/teamdata/teampagedata.json";
 
 export default function Team() {
   const executivecards = Teampagedata.team.executivecards;
