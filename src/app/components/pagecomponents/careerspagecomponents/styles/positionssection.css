@@ -427,14 +427,34 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .positions-section-container {
+    background-image: url(/1600_positions_about_careers_section.png);
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .positions-section-container {
+    background-image: url(/1920_positions_about_careers_section.png);
+  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
+  .positions-section-container {
+    background-image: url(/2560_positions_about_careers_section.png);
+  }
+  .position-heading {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .position-description {
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: 400;
+  }
 }
 
 /* Iphone SE */
