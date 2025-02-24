@@ -2,11 +2,11 @@ import MainPageHeroSection from "./components/pagecomponents/Shared/mainpagehero
 import MainHeadingSection from "./components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import Homepageherodata from "@/app/data/shareddata/hersectiondata.json";
 import Homepageheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
-import Homepagecardcollectiondata from "@/app/data/homedata/homecardcollectiondata.json";
+import Homecardcollectiondata from "../app/data/homedata/homecardcollectiondata.json";
 import ExpertiseCollection from "./components/pagecomponents/homepagecomponents/expertisecollection";
 
 export default function Home() {
-  const cards = Homepagecardcollectiondata.home.cards;
+  const cards = Homecardcollectiondata.home.cards;
   return (
     <>
       <MainPageHeroSection
