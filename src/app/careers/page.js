@@ -5,6 +5,7 @@ import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiond
 import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
 import PositionsSectionData from "@/app/data/careersdata/positionsdata.json";
 import ApplyForm from "../components/pagecomponents/careerspagecomponents/applyform";
+import Applyformdata from "../data/careersdata/applyformdata.json";
 
 export default function Careers() {
   return (
@@ -25,7 +26,7 @@ export default function Careers() {
 
       <PositionsSections PositionsSectionData={PositionsSectionData} />
 
-      <ApplyForm />
+      <ApplyForm Applyformdata={Applyformdata} />
     </>
   );
 }

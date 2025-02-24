@@ -1,0 +1,26 @@
+{
+  "applyformlogo": "/mos_logo.png",
+  "applyformtitle": "Job Application Instructions",
+  "instructions": [
+    {
+      "id": "1",
+      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "2",
+      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "3",
+      "instruction": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "4",
+      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": "5",
+      "instruction": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    }
+  ]
+}
