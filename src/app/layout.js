@@ -2,6 +2,7 @@ import { Nunito, Poppins } from "next/font/google";
 import "./globals.css";
 
 import Header from "./components/layoutcomponents/header/header";
+import Footer from "./components/layoutcomponents/footer/footer";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body className={`${nunito.variable} ${poppins.variable}`}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
