@@ -3,6 +3,7 @@ import CareersHeroData from "@/app/data/shareddata/hersectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
+import PositionsSectionData from "@/app/data/careersdata/positionsdata.json";
 
 export default function Careers() {
   return (
@@ -21,7 +22,7 @@ export default function Careers() {
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
 
-      <PositionsSections />
+      <PositionsSections PositionsSectionData={PositionsSectionData} />
     </>
   );
 }
