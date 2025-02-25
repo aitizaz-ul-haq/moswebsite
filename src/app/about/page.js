@@ -2,6 +2,7 @@ import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageher
 import AboutHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Aboutheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
+import AboutTextSection from "../components/pagecomponents/aboutpagecomponents/abouttextsection";
 
 export default function About() {
   return (
@@ -18,6 +19,8 @@ export default function About() {
         tagtext={Aboutheadingsectiondata.about.tagtext}
         backgroundImages={Aboutheadingsectiondata.about.backgroundImages}
       />
+
+      <AboutTextSection />
     </>
   );
 }
