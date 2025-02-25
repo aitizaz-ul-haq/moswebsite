@@ -3,12 +3,12 @@ import AboutTextSectionLogo from "./abouttextsectionsubcomponents/abouttextsecti
 import AboutTextSideBySide from "./abouttextsectionsubcomponents/abouttextsidebyside";
 import AboutTextLargerPara from "./abouttextsectionsubcomponents/abouttextlargerpara";
 
-export default function AboutTextSection() {
+export default function AboutTextSection({ Abouttextsectiondata }) {
   return (
     <div className="abouttext-section-container">
       <AboutTextSectionLogo />
-      <AboutTextSideBySide />
-      <AboutTextLargerPara />
+      <AboutTextSideBySide Abouttextsectiondata={Abouttextsectiondata} />
+      <AboutTextLargerPara Abouttextsectiondata={Abouttextsectiondata} />
     </div>
   );
 }
