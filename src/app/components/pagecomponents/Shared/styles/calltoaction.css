@@ -1,0 +1,822 @@
+.calltoaction-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  background-image: url("/calltoaction_1920_background.png");
+}
+
+.calltoaction-left-text-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.calltoaction-heading {
+  font-size: 47px;
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.calltoaction-description {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: left;
+  line-height: 1;
+}
+
+.calltoaction-right-button-section {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calltoaction-button {
+  width: 168px;
+  padding: 1.2rem;
+  border-radius: 30px;
+  background-color: #f6f1d1;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+/* Default styles (mobile-first approach) */
+
+/* Small phones (<= 320px) */
+@media (max-width: 320px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_320_background.png");
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 360px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_360_background.png");
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Standard small phones (<= 360px) */
+@media (max-width: 375px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_375_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* iPhone 14, 15 (standard model) */
+@media (min-width: 390px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_390_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* iPhone 14 Pro, 15 Pro */
+@media (min-width: 430px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_430_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 36px;
+  }
+}
+
+/* Larger phones and phablets (>= 480px) */
+@media (min-width: 480px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_480_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 39px;
+  }
+}
+
+/* Tablets (>= 600px) */
+@media (min-width: 600px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_600_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 40px;
+  }
+
+  .calltoaction-description {
+    font-size: 20px;
+  }
+}
+
+/* Small laptops and larger tablets (>= 768px) */
+@media (min-width: 768px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_768_background.png);
+  }
+
+  .calltoaction-left-text-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+  }
+
+  .calltoaction-right-button-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 148px;
+    padding: 1.2rem;
+    border-radius: 30px;
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Medium laptops (>= 1024px) */
+@media (min-width: 1024px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_1024_background.png);
+  }
+}
+
+/* Large laptops and desktops (>= 1280px) */
+@media (min-width: 1280px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_1280_background.png);
+  }
+
+  .calltoaction-heading {
+    font-size: 40px;
+  }
+
+  .calltoaction-description {
+    font-size: 20px;
+  }
+}
+
+/* Extra-large desktops (>= 1440px) */
+@media (min-width: 1440px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_1440_background.png);
+  }
+
+  .calltoaction-heading {
+    font-size: 44px;
+  }
+
+  .calltoaction-description {
+    font-size: 18px;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1600px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    background-image: url(/calltoaction_1600_background.png);
+  }
+
+  .calltoaction-heading {
+    font-size: 44px;
+  }
+
+  .calltoaction-description {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+/* Ultra-wide screens (>= 1600px) */
+@media (min-width: 1920px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    background-image: url(/calltoaction_1920_background.png);
+  }
+
+  .calltoaction-heading {
+    font-size: 41px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* 4K screens (>= 1920px) */
+@media (min-width: 2560px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    background-image: url(/calltoaction_2560_background.png);
+  }
+
+  .calltoaction-heading {
+    font-size: 41px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* Iphone SE */
+@media (width: 375px) and (height: 667px) {
+}
+
+/* Iphone XR */
+@media (width: 414px) and (height: 896px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_414_iphone_xr_background.png");
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Iphone 12 Pro */
+@media (width: 390px) and (height: 844px) {
+}
+
+/* Iphone 14 Pro Max */
+@media (width: 430px) and (height: 932px) {
+}
+
+/* Pixel 7 */
+@media (width: 412px) and (height: 915px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_412_pixel_7_background.png");
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1.4rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Samsung Galaxy S8+ */
+@media (width: 360px) and (height: 740px) {
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (width: 412px) and (height: 915px) {
+}
+
+/* iPad Mini */
+@media (width: 768px) and (height: 1024px) {
+}
+
+/* iPad Air */
+@media (width: 820px) and (height: 1180px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_ipad-air_820_background.png);
+  }
+
+  .calltoaction-left-text-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+  }
+
+  .calltoaction-right-button-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 148px;
+    padding: 1.2rem;
+    border-radius: 30px;
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* iPad Pro */
+@media (width: 1024px) and (height: 1366px) {
+}
+
+/* Surface Pro 7 */
+@media (width: 912px) and (height: 1368px) {
+  .calltoaction-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(/calltoaction_surface_pro_912_background.png);
+  }
+
+  .calltoaction-left-text-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: left;
+    line-height: 1;
+  }
+
+  .calltoaction-right-button-section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 148px;
+    padding: 1.2rem;
+    border-radius: 30px;
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Surface Duo*/
+@media (width: 540px) and (height: 720px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_Surface_duo_540_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Samsung Galaxy A51/71 */
+@media (width: 412px) and (height: 914px) {
+  .calltoaction-container {
+    flex-direction: column;
+    background-image: url("/calltoaction_Surface_duo_540_background.png");
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .calltoaction-left-text-section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .calltoaction-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .calltoaction-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .calltoaction-right-button-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calltoaction-button {
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 0px;
+    border: 1px soild var(--orange-color);
+    background-color: #f6f1d1;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--text-color);
+  }
+}
+
+/* Nest Hub */
+@media (width: 1024px) and (height: 600px) {
+}
+
+/* Nest Hub Max */
+@media (width: 1280px) and (height: 800px) {
+}
