@@ -1,0 +1,126 @@
+{
+  "footer": {
+    "logo": {
+      "src": "/mos_website.png",
+      "alt": "MOS Logo",
+      "width": 1922,
+      "height": 1922
+    },
+    "description": {
+      "text": "Connect with us today to unlock tailored solutions, unmatched expertise, and a partnership dedicated to your success.",
+      "font": "font-nunito"
+    },
+    "socialMedia": [
+      {
+        "src": "/footer_facebook.png",
+        "alt": "Facebook",
+        "width": 922,
+        "height": 922
+      },
+      {
+        "src": "/footer_youtube.png",
+        "alt": "YouTube",
+        "width": 922,
+        "height": 922
+      },
+      {
+        "src": "/footer_instagram.png",
+        "alt": "Instagram",
+        "width": 922,
+        "height": 922
+      },
+      {
+        "src": "/footer_twitter.png",
+        "alt": "Twitter",
+        "width": 922,
+        "height": 922
+      },
+      {
+        "src": "/footer_linkedin.png",
+        "alt": "LinkedIn",
+        "width": 922,
+        "height": 922
+      }
+    ],
+    "contact": {
+      "heading": {
+        "text": "Contact Us Now",
+        "font": "font-poppins"
+      },
+      "inputClass": "input-footer"
+    },
+    "industries": [
+      {
+        "icon": {
+          "src": "/footer_icons_settings.png",
+          "alt": "Settings Icon",
+          "width": 22,
+          "height": 22
+        },
+        "title": "Services",
+        "items": [
+          { "text": "Homes", "font": "font-nunito" },
+          { "text": "About Us", "font": "font-nunito" },
+          { "text": "Services", "font": "font-nunito" },
+          { "text": "Contact Us", "font": "font-nunito" },
+          { "text": "FAQ", "font": "font-nunito" },
+          { "text": "Careers", "font": "font-nunito" }
+        ]
+      },
+      {
+        "icon": {
+          "src": "/footer_icons_industries.png",
+          "alt": "Industries Icon",
+          "width": 22,
+          "height": 22
+        },
+        "title": "Industries",
+        "items": [
+          { "text": "Homes", "font": "font-nunito" },
+          { "text": "About Us", "font": "font-nunito" },
+          { "text": "Services", "font": "font-nunito" },
+          { "text": "Contact Us", "font": "font-nunito" },
+          { "text": "FAQ", "font": "font-nunito" },
+          { "text": "Careers", "font": "font-nunito" }
+        ]
+      }
+    ],
+    "license": {
+      "text": "© 2025 Manage Outsource Services. All Rights Reserved. This website and its content, including but not limited to text, graphics, logos, and images, are the exclusive property of Manage Outsource Services. Unauthorized use, reproduction, or distribution of any content from this site without prior written permission is strictly prohibited.",
+      "font": "font-nunito"
+    }
+  },
+  "resourceslist": {
+    "resourceslisttitle": "Resources",
+    "resourceslistitems": [
+      { "text": "Case Studies", "font": "font-nunito" },
+      { "text": "Whitepapers", "font": "font-nunito" },
+      { "text": "eBooks", "font": "font-nunito" },
+      { "text": "Webinars", "font": "font-nunito" },
+      { "text": "Tutorials", "font": "font-nunito" },
+      { "text": "Community Forum", "font": "font-nunito" }
+    ]
+  },
+  "supportlist": {
+    "supportlisttitle": "Support",
+    "supportlistitems": [
+      { "text": "Help Center", "font": "font-nunito" },
+      { "text": "Customer Support", "font": "font-nunito" },
+      { "text": "Privacy Policy", "font": "font-nunito" },
+      { "text": "Terms & Conditions", "font": "font-nunito" },
+      { "text": "Refund Policy", "font": "font-nunito" },
+      { "text": "Accessibility Statement", "font": "font-nunito" }
+    ]
+  },
+  "essentialLinkslist": {
+    "essentialLinkslisttitle": "Essential Links",
+    "essentialLinkslistitems": [
+      { "text": "Homes", "font": "font-nunito" },
+      { "text": "About Us", "font": "font-nunito" },
+      { "text": "Services", "font": "font-nunito" },
+      { "text": "Contact Us", "font": "font-nunito" },
+      { "text": "FAQ", "font": "font-nunito" },
+      { "text": "Careers", "font": "font-nunito" }
+    ]
+  }
+}
