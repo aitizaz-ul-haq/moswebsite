@@ -31,15 +31,14 @@
 
 .module {
   width: 40%;
-
   border-radius: 200px;
-  padding: 1rem;
+  padding: 0.4rem;
   display: flex;
   flex-direction: row;
 }
 
 .dicteam-member-image {
-  width: 30%;
+  width: 28%;
   height: auto;
 }
 
