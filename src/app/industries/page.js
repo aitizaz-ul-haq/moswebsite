@@ -4,6 +4,8 @@ import MainHeadingSection from "../components/pagecomponents/Shared/mainheadings
 import Industriesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
+import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
+import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 
 export default function Industries() {
   const cards = cardData.industries.cards;
@@ -26,6 +28,8 @@ export default function Industries() {
       />
 
       <CardCollection cards={cards} />
+
+      <CallToAction Calltoactiondata={Calltoactiondata} />
     </>
   );
 }
