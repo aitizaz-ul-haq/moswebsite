@@ -1,0 +1,90 @@
+.dicteam-section-container {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/dicteam_1920_background.png");
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  gap: 3rem;
+}
+
+.dicteam-central-section {
+  background-color: rgba(248, 241, 209, 0.37);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.module {
+  width: 40%;
+
+  border-radius: 200px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.dicteam-member-image {
+  width: 30%;
+  height: auto;
+}
+
+.dicteam-top-section {
+  background-color: #ffd37e;
+}
+
+.dicteam-mid-section {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: #f0f0f5;
+}
+
+.dicteam-bottom-section {
+  background-color: #ffd37e;
+}
+
+.dicteam-memebrs-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* gap: 0.2rem; */
+  padding: 1rem;
+}
+
+.dicteam-memebersname {
+  font-size: 29px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.dicteam-memeberstitle {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.dicteam-socila-media-icons {
+  width: 35%;
+  height: auto;
+}
+
+.dicteam-socials-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
