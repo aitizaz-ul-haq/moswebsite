@@ -1,0 +1,55 @@
+.aboutlower-text-section-container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/aboutlower_1920_background.png");
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  gap: 3rem;
+}
+
+.aboutlower-text-section-heading {
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 1.3;
+  width: 85%;
+}
+
+.aboutlower-text-section-sidebyside-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  width: 85%;
+}
+
+.aboutlower-text-section-leftsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  gap: 4rem;
+  font-size: 17px;
+  font-weight: 300;
+  padding-top: 8rem;
+}
+
+.aboutlower-text-section-rightsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  gap: 2rem;
+  font-size: 17px;
+  font-weight: 300;
+}

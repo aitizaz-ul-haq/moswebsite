@@ -6,6 +6,7 @@ import AboutTextSection from "../components/pagecomponents/aboutpagecomponents/a
 import Abouttextsectiondata from "../data/aboutdata/abouttextsectiondata.json";
 import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
+import AboutLowerTextSection from "../components/pagecomponents/aboutpagecomponents/aboutlowertextsection";
 
 export default function About() {
   return (
@@ -26,6 +27,8 @@ export default function About() {
       <AboutTextSection Abouttextsectiondata={Abouttextsectiondata} />
 
       <CallToAction Calltoactiondata={Calltoactiondata} />
+
+      <AboutLowerTextSection />
     </>
   );
 }
