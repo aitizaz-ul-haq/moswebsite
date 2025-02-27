@@ -1,0 +1,22 @@
+{
+  "dicteamsmemebersdata": {
+    "topsectiondata": {
+      "name": "Muhammad Asim Rasheed",
+      "designation": "Financial Controller",
+      "facebooklink": "",
+      "linkdinlink": ""
+    },
+    "midsectiondata": {
+      "name": "Aitaizaz-ul-haq",
+      "designation": "Senior Full Stack Web Developer/Designer",
+      "facebooklink": "",
+      "linkdinlink": ""
+    },
+    "bottomsectiondata": {
+      "name": "Syed Muhammad Arslan Ahmed",
+      "designation": "Finance & Admin Manager",
+      "facebooklink": "",
+      "linkdinlink": ""
+    }
+  }
+}

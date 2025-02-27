@@ -1,6 +1,8 @@
 import Image from "next/image";
+import TeamMembersDetailsSection from "./temmebersdetailssection";
 
-export default function DicTeamTopSection() {
+export default function DicTeamTopSection({ Dicteamdata }) {
+  let membersdata = Dicteamdata.dicteamsmemebersdata.topsectiondata;
   return (
     <div className="dicteam-top-section module">
       <Image
@@ -9,28 +11,7 @@ export default function DicTeamTopSection() {
         width={920}
         src="/asim.png"
       />
-      <div className="dicteam-memebrs-details">
-        <p className="dicteam-memebersname font-poppins">
-          Muhammad Asim Rasheed
-        </p>
-        <p className="dicteam-memeberstitle font-poppins">
-          Financial Controller
-        </p>
-        <div className="dicteam-socials-container">
-          <Image
-            className="dicteam-socila-media-icons"
-            height={920}
-            width={920}
-            src="/dicteam_top_socila_linkdin.png"
-          />
-          <Image
-            className="dicteam-socila-media-icons"
-            height={920}
-            width={920}
-            src="/dicteam_top_socila_facebook.png"
-          />
-        </div>
-      </div>
+      <TeamMembersDetailsSection membersdata={membersdata} />
     </div>
   );
 }
