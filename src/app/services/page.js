@@ -4,6 +4,8 @@ import ServicesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
+import ServicesAdvantagesSection from "../components/pagecomponents/servicespagecomponents/servicesadvantagessection";
+import Advantagessectiondata from "../data/servicesdata/advantagessectiondata.json";
 
 export default function Services() {
   const cards = cardData.features.cards;
@@ -24,6 +26,10 @@ export default function Services() {
       />
 
       <CardCollection cards={cards} />
+
+      <ServicesAdvantagesSection
+        Advantagessectiondata={Advantagessectiondata}
+      />
     </>
   );
 }
