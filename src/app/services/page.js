@@ -9,6 +9,7 @@ import Advantagessectiondata from "../data/servicesdata/advantagessectiondata.js
 import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
+import Importancesectiondata from "../data/servicesdata/importancesectiondata.json";
 
 export default function Services() {
   const cards = cardData.features.cards;
@@ -36,7 +37,7 @@ export default function Services() {
 
       <CallToAction Calltoactiondata={Calltoactiondata} />
 
-      <ImportanceSection />
+      <ImportanceSection Importancesectiondata={Importancesectiondata} />
     </>
   );
 }
