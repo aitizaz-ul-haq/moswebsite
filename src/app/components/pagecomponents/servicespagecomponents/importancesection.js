@@ -19,8 +19,8 @@ export default function ImportanceSection() {
               <div className="importance-point-number">
                 <Image
                   className="importance-number-image"
-                  width={20}
-                  height={20}
+                  width={1920}
+                  height={1920}
                   src={point.numberingimage}
                 />
               </div>
