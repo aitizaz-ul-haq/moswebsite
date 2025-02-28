@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   margin-top: 12rem;
   margin-bottom: 12rem;
 }
@@ -27,11 +26,11 @@
 .homeadvantages-tag {
   background-color: #ffd37e;
   width: 155px;
-  /* display: inline !important; */
   font-size: 27px;
   padding-left: 7px;
   padding-right: 7px;
   color: var(--text-color);
+  margin-left: 2rem;
 }
 
 .homeadvanteges-card-section {
@@ -41,17 +40,12 @@
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
-  /* background-color: aqua; */
 }
 
 .homeadvanteges-card-logosection {
   width: 44.4%;
-  /* background-color: blue; */
-  /* background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/company-logo.png"); */
   padding-left: 9rem;
+  overflow: hidden;
 }
 
 .homeadvantegs-card {
