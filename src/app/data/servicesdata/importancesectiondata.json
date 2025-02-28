@@ -1,0 +1,41 @@
+{
+  "sectiontext": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic",
+  "importancepoints": [
+    {
+      "id": "1",
+      "numberingimage": "/expertise-1.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    },
+    {
+      "id": "1",
+      "numberingimage": "/expertise-2.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    },
+    {
+      "id": "2",
+      "numberingimage": "/expertise-3.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    },
+    {
+      "id": "3",
+      "numberingimage": "/expertise-4.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    },
+    {
+      "id": "4",
+      "numberingimage": "/expertise-5.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    },
+    {
+      "id": "5",
+      "numberingimage": "/expertise-6.png",
+      "pointheading": "Powering Data Precision.",
+      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+    }
+  ]
+}

@@ -6,6 +6,9 @@ import CardCollection from "../components/pagecomponents/Shared/cardcollection/c
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 import ServicesAdvantagesSection from "../components/pagecomponents/servicespagecomponents/servicesadvantagessection";
 import Advantagessectiondata from "../data/servicesdata/advantagessectiondata.json";
+import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
+import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
+import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
 
 export default function Services() {
   const cards = cardData.features.cards;
@@ -30,6 +33,10 @@ export default function Services() {
       <ServicesAdvantagesSection
         Advantagessectiondata={Advantagessectiondata}
       />
+
+      <CallToAction Calltoactiondata={Calltoactiondata} />
+
+      <ImportanceSection />
     </>
   );
 }
