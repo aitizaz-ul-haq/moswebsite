@@ -5,7 +5,6 @@ export default function HomeIndGrid({ Homeindustriessectiondata }) {
   return (
     <div className="homepage-industries-grid">
       {industriesicons.map((ind, index) => {
-        // Conditionally apply the class based on odd or even index
         const iconClass = index % 2 !== 0 ? "odd-icon" : "even-icon";
         return (
           <div

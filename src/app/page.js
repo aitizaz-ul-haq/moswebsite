@@ -19,20 +19,16 @@ export default function Home() {
         textOrientation={Homepageherodata.home.textOrientation}
         backgroundImages={Homepageherodata.home.backgroundImages}
       />
-
       <MainHeadingSection
         title={Homepageheadingsectiondata.home.title}
         description={Homepageheadingsectiondata.home.description}
         tagtext={Homepageheadingsectiondata.home.tagtext}
         backgroundImages={Homepageheadingsectiondata.home.backgroundImages}
       />
-
       <ExpertiseCollection cards={cards} />
-
       <HomeAdvantagesSection
         Homeadvantegessectiondata={Homeadvantegessectiondata}
       />
-
       <HomeIndustriesSection
         Homeindustriessectiondata={Homeindustriessectiondata}
       />
