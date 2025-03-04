@@ -1,0 +1,30 @@
+{
+  "homeindustriesheading": "Industries",
+  "homeindustriesdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic",
+  "industriesicons": [
+    {
+      "id": "0",
+      "iconname": "/ind_icon_one.png"
+    },
+    {
+      "id": "1",
+      "iconname": "/ind_icon_two.png"
+    },
+    {
+      "id": "2",
+      "iconname": "/ind_icon_three.png"
+    },
+    {
+      "id": "3",
+      "iconname": "/ind_icon_four.png"
+    },
+    {
+      "id": "4",
+      "iconname": "/ind_icon_five.png"
+    },
+    {
+      "id": "5",
+      "iconname": "/ind_icon_six.png"
+    }
+  ]
+}

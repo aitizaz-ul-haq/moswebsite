@@ -6,6 +6,8 @@ import Homecarddata from "../app/data/homedata/homecardcollectiondata.json";
 import ExpertiseCollection from "./components/pagecomponents/homepagecomponents/expertisecollection";
 import HomeAdvantagesSection from "./components/pagecomponents/homepagecomponents/homeadvantegessection";
 import Homeadvantegessectiondata from "./data/homedata/homeadvantegessectiondata.json";
+import HomeIndustriesSection from "./components/pagecomponents/homepagecomponents/homeindustriessection";
+import Homeindustriessectiondata from "../app/data/homedata/homeindustriessectiondata.json";
 
 export default function Home() {
   const cards = Homecarddata.home.cards;
@@ -29,6 +31,10 @@ export default function Home() {
 
       <HomeAdvantagesSection
         Homeadvantegessectiondata={Homeadvantegessectiondata}
+      />
+
+      <HomeIndustriesSection
+        Homeindustriessectiondata={Homeindustriessectiondata}
       />
     </>
   );
