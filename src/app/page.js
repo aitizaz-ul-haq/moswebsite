@@ -8,6 +8,10 @@ import HomeAdvantagesSection from "./components/pagecomponents/homepagecomponent
 import Homeadvantegessectiondata from "./data/homedata/homeadvantegessectiondata.json";
 import HomeIndustriesSection from "./components/pagecomponents/homepagecomponents/homeindustriessection";
 import Homeindustriessectiondata from "../app/data/homedata/homeindustriessectiondata.json";
+import CallToAction from "./components/pagecomponents/Shared/calltoaction/calltoaction";
+import Calltoactiondata from "./data/shareddata/calltoactiondata.json";
+import BenefitsSection from "./components/pagecomponents/homepagecomponents/benefitssection";
+import Benefitssectiondata from "./data/homedata/benefitssectiondata.json";
 
 export default function Home() {
   const cards = Homecarddata.home.cards;
@@ -32,6 +36,8 @@ export default function Home() {
       <HomeIndustriesSection
         Homeindustriessectiondata={Homeindustriessectiondata}
       />
+      <CallToAction Calltoactiondata={Calltoactiondata} />
+      <BenefitsSection Benefitssectiondata={Benefitssectiondata} />
     </>
   );
 }

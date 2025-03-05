@@ -1,0 +1,41 @@
+{
+  "benefitsheading": "Unlock the Benefits of Back Office services",
+  "leftsectioncards": [
+    {
+      "id": "1",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    },
+    {
+      "id": "2",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    },
+    {
+      "id": "3",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    },
+    {
+      "id": "4",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    },
+    {
+      "id": "5",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    },
+    {
+      "id": "6",
+      "cardheading": "Heading here",
+      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "buttonlink": "Our Services "
+    }
+  ]
+}
