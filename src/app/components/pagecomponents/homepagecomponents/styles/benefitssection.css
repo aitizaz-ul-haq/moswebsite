@@ -337,18 +337,18 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .homebenefits-container {
-    height: 100vh;
+    height: 110vh;
     background-image: url("/home_benefits_background_1920.png");
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
 
   .largecard-heading {
-    font-size: 72px;
+    font-size: 42px;
   }
 
   .largecard-image {
-    width: 45%;
+    width: 25%;
     height: auto;
   }
 }
