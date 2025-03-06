@@ -10,9 +10,15 @@ export default function HomeReviewContainer({ Homereviewsectiondata }) {
 
   return (
     <div className="homereviews-review-container">
-      <HomeFirstReview firstReview={firstReview} />
-      <HomeSecondReview secondReview={secondReview} />
-      <HomeThirdReview thirdReview={thirdReview} />
+      <div className="homereviews-reviews-bandone">
+        <HomeFirstReview firstReview={firstReview} />
+      </div>
+      <div className="homereviews-reviews-bandtwo">
+        <HomeSecondReview secondReview={secondReview} />
+      </div>
+      <div className="homereviews-reviews-bandone">
+        <HomeThirdReview thirdReview={thirdReview} />
+      </div>
     </div>
   );
 }
