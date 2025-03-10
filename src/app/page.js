@@ -14,6 +14,7 @@ import BenefitsSection from "./components/pagecomponents/homepagecomponents/bene
 import Benefitssectiondata from "./data/homedata/benefitssectiondata.json";
 import HomeReviewSection from "./components/pagecomponents/homepagecomponents/homereviewsection";
 import Homereviewsectiondata from "./data/homedata/homereviewsectiondata.json";
+import HomePageContactUsForm from "./components/pagecomponents/homepagecomponents/homepagecontactusform";
 
 export default function Home() {
   const cards = Homecarddata.home.cards;
@@ -41,6 +42,7 @@ export default function Home() {
       <CallToAction Calltoactiondata={Calltoactiondata} />
       <BenefitsSection Benefitssectiondata={Benefitssectiondata} />
       <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} />
+      <HomePageContactUsForm />
     </>
   );
 }
