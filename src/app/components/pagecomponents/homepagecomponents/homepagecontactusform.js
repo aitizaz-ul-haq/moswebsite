@@ -9,7 +9,7 @@ export default function HomePageContactUsForm() {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.337135213221!2d73.074280!3d33.667423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfac6dfd6e7cb3%3A0x9f4b529ec8f538b2!2sVista+Tower%2C+M39G%2B83%2C+I-8+Markaz%2C+I+8+Markaz+I-8%2C+Islamabad%2C+Pakistan!5e0!3m2!1sen!2sus!4v1649071575032!5m2!1sen!2sus"
           className="map-iframe"
-          allowfullscreen=""
+          // allowfullscreen=""
           loading="lazy"
         ></iframe>
         <form className="contact-homecontactform">
