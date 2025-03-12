@@ -35,11 +35,13 @@
 .expertisecard-card-collection-first-text {
   font-size: 24px;
   font-weight: 400;
+  color: var(--text-color);
 }
 
 .expertisecard-card-collection-second-text {
   font-size: 20px;
   font-weight: 300;
+  color: var(--text-color);
 }
 
 .expertisecard-card-collection-middlesection-container {
@@ -87,6 +89,11 @@
   border: 1px solid var(--text-color);
   /* border-top-left-radius: 15px; */
   border-radius: 55px;
+  color: var(--text-color);
+}
+
+.expertisecard-card-collection-bottomsection-button:hover {
+  background-color: var(--light-orange);
 }
 
 .expertisecard-card-collection-bottom-text {

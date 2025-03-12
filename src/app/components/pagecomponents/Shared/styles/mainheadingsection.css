@@ -339,7 +339,7 @@
     justify-content: center;
     align-items: center;
     background-image: var(--bg-768);
-    height: 100vh;
+    height: auto;
   }
 
   .mainheadingsection-container {
@@ -396,7 +396,7 @@
     justify-content: center;
     align-items: center;
     background-image: var(--bg-1024);
-    height: 100vh;
+    height: auto;
   }
 
   .mainheadingsection-container {
@@ -482,6 +482,12 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .mainheadingsection-wrapper {
+    width: 100%;
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+  }
   .mainheadingsection-wrapper {
     background-image: var(--bg-1920);
   }
