@@ -16,16 +16,13 @@ export default function Careers() {
         textOrientation={CareersHeroData.careers.textOrientation}
         backgroundImages={CareersHeroData.careers.backgroundImages}
       />
-
       <MainHeadingSection
         title={Careersheadingsectiondata.careers.title}
         description={Careersheadingsectiondata.careers.description}
         tagtext={Careersheadingsectiondata.careers.tagtext}
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
-
       <PositionsSections PositionsSectionData={PositionsSectionData} />
-
       <ApplyForm Applyformdata={Applyformdata} />
     </>
   );

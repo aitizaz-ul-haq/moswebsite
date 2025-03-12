@@ -13,14 +13,12 @@ export default function Connect() {
         textOrientation={ContactHeroData.connect.textOrientation}
         backgroundImages={ContactHeroData.connect.backgroundImages}
       />
-
       <MainHeadingSection
         title={Connectheadingsectiondata.connect.title}
         description={Connectheadingsectiondata.connect.description}
         tagtext={Connectheadingsectiondata.connect.tagtext}
         backgroundImages={Connectheadingsectiondata.connect.backgroundImages}
       />
-
       <ContactFormSection />
     </>
   );

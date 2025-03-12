@@ -19,18 +19,14 @@ export default function Team() {
         textOrientation={TeamHeroData.team.textOrientation}
         backgroundImages={TeamHeroData.team.backgroundImages}
       />
-
       <MainHeadingSection
         title={Teamheadingsectiondata.team.title}
         description={Teamheadingsectiondata.team.description}
         tagtext={Teamheadingsectiondata.team.tagtext}
         backgroundImages={Teamheadingsectiondata.team.backgroundImages}
       />
-
       <ExecutiveTeamSection executivecards={executivecards} />
-
       <CallToAction Calltoactiondata={Calltoactiondata} />
-
       <DirectorsTeamSection Dicteamdata={Dicteamdata} />
     </>
   );

@@ -17,7 +17,6 @@ export default function Industries() {
         textOrientation={IndustriesHeroData.industries.textOrientation}
         backgroundImages={IndustriesHeroData.industries.backgroundImages}
       />
-
       <MainHeadingSection
         title={Industriesheadingsectiondata.industries.title}
         description={Industriesheadingsectiondata.industries.description}
@@ -26,9 +25,7 @@ export default function Industries() {
           Industriesheadingsectiondata.industries.backgroundImages
         }
       />
-
       <CardCollection cards={cards} />
-
       <CallToAction Calltoactiondata={Calltoactiondata} />
     </>
   );

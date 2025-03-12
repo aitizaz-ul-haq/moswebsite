@@ -24,11 +24,8 @@ export default function About() {
         tagtext={Aboutheadingsectiondata.about.tagtext}
         backgroundImages={Aboutheadingsectiondata.about.backgroundImages}
       />
-
       <AboutTextSection Abouttextsectiondata={Abouttextsectiondata} />
-
       <CallToAction Calltoactiondata={Calltoactiondata} />
-
       <AboutLowerTextSection Aboutlowersectiondata={Aboutlowersectiondata} />
     </>
   );
