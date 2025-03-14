@@ -2,6 +2,7 @@ import "./styles/featurestypeone.css";
 
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
 import Webdevdata from "../../../data/shareddata/hersectiondata.json";
+import TypeOneCardSection from "./typeonecardsection";
 
 export default function FeaturesTypeOne() {
   return (
@@ -12,6 +13,8 @@ export default function FeaturesTypeOne() {
         textOrientation={Webdevdata.webdevelopment.textOrientation}
         backgroundImages={Webdevdata.webdevelopment.backgroundImages}
       />
+
+      <TypeOneCardSection />
     </>
   );
 }

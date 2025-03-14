@@ -166,5 +166,26 @@
       "1920px": "/features_background_1920.png",
       "2560px": "/features_background_2560.png"
     }
+  },
+  "hr": {
+    "title": "HR Solutions That Elevate Your Workforce",
+    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "textOrientation": "teamcenter",
+    "backgroundImages": {
+      "320px": "/features_background_320.png",
+      "360px": "/features_background_360.png",
+      "375px": "/features_background_375.png",
+      "390px": "/features_background_390.png",
+      "430px": "/features_background_430.png",
+      "480px": "/features_background_480.png",
+      "600px": "/features_background_600.png",
+      "768px": "/features_background_768.png",
+      "1024px": "/features_background_1024.png",
+      "1280px": "/features_background_1280.png",
+      "1440px": "/features_background_1440.png",
+      "1600px": "/features_background_1600.png",
+      "1920px": "/features_background_1920.png",
+      "2560px": "/features_background_2560.png"
+    }
   }
 }
