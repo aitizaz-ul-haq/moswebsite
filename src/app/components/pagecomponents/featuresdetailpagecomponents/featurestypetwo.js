@@ -1,20 +1,20 @@
-import "./styles/featurestypetwo.css";
-
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
-import Hrdata from "../../../data/shareddata/hersectiondata.json";
-// import TypeOneCardSection from "./typeonecardsection";
+import Webdevdata from "../../../data/shareddata/hersectiondata.json";
+import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
+import Webdevcarddata from "../../../data/shareddata/cardcollectiondata.json";
 
 export default function FeaturesTypeTwo() {
+  let cards = Webdevcarddata.webdevelopment.cards;
   return (
     <>
       <MainPageHeroSection
-        title={Hrdata.hr.title}
-        paragraph={Hrdata.hr.paragraph}
-        textOrientation={Hrdata.hr.textOrientation}
-        backgroundImages={Hrdata.hr.backgroundImages}
+        title={Webdevdata.webdevelopment.title}
+        paragraph={Webdevdata.webdevelopment.paragraph}
+        textOrientation={Webdevdata.webdevelopment.textOrientation}
+        backgroundImages={Webdevdata.webdevelopment.backgroundImages}
       />
 
-      {/* <TypeOneCardSection /> */}
+      <TypeOneCardSection cards={cards} />
     </>
   );
 }

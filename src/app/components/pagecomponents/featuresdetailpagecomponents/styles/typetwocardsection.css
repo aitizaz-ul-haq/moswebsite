@@ -2,17 +2,10 @@
   background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/featurestypeone_background_1920.png");
-  padding-top: 20rem;
-  padding-bottom: 20rem;
 }
 
 .typeonecard-card-section {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between; /* Distributes space between cards */
   gap: 1rem; /* Adds spacing between cards */
@@ -76,63 +69,13 @@
   align-items: center;
 }
 
-.typeonecard-text-container {
-  width: 100%;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.typeonecard-text-block {
-  width: 69%;
-  margin-bottom: 4rem;
-}
-
-.typeonecard-tag {
-  background-color: var(--light-orange);
-  display: inline-block;
-  padding: 0.2rem;
-  margin-bottom: 1rem;
-  color: var(--text-color);
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.typeonecard-description {
-  color: var(--text-color);
-  font-size: 20px;
-  font-weight: 300;
-}
-
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
-  .typeonecard-main-container {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-
-  .typeonecard-text-container {
+  .arrow-image {
     width: 100%;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .typeonecard-text-block {
-    width: 90%;
-    margin-bottom: 4rem;
-  }
-
-  .typeonecard-description {
-    color: var(--text-color);
-    font-size: 15px;
-    font-weight: 300;
+    height: auto;
   }
 
   .typeonecard-card-section {
@@ -163,30 +106,11 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
-  .typeonecard-main-container {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-
-  .typeonecard-text-container {
+  .arrow-image {
     width: 100%;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    height: auto;
   }
 
-  .typeonecard-text-block {
-    width: 90%;
-    margin-bottom: 4rem;
-  }
-
-  .typeonecard-description {
-    color: var(--text-color);
-    font-size: 17px;
-    font-weight: 300;
-  }
   .typeonecard-card-section {
     justify-content: center;
   }
@@ -215,29 +139,9 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
-  .typeonecard-main-container {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-
-  .typeonecard-text-container {
+  .arrow-image {
     width: 100%;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .typeonecard-text-block {
-    width: 90%;
-    margin-bottom: 4rem;
-  }
-
-  .typeonecard-description {
-    color: var(--text-color);
-    font-size: 17px;
-    font-weight: 300;
+    height: auto;
   }
 
   .typeonecard-card-section {
@@ -268,29 +172,9 @@
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
-  .typeonecard-main-container {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-
-  .typeonecard-text-container {
+  .arrow-image {
     width: 100%;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .typeonecard-text-block {
-    width: 90%;
-    margin-bottom: 4rem;
-  }
-
-  .typeonecard-description {
-    color: var(--text-color);
-    font-size: 19px;
-    font-weight: 300;
+    height: auto;
   }
 
   .typeonecard-card-section {
@@ -321,33 +205,13 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
-  .typeonecard-main-container {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-  }
-
-  .typeonecard-text-container {
+  .arrow-image {
     width: 100%;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .typeonecard-text-block {
-    width: 90%;
-    margin-bottom: 4rem;
-  }
-
-  .typeonecard-description {
-    color: var(--text-color);
-    font-size: 17px;
-    font-weight: 300;
+    height: auto;
   }
 
   .typeonecard-card-section {
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .typeonecard-card {
@@ -400,13 +264,9 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1024.png");
-  }
-
   .typeonecard-card {
-    flex-basis: calc(70% - 1rem);
-    max-width: calc(51% - 1rem);
+    flex-basis: calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
     position: relative; /* Required for pseudo-elements */
     border-bottom: 1px solid lightgray;
     margin-top: 0rem;
@@ -431,12 +291,9 @@
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1280.png");
-  }
   .typeonecard-card {
-    flex-basis: calc(34.33% - 1rem);
-    max-width: calc(34.33% - 1rem);
+    flex-basis: calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
     position: relative; /* Required for pseudo-elements */
     border-bottom: 1px solid lightgray;
     padding-top: 3rem;
@@ -470,16 +327,6 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1440.png");
-  }
-  .typeonecard-text-container {
-    justify-content: flex-end;
-  }
-  .typeonecard-text-block {
-    width: 68%;
-    margin-bottom: 4rem;
-  }
   .typeoncard-collection-bottom-text {
     font-size: 14px;
     width: 100%;
@@ -488,21 +335,12 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1600.png");
-  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1920.png");
-  }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
-  .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_2560.png");
-  }
 }
