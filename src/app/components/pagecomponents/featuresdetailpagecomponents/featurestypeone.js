@@ -1,4 +1,3 @@
-import "./styles/featurestypeone.css";
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
 import Webdevdata from "../../../data/shareddata/hersectiondata.json";
 import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
@@ -8,7 +7,8 @@ import Exampledata from "../../../data/homedata/homecardcollectiondata.json";
 import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
 import Mainheadingsectiondata from "../../../data/shareddata/mainheadingsectiondata.json";
 import CallToAction from "../Shared/calltoaction/calltoaction";
-import Calltoactiondata from "../../../data/shareddata/Calltoactiondata.json";
+import Calltoactiondata from "../../../data/shareddata/calltoactiondata.json";
+import "./styles/featurestypeone.css";
 
 export default function FeaturesTypeOne() {
   let cards = Webdevcarddata.webdevelopment.cards;
