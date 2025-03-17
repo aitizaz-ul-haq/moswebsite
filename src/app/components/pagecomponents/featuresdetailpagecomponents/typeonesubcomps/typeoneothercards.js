@@ -4,8 +4,8 @@ import TypeOneCardBottomSection from "./typeonecardsubcomps/typeonecardbottomsec
 export default function TypeOneOtherCards({ card }) {
   return (
     <div className="typeonecard-card">
-      <TypeOneCardTopSection card={card} />
       <TypeOneCardMiddleSection card={card} />
+      <TypeOneCardTopSection card={card} />
       <TypeOneCardBottomSection card={card} />
     </div>
   );
