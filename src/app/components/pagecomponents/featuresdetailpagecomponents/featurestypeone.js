@@ -4,9 +4,12 @@ import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosecti
 import Webdevdata from "../../../data/shareddata/hersectiondata.json";
 import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
 import Webdevcarddata from "../../../data/shareddata/cardcollectiondata.json";
+import FeaturesMethodTypeOne from "./featuresmethodtypeone";
+import Exampledata from "../../../data/homedata/homecardcollectiondata.json";
 
 export default function FeaturesTypeOne() {
   let cards = Webdevcarddata.webdevelopment.cards;
+  let cardssecond = Exampledata.features.cards;
   return (
     <>
       <MainPageHeroSection
@@ -17,6 +20,8 @@ export default function FeaturesTypeOne() {
       />
 
       <TypeOneCardSection cards={cards} />
+
+      <FeaturesMethodTypeOne cards={cardssecond} />
     </>
   );
 }

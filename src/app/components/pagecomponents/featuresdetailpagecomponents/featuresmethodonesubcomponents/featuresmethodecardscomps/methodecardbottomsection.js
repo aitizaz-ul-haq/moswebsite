@@ -5,9 +5,9 @@ export default function MethodeCardBottomSection({ card }) {
         {card.bottomtext}
       </p>
       <div className="featuresmethod-card-collection-bottomsection-button-container">
-        <button className="featuresmethod-card-collection-bottomsection-button font-nunito">
+        {/* <button className="featuresmethod-card-collection-bottomsection-button font-nunito">
           DETAILS
-        </button>
+        </button> */}
       </div>
     </div>
   );
