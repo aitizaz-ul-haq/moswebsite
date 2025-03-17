@@ -21,20 +21,15 @@ export default function FeaturesTypeOne() {
         textOrientation={Webdevdata.webdevelopment.textOrientation}
         backgroundImages={Webdevdata.webdevelopment.backgroundImages}
       />
-
       <TypeOneCardSection cards={cards} />
-
       <MainHeadingSection
         title={Mainheadingsectiondata.webdev.title}
         description={Mainheadingsectiondata.webdev.description}
         tagtext={Mainheadingsectiondata.webdev.tagtext}
         backgroundImages={Mainheadingsectiondata.webdev.backgroundImages}
       />
-
       <FeaturesMethodTypeOne cards={cardssecond} />
-
       <CallToAction Calltoactiondata={Calltoactiondata} />
-
       <TypeOneCardSection cards={cards} />
     </>
   );
