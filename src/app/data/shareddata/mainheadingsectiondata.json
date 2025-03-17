@@ -145,5 +145,26 @@
       "1920px": "/mainheading_home_1920_background.png",
       "2560px": "/mainheading_home_2560_background.png"
     }
+  },
+  "webdev": {
+    "title": "Methodology",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "tagtext": "Our Web Dev Methodolofy",
+    "backgroundImages": {
+      "320px": "/320_background.png",
+      "360px": "/360_background.png",
+      "375px": "/mainheading_home_375_background.png",
+      "390px": "/mainheading_home_390_background.png",
+      "430px": "/mainheading_home_430_background.png",
+      "480px": "/mainheading_home_480_background.png",
+      "600px": "/mainheading_home_600_background.png",
+      "768px": "/mainheading_home_768_background.png",
+      "1024px": "/mainheading_home_1024_background.png",
+      "1280px": "/mainheading_home_1280_background.png",
+      "1440px": "/mainheading_home_1440_background.png",
+      "1600px": "/mainheading_home_1600_background.png",
+      "1920px": "/mainheading_home_1920_background.png",
+      "2560px": "/mainheading_home_2560_background.png"
+    }
   }
 }

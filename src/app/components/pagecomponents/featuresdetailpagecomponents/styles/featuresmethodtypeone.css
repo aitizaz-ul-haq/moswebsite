@@ -4,8 +4,8 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  /* margin-top: 1rem; */
+  margin-bottom: 12rem;
 }
 
 .featuresmethod-cardcollection-card-section {
@@ -58,7 +58,7 @@
 }
 
 .featuresmethod-card-collection-middle-image {
-  width: 63px;
+  width: 122px;
   height: auto;
 }
 
