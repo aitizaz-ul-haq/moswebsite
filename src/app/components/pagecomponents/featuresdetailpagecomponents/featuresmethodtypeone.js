@@ -1,4 +1,4 @@
-import "./styles/featuresmethodetypeone.css";
+import "./styles/featuresmethodtypeone.css";
 import FeaturesMethodCardSection from "./featuresmethodonesubcomponents/featuresmethodcardsection";
 
 export default function FeaturesMethodTypeOne({ cards }) {
