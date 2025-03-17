@@ -1,10 +1,10 @@
-.expertisecard-cardcollection-main-container {
+.featuresmethod-cardcollection-main-container {
   background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
 }
 
-.expertisecard-cardcollection-card-section {
+.featuresmethod-cardcollection-card-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -12,7 +12,7 @@
   max-width: 100%;
 }
 
-.expertisecard-cardcollection-card {
+.featuresmethod-cardcollection-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,24 +26,24 @@
   padding-right: 6rem;
 }
 
-.expertisecard-card-collection-topsection-container {
+.featuresmethod-card-collection-topsection-container {
   width: 100%;
   text-align: left;
 }
 
-.expertisecard-card-collection-first-text {
+.featuresmethod-card-collection-first-text {
   font-size: 24px;
   font-weight: 400;
   color: var(--text-color);
 }
 
-.expertisecard-card-collection-second-text {
+.featuresmethod-card-collection-second-text {
   font-size: 20px;
   font-weight: 300;
   color: var(--text-color);
 }
 
-.expertisecard-card-collection-middlesection-container {
+.featuresmethod-card-collection-middlesection-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,12 +53,12 @@
   width: 100%;
 }
 
-.expertisecard-card-collection-middle-image {
+.featuresmethod-card-collection-middle-image {
   width: 63px;
   height: auto;
 }
 
-.expertisecard-card-collection-bottomsection-container {
+.featuresmethod-card-collection-bottomsection-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +67,7 @@
   width: 100%;
 }
 
-.expertisecard-card-collection-bottomsection-button-container {
+.featuresmethod-card-collection-bottomsection-button-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -76,7 +76,7 @@
   /* background-color: aqua; */
 }
 
-.expertisecard-card-collection-bottomsection-button {
+.featuresmethod-card-collection-bottomsection-button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-right: 2.2rem;
@@ -91,11 +91,11 @@
   color: var(--text-color);
 }
 
-.expertisecard-card-collection-bottomsection-button:hover {
+.featuresmethod-card-collection-bottomsection-button:hover {
   background-color: var(--light-orange);
 }
 
-.expertisecard-card-collection-bottom-text {
+.featuresmethod-card-collection-bottom-text {
   font-size: 20px;
   font-weight: 300;
   width: 100%;
@@ -122,11 +122,11 @@
     height: auto;
   }
 
-  .expertisecard-cardcollection-card-section {
+  .featuresmethod-cardcollection-card-section {
     justify-content: center;
   }
 
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(100% - 1rem);
     max-width: calc(100% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -136,15 +136,15 @@
     padding-right: 1rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-card-collection-second-text {
+  .featuresmethod-card-collection-second-text {
     font-size: 16px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 14px;
     /* width: 92%; */
   }
@@ -152,11 +152,11 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
-  .expertisecard-cardcollection-card-section {
+  .featuresmethod-cardcollection-card-section {
     justify-content: center;
   }
 
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(100% - 1rem);
     max-width: calc(100% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -166,15 +166,15 @@
     padding-right: 1rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-card-collection-second-text {
+  .featuresmethod-card-collection-second-text {
     font-size: 16px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 14px;
     /* width: 92%; */
   }
@@ -182,11 +182,11 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
-  .expertisecard-cardcollection-card-section {
+  .featuresmethod-cardcollection-card-section {
     justify-content: center;
   }
 
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(100% - 1rem);
     max-width: calc(100% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -196,15 +196,15 @@
     padding-right: 1rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-card-collection-second-text {
+  .featuresmethod-card-collection-second-text {
     font-size: 16px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 14px;
     /* width: 92%; */
   }
@@ -212,11 +212,11 @@
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
-  .expertisecard-cardcollection-card-section {
+  .featuresmethod-cardcollection-card-section {
     justify-content: center;
   }
 
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(100% - 1rem);
     max-width: calc(100% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -226,15 +226,15 @@
     padding-right: 1rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-card-collection-second-text {
+  .featuresmethod-card-collection-second-text {
     font-size: 16px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 14px;
     /* width: 92%; */
   }
@@ -243,34 +243,34 @@
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
   /* .arrow-image {
-    width: 100%;
-    height: auto;
-  }
-
-  .expertisecard-cardcollection-card-section {
-    justify-content: center;
-  }
-
-  .expertisecard-cardcollection-card {
-    flex-basis: calc(100% - 1rem);
-    max-width: calc(100% - 1rem);
-    border-left: 1px soild #ffd37e;
-    border-bottom: 1px solid lightgray;
-    margin-top: 0rem;
-  }
-
-  .expertisecard-card-collection-first-text {
-    font-size: 21px;
-  }
-
-  .expertisecard-card-collection-second-text {
-    font-size: 16px;
-  }
-
-  .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
-    width: 92%;
-  } */
+      width: 100%;
+      height: auto;
+    }
+  
+    .featuresmethod-cardcollection-card-section {
+      justify-content: center;
+    }
+  
+    .featuresmethod-cardcollection-card {
+      flex-basis: calc(100% - 1rem);
+      max-width: calc(100% - 1rem);
+      border-left: 1px soild #ffd37e;
+      border-bottom: 1px solid lightgray;
+      margin-top: 0rem;
+    }
+  
+    .featuresmethod-card-collection-first-text {
+      font-size: 21px;
+    }
+  
+    .featuresmethod-card-collection-second-text {
+      font-size: 16px;
+    }
+  
+    .featuresmethod-card-collection-bottom-text {
+      font-size: 14px;
+      width: 92%;
+    } */
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -279,24 +279,24 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
-  /* .expertisecard-card-collection-middle-image {
-    width: 63px;
-    height: auto;
-  }
-
-  .expertisecard-card-collection-topsection-container {
-    width: 324px;
-    text-align: center;
-  } */
+  /* .featuresmethod-card-collection-middle-image {
+      width: 63px;
+      height: auto;
+    }
+  
+    .featuresmethod-card-collection-topsection-container {
+      width: 324px;
+      text-align: center;
+    } */
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
-  .expertisecard-cardcollection-card-section {
+  .featuresmethod-cardcollection-card-section {
     justify-content: center;
   }
 
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(50% - 1rem);
     max-width: calc(50% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -307,15 +307,15 @@
     /* position: relative; */
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-card-collection-second-text {
+  .featuresmethod-card-collection-second-text {
     font-size: 16px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 14px;
     /* width: 92%; */
   }
@@ -323,14 +323,14 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 17px;
   }
 }
 
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     flex-basis: calc(33.33% - 1rem);
     max-width: calc(33.33% - 1rem);
     /* border-left: 1px soild #ffd37e; */
@@ -341,11 +341,11 @@
     position: relative;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 21px;
   }
 
-  .expertisecard-cardcollection-card::before {
+  .featuresmethod-cardcollection-card::before {
     content: "";
     position: absolute;
     top: 3%;
@@ -358,60 +358,60 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 23px;
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     padding-left: 3.8rem;
     padding-right: 3.8rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 25px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 17px;
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     padding-left: 5.2rem;
     padding-right: 5.2rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 28px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 19px;
   }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
-  .expertisecard-cardcollection-card {
+  .featuresmethod-cardcollection-card {
     padding-left: 6.7rem;
     padding-right: 6.7rem;
   }
 
-  .expertisecard-card-collection-first-text {
+  .featuresmethod-card-collection-first-text {
     font-size: 30px;
   }
 
-  .expertisecard-card-collection-bottom-text {
+  .featuresmethod-card-collection-bottom-text {
     font-size: 24px;
   }
 }
