@@ -34,6 +34,8 @@ export default function FeaturesTypeOne() {
       <FeaturesMethodTypeOne cards={cardssecond} />
 
       <CallToAction Calltoactiondata={Calltoactiondata} />
+
+      <TypeOneCardSection cards={cards} />
     </>
   );
 }
