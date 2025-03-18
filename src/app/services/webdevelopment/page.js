@@ -22,6 +22,7 @@ export default function WebDevelopment() {
   let Mainheadingtagtext = Mainheadingsectiondata.webdev.tagtext;
   let Mainheadingbackgroundimages =
     Mainheadingsectiondata.webdev.backgroundImages;
+  //--------------------------------------------------------------------------
 
   // method cards data--------------------------------------------------------
   let Methodscarddata = Exampledata.features.cards;
