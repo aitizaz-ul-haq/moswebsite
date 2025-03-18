@@ -3,6 +3,8 @@ import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
 import FeaturesMethodTypeOne from "./featuresmethodtypeone";
 import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
 import CallToAction from "../Shared/calltoaction/calltoaction";
+import TypeOneAdvantagesSection from "./typeonesubcomps/typeoneadvantagessection/typeoneadvantagessection";
+
 import "./styles/featurestypeone.css";
 
 export default function FeaturesTypeOne({
@@ -17,6 +19,7 @@ export default function FeaturesTypeOne({
   Mainheadingbackgroundimages,
   Methodscarddata,
   Calltoactiondata,
+  Advantagessectdata,
 }) {
   return (
     <>
@@ -35,6 +38,7 @@ export default function FeaturesTypeOne({
       />
       <FeaturesMethodTypeOne cards={Methodscarddata} />
       <CallToAction Calltoactiondata={Calltoactiondata} />
+      <TypeOneAdvantagesSection Advantagessectdata={Advantagessectdata} />
     </>
   );
 }

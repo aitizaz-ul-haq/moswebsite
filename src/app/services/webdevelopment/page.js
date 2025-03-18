@@ -4,6 +4,7 @@ import Webdevsolutionscarddata from "@/app/data/shareddata/cardcollectiondata.js
 import Exampledata from "@/app/data/homedata/homecardcollectiondata.json";
 import Mainheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
+import Advsectdata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 export default function WebDevelopment() {
   // hero data---------------------------------------------------------------
   let Webdevherotitle = Webdevdata.webdevelopment.title;
@@ -28,6 +29,9 @@ export default function WebDevelopment() {
   let Methodscarddata = Exampledata.features.cards;
   //--------------------------------------------------------------------------
 
+  // advantages section data -------------------------------------------------
+  let Advantagessectdata = Advsectdata.webdev;
+
   return (
     <>
       <FeaturesTypeOne
@@ -42,6 +46,7 @@ export default function WebDevelopment() {
         Mainheadingbackgroundimages={Mainheadingbackgroundimages}
         Methodscarddata={Methodscarddata}
         Calltoactiondata={Calltoactiondata}
+        Advantagessectdata={Advantagessectdata}
       />
     </>
   );
