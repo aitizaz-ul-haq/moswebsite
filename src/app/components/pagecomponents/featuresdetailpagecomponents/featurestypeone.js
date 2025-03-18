@@ -3,7 +3,6 @@ import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
 import FeaturesMethodTypeOne from "./featuresmethodtypeone";
 import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
 import CallToAction from "../Shared/calltoaction/calltoaction";
-
 import "./styles/featurestypeone.css";
 
 export default function FeaturesTypeOne({
