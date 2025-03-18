@@ -16,7 +16,7 @@ export default function FeaturesTypeOne({
   Mainheadingdescription,
   Mainheadingtagtext,
   Mainheadingbackgroundimages,
-  methodscarddata,
+  Methodscarddata,
   Calltoactiondata,
 }) {
   return (
@@ -34,7 +34,7 @@ export default function FeaturesTypeOne({
         tagtext={Mainheadingtagtext}
         backgroundImages={Mainheadingbackgroundimages}
       />
-      <FeaturesMethodTypeOne cards={methodscarddata} />
+      <FeaturesMethodTypeOne cards={Methodscarddata} />
       <CallToAction Calltoactiondata={Calltoactiondata} />
     </>
   );

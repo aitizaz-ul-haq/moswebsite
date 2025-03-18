@@ -24,7 +24,7 @@ export default function WebDevelopment() {
     Mainheadingsectiondata.webdev.backgroundImages;
 
   // method cards data--------------------------------------------------------
-  let methodscarddata = Exampledata.features.cards;
+  let Methodscarddata = Exampledata.features.cards;
   //--------------------------------------------------------------------------
 
   return (
@@ -39,7 +39,7 @@ export default function WebDevelopment() {
         Mainheadingdescription={Mainheadingdescription}
         Mainheadingtagtext={Mainheadingtagtext}
         Mainheadingbackgroundimages={Mainheadingbackgroundimages}
-        methodscarddata={methodscarddata}
+        Methodscarddata={Methodscarddata}
         Calltoactiondata={Calltoactiondata}
       />
     </>
