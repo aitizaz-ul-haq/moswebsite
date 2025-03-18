@@ -148,7 +148,7 @@
   }
 
   .mainheadingsection-title {
-    font-size: 59px;
+    font-size: 52px;
   }
 
   .mainheadingsection-lowersection-container {
@@ -187,7 +187,7 @@
   }
 
   .mainheadingsection-title {
-    font-size: 63px;
+    font-size: 57px;
   }
 
   .mainheadingsection-lowersection-container {
@@ -340,6 +340,7 @@
     align-items: center;
     background-image: var(--bg-768);
     height: auto;
+    padding-top: 7rem;
   }
 
   .mainheadingsection-container {
@@ -354,7 +355,7 @@
   }
 
   .mainheadingsection-title {
-    font-size: 135px;
+    font-size: 108px;
     font-weight: 400;
     color: var(--text-color);
   }
@@ -411,7 +412,7 @@
   }
 
   .mainheadingsection-title {
-    font-size: 181px;
+    font-size: 130px;
     font-weight: 400;
     color: var(--text-color);
   }
