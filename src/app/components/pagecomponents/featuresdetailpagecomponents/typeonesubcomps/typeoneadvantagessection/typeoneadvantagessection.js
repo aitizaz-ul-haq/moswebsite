@@ -8,8 +8,8 @@ export default function TypeOneAdvantagesSection({ Advantagessectdata }) {
   return (
     <div className="typeoneadv-container">
       <div className="typeoneadv-topsection">
-        <div className="typeoneadv-tag">{tag}</div>
-        <p className="typeoneadv-text">{description}</p>
+        <div className="typeoneadv-tag font-poppins">{tag}</div>
+        <p className="typeoneadv-text font-nunito">{description}</p>
       </div>
       <div className="typeoneadv-bottomsection">
         {advcards.map((card) => {
