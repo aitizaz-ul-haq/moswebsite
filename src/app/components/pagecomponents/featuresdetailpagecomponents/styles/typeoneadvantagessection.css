@@ -1,0 +1,78 @@
+.typeoneadv-container {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-image: url(/features_advantages_background_1920.png);
+}
+
+.typeoneadv-topsection {
+  width: 50%;
+}
+
+.typeoneadv-tag {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-orange);
+  display: inline-block;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.typeoneadv-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  display: inline-block;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.typeoneadv-bottomsection {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.typeoneadv-advcard {
+  width: 45%;
+  margin: 1rem;
+}
+
+.typeoneadv-numbers {
+  width: 15%;
+  height: auto;
+}
+
+.typeoneadv-advcardheading {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.typeoneadv-advcarddescription {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

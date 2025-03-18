@@ -1,5 +1,6 @@
+import TypeOneAdvantagesTopSection from "./advsubcomps/typeoneadvantagestopsection";
+import TypeOneAdvantagesBottomSection from "./advsubcomps/typeoneadvantagesbottomsection";
 import "../../styles/typeoneadvantagessection.css";
-import Image from "next/image";
 
 export default function TypeOneAdvantagesSection({ Advantagessectdata }) {
   let tag = Advantagessectdata.tagtext;
@@ -7,30 +8,8 @@ export default function TypeOneAdvantagesSection({ Advantagessectdata }) {
   let advcards = Advantagessectdata.cardsdata;
   return (
     <div className="typeoneadv-container">
-      <div className="typeoneadv-topsection">
-        <div className="typeoneadv-tag font-poppins">{tag}</div>
-        <p className="typeoneadv-text font-nunito">{description}</p>
-      </div>
-      <div className="typeoneadv-bottomsection">
-        {advcards.map((card) => {
-          return (
-            <div className="typeoneadv-advcard" key={card.id}>
-              <Image
-                src={card.numericimage}
-                className="typeoneadv-numbers"
-                width={20}
-                height={20}
-              />
-              <h4 className="typeoneadv-advcardheading font-poppins">
-                {card.cardheading}
-              </h4>
-              <p className="typeoneadv-advcarddescription font-nunito">
-                {card.carddescription}
-              </p>
-            </div>
-          );
-        })}
-      </div>
+      <TypeOneAdvantagesTopSection tag={tag} description={description} />
+      <TypeOneAdvantagesBottomSection advcards={advcards} />
     </div>
   );
 }
