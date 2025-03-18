@@ -13,7 +13,7 @@ export default function WebDevelopment() {
   //--------------------------------------------------------------------------
 
   // type one card section data-----------------------------------------------
-  let solutionscards = Webdevsolutionscarddata.webdevelopment.cards;
+  let Solutionscards = Webdevsolutionscarddata.webdevelopment.cards;
   //--------------------------------------------------------------------------
 
   // main heading data--------------------------------------------------------
@@ -34,7 +34,7 @@ export default function WebDevelopment() {
         Webdevheropara={Webdevheropara}
         Webdevherotextorientation={Webdevherotextorientation}
         Webdevherobackgroundimage={Webdevherobackgroundimage}
-        solutionscards={solutionscards}
+        Solutionscards={Solutionscards}
         Mainheadingtitle={Mainheadingtitle}
         Mainheadingdescription={Mainheadingdescription}
         Mainheadingtagtext={Mainheadingtagtext}

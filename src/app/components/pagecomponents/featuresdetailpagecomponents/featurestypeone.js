@@ -11,7 +11,7 @@ export default function FeaturesTypeOne({
   Webdevheropara,
   Webdevherotextorientation,
   Webdevherobackgroundimage,
-  solutionscards,
+  Solutionscards,
   Mainheadingtitle,
   Mainheadingdescription,
   Mainheadingtagtext,
@@ -27,7 +27,7 @@ export default function FeaturesTypeOne({
         textOrientation={Webdevherotextorientation}
         backgroundImages={Webdevherobackgroundimage}
       />
-      <TypeOneCardSection cards={solutionscards} />
+      <TypeOneCardSection cards={Solutionscards} />
       <MainHeadingSection
         title={Mainheadingtitle}
         description={Mainheadingdescription}
