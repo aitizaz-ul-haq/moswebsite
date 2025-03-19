@@ -1,43 +1,127 @@
 {
   "webdev": {
     "tagtext": "Advantages of our Services",
-    "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic",
+    "description": "Our web development services are designed to deliver high-performance, secure, and scalable digital solutions that drive business success. We follow a user-centric approach, leveraging the latest technologies to ensure seamless functionality, responsiveness, and long-term growth.",
     "cardsdata": [
       {
         "id": "1",
         "numericimage": "/expertise-1.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "Custom Solutions",
+        "carddescription": "We create tailored web solutions that align with your business goals, ensuring flexibility and long-term scalability."
       },
       {
         "id": "2",
         "numericimage": "/expertise-2.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "Scalability",
+        "carddescription": "Our websites are built to scale with your growing business, handling increased traffic and expanding functionalities."
       },
       {
         "id": "3",
         "numericimage": "/expertise-3.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "Performance-Driven",
+        "carddescription": "We optimize website performance for fast load times, seamless navigation, and enhanced user engagement."
       },
       {
         "id": "4",
         "numericimage": "/expertise-4.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "SEO Optimized",
+        "carddescription": "Our web solutions follow SEO best practices, improving search rankings and increasing online visibility for better reach."
       },
       {
         "id": "5",
         "numericimage": "/expertise-5.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "Security First",
+        "carddescription": "We implement advanced security measures, protecting against cyber threats, data breaches, and unauthorized access."
       },
       {
         "id": "6",
         "numericimage": "/expertise-6.png",
-        "cardheading": "Powering Data Precision.",
-        "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+        "cardheading": "Cross-Platform",
+        "carddescription": "Our websites work seamlessly across all devices and browsers, ensuring a consistent experience for every user."
+      }
+    ]
+  },
+  "operationssupport": {
+    "tagtext": "Advantages of Our Services",
+    "description": "Our operations support services enhance efficiency, streamline processes, and ensure seamless execution. We leverage automation, data-driven insights, and strategic planning to optimize workflows, reduce risks, and drive business growth.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/expertise-1.png",
+        "cardheading": "Process Efficiency",
+        "carddescription": "We streamline operations with optimized workflows, improving productivity and minimizing downtime for smooth execution."
+      },
+      {
+        "id": "2",
+        "numericimage": "/expertise-2.png",
+        "cardheading": "Automation",
+        "carddescription": "We integrate AI and automation tools to eliminate manual inefficiencies, enhancing accuracy and speed in daily tasks."
+      },
+      {
+        "id": "3",
+        "numericimage": "/expertise-3.png",
+        "cardheading": "Real-Time Insights",
+        "carddescription": "Our data-driven monitoring systems provide actionable insights, allowing for smarter decisions and operational improvements."
+      },
+      {
+        "id": "4",
+        "numericimage": "/expertise-4.png",
+        "cardheading": "Risk Mitigation",
+        "carddescription": "We identify potential risks and implement mitigation strategies, ensuring compliance and business continuity under all conditions."
+      },
+      {
+        "id": "5",
+        "numericimage": "/expertise-5.png",
+        "cardheading": "Scalability",
+        "carddescription": "Our solutions are designed to scale, allowing your operations to expand effortlessly without disrupting existing processes."
+      },
+      {
+        "id": "6",
+        "numericimage": "/expertise-6.png",
+        "cardheading": "24/7 Support",
+        "carddescription": "We provide round-the-clock assistance to keep your business running smoothly with minimal interruptions or delays."
+      }
+    ]
+  },
+  "datamanagement": {
+    "tagtext": "Advantages of Our Services",
+    "description": "Our data management services ensure secure, accurate, and structured data handling. We focus on integration, governance, and analytics to help businesses make informed decisions, improve efficiency, and maintain compliance.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/expertise-1.png",
+        "cardheading": "Data Governance",
+        "carddescription": "We establish structured governance frameworks, ensuring data integrity, regulatory compliance, and secure data access."
+      },
+      {
+        "id": "2",
+        "numericimage": "/expertise-2.png",
+        "cardheading": "Data Security",
+        "carddescription": "We implement robust encryption and security protocols to safeguard sensitive business information from cyber threats."
+      },
+      {
+        "id": "3",
+        "numericimage": "/expertise-3.png",
+        "cardheading": "Data Integration",
+        "carddescription": "We unify data from various sources, enabling seamless data flow across systems for accurate and efficient processing."
+      },
+      {
+        "id": "4",
+        "numericimage": "/expertise-4.png",
+        "cardheading": "Advanced Analytics",
+        "carddescription": "We transform raw data into actionable insights, using AI-powered tools to enhance decision-making and business intelligence."
+      },
+      {
+        "id": "5",
+        "numericimage": "/expertise-5.png",
+        "cardheading": "Big Data Handling",
+        "carddescription": "Our scalable big data solutions manage vast datasets efficiently, ensuring speed, accuracy, and seamless analysis."
+      },
+      {
+        "id": "6",
+        "numericimage": "/expertise-6.png",
+        "cardheading": "Data Backup & Recovery",
+        "carddescription": "We provide secure backup and disaster recovery solutions, ensuring business continuity with minimal data loss risks."
       }
     ]
   }

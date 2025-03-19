@@ -1,7 +1,7 @@
 import FeaturesTypeOne from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypeone";
 import Webdevdata from "@/app/data/shareddata/hersectiondata.json";
 import Webdevsolutionscarddata from "@/app/data/shareddata/cardcollectiondata.json";
-import Exampledata from "@/app/data/homedata/homecardcollectiondata.json";
+import WebDevMethodologyCardsdata from "@/app/data/homedata/homecardcollectiondata.json";
 import Mainheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
 import Advsectdata from "@/app/data/shareddata/typeoneadvantagesdata.json";
@@ -15,6 +15,9 @@ export default function WebDevelopment() {
 
   // type one card section data-----------------------------------------------
   let Solutionscards = Webdevsolutionscarddata.webdevelopment.cards;
+  let Solutionscardstitle = Webdevsolutionscarddata.webdevelopment.sectiontitle;
+  let Solutionscardsdescriptions =
+    Webdevsolutionscarddata.webdevelopment.sectiondescription;
   //--------------------------------------------------------------------------
 
   // main heading data--------------------------------------------------------
@@ -26,7 +29,7 @@ export default function WebDevelopment() {
   //--------------------------------------------------------------------------
 
   // method cards data--------------------------------------------------------
-  let Methodscarddata = Exampledata.features.cards;
+  let Methodscarddata = WebDevMethodologyCardsdata.webdevmethodology.cards;
   //--------------------------------------------------------------------------
 
   // advantages section data -------------------------------------------------
@@ -40,6 +43,8 @@ export default function WebDevelopment() {
         Webdevherotextorientation={Webdevherotextorientation}
         Webdevherobackgroundimage={Webdevherobackgroundimage}
         Solutionscards={Solutionscards}
+        Solutionscardstitle={Solutionscardstitle}
+        Solutionscardsdescriptions={Solutionscardsdescriptions}
         Mainheadingtitle={Mainheadingtitle}
         Mainheadingdescription={Mainheadingdescription}
         Mainheadingtagtext={Mainheadingtagtext}

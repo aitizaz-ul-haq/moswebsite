@@ -1,7 +1,7 @@
 // app/club/layout.js
 
 export const metadata = {
-  title: "Web Development | Manage Outsource Services",
+  title: "Data Management| Manage Outsource Services",
   description: "",
   //   openGraph: {
   //     type: "website",
@@ -24,6 +24,6 @@ export const metadata = {
   //   },
 };
 
-export default function WebDevelopmentLayout({ children }) {
+export default function DataManagementLayout({ children }) {
   return <>{children}</>;
 }

@@ -88,5 +88,143 @@
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       }
     ]
+  },
+  "webdevmethodology": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Agile Development.",
+        "secondtext": "Flexible, adaptive, and efficient workflow.",
+        "image": "method_one.png",
+        "bottomtext": "We follow an iterative, agile development approach to ensure continuous improvement, quick adaptability, and seamless collaboration throughout the project lifecycle."
+      },
+      {
+        "id": "2",
+        "firsttext": "User-Centric Design.",
+        "secondtext": "Building intuitive and engaging experiences.",
+        "image": "method_two.png",
+        "bottomtext": "Our methodology focuses on UI/UX best practices to create intuitive, engaging, and user-friendly digital experiences that drive interaction and customer satisfaction."
+      },
+      {
+        "id": "3",
+        "firsttext": "Scalable Architecture.",
+        "secondtext": "Optimized for growth and performance.",
+        "image": "method_three.png",
+        "bottomtext": "We build scalable and high-performance architectures that support long-term business growth, ensuring flexibility, reliability, and speed."
+      },
+      {
+        "id": "4",
+        "firsttext": "Robust Security.",
+        "secondtext": "Ensuring data protection at every level.",
+        "image": "method_four.png",
+        "bottomtext": "Security is at the core of our development methodology, integrating encryption, authentication, and compliance to safeguard your digital assets."
+      },
+      {
+        "id": "5",
+        "firsttext": "SEO & Performance.",
+        "secondtext": "Optimized for visibility and speed.",
+        "image": "method_five.png",
+        "bottomtext": "We implement best SEO practices and performance optimization techniques, ensuring high search engine rankings and fast-loading websites."
+      },
+      {
+        "id": "6",
+        "firsttext": "Continuous Testing.",
+        "secondtext": "Delivering flawless, bug-free solutions.",
+        "image": "method_six.png",
+        "bottomtext": "We apply automated and manual testing methodologies to identify and resolve issues early, ensuring seamless functionality and high-quality user experiences."
+      }
+    ]
+  },
+  "operationssupportmethodology": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Process Optimization.",
+        "secondtext": "Enhancing efficiency with streamlined workflows.",
+        "image": "method_one.png",
+        "bottomtext": "We refine business processes by identifying inefficiencies, automating repetitive tasks, and optimizing workflows to maximize operational efficiency."
+      },
+      {
+        "id": "2",
+        "firsttext": "Automation & AI.",
+        "secondtext": "Leveraging technology for smarter operations.",
+        "image": "method_two.png",
+        "bottomtext": "Our approach integrates automation and AI-driven solutions to reduce manual effort, minimize errors, and boost overall operational performance."
+      },
+      {
+        "id": "3",
+        "firsttext": "Performance Monitoring.",
+        "secondtext": "Data-driven insights for continuous improvement.",
+        "image": "method_three.png",
+        "bottomtext": "We implement advanced monitoring tools that track key operational metrics, ensuring transparency, efficiency, and real-time decision-making."
+      },
+      {
+        "id": "4",
+        "firsttext": "Risk Management.",
+        "secondtext": "Proactive strategies to mitigate business risks.",
+        "image": "method_four.png",
+        "bottomtext": "Our methodology includes identifying potential risks, implementing mitigation strategies, and ensuring compliance to safeguard business continuity."
+      },
+      {
+        "id": "5",
+        "firsttext": "Scalability & Growth.",
+        "secondtext": "Future-proofing operations for expansion.",
+        "image": "method_five.png",
+        "bottomtext": "We design scalable operational frameworks that allow businesses to expand seamlessly, adapting to growth and market demands."
+      },
+      {
+        "id": "6",
+        "firsttext": "End-to-End Support.",
+        "secondtext": "Seamless operations, 24/7 reliability.",
+        "image": "method_six.png",
+        "bottomtext": "We offer round-the-clock operational support, ensuring smooth business processes, minimal downtime, and maximum efficiency."
+      }
+    ]
+  },
+  "datamanagementmethodology": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Data Governance.",
+        "secondtext": "Ensuring structured, secure data handling.",
+        "image": "method_one.png",
+        "bottomtext": "We establish governance frameworks to ensure data integrity, compliance, and accessibility while minimizing risks and inconsistencies."
+      },
+      {
+        "id": "2",
+        "firsttext": "Data Integration.",
+        "secondtext": "Connecting and centralizing data sources.",
+        "image": "method_two.png",
+        "bottomtext": "Our approach unifies data from multiple sources, creating a seamless flow of accurate information across business systems."
+      },
+      {
+        "id": "3",
+        "firsttext": "Data Security.",
+        "secondtext": "Protecting sensitive information from threats.",
+        "image": "method_three.png",
+        "bottomtext": "We implement advanced security measures, including encryption, access controls, and monitoring to safeguard critical business data."
+      },
+      {
+        "id": "4",
+        "firsttext": "Data Analytics.",
+        "secondtext": "Extracting insights for strategic decisions.",
+        "image": "method_four.png",
+        "bottomtext": "We leverage AI-powered analytics to process data efficiently, uncover trends, and drive informed decision-making across all business functions."
+      },
+      {
+        "id": "5",
+        "firsttext": "Big Data Solutions.",
+        "secondtext": "Handling large-scale data efficiently.",
+        "image": "method_five.png",
+        "bottomtext": "Our scalable big data solutions allow businesses to manage, store, and analyze vast amounts of structured and unstructured data with ease."
+      },
+      {
+        "id": "6",
+        "firsttext": "Backup & Recovery.",
+        "secondtext": "Ensuring business continuity and resilience.",
+        "image": "method_six.png",
+        "bottomtext": "We provide comprehensive backup and disaster recovery solutions that prevent data loss, minimize downtime, and ensure uninterrupted business operations."
+      }
+    ]
   }
 }

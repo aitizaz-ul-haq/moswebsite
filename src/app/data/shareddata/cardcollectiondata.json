@@ -90,48 +90,146 @@
   },
 
   "webdevelopment": {
+    "sectiontitle": "Our Web Development Solutions",
+    "sectiondescription": "We provide innovative, scalable, and secure web solutions tailored to your business needs. Our approach ensures seamless functionality, optimized performance, and an exceptional user experience.",
     "cards": [
       {
         "id": "1",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Custom Development",
+        "secondtext": "Tailored websites built for your business.",
         "image": "card-collection-icon-industries-cardone.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We develop fully customized web solutions, ensuring they align with your brand, goals, and user expectations."
       },
       {
         "id": "2",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "E-Commerce Solutions",
+        "secondtext": "Powerful, secure online stores.",
         "image": "card-collection-icon-industries-cardtwo.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We build high-performance e-commerce platforms with seamless checkout, payment integration, and user-friendly experiences."
       },
       {
         "id": "3",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Responsive Design",
+        "secondtext": "Optimized for all devices.",
         "image": "card-collection-icon-industries-cardthree.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We create mobile-friendly, responsive designs that provide seamless experiences across all screens and devices."
       },
       {
         "id": "4",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "CMS Development",
+        "secondtext": "Easy content management.",
         "image": "card-collection-icon-industries-cardfour.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We develop CMS-based websites using platforms like WordPress and headless CMS, ensuring easy content updates."
       },
       {
         "id": "5",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "SEO Optimization",
+        "secondtext": "Better rankings, more traffic.",
         "image": "card-collection-icon-industries-cardfive.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We implement SEO best practices to improve visibility, drive organic traffic, and boost search engine rankings."
       },
       {
         "id": "6",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Web App Development",
+        "secondtext": "Scalable, high-performance apps.",
         "image": "card-collection-icon-industries-cardfive.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We build fast, secure, and scalable web applications that enhance user engagement and business efficiency."
+      }
+    ]
+  },
+  "operationssupport": {
+    "sectiontitle": "operations Support Solutions",
+    "sectiondescription": "At Manage OutSource Services, we specialize in streamlining operations, enhancing efficiency, and ensuring seamless execution across all business functions. Our Operations Support Solutions are designed to help organizations achieve operational excellence, mitigate risks, and drive continuous improvement.With a data-driven and strategic approach, we optimize workflows, automate processes, and enhance business resilience, enabling companies to focus on growth while ensuring efficiency at every level. Explore our tailored solutions below.",
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Strategic Execution & Efficiency",
+        "secondtext": "Optimizing operations for seamless execution.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "We implement efficient processes and workflow optimization strategies to ensure seamless execution, increased productivity, and business success."
+      },
+      {
+        "id": "2",
+        "firsttext": "Optimization & Automation",
+        "secondtext": "Driving  automated workflows.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "We streamline operations by leveraging automation and intelligent workflow management, reducing inefficiencies, and enhancing overall business agility."
+      },
+      {
+        "id": "3",
+        "firsttext": "Monitoring & Insights",
+        "secondtext": "Data-driven insights for operations",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We provide real-time performance monitoring and data analytics, enabling businesses to make informed decisions and continuously improve operational outcomes."
+      },
+      {
+        "id": "4",
+        "firsttext": "Compliance Management",
+        "secondtext": "Ensuring adherence to regulations",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "We establish strong governance frameworks and compliance strategies to mitigate risks, ensure regulatory adherence, and maintain operational integrity."
+      },
+      {
+        "id": "5",
+        "firsttext": "Logistics Support",
+        "secondtext": "Enhancing supply chain efficiency",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We optimize supply chain operations, ensuring timely delivery, cost efficiency, and a seamless logistics process that aligns with business goals."
+      },
+      {
+        "id": "6",
+        "firsttext": "Business Continuity",
+        "secondtext": "Ensuring uninterrupted operations",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We design and implement resilience strategies that safeguard operations against disruptions, ensuring business continuity and sustained performance."
+      }
+    ]
+  },
+  "datamanagement": {
+    "sectiontitle": "Data Management Solutions",
+    "sectiondescription": "At Manage OutSource Services, we provide comprehensive data management solutions that ensure accuracy, security, and accessibility. Our approach integrates advanced technologies to organize, process, and protect critical business information, empowering companies to make data-driven decisions with confidence. With scalable and efficient solutions, we help businesses maintain compliance, enhance operational efficiency, and unlock the full potential of their data.",
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Data Governance",
+        "secondtext": "Ensuring structured data management.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "We implement governance frameworks that maintain data integrity, compliance, and security while optimizing accessibility for informed decision-making."
+      },
+      {
+        "id": "2",
+        "firsttext": "Data Integration",
+        "secondtext": "Seamless data unification.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "We enable smooth data flow across multiple platforms, ensuring consistency and accessibility across various business operations."
+      },
+      {
+        "id": "3",
+        "firsttext": "Data Security",
+        "secondtext": "Protecting critical information.",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We apply advanced encryption, access controls, and compliance strategies to safeguard sensitive business data from cyber threats and unauthorized access."
+      },
+      {
+        "id": "4",
+        "firsttext": "Data Analytics",
+        "secondtext": "Transforming data into insights.",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "We leverage AI-driven analytics to process raw data, uncover trends, and provide actionable insights that drive strategic business decisions."
+      },
+      {
+        "id": "5",
+        "firsttext": "Big Data Solutions",
+        "secondtext": "Handling complex data sets.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We develop scalable big data architectures that manage and analyze vast amounts of structured and unstructured data efficiently."
+      },
+      {
+        "id": "6",
+        "firsttext": "Data Backup & Recovery",
+        "secondtext": "Ensuring data resilience.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We provide robust backup and disaster recovery solutions that prevent data loss, ensure business continuity, and minimize downtime."
       }
     ]
   }

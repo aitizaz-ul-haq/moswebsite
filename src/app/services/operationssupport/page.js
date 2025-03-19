@@ -1,45 +1,53 @@
 import FeaturesTypeOne from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypeone";
-import Webdevdata from "@/app/data/shareddata/hersectiondata.json";
-import Webdevsolutionscarddata from "@/app/data/shareddata/cardcollectiondata.json";
-import Exampledata from "@/app/data/homedata/homecardcollectiondata.json";
+import OpsSupportdata from "@/app/data/shareddata/hersectiondata.json";
+import Opssupsolutionscarddata from "@/app/data/shareddata/cardcollectiondata.json";
+import MethodologyCardData from "@/app/data/homedata/homecardcollectiondata.json";
 import Mainheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
 import Advsectdata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 export default function OpsSupport() {
   // hero data---------------------------------------------------------------
-  let Webdevherotitle = Webdevdata.webdevelopment.title;
-  let Webdevheropara = Webdevdata.webdevelopment.paragraph;
-  let Webdevherotextorientation = Webdevdata.webdevelopment.textOrientation;
-  let Webdevherobackgroundimage = Webdevdata.webdevelopment.backgroundImages;
+  let OpsSupportherotitle = OpsSupportdata.opssupport.title;
+  let OpsSupportheropara = OpsSupportdata.opssupport.paragraph;
+  let OpsSupportherotextorientation = OpsSupportdata.opssupport.textOrientation;
+  let OpsSupportherobackgroundimage =
+    OpsSupportdata.opssupport.backgroundImages;
   //--------------------------------------------------------------------------
 
   // type one card section data-----------------------------------------------
-  let Solutionscards = Webdevsolutionscarddata.webdevelopment.cards;
+  let Solutionscards = Opssupsolutionscarddata.operationssupport.cards;
+  let Solutionscardstitle =
+    Opssupsolutionscarddata.operationssupport.sectiontitle;
+  let Solutionscardsdescriptions =
+    Opssupsolutionscarddata.operationssupport.sectiondescription;
   //--------------------------------------------------------------------------
 
   // main heading data--------------------------------------------------------
-  let Mainheadingtitle = Mainheadingsectiondata.webdev.title;
-  let Mainheadingdescription = Mainheadingsectiondata.webdev.description;
-  let Mainheadingtagtext = Mainheadingsectiondata.webdev.tagtext;
+  let Mainheadingtitle = Mainheadingsectiondata.operationssupport.title;
+  let Mainheadingdescription =
+    Mainheadingsectiondata.operationssupport.description;
+  let Mainheadingtagtext = Mainheadingsectiondata.operationssupport.tagtext;
   let Mainheadingbackgroundimages =
-    Mainheadingsectiondata.webdev.backgroundImages;
+    Mainheadingsectiondata.operationssupport.backgroundImages;
   //--------------------------------------------------------------------------
 
   // method cards data--------------------------------------------------------
-  let Methodscarddata = Exampledata.features.cards;
+  let Methodscarddata = MethodologyCardData.operationssupportmethodology.cards;
   //--------------------------------------------------------------------------
 
   // advantages section data -------------------------------------------------
-  let Advantagessectdata = Advsectdata.webdev;
+  let Advantagessectdata = Advsectdata.operationssupport;
 
   return (
     <>
       <FeaturesTypeOne
-        Webdevherotitle={Webdevherotitle}
-        Webdevheropara={Webdevheropara}
-        Webdevherotextorientation={Webdevherotextorientation}
-        Webdevherobackgroundimage={Webdevherobackgroundimage}
+        Webdevherotitle={OpsSupportherotitle}
+        Webdevheropara={OpsSupportheropara}
+        Webdevherotextorientation={OpsSupportherotextorientation}
+        Webdevherobackgroundimage={OpsSupportherobackgroundimage}
         Solutionscards={Solutionscards}
+        Solutionscardstitle={Solutionscardstitle}
+        Solutionscardsdescriptions={Solutionscardsdescriptions}
         Mainheadingtitle={Mainheadingtitle}
         Mainheadingdescription={Mainheadingdescription}
         Mainheadingtagtext={Mainheadingtagtext}

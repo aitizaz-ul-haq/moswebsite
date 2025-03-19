@@ -148,8 +148,50 @@
   },
   "webdev": {
     "title": "Methodology",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "description": "At Manage OutSource Services, our web development methodology is built on a foundation of innovation, precision, and efficiency. We follow a structured approach that ensures seamless user experiences, optimized performance, and scalable digital solutions. Our process includes in-depth requirement analysis, agile development, rigorous testing, and continuous optimization to deliver cutting-edge web solutions tailored to your business needs. From conceptualization to deployment, we prioritize responsiveness, security, and functionality to create high-impact websites and applications.",
     "tagtext": "Our Web Dev Methodology",
+    "backgroundImages": {
+      "320px": "/320_background.png",
+      "360px": "/360_background.png",
+      "375px": "/mainheading_home_375_background.png",
+      "390px": "/mainheading_home_390_background.png",
+      "430px": "/mainheading_home_430_background.png",
+      "480px": "/mainheading_home_480_background.png",
+      "600px": "/mainheading_home_600_background.png",
+      "768px": "/mainheading_home_768_background.png",
+      "1024px": "/mainheading_home_1024_background.png",
+      "1280px": "/mainheading_home_1280_background.png",
+      "1440px": "/mainheading_home_1440_background.png",
+      "1600px": "/mainheading_home_1600_background.png",
+      "1920px": "/mainheading_home_1920_background.png",
+      "2560px": "/mainheading_home_2560_background.png"
+    }
+  },
+  "operationssupport": {
+    "title": "Methodology",
+    "description": "At Manage OutSource Services, our Operations Support methodology is designed to enhance efficiency, streamline processes, and ensure seamless execution. We implement a strategic, data-driven approach to optimize workflows, improve resource allocation, and minimize operational disruptions. Our process includes in-depth operational assessments, process automation, risk mitigation, and continuous monitoring to enhance performance. By integrating advanced technology and best practices, we help businesses achieve operational excellence, scalability, and long-term sustainability.",
+    "tagtext": "Our Operations Support Methodology",
+    "backgroundImages": {
+      "320px": "/320_background.png",
+      "360px": "/360_background.png",
+      "375px": "/mainheading_home_375_background.png",
+      "390px": "/mainheading_home_390_background.png",
+      "430px": "/mainheading_home_430_background.png",
+      "480px": "/mainheading_home_480_background.png",
+      "600px": "/mainheading_home_600_background.png",
+      "768px": "/mainheading_home_768_background.png",
+      "1024px": "/mainheading_home_1024_background.png",
+      "1280px": "/mainheading_home_1280_background.png",
+      "1440px": "/mainheading_home_1440_background.png",
+      "1600px": "/mainheading_home_1600_background.png",
+      "1920px": "/mainheading_home_1920_background.png",
+      "2560px": "/mainheading_home_2560_background.png"
+    }
+  },
+  "datamanagement": {
+    "title": "Methodology",
+    "description": "At Manage OutSource Services, our Data Management methodology is built on a foundation of security, accuracy, and efficiency. We employ structured frameworks to collect, process, and manage data while ensuring compliance and governance. Our approach integrates data structuring, automation, security protocols, and real-time analytics to maintain data integrity and accessibility. Through our scalable and technology-driven solutions, we help businesses leverage their data for better decision-making, operational efficiency, and strategic growth.",
+    "tagtext": "Our Data Management Methodology",
     "backgroundImages": {
       "320px": "/320_background.png",
       "360px": "/360_background.png",
