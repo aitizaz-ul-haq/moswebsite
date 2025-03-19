@@ -7,6 +7,7 @@ export default function HomeAdvLogoSection() {
         className="homeadvanteges-logo"
         width={920}
         height={920}
+        alt="company_logo"
       />
     </div>
   );

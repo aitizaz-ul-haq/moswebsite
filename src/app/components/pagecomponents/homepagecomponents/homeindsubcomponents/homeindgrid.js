@@ -17,6 +17,7 @@ export default function HomeIndGrid({ Homeindustriessectiondata }) {
                 width={100}
                 height={100}
                 src={ind.iconname}
+                alt="homepage_industries"
               />
             </div>
           </div>

@@ -12,6 +12,7 @@ export default function FooterTopLeftSectionUpperSection({ footerdata }) {
           width={1922}
           height={1922}
           src={logodata.src}
+          alt="footer logo"
         />
       </div>
       <div className="footer-description-container">

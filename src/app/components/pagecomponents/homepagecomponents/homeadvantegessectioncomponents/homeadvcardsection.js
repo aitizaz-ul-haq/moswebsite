@@ -11,6 +11,7 @@ export default function HomeAdvCardsSection({ homeadvcards }) {
               className="homeadvanteges-bullet"
               width={920}
               height={920}
+              alt="bullets"
             />
             <p className="homeadvanteges-description font-nunito">
               {card.homeadvantegespoint}

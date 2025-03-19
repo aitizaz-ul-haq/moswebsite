@@ -11,6 +11,7 @@ export default function TopLeftLargeCard({ Benefitssectiondata }) {
         width={520}
         height={520}
         src="/benefits-icon.png"
+        alt="benefits_icon"
       />
     </div>
   );

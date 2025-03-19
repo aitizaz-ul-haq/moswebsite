@@ -8,6 +8,7 @@ export default function ApplyFormLogo({ Applyformdata }) {
         className="applyform-logo"
         width={270}
         height={200}
+        alt="mos logo"
       />
     </div>
   );

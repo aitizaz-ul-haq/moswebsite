@@ -13,12 +13,14 @@ export default function TeamMembersDetailsSection({ membersdata }) {
           height={920}
           width={920}
           src="/dicteam_top_socila_linkdin.png"
+          alt="social_media_details"
         />
         <Image
           className="dicteam-socila-media-icons"
           height={920}
           width={920}
           src="/dicteam_top_socila_facebook.png"
+          alt="social_media_details"
         />
       </div>
     </div>

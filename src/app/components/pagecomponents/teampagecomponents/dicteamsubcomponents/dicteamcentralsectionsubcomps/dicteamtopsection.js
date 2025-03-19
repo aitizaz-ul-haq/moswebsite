@@ -10,6 +10,7 @@ export default function DicTeamTopSection({ Dicteamdata }) {
         height={920}
         width={920}
         src="/asim.png"
+        alt="asim"
       />
       <TeamMembersDetailsSection membersdata={membersdata} />
     </div>

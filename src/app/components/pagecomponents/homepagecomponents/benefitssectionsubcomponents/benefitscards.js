@@ -19,6 +19,7 @@ export default function BenefitsCards({ benefitcards }) {
                 width={20}
                 height={20}
                 src="/right icon.png"
+                alt="card_icon"
               />
             </a>
           </div>
