@@ -166,5 +166,89 @@
         "carddescription": "We leverage HR software solutions for payroll, benefits administration, and workforce analytics to improve efficiency."
       }
     ]
+  },
+  "projectmanagement": {
+    "tagtext": "Methodology of Project Management",
+    "description": "Our project management methodology is structured to maximize efficiency, mitigate risks, and ensure seamless project execution. We implement strategic planning, resource optimization, Agile methodologies, and real-time progress tracking to deliver projects on time and within budget. By integrating industry best practices and advanced tools, we help businesses streamline workflows, enhance collaboration, and achieve sustainable project success.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/method_one.png",
+        "cardheading": "Project Planning",
+        "carddescription": "We create structured roadmaps with defined objectives, milestones, and timelines for efficient execution."
+      },
+      {
+        "id": "2",
+        "numericimage": "/method_two.png",
+        "cardheading": "Resource Management",
+        "carddescription": "We optimize resource allocation to ensure the right people and tools are used effectively throughout the project."
+      },
+      {
+        "id": "3",
+        "numericimage": "/method_three.png",
+        "cardheading": "Risk Assessment",
+        "carddescription": "We identify potential risks, develop mitigation strategies, and implement proactive solutions for project stability."
+      },
+      {
+        "id": "4",
+        "numericimage": "/method_four.png",
+        "cardheading": "Agile Execution",
+        "carddescription": "We use Agile methodologies to promote flexibility, adaptability, and collaboration for iterative project delivery."
+      },
+      {
+        "id": "5",
+        "numericimage": "/method_five.png",
+        "cardheading": "Progress Tracking",
+        "carddescription": "We implement real-time monitoring systems to track project milestones, ensuring alignment with objectives."
+      },
+      {
+        "id": "6",
+        "numericimage": "/method_six.png",
+        "cardheading": "Quality Assurance",
+        "carddescription": "We conduct rigorous quality checks, ensuring high standards and successful project completion with stakeholder satisfaction."
+      }
+    ]
+  },
+  "AccountingandReporting": {
+    "tagtext": "Methodology of Accounting & Reporting",
+    "description": "Our accounting and reporting methodology is designed to ensure financial accuracy, compliance, and transparency. We implement structured bookkeeping, regulatory adherence, automated reporting, and risk assessment strategies to provide businesses with reliable financial data. By integrating best practices and modern accounting tools, we help organizations streamline financial operations, minimize risks, and make informed decisions.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/method_one.png",
+        "cardheading": "Financial Planning",
+        "carddescription": "We establish structured financial plans that align with business objectives and regulatory requirements."
+      },
+      {
+        "id": "2",
+        "numericimage": "/method_two.png",
+        "cardheading": "Bookkeeping Accuracy",
+        "carddescription": "We maintain precise and up-to-date records, ensuring organized financial data for audits and reporting."
+      },
+      {
+        "id": "3",
+        "numericimage": "/method_three.png",
+        "cardheading": "Regulatory Compliance",
+        "carddescription": "We ensure adherence to tax laws and financial regulations, reducing risks and maintaining compliance."
+      },
+      {
+        "id": "4",
+        "numericimage": "/method_four.png",
+        "cardheading": "Automated Reporting",
+        "carddescription": "We use advanced reporting tools to generate real-time financial statements and insights."
+      },
+      {
+        "id": "5",
+        "numericimage": "/method_five.png",
+        "cardheading": "Risk Management",
+        "carddescription": "We analyze financial risks and implement strategies to safeguard assets and business stability."
+      },
+      {
+        "id": "6",
+        "numericimage": "/method_six.png",
+        "cardheading": "Audit Preparation",
+        "carddescription": "We organize financial records and ensure accuracy for smooth internal and external audits."
+      }
+    ]
   }
 }

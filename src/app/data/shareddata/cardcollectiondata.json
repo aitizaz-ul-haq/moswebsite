@@ -278,5 +278,97 @@
         "bottomtext": "We offer training programs tailored to improve employee skills, leadership development, and workplace efficiency."
       }
     ]
+  },
+  "Projectmanagement": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Project Planning",
+        "secondtext": "Structured plans for successful execution.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "We develop detailed project roadmaps, defining objectives, timelines, and milestones to ensure seamless execution and goal achievement."
+      },
+      {
+        "id": "2",
+        "firsttext": "Resource Allocation",
+        "secondtext": "Optimizing resources for efficiency.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "We strategically allocate resources, ensuring the right people and tools are in place to maximize productivity and project success."
+      },
+      {
+        "id": "3",
+        "firsttext": "Risk Management",
+        "secondtext": "Proactively identifying and mitigating risks.",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We assess potential risks, develop contingency plans, and implement mitigation strategies to ensure project stability and continuity."
+      },
+      {
+        "id": "4",
+        "firsttext": "Project Monitoring",
+        "secondtext": "Tracking progress in real-time.",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "We implement monitoring tools and KPIs to track performance, ensure adherence to timelines, and adjust strategies as needed."
+      },
+      {
+        "id": "5",
+        "firsttext": "Agile Methodology",
+        "secondtext": "Adaptive and iterative project execution.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We follow Agile frameworks to enhance collaboration, responsiveness, and flexibility in managing complex projects efficiently."
+      },
+      {
+        "id": "6",
+        "firsttext": "Project Delivery",
+        "secondtext": "Ensuring timely and successful completion.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We focus on quality assurance, stakeholder satisfaction, and seamless project handover to achieve business objectives."
+      }
+    ]
+  },
+  "AccountingandReporting": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Bookkeeping Services",
+        "secondtext": "Accurate financial records management.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "We maintain precise financial records, ensuring organized bookkeeping that supports decision-making and financial stability."
+      },
+      {
+        "id": "2",
+        "firsttext": "Financial Reporting",
+        "secondtext": "Transparent and compliant financial statements.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "We generate detailed financial reports, providing businesses with insights into performance, profitability, and compliance."
+      },
+      {
+        "id": "3",
+        "firsttext": "Tax Compliance",
+        "secondtext": "Ensuring adherence to tax regulations.",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We assist in tax filing, regulatory compliance, and strategic tax planning to optimize financial performance and minimize liabilities."
+      },
+      {
+        "id": "4",
+        "firsttext": "Audit Preparation",
+        "secondtext": "Ensuring readiness for financial audits.",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "We prepare businesses for audits by organizing financial data, ensuring compliance, and minimizing audit risks."
+      },
+      {
+        "id": "5",
+        "firsttext": "Payroll Management",
+        "secondtext": "Efficient and timely salary processing.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We streamline payroll processing, ensuring employees are paid accurately and on time while maintaining tax and benefits compliance."
+      },
+      {
+        "id": "6",
+        "firsttext": "Budgeting & Forecasting",
+        "secondtext": "Strategic financial planning for growth.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We develop data-driven financial forecasts and budgets to help businesses make informed investment and operational decisions."
+      }
+    ]
   }
 }
