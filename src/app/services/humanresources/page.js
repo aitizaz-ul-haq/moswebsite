@@ -3,6 +3,7 @@ import Hrherodata from "@/app/data/shareddata/hersectiondata.json";
 import Humanresdata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 import Methoddata from "@/app/data/shareddata/typeoneadvantagesdata.json";
+import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
 
 export default function HumanResources() {
   // hero section data --------------------------------------------------------------
@@ -39,6 +40,7 @@ export default function HumanResources() {
         mainheadingbackgrounds={mainheadingbackgrounds}
         gridcards={gridcards}
         Methodologysectdata={Methodologysectdata}
+        Calltoactiondata={Calltoactiondata}
       />
     </>
   );
