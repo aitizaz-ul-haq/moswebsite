@@ -3,6 +3,7 @@ import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection"
 import CardCollection from "../Shared/cardcollection/cardcollection";
 import TypeTwoMethodSection from "./typetwosubcomps/typetwomethodsection/typetwomethodsection";
 import CallToAction from "../Shared/calltoaction/calltoaction";
+import FeaturesMethodTypeOne from "./featuresmethodtypeone";
 export default function FeaturesTypeTwo({
   herosectiontitle,
   herosectionparagraph,
@@ -19,6 +20,7 @@ export default function FeaturesTypeTwo({
   herosectionsecondparagraph,
   herosectionsecondtextOrientation,
   herosecondsectionbackground,
+  advantagesdata,
 }) {
   return (
     <>
@@ -43,6 +45,7 @@ export default function FeaturesTypeTwo({
         tagtext={herosectionsecondtextOrientation}
         backgroundImages={herosecondsectionbackground}
       />
+      <FeaturesMethodTypeOne cards={advantagesdata} />
     </>
   );
 }

@@ -5,6 +5,7 @@ import Humanresdata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 import Methoddata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
+import Hradvdata from "@/app/data/homedata/homecardcollectiondata.json";
 
 export default function HumanResources() {
   // hero section data --------------------------------------------------------------
@@ -31,11 +32,16 @@ export default function HumanResources() {
 
   // second main heading data -------------------------------------------------------
   let herosectionsecondtitle = HrSeconddata.Humanresourcessecond.title;
-  let herosectionsecondparagraph = HrSeconddata.Humanresourcessecond.paragraph;
+  let herosectionsecondparagraph =
+    HrSeconddata.Humanresourcessecond.description;
   let herosectionsecondtextOrientation =
     HrSeconddata.Humanresourcessecond.tagtext;
   let herosecondsectionbackground =
     HrSeconddata.Humanresourcessecond.backgroundImages;
+  //----------------------------------------------------------------------------------
+
+  // Advantegse section data----------------------------------------------------------
+  let advantagesdata = Hradvdata.hradvantages.cards;
   //----------------------------------------------------------------------------------
 
   return (
@@ -56,6 +62,7 @@ export default function HumanResources() {
         herosectionsecondparagraph={herosectionsecondparagraph}
         herosectionsecondtextOrientation={herosectionsecondtextOrientation}
         herosecondsectionbackground={herosecondsectionbackground}
+        advantagesdata={advantagesdata}
       />
     </>
   );

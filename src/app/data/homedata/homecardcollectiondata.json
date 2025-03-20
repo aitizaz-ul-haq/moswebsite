@@ -226,5 +226,52 @@
         "bottomtext": "We provide comprehensive backup and disaster recovery solutions that prevent data loss, minimize downtime, and ensure uninterrupted business operations."
       }
     ]
+  },
+  "hradvantages": {
+    "description": "Our Human Resources services provide businesses with the tools to optimize workforce management, improve employee engagement, and maintain compliance. We streamline HR processes, reduce administrative overhead, and enhance hiring efficiency while fostering a productive workplace. By integrating innovative HR solutions, we help organizations build a resilient, motivated, and high-performing team.",
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Efficient Hiring.",
+        "secondtext": "Optimizing recruitment for top talent.",
+        "image": "method_one.png",
+        "bottomtext": "We implement structured hiring strategies that attract and retain skilled professionals, ensuring the right fit for your organization."
+      },
+      {
+        "id": "2",
+        "firsttext": "Seamless Onboarding.",
+        "secondtext": "Enhancing employee integration.",
+        "image": "method_two.png",
+        "bottomtext": "Our onboarding solutions streamline the transition for new hires, improving engagement and productivity from day one."
+      },
+      {
+        "id": "3",
+        "firsttext": "Payroll Accuracy.",
+        "secondtext": "Ensuring error-free payroll processing.",
+        "image": "method_three.png",
+        "bottomtext": "We manage payroll with precision, ensuring timely salary disbursement, tax compliance, and error-free financial transactions."
+      },
+      {
+        "id": "4",
+        "firsttext": "Workforce Training.",
+        "secondtext": "Developing employee skills and growth.",
+        "image": "method_four.png",
+        "bottomtext": "Our training programs enhance employee performance, leadership skills, and adaptability in evolving business landscapes."
+      },
+      {
+        "id": "5",
+        "firsttext": "Compliance & Risk.",
+        "secondtext": "Mitigating HR-related legal risks.",
+        "image": "method_five.png",
+        "bottomtext": "We ensure labor law compliance, policy enforcement, and risk management strategies to protect businesses from legal challenges."
+      },
+      {
+        "id": "6",
+        "firsttext": "Employee Engagement.",
+        "secondtext": "Boosting workplace satisfaction.",
+        "image": "method_six.png",
+        "bottomtext": "We implement strategies that foster a positive work culture, improving employee retention, motivation, and overall job satisfaction."
+      }
+    ]
   }
 }
