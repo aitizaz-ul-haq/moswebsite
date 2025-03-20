@@ -232,5 +232,51 @@
         "bottomtext": "We provide robust backup and disaster recovery solutions that prevent data loss, ensure business continuity, and minimize downtime."
       }
     ]
+  },
+  "Humanresources": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Talent Acquisition",
+        "secondtext": "Finding the right people for your business.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "We streamline recruitment by identifying top talent, conducting assessments, and ensuring the right fit for your organization’s needs."
+      },
+      {
+        "id": "2",
+        "firsttext": "Employee Onboarding",
+        "secondtext": "Seamless integration of new hires.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "We design structured onboarding processes that enhance employee experience, ensuring smooth transitions into your company culture."
+      },
+      {
+        "id": "3",
+        "firsttext": "Payroll & Compliance",
+        "secondtext": "Accurate payroll with full compliance.",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We manage payroll processing, tax compliance, and benefits administration, ensuring accuracy and regulatory adherence."
+      },
+      {
+        "id": "4",
+        "firsttext": "Performance Management",
+        "secondtext": "Driving employee growth and success.",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "We implement performance evaluation frameworks, goal-setting strategies, and feedback systems to enhance productivity."
+      },
+      {
+        "id": "5",
+        "firsttext": "HR Consulting",
+        "secondtext": "Expert guidance for HR excellence.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We provide strategic HR consulting to optimize policies, employee relations, and workforce planning for long-term success."
+      },
+      {
+        "id": "6",
+        "firsttext": "Workforce Training",
+        "secondtext": "Upskilling for business growth.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We offer training programs tailored to improve employee skills, leadership development, and workplace efficiency."
+      }
+    ]
   }
 }

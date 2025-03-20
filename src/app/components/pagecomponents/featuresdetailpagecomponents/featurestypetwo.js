@@ -1,20 +1,33 @@
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
-import Webdevdata from "../../../data/shareddata/hersectiondata.json";
-import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
-import Webdevcarddata from "../../../data/shareddata/cardcollectiondata.json";
+import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
+import CardCollection from "../Shared/cardcollection/cardcollection";
 
-export default function FeaturesTypeTwo() {
-  let cards = Webdevcarddata.webdevelopment.cards;
+export default function FeaturesTypeTwo({
+  herosectiontitle,
+  herosectionparagraph,
+  herosectiontextOrientation,
+  herosectionbackground,
+  mainheadingtitle,
+  mainheadingdescription,
+  mainheadingtagtext,
+  mainheadingbackgrounds,
+  gridcards,
+}) {
   return (
     <>
       <MainPageHeroSection
-        title={Webdevdata.webdevelopment.title}
-        paragraph={Webdevdata.webdevelopment.paragraph}
-        textOrientation={Webdevdata.webdevelopment.textOrientation}
-        backgroundImages={Webdevdata.webdevelopment.backgroundImages}
+        title={herosectiontitle}
+        paragraph={herosectionparagraph}
+        textOrientation={herosectiontextOrientation}
+        backgroundImages={herosectionbackground}
       />
-
-      <TypeOneCardSection cards={cards} />
+      <MainHeadingSection
+        title={mainheadingtitle}
+        description={mainheadingdescription}
+        tagtext={mainheadingtagtext}
+        backgroundImages={mainheadingbackgrounds}
+      />
+      <CardCollection cards={gridcards} />
     </>
   );
 }
