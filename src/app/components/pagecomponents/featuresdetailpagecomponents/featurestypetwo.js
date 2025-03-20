@@ -1,7 +1,7 @@
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
 import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
 import CardCollection from "../Shared/cardcollection/cardcollection";
-
+import TypeTwoMethodSection from "./typetwosubcomps/typetwomethodsection/typetwomethodsection";
 export default function FeaturesTypeTwo({
   herosectiontitle,
   herosectionparagraph,
@@ -12,6 +12,7 @@ export default function FeaturesTypeTwo({
   mainheadingtagtext,
   mainheadingbackgrounds,
   gridcards,
+  Methodologysectdata,
 }) {
   return (
     <>
@@ -28,6 +29,7 @@ export default function FeaturesTypeTwo({
         backgroundImages={mainheadingbackgrounds}
       />
       <CardCollection cards={gridcards} />
+      <TypeTwoMethodSection Methodologysectdata={Methodologysectdata} />
     </>
   );
 }

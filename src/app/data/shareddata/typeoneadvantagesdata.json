@@ -124,5 +124,47 @@
         "carddescription": "We provide secure backup and disaster recovery solutions, ensuring business continuity with minimal data loss risks."
       }
     ]
+  },
+  "humanresources": {
+    "tagtext": "Methodology of Human Resources",
+    "description": "Our Human Resources methodology is designed to enhance workforce efficiency, optimize talent management, and ensure compliance with employment regulations. We implement strategic hiring, structured onboarding, performance-driven management, and continuous training to build a productive and engaged workforce. By integrating technology and data-driven insights, we help businesses create sustainable HR processes that drive long-term success.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/method_one.png",
+        "cardheading": "Strategic Hiring",
+        "carddescription": "We utilize data-driven recruitment strategies to identify, attract, and retain top talent suited to your business goals."
+      },
+      {
+        "id": "2",
+        "numericimage": "/method_two.png",
+        "cardheading": "Onboarding Process",
+        "carddescription": "We streamline onboarding with structured programs, ensuring new employees integrate seamlessly into your company culture."
+      },
+      {
+        "id": "3",
+        "numericimage": "/method_three.png",
+        "cardheading": "Performance Management",
+        "carddescription": "We implement performance tracking systems, regular evaluations, and feedback mechanisms to enhance productivity."
+      },
+      {
+        "id": "4",
+        "numericimage": "/method_four.png",
+        "cardheading": "Workforce Training",
+        "carddescription": "We develop tailored training programs to upskill employees, fostering continuous learning and professional growth."
+      },
+      {
+        "id": "5",
+        "numericimage": "/method_five.png",
+        "cardheading": "Compliance & Policies",
+        "carddescription": "We ensure HR policies align with labor laws, protecting businesses from legal risks while promoting ethical workplace practices."
+      },
+      {
+        "id": "6",
+        "numericimage": "/method_six.png",
+        "cardheading": "HR Technology Integration",
+        "carddescription": "We leverage HR software solutions for payroll, benefits administration, and workforce analytics to improve efficiency."
+      }
+    ]
   }
 }

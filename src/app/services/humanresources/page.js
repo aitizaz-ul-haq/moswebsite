@@ -2,9 +2,10 @@ import FeaturesTypeTwo from "@/app/components/pagecomponents/featuresdetailpagec
 import Hrherodata from "@/app/data/shareddata/hersectiondata.json";
 import Humanresdata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
+import Methoddata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 
 export default function HumanResources() {
-  //hero section data --------------------------------------------------------------
+  // hero section data --------------------------------------------------------------
   let herosectiontitle = Hrherodata.hr.title;
   let herosectionparagraph = Hrherodata.hr.paragraph;
   let herosectiontextOrientation = Hrherodata.hr.textOrientation;
@@ -18,9 +19,13 @@ export default function HumanResources() {
   let mainheadingbackgrounds = Humanresdata.Humanresources.backgroundImages;
   //--------------------------------------------------------------------------------
 
-  //card grid data------------------------------------------------------------------
+  // card grid data------------------------------------------------------------------
   let gridcards = cardData.Humanresources.cards;
-  //--------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------
+
+  // methodology data ---------------------------------------------------------------
+  let Methodologysectdata = Methoddata.humanresources;
+  //---------------------------------------------------------------------------------
   return (
     <>
       <FeaturesTypeTwo
@@ -33,6 +38,7 @@ export default function HumanResources() {
         mainheadingtagtext={mainheadingtagtext}
         mainheadingbackgrounds={mainheadingbackgrounds}
         gridcards={gridcards}
+        Methodologysectdata={Methodologysectdata}
       />
     </>
   );
