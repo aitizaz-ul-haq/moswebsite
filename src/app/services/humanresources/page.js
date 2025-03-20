@@ -1,5 +1,6 @@
 import FeaturesTypeTwo from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypetwo";
 import Hrherodata from "@/app/data/shareddata/hersectiondata.json";
+import HrSeconddata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Humanresdata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 import Methoddata from "@/app/data/shareddata/typeoneadvantagesdata.json";
@@ -27,6 +28,16 @@ export default function HumanResources() {
   // methodology data ---------------------------------------------------------------
   let Methodologysectdata = Methoddata.humanresources;
   //---------------------------------------------------------------------------------
+
+  // second main heading data -------------------------------------------------------
+  let herosectionsecondtitle = HrSeconddata.Humanresourcessecond.title;
+  let herosectionsecondparagraph = HrSeconddata.Humanresourcessecond.paragraph;
+  let herosectionsecondtextOrientation =
+    HrSeconddata.Humanresourcessecond.tagtext;
+  let herosecondsectionbackground =
+    HrSeconddata.Humanresourcessecond.backgroundImages;
+  //----------------------------------------------------------------------------------
+
   return (
     <>
       <FeaturesTypeTwo
@@ -41,6 +52,10 @@ export default function HumanResources() {
         gridcards={gridcards}
         Methodologysectdata={Methodologysectdata}
         Calltoactiondata={Calltoactiondata}
+        herosectionsecondtitle={herosectionsecondtitle}
+        herosectionsecondparagraph={herosectionsecondparagraph}
+        herosectionsecondtextOrientation={herosectionsecondtextOrientation}
+        herosecondsectionbackground={herosecondsectionbackground}
       />
     </>
   );

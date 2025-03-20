@@ -15,6 +15,10 @@ export default function FeaturesTypeTwo({
   gridcards,
   Methodologysectdata,
   Calltoactiondata,
+  herosectionsecondtitle,
+  herosectionsecondparagraph,
+  herosectionsecondtextOrientation,
+  herosecondsectionbackground,
 }) {
   return (
     <>
@@ -33,6 +37,12 @@ export default function FeaturesTypeTwo({
       <CardCollection cards={gridcards} />
       <TypeTwoMethodSection Methodologysectdata={Methodologysectdata} />
       <CallToAction Calltoactiondata={Calltoactiondata} />
+      <MainHeadingSection
+        title={herosectionsecondtitle}
+        description={herosectionsecondparagraph}
+        tagtext={herosectionsecondtextOrientation}
+        backgroundImages={herosecondsectionbackground}
+      />
     </>
   );
 }
