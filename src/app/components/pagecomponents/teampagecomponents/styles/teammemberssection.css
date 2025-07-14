@@ -1,0 +1,38 @@
+.teammemebers-section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.teammemebers-section-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.teammembers-section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.teammemebers-section-name {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.teammemebers-section-designation {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-color);
+}

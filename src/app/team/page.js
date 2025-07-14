@@ -8,6 +8,7 @@ import CallToAction from "../components/pagecomponents/Shared/calltoaction/callt
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import DirectorsTeamSection from "../components/pagecomponents/teampagecomponents/directorsteamsection";
 import Dicteamdata from "../data/teamdata/dicteamdata.json";
+import TeamMemebersSection from "../components/pagecomponents/teampagecomponents/teammemberssection";
 
 export default function Team() {
   const executivecards = Teampagedata.team.executivecards;
@@ -26,8 +27,9 @@ export default function Team() {
         backgroundImages={Teamheadingsectiondata.team.backgroundImages}
       />
       <ExecutiveTeamSection executivecards={executivecards} />
-      <CallToAction Calltoactiondata={Calltoactiondata} />
-      <DirectorsTeamSection Dicteamdata={Dicteamdata} />
+      {/* <CallToAction Calltoactiondata={Calltoactiondata} /> */}
+      {/* <DirectorsTeamSection Dicteamdata={Dicteamdata} /> */}
+      <TeamMemebersSection />
     </>
   );
 }

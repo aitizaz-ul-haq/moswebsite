@@ -8,7 +8,7 @@ export default function AboutTextSection({ Abouttextsectiondata }) {
     <div className="abouttext-section-container">
       <AboutTextSectionLogo />
       <AboutTextSideBySide Abouttextsectiondata={Abouttextsectiondata} />
-      <AboutTextLargerPara Abouttextsectiondata={Abouttextsectiondata} />
+      {/* <AboutTextLargerPara Abouttextsectiondata={Abouttextsectiondata} /> */}
     </div>
   );
 }
