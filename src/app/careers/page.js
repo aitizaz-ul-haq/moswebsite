@@ -1,13 +1,18 @@
-import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
 import CareersHeroData from "@/app/data/shareddata/hersectiondata.json";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
-import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
-import PositionsSectionData from "@/app/data/careersdata/positionsdata.json";
-import ApplyForm from "../components/pagecomponents/careerspagecomponents/applyform";
 import Applyformdata from "../data/careersdata/applyformdata.json";
+import PositionsSectionData from "@/app/data/careersdata/positionsdata.json";
+import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
+import NoVacancySectionData from "@/app/data/careersdata/novacancy.json";
+
+import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
+import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
+import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
+import NoVacancyComp from "../components/pagecomponents/careerspagecomponents/novacancycomp";
+import ApplyForm from "../components/pagecomponents/careerspagecomponents/applyform";
 
 export default function Careers() {
+  const isEnabled = PositionsSectionData.enable.enabled === "Yes";
+
   return (
     <>
       <MainPageHeroSection
@@ -22,8 +27,16 @@ export default function Careers() {
         tagtext={Careersheadingsectiondata.careers.tagtext}
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
-      <PositionsSections PositionsSectionData={PositionsSectionData} />
-      <ApplyForm Applyformdata={Applyformdata} />
+
+      {/* Conditional Rendering Based on JSON Field */}
+      {isEnabled ? (
+        <>
+          <PositionsSections PositionsSectionData={PositionsSectionData} />
+          <ApplyForm Applyformdata={Applyformdata} />
+        </>
+      ) : (
+        <NoVacancyComp NoVacancySectionData={NoVacancySectionData} />
+      )}
     </>
   );
 }

@@ -1,4 +1,7 @@
 {
+  "enable": {
+    "enabled": "No"
+  },
   "positionsbanner": {
     "bannerlink": "/Positions..png"
   },

@@ -7,7 +7,7 @@ export default function ContactFormSectionParagraphsSection() {
     <div className="contactformsection-top-text-container">
       <ContactParaOne />
       <ContactParaTwo />
-      <ContactParaThree />
+      {/* <ContactParaThree /> */}
     </div>
   );
 }
