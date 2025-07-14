@@ -28,7 +28,7 @@ export default function Careers() {
         backgroundImages={Careersheadingsectiondata.careers.backgroundImages}
       />
 
-      {/* Conditional Rendering Based on JSON Field */}
+      
       {isEnabled ? (
         <>
           <PositionsSections PositionsSectionData={PositionsSectionData} />
