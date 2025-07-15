@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function FooterLogoContainer({footerlogo}) {
-    return(
-        <div className="footer-logo-container">
+export default function FooterLogoContainer({ footerlogo }) {
+  return (
+    <div className="footer-logo-container">
       <Image
         className="footer-logo-container"
         width={1922}
@@ -11,5 +11,5 @@ export default function FooterLogoContainer({footerlogo}) {
         alt="footer logo"
       />
     </div>
-    );
+  );
 }
