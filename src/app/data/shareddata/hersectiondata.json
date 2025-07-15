@@ -209,6 +209,27 @@
       "2560px": "/features_background_2560.png"
     }
   },
+  "itconsultancy": {
+    "title": "Smart, Scalable IT Services That Keep You Moving",
+    "paragraph": "From 24/7 helpdesk support to expert infrastructure management and cloud migrations, our IT services are built to strengthen your operations at every level. We combine hands-on technical support, strategic consulting, and robust cybersecurity solutions to help your business stay secure, efficient, and future-ready.",
+    "textOrientation": "teamcenter",
+    "backgroundImages": {
+      "320px": "/features_background_320.png",
+      "360px": "/features_background_360.png",
+      "375px": "/features_background_375.png",
+      "390px": "/features_background_390.png",
+      "430px": "/features_background_430.png",
+      "480px": "/features_background_480.png",
+      "600px": "/features_background_600.png",
+      "768px": "/features_background_768.png",
+      "1024px": "/features_background_1024.png",
+      "1280px": "/features_background_1280.png",
+      "1440px": "/features_background_1440.png",
+      "1600px": "/features_background_1600.png",
+      "1920px": "/features_background_1920.png",
+      "2560px": "/features_background_2560.png"
+    }
+  },
   "hr": {
     "title": "Empowering Workforces, Elevating Businesses",
     "paragraph": "We provide HR solutions that enhance productivity, streamline workforce management, and foster a thriving workplace culture.",

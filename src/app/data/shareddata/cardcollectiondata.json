@@ -233,6 +233,55 @@
       }
     ]
   },
+
+  "itconsultancy": {
+    "sectiontitle": "IT Consultancy Solutions",
+    "sectiondescription": "Our IT services are built on five core pillars, each designed to address a critical component of your business technology landscape. From responsive support and infrastructure management to secure cloud administration and proactive consultancy, our solutions ensure seamless operations, enhanced security, and scalable growth. Whatever your size or sector, we align technology with your goals for maximum impact.",
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Helpdesk Support",
+        "secondtext": "Ensuring structured data management.",
+        "image": "card-collection-icon-industries-cardone.png",
+        "bottomtext": "Our 24/7 IT helpdesk provides immediate assistance via call, email, or chat. We resolve hardware and software issues quickly, minimising downtime and keeping your teams productive around the clock."
+      },
+      {
+        "id": "2",
+        "firsttext": "On-Site Assistance",
+        "secondtext": "Seamless data unification.",
+        "image": "card-collection-icon-industries-cardtwo.png",
+        "bottomtext": "Level 1 and Level 2 support services offer hands-on troubleshooting at your location. Our technicians ensure smooth daily operations with prompt, professional service when and where it’s needed."
+      },
+      {
+        "id": "3",
+        "firsttext": "Infrastructure Management",
+        "secondtext": "Protecting critical information.",
+        "image": "card-collection-icon-industries-cardthree.png",
+        "bottomtext": "We manage your servers, networks, and IT environment to ensure maximum uptime and stability. Our administration services cover everything from routine monitoring to advanced configurations."
+      },
+      {
+        "id": "4",
+        "firsttext": "Cloud Migration",
+        "secondtext": "Transforming data into insights.",
+        "image": "card-collection-icon-industries-cardfour.png",
+        "bottomtext": "Whether you're shifting to Azure AD or SharePoint, we ensure secure, seamless transitions. We handle user management, licensing, and system integration with zero disruption."
+      },
+      {
+        "id": "5",
+        "firsttext": "IT Consultancy",
+        "secondtext": "Handling complex data sets.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "We provide expert guidance on IT risk, compliance, access control, and endpoint protection. Our consultants help you strengthen your security posture and meet regulatory requirements."
+      },
+      {
+        "id": "6",
+        "firsttext": "Threat Monitoring",
+        "secondtext": "Ensuring data resilience.",
+        "image": "card-collection-icon-industries-cardfive.png",
+        "bottomtext": "Our SOC Level 1 & 2 support offers real-time incident response and proactive threat detection. We help prevent breaches and keep your data and systems secure 24/7."
+      }
+    ]
+  },
   "Humanresources": {
     "cards": [
       {

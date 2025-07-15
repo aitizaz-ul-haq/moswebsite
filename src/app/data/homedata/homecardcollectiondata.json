@@ -227,6 +227,52 @@
       }
     ]
   },
+  "itconsultancymethodology": {
+    "cards": [
+      {
+        "id": "1",
+        "firsttext": "Discover & Assess",
+        "secondtext": "Ensuring structured, secure data handling.",
+        "image": "method_one.png",
+        "bottomtext": "We begin by understanding your current infrastructure, identifying pain points, and evaluating security, performance, and support needs to set a solid foundation."
+      },
+      {
+        "id": "2",
+        "firsttext": "Plan & Customise",
+        "secondtext": "Connecting and centralizing data sources.",
+        "image": "method_two.png",
+        "bottomtext": "Every IT solution is tailored to your business requirements—whether it’s helpdesk coverage, cloud migration, or compliance alignment—ensuring fit and efficiency."
+      },
+      {
+        "id": "3",
+        "firsttext": "Deploy with Precision",
+        "secondtext": "Protecting sensitive information from threats.",
+        "image": "method_three.png",
+        "bottomtext": "Our team implements solutions with minimal disruption, handling everything from on-site support setup to server configuration and cloud integration."
+      },
+      {
+        "id": "4",
+        "firsttext": "Secure & Monitor",
+        "secondtext": "Extracting insights for strategic decisions.",
+        "image": "method_four.png",
+        "bottomtext": "We embed endpoint protection, monitor threats in real-time, and enforce compliance controls to safeguard your data and infrastructure."
+      },
+      {
+        "id": "5",
+        "firsttext": "Train & Enable",
+        "secondtext": "Handling large-scale data efficiently.",
+        "image": "method_five.png",
+        "bottomtext": "We provide user training and technical documentation so your team understands the systems in place and can operate with confidence."
+      },
+      {
+        "id": "6",
+        "firsttext": "Support & Evolve",
+        "secondtext": "Ensuring business continuity and resilience.",
+        "image": "method_six.png",
+        "bottomtext": "Post-deployment, we deliver 24/7 support and continuous improvements—ensuring your IT stays agile, secure, and aligned with business growth."
+      }
+    ]
+  },
   "hradvantages": {
     "description": "Our Human Resources services provide businesses with the tools to optimize workforce management, improve employee engagement, and maintain compliance. We streamline HR processes, reduce administrative overhead, and enhance hiring efficiency while fostering a productive workplace. By integrating innovative HR solutions, we help organizations build a resilient, motivated, and high-performing team.",
     "cards": [

@@ -125,6 +125,48 @@
       }
     ]
   },
+  "itconsultancy": {
+    "tagtext": "Advantages of Our Services",
+    "description": "Choosing MOS for your IT needs means gaining a reliable partner focused on keeping your operations smooth, secure, and scalable. With proactive support, efficient infrastructure, and compliance-driven solutions, we reduce risk and downtime-empowering your team to work confidently with dependable technology.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/expertise-1.png",
+        "cardheading": "Minimise Downtime Risk",
+        "carddescription": "Our 24/7 helpdesk and on-site IT support ensure issues are resolved quickly, keeping your operations running without interruptions."
+      },
+      {
+        "id": "2",
+        "numericimage": "/expertise-2.png",
+        "cardheading": "Reliable IT Infrastructure",
+        "carddescription": "We manage servers, networks, and systems with precision—delivering stable, scalable, and optimised IT environments for your business."
+      },
+      {
+        "id": "3",
+        "numericimage": "/expertise-3.png",
+        "cardheading": "Ensure Cloud Readiness",
+        "carddescription": "With expert-led Azure and SharePoint migrations, your organisation transitions securely to the cloud with minimal disruption."
+      },
+      {
+        "id": "4",
+        "numericimage": "/expertise-4.png",
+        "cardheading": "Improve Data Security",
+        "carddescription": "Endpoint protection, threat monitoring, and access control protocols help protect your business against evolving cyber risks."
+      },
+      {
+        "id": "5",
+        "numericimage": "/expertise-5.png",
+        "cardheading": "Stay Compliant Easily",
+        "carddescription": "We handle IT compliance, audits, and documentation-ensuring your systems align with regulatory standards without added complexity."
+      },
+      {
+        "id": "6",
+        "numericimage": "/expertise-6.png",
+        "cardheading": "Empower Internal Teams",
+        "carddescription": "Through user training and clear technical documentation, we equip your staff with the tools and knowledge to work confidently."
+      }
+    ]
+  },
   "humanresources": {
     "tagtext": "Methodology of Human Resources",
     "description": "Our Human Resources methodology is designed to enhance workforce efficiency, optimize talent management, and ensure compliance with employment regulations. We implement strategic hiring, structured onboarding, performance-driven management, and continuous training to build a productive and engaged workforce. By integrating technology and data-driven insights, we help businesses create sustainable HR processes that drive long-term success.",
