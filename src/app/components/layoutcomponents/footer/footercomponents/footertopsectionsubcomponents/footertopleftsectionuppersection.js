@@ -1,4 +1,5 @@
-import Image from "next/image";
+import FooterDescriptionContainer from "./footerleftuppersectionsubcomps/footerdescriptioncontainer";
+import FooterLogoContainer from "./footerleftuppersectionsubcomps/footerlogocontainer";
 
 export default function FooterTopLeftSectionUpperSection({ footerdata }) {
   let logodata = footerdata.footer.logo;
@@ -6,18 +7,8 @@ export default function FooterTopLeftSectionUpperSection({ footerdata }) {
 
   return (
     <div className="footer-top-leftsection-upper-section">
-      <div className="footer-logo-container">
-        <Image
-          className="footer-logo-container"
-          width={1922}
-          height={1922}
-          src={logodata.src}
-          alt="footer logo"
-        />
-      </div>
-      <div className="footer-description-container">
-        <p className="footer-description font-nunito">{logodescription.text}</p>
-      </div>
+      <FooterLogoContainer footerlogo={logodata.src} />
+      <FooterDescriptionContainer footerdescription={logodescription.text} />
     </div>
   );
 }
