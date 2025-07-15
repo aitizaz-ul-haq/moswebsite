@@ -1,4 +1,4 @@
-import FeaturesTypeTwo from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypetwo";
+// importing data files
 import Accherodata from "@/app/data/shareddata/hersectiondata.json";
 import AccSeconddata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Accfirstsdata from "@/app/data/shareddata/mainheadingsectiondata.json";
@@ -7,22 +7,23 @@ import AccMethoddata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
 import Accadvdata from "@/app/data/homedata/homecardcollectiondata.json";
 
+// import main comps
+import FeaturesTypeTwo from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypetwo";
+
+
 export default function AccountingAndReporting() {
   // hero section data --------------------------------------------------------------
   let herosectiontitle = Accherodata.accountingandreporting.title;
   let herosectionparagraph = Accherodata.accountingandreporting.paragraph;
-  let herosectiontextOrientation =
-    Accherodata.accountingandreporting.textOrientation;
-  let herosectionbackground =
-    Accherodata.accountingandreporting.backgroundImages;
+  let herosectiontextOrientation = Accherodata.accountingandreporting.textOrientation;
+  let herosectionbackground = Accherodata.accountingandreporting.backgroundImages;
   //--------------------------------------------------------------------------------
 
   // main heading data -------------------------------------------------------------
   let mainheadingtitle = Accfirstsdata.AccountingandReporting.title;
   let mainheadingdescription = Accfirstsdata.AccountingandReporting.description;
   let mainheadingtagtext = Accfirstsdata.AccountingandReporting.tagtext;
-  let mainheadingbackgrounds =
-    Accfirstsdata.AccountingandReporting.backgroundImages;
+  let mainheadingbackgrounds = Accfirstsdata.AccountingandReporting.backgroundImages;
   //--------------------------------------------------------------------------------
 
   // card grid data------------------------------------------------------------------
@@ -35,12 +36,9 @@ export default function AccountingAndReporting() {
 
   // second main heading data -------------------------------------------------------
   let herosectionsecondtitle = AccSeconddata.AccountingandReportingsecond.title;
-  let herosectionsecondparagraph =
-    AccSeconddata.AccountingandReportingsecond.description;
-  let herosectionsecondtextOrientation =
-    AccSeconddata.AccountingandReportingsecond.tagtext;
-  let herosecondsectionbackground =
-    AccSeconddata.AccountingandReportingsecond.backgroundImages;
+  let herosectionsecondparagraph = AccSeconddata.AccountingandReportingsecond.description;
+  let herosectionsecondtextOrientation = AccSeconddata.AccountingandReportingsecond.tagtext;
+  let herosecondsectionbackground = AccSeconddata.AccountingandReportingsecond.backgroundImages;
   //----------------------------------------------------------------------------------
 
   // Advantegse section data----------------------------------------------------------

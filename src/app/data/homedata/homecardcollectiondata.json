@@ -368,49 +368,49 @@
     ]
   },
   "accountingandreportingadvantages": {
-    "description": "Our accounting and reporting solutions ensure financial accuracy, compliance, and transparency. By leveraging industry best practices and advanced financial tools, we help businesses manage accounts efficiently, mitigate risks, and drive strategic growth with real-time financial insights.",
+    "description": "Partnering with MOS for your accounting needs means gaining more than just accurate numbers-you gain strategic clarity, operational efficiency, and full regulatory confidence. Our expert team helps you stay ahead of tax requirements, streamline financial processes, and uncover opportunities for growth. With our support, your financial operations become a powerful tool for decision-making, not just record-keeping.",
     "cards": [
       {
         "id": "1",
-        "firsttext": "Financial Accuracy.",
+        "firsttext": "Financial Clarity",
         "secondtext": "Ensuring precise financial records.",
         "image": "method_one.png",
-        "bottomtext": "We maintain accurate bookkeeping and transaction records, ensuring data consistency and compliance with financial regulations."
+        "bottomtext": "Our insights go beyond numbers-helping you understand your financial position and plan with precision."
       },
       {
         "id": "2",
-        "firsttext": "Regulatory Compliance.",
+        "firsttext": "Accurate Reporting",
         "secondtext": "Adhering to financial laws and regulations.",
         "image": "method_two.png",
-        "bottomtext": "We ensure businesses meet tax laws, financial policies, and reporting standards to avoid penalties and maintain credibility."
+        "bottomtext": "We deliver clean, audit-ready reports that reflect your true financial performance with zero guesswork."
       },
       {
         "id": "3",
-        "firsttext": "Risk Management.",
+        "firsttext": "End-to-End Compliance",
         "secondtext": "Identifying and mitigating financial risks.",
         "image": "method_three.png",
-        "bottomtext": "We implement financial risk assessments and control measures to safeguard assets and optimize business resilience."
+        "bottomtext": "From tax laws to labour regulations, we ensure every report and process is fully compliant and risk-free."
       },
       {
         "id": "4",
-        "firsttext": "Automated Reporting.",
+        "firsttext": "Smarter Cost Control",
         "secondtext": "Real-time insights for better decisions.",
         "image": "method_four.png",
-        "bottomtext": "We leverage automated financial reporting systems to generate accurate, up-to-date financial statements and analytics."
+        "bottomtext": "Through detailed analysis, we help you identify waste, improve margins, and boost overall profitability."
       },
       {
         "id": "5",
-        "firsttext": "Cost Efficiency.",
+        "firsttext": "Scalable Support System",
         "secondtext": "Optimizing expenses for profitability.",
         "image": "method_five.png",
-        "bottomtext": "We streamline financial operations, reduce unnecessary costs, and enhance budget management for better financial health."
+        "bottomtext": "As your business grows, our services adapt-delivering the same accuracy and insight at every stage."
       },
       {
         "id": "6",
-        "firsttext": "Audit Readiness.",
+        "firsttext": "Informed Decision Making",
         "secondtext": "Ensuring smooth financial audits.",
         "image": "method_six.png",
-        "bottomtext": "We prepare businesses for audits by ensuring well-organized financial records, transparency, and compliance with industry standards."
+        "bottomtext": "With forecasting, KPIs, and performance metrics, we help you make confident, data-backed business decisions."
       }
     ]
   }

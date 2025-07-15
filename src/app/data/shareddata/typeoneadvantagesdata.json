@@ -252,44 +252,86 @@
     ]
   },
   "AccountingandReporting": {
-    "tagtext": "Methodology of Accounting & Reporting",
-    "description": "Our accounting and reporting methodology is designed to ensure financial accuracy, compliance, and transparency. We implement structured bookkeeping, regulatory adherence, automated reporting, and risk assessment strategies to provide businesses with reliable financial data. By integrating best practices and modern accounting tools, we help organizations streamline financial operations, minimize risks, and make informed decisions.",
+    "tagtext": "Our Accounting Methodology ",
+    "description": "Our accounting methodology is built on precision, transparency, and strategic insight. We start by understanding your financial structure and goals, then apply structured processes-from accurate data entry and compliance checks to in-depth analysis and forecasting. At every stage, our approach ensures financial clarity, risk reduction, and actionable intelligence to support confident decision-making.",
     "cardsdata": [
       {
         "id": "1",
         "numericimage": "/method_one.png",
-        "cardheading": "Financial Planning",
-        "carddescription": "We establish structured financial plans that align with business objectives and regulatory requirements."
+        "cardheading": "Understand Your Business",
+        "carddescription": "We begin by analysing your financial structure, goals, and reporting needs to tailor our approach."
       },
       {
         "id": "2",
         "numericimage": "/method_two.png",
-        "cardheading": "Bookkeeping Accuracy",
-        "carddescription": "We maintain precise and up-to-date records, ensuring organized financial data for audits and reporting."
+        "cardheading": "Organise Financial Data",
+        "carddescription": "All transactions are accurately recorded and categorised to build a clean foundation for reporting."
       },
       {
         "id": "3",
         "numericimage": "/method_three.png",
-        "cardheading": "Regulatory Compliance",
-        "carddescription": "We ensure adherence to tax laws and financial regulations, reducing risks and maintaining compliance."
+        "cardheading": "Ensure Full Compliance",
+        "carddescription": "Our team applies current tax laws and standards to keep your financial legally sound and audit-ready."
       },
       {
         "id": "4",
         "numericimage": "/method_four.png",
-        "cardheading": "Automated Reporting",
-        "carddescription": "We use advanced reporting tools to generate real-time financial statements and insights."
+        "cardheading": "Analyse for Insight",
+        "carddescription": "We examine key metrics, ratios, and performance indicators to uncover trends and opportunities."
       },
       {
         "id": "5",
         "numericimage": "/method_five.png",
-        "cardheading": "Risk Management",
-        "carddescription": "We analyze financial risks and implement strategies to safeguard assets and business stability."
+        "cardheading": "Forecast with Clarity",
+        "carddescription": "Using historical and real-time data, we build projections that guide strategic decisions and growth planning."
       },
       {
         "id": "6",
         "numericimage": "/method_six.png",
-        "cardheading": "Audit Preparation",
-        "carddescription": "We organize financial records and ensure accuracy for smooth internal and external audits."
+        "cardheading": "Report & Advice",
+        "carddescription": "We deliver clear, actionable reports and insights to help you improve profitability and financial control."
+      }
+    ]
+  },
+  "AccountingandReportingadv": {
+    "tagtext": "Advantages of our Services",
+    "description": "Partnering with MOS for your accounting needs means gaining more than just accurate numbers-you gain strategic clarity, operational efficiency, and full regulatory confidence. Our expert team helps you stay ahead of tax requirements, streamline financial processes, and uncover opportunities for growth. With our support, your financial operations become a powerful tool for decision-making, not just record-keeping.",
+    "cardsdata": [
+      {
+        "id": "1",
+        "numericimage": "/method_one.png",
+        "cardheading": "Financial Clarity",
+        "carddescription": "Our insights go beyond numbers-helping you understand your financial position and plan with precision."
+      },
+      {
+        "id": "2",
+        "numericimage": "/method_two.png",
+        "cardheading": "Accurate Reporting",
+        "carddescription": "We deliver clean, audit-ready reports that reflect your true financial performance with zero guesswork."
+      },
+      {
+        "id": "3",
+        "numericimage": "/method_three.png",
+        "cardheading": "End-to-End Compliance",
+        "carddescription": "From tax laws to labour regulations, we ensure every report and process is fully compliant and risk-free."
+      },
+      {
+        "id": "4",
+        "numericimage": "/method_four.png",
+        "cardheading": "Smarter Cost Control",
+        "carddescription": "Through detailed analysis, we help you identify waste, improve margins, and boost overall profitability."
+      },
+      {
+        "id": "5",
+        "numericimage": "/method_five.png",
+        "cardheading": "Scalable Support System",
+        "carddescription": "As your business grows, our services adapt-delivering the same accuracy and insight at every stage."
+      },
+      {
+        "id": "6",
+        "numericimage": "/method_six.png",
+        "cardheading": "Informed Decision Making",
+        "carddescription": "With forecasting, KPIs, and performance metrics, we help you make confident, data-backed business decisions."
       }
     ]
   }

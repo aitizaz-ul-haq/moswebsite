@@ -1,7 +1,7 @@
 // app/club/layout.js
 
 export const metadata = {
-  title: "Data Management| Manage Outsource Services",
+  title: "IT Consultancy | Manage Outsource Services",
   description: "",
   //   openGraph: {
   //     type: "website",
