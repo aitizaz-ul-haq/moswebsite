@@ -8,38 +8,38 @@
       },
       {
         "id": "1",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "24/7 IT Helpdesk Support",
+        "secondtext": "Always-On Tech Assistance",
         "image": "card-collection-icon-cardone.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Round-the-clock helpdesk via call, email, and chat for instant issue resolution."
       },
       {
         "id": "2",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Cloud & Admin Control",
+        "secondtext": "Smart Infrastructure Management",
         "image": "card-collection-icon-cardtwo.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Secure cloud migrations, licensing, and Microsoft 365 admin, all expertly handled."
       },
       {
         "id": "3",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Compliance & Security Consulting",
+        "secondtext": "Risk-Ready Business Support",
         "image": "card-collection-icon-cardthree.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Security audits, threat monitoring, and compliance strategies to safeguard your operations."
       },
       {
         "id": "4",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Custom Web Solutions",
+        "secondtext": "Tailored Digital Experiences",
         "image": "card-collection-icon-cardfour.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Fully customised, responsive websites built for performance, security, and scale."
       },
       {
         "id": "5",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "SEO & Ongoing Maintenance",
+        "secondtext": "Growth-Driven Web Presence",
         "image": "card-collection-icon-cardfive.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Optimised deployment with SEO, analytics, and long-term technical upkeep."
       }
     ]
   },
@@ -53,38 +53,38 @@
       },
       {
         "id": "1",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Healthcare Stays Compliant",
+        "secondtext": "Secure, compliant, and always available",
         "image": "card-collection-icon-industries-cardone.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Secure infrastructure, endpoint protection, and admin support ensure data safety and regulatory compliance."
       },
       {
         "id": "2",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Education Goes Digital",
+        "secondtext": "Modern solutions for modern learning",
         "image": "card-collection-icon-industries-cardtwo.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "From cloud-based systems to custom web portals, we enable smart learning environments and efficient administration."
       },
       {
         "id": "3",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Retail Operates Seamlessly",
+        "secondtext": "Efficiency and visibility at every step",
         "image": "card-collection-icon-industries-cardthree.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "We support retail with real-time IT assistance, inventory-friendly accounting, and engaging digital storefronts."
       },
       {
         "id": "4",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Finance Runs Smarter",
+        "secondtext": "Optimised operations for financial institutions",
         "image": "card-collection-icon-industries-cardfour.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Robust IT support, compliance consulting, and accurate financial reporting streamline critical financial operations."
       },
       {
         "id": "5",
-        "firsttext": "Turning Plans into Results.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Startups Scale Faster",
+        "secondtext": "Agile support for growing ventures",
         "image": "card-collection-icon-industries-cardfive.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Our end-to-end services help startups launch, stabilise, and grow, with lean operations and strong digital presence."
       }
     ]
   },

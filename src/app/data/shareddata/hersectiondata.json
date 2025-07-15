@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Get ready for a new dynamic experience",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "paragraph": "At MOS (Manage Outsource Services), we streamline your operations with expert-managed IT, administration, financial analysis, and web development, all under one roof. Whether you need 24/7 tech support, secure cloud migrations, robust financial data or a powerful online presence, our team is your dedicated partner in operational excellence and digital transformation.",
     "textOrientation": "homeright",
     "backgroundImages": {
       "320px": "/320_background.png",
@@ -22,7 +22,7 @@
   },
   "features": {
     "title": "Optimizing Your Processes for Maximum Efficiency.",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting",
+    "paragraph": "MOS delivers expert IT, administrative, financial, and web solutions to streamline operations and boost efficiency. From 24/7 support to secure infrastructure, we help your business run smarter and scale faster.",
     "textOrientation": "featuresright",
     "backgroundImages": {
       "320px": "/features_320_background.png",
@@ -43,7 +43,7 @@
   },
   "industries": {
     "title": "Innovative Services Designed for Your Industry",
-    "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "paragraph": "At MOS, we deliver tailored IT, financial, admin, and web solutions built around your industry’s specific needs. Whatever your sector, we help you work smarter, stay secure, and grow confidently.",
     "textOrientation": "industriesleft",
     "backgroundImages": {
       "320px": "/industries_320_background.png",

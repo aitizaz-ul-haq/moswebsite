@@ -35,7 +35,7 @@ export default function Services() {
       />
       <CallToAction Calltoactiondata={Calltoactiondata} />
       <ImportanceSection Importancesectiondata={Importancesectiondata} />
-      <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} />
+      {/* <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} /> */}
     </>
   );
 }

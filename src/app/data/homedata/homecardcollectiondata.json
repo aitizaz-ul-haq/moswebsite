@@ -3,38 +3,38 @@
     "cards": [
       {
         "id": "1",
-        "firsttext": "Powering Data Precision.",
-        "secondtext": "is simply dummy text of the printing.",
+        "firsttext": "Smarter Financial Insights",
+        "secondtext": "Actionable accounting and analysis that improve profitability, optimise operations, and support informed decision-making.",
         "image": "expertise-1.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Actionable accounting and analysis that improve profitability, optimise operations, and support informed decision-making."
       },
       {
         "id": "2",
-        "firsttext": "Insights You Can Count On.",
+        "firsttext": "Security Comes Standard",
         "secondtext": "is simply dummy text of the printing.",
         "image": "expertise-2.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Our compliance consulting, risk audits, and endpoint protection ensure your operations are secure, compliant, and resilient."
       },
       {
         "id": "3",
-        "firsttext": "Turning Plans into Results.",
+        "firsttext": "Systems That Scale",
         "secondtext": "is simply dummy text of the printing.",
         "image": "expertise-3.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "From cloud migrations to infrastructure management, we build IT environments designed to grow with your business."
       },
       {
         "id": "4",
         "firsttext": "People First, Always.",
         "secondtext": "is simply dummy text of the printing.",
         "image": "expertise-4.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "Human-centered support, from live IT helpdesk to tailored training programs that empower your teams every day."
       },
       {
         "id": "5",
         "firsttext": "Web Solutions That Work.",
         "secondtext": "is simply dummy text of the printing.",
         "image": "expertise-5.png",
-        "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
+        "bottomtext": "From custom designs to secure deployment, we create digital experiences that elevate your brand and performance."
       },
       {
         "id": "briefcase",

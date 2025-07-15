@@ -3,38 +3,38 @@
   "leftsectioncards": [
     {
       "id": "1",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Reduced Operational Burden",
+      "carddescription": "We handle IT, admin, and finance tasks so your team can focus on core business goals.",
       "buttonlink": "Our Services "
     },
     {
       "id": "2",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Faster Problem Resolution",
+      "carddescription": "With 24/7 support and on-site IT services, technical issues are resolved quickly and efficiently.",
       "buttonlink": "Our Services "
     },
     {
       "id": "3",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Improved Security & Compliance",
+      "carddescription": "Our audits, endpoint protection, and policy management keep your systems safe and regulation-ready.",
       "buttonlink": "Our Services "
     },
     {
       "id": "4",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Smarter Financial Decisions",
+      "carddescription": "Detailed reports, forecasts, and profitability analysis provide clarity to guide strategic growth.",
       "buttonlink": "Our Services "
     },
     {
       "id": "5",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Scalable Infrastructure",
+      "carddescription": "Cloud migrations and server management services grow with your business, without added complexity.",
       "buttonlink": "Our Services "
     },
     {
       "id": "6",
-      "cardheading": "Heading here",
-      "carddescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "cardheading": "Stronger Digital Presence",
+      "carddescription": "Modern web development with SEO and maintenance ensures your brand stands out and performs online.",
       "buttonlink": "Our Services "
     }
   ]

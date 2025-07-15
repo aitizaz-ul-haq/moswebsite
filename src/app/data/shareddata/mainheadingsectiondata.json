@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Expertise.",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "description": "At MOS, we specialise in IT support, cloud infrastructure, compliance consulting, financial analysis, and web development. Our cross-functional team delivers smart, secure, and scalable solutions tailored to your business needs, so you can focus on growth while we handle the operations.",
     "tagtext": "Our Expertise",
     "backgroundImages": {
       "320px": "/320_background.png",
@@ -22,7 +22,7 @@
   },
   "features": {
     "title": "Features.",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting",
+    "description": "We offer 24/7 IT helpdesk, on-site support, cloud migrations, and Microsoft 365 management to keep your systems running smoothly. Our consultancy covers risk audits, security, compliance, and user training, while our accounting services deliver accurate reporting, forecasting, and profitability insights. We also build secure, custom websites with modern tech stacks, SEO, and ongoing maintenance.",
     "tagtext": "Our Features",
     "backgroundImages": {
       "320px": "/320_background.png",
@@ -43,7 +43,7 @@
   },
   "industries": {
     "title": "Industries.",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+    "description": "MOS provides specialised services across a wide range of industries, aligning our expertise with each sector’s operational requirements. Our adaptable solutions ensure efficiency, compliance, and long-term value, no matter the field you operate in.",
     "tagtext": "Industries",
     "backgroundImages": {
       "320px": "/320_background.png",

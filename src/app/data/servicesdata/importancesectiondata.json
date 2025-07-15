@@ -1,41 +1,41 @@
 {
-  "sectiontext": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic",
+  "sectiontext": "Our services are designed to support and strengthen every core function of your business, from IT and finance to digital presence. By outsourcing to MOS, you reduce overhead, improve efficiency, and gain access to expert solutions without expanding your internal teams. We help you operate smarter, stay secure, and scale with confidence.",
   "importancepoints": [
     {
       "id": "1",
       "numberingimage": "/importance-01.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Reduce Operational Load",
+      "pointdescription": "By outsourcing IT, admin, and finance tasks, businesses free up internal resources to focus on growth and innovation."
     },
     {
       "id": "1",
       "numberingimage": "/expertise-2.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Strengthen Digital Presence",
+      "pointdescription": "Modern web solutions ensure your brand is visible, professional, and accessible, helping you reach more clients online."
     },
     {
       "id": "2",
       "numberingimage": "/expertise-3.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Improve Decision Making",
+      "pointdescription": "With accurate financial reports and forecasting, you gain the clarity needed to make strategic business moves."
     },
     {
       "id": "3",
       "numberingimage": "/expertise-4.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Enhance Data Security",
+      "pointdescription": "Proactive compliance, threat monitoring, and secure infrastructure protect your business from risks and breaches."
     },
     {
       "id": "4",
       "numberingimage": "/expertise-5.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Enable Business Continuity",
+      "pointdescription": "Disaster recovery, backup systems, and 24/7 support ensure you're always prepared and operational."
     },
     {
       "id": "5",
       "numberingimage": "/expertise-6.png",
-      "pointheading": "Powering Data Precision.",
-      "pointdescription": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown "
+      "pointheading": "Scale Without Stress",
+      "pointdescription": "Our services grow with you, offering flexible IT and financial systems that adapt as your business expands."
     }
   ]
 }
