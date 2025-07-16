@@ -96,7 +96,7 @@
     font-size: 26px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 2.1rem;
+    line-height: 2rem;
   }
 
   .homeright-paragraph-container {
@@ -226,7 +226,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 13px;
+    font-size: 15px;
     width: 100%;
     font-weight: 300;
   }
@@ -284,7 +284,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     font-weight: 300;
   }
@@ -367,10 +367,10 @@
   }
 
   .homeright-paragraph {
-    font-size: 14px;
-    width: 80%;
+    font-size: 16px;
+    width: 100%;
     font-weight: 300;
-    text-align: left;
+    text-align: center;
   }
 
   .homeright-button-container {
@@ -430,7 +430,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 14px;
+    font-size: 13px;
     width: 64%;
     font-weight: 300;
     text-align: left;
@@ -479,7 +479,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 17px;
+    font-size: 14px;
     width: 49%;
     font-weight: 300;
     text-align: left;
@@ -522,7 +522,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 19px;
+    font-size: 16px;
     width: 49%;
     font-weight: 300;
     text-align: left;
@@ -558,7 +558,7 @@
   }
 
   .homeright-paragraph {
-    font-size: 21px;
+    font-size: 16px;
     width: 49%;
     font-weight: 300;
     text-align: left;

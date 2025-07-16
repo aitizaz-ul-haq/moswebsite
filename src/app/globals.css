@@ -53,3 +53,7 @@ footer {
 .font-poppins {
   font-family: var(--font-poppins);
 }
+
+.general-linkage {
+  text-decoration: none;
+}

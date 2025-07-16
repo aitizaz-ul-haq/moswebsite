@@ -15,6 +15,11 @@
   .hero-section {
     background-image: url("/480_background.png");
   }
+
+  .homeright-title {
+    font-size: 26px;
+    line-height: 2rem;
+  }
 }
 
 /* Standard small phones (<= 360px) */
@@ -29,6 +34,8 @@
   .hero-section {
     background-image: var(--bg-375);
   }
+
+  
 }
 
 /* iPhone 14, 15 (standard model) */
@@ -36,6 +43,8 @@
   .hero-section {
     background-image: var(--bg-390);
   }
+
+ 
 }
 
 /* iPhone 14 Pro, 15 Pro */
