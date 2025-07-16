@@ -78,7 +78,7 @@
   }
 
   .homeadvantages-heading {
-    font-size: 27px;
+    font-size: 20px;
     padding: 1rem;
   }
 
@@ -174,14 +174,18 @@
   }
 
   .homeadvantages-heading {
-    font-size: 34px;
+    font-size: 21px;
     padding: 1rem;
   }
 
   .homeadvantages-tag {
     width: 129px;
     font-size: 22px;
-    margin-left: 8rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-card-container {
@@ -211,6 +215,11 @@
 
   .homeadvanteges-card-logosection {
     display: none;
+  }
+
+  .homeadvanteges-description {
+    font-size: 15px;
+    font-weight: 400;
   }
 }
 
@@ -222,14 +231,18 @@
   }
 
   .homeadvantages-heading {
-    font-size: 34px;
+    font-size: 21px;
     padding: 1rem;
   }
 
   .homeadvantages-tag {
     width: 129px;
     font-size: 22px;
-    margin-left: 8rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-card-container {
@@ -260,18 +273,27 @@
   .homeadvanteges-card-logosection {
     display: none;
   }
+
+  .homeadvanteges-description {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
   .homeadvantages-heading {
-    font-size: 38px;
+    font-size: 25px;
     padding: 1rem;
   }
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 9rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-card-section {
@@ -284,7 +306,16 @@
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 10rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .homeadvanteges-description {
+    font-size: 17px;
+    font-weight: 400;
   }
 }
 
@@ -297,25 +328,38 @@
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 15rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvantegs-card {
     padding: 2rem;
+  }
+
+  .homeadvanteges-description {
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .homeadvantages-heading {
-    font-size: 39px;
+    font-size: 30px;
     padding: 1rem;
   }
 
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 20rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-bullet {
@@ -327,14 +371,18 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .homeadvantages-heading {
-    font-size: 52px;
+    font-size: 40px;
     padding: 1rem;
   }
 
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 28rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-bullet {
@@ -362,14 +410,14 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0.4rem;
     display: flex;
     flex-direction: column;
     font-size: 17px;
     font-weight: 300;
     color: var(--text-color);
     width: 47%;
-    gap: 1rem;
+    gap: 2rem;
     background-color: rgba(246, 241, 209, 37%);
   }
 
@@ -384,6 +432,11 @@
     padding-left: 2rem;
     overflow: hidden;
   }
+
+  .homeadvanteges-description {
+    font-size: 19px;
+    font-weight: 400;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
@@ -396,7 +449,11 @@
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 35rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvanteges-bullet {
@@ -424,14 +481,14 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0.4rem;
     display: flex;
     flex-direction: column;
     font-size: 17px;
     font-weight: 300;
     color: var(--text-color);
     width: 47%;
-    gap: 1rem;
+    gap: 2rem;
     background-color: rgba(246, 241, 209, 37%);
   }
 
@@ -453,11 +510,14 @@
   .homeadvantages-tag {
     width: 145px;
     font-size: 26px;
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
 
   .homeadvantages-heading {
-    font-size: 75px;
+    font-size: 56px;
     padding: 1rem;
   }
 }
