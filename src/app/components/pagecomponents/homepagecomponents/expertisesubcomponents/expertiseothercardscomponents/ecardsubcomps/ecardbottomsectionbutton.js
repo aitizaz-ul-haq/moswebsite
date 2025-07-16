@@ -5,12 +5,12 @@ export default function EcardBottomSectionButton() {
     <div className="expertisecard-card-collection-bottomsection-button-container">
       <Link
         href="/services"
-        className="general-linkage"
+        className="expertisecard-card-collection-bottomsection-button font-nunito general-linkage"
         title="get more details"
       >
-        <button className="expertisecard-card-collection-bottomsection-button font-nunito">
+        {/* <button className=""> */}
           DETAILS
-        </button>
+        {/* </button> */}
       </Link>
     </div>
   );

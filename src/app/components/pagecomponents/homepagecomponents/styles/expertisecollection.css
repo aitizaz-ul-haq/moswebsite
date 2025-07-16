@@ -145,7 +145,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     /* width: 92%; */
   }
 }
@@ -175,7 +175,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     /* width: 92%; */
   }
 }
@@ -205,7 +205,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     /* width: 92%; */
   }
 }
@@ -235,7 +235,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     /* width: 92%; */
   }
 }
@@ -265,29 +265,26 @@
 
   .expertisecard-card-collection-second-text {
     font-size: 16px;
-  }
+  }*/
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
-    width: 92%;
-  } */
+    font-size: 15px;
+    /* width: 92%; */
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .expertisecard-card-collection-bottom-text {
+    font-size: 17px;
+  }
 }
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
-  /* .expertisecard-card-collection-middle-image {
-    width: 63px;
-    height: auto;
+  .expertisecard-card-collection-bottom-text {
+    font-size: 18px;
   }
-
-  .expertisecard-card-collection-topsection-container {
-    width: 324px;
-    text-align: center;
-  } */
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -316,7 +313,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     /* width: 92%; */
   }
 }
@@ -324,7 +321,7 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .expertisecard-card-collection-bottom-text {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
@@ -380,7 +377,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -396,7 +393,7 @@
   }
 
   .expertisecard-card-collection-bottom-text {
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 
