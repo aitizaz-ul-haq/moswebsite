@@ -439,6 +439,10 @@
     width: 31%;
     height: auto;
   }
+   .largecard-heading {
+    font-size: 56px;
+  }
+ 
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -450,14 +454,15 @@
     margin-bottom: 10rem;
   }
 
-  .largecard-heading {
-    font-size: 42px;
+ .largecard-heading {
+    font-size: 56px;
   }
 
   .largecard-image {
     width: 25%;
     height: auto;
   }
+ 
 }
 
 /* 4K screens (>= 1920px) */
@@ -470,7 +475,7 @@
   }
 
   .largecard-heading {
-    font-size: 72px;
+    font-size: 56px;
   }
 
   .largecard-image {
