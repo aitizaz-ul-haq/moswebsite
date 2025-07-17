@@ -1,21 +1,10 @@
 import "./styles/industriesleft.css";
+import IndustriesLeftMainTextContainer from "./industriesleftcomps/industriesleftmaintextcontainer";
 
-export default function HomeRight({ title, paragraph }) {
+export default function IndustriesLeft({ title, paragraph }) {
   return (
     <div className="industriesleft-text-wrapper">
-      <div className="industriesleft-text-container">
-        <div className="industriesleft-title-container">
-          <h1 className="industriesleft-title font-poppins">{title}</h1>
-        </div>
-        <div className="industriesleft-paragraph-container">
-          <p className="industriesleft-paragraph font-nunito">{paragraph}</p>
-        </div>
-        <div className="industriesleft-button-container">
-          <button className="industriesleft-button font-nunito">
-            TALK TO US NOW
-          </button>
-        </div>
-      </div>
+      <IndustriesLeftMainTextContainer title={title} paragraph={paragraph} />
     </div>
   );
 }
