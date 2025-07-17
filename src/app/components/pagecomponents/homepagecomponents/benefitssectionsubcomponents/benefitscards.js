@@ -1,4 +1,7 @@
-import Image from "next/image";
+
+import SmallCardsHeadingComp from "./benefitscardsubcomps/smallcardsheadingcomp";
+import SmallCardsParaComp from "./benefitscardsubcomps/smallcardsparacomp";
+import SmallCardLink from "./benefitscardsubcomps/smallcardlink";
 
 export default function BenefitsCards({ benefitcards }) {
   return (
@@ -6,22 +9,9 @@ export default function BenefitsCards({ benefitcards }) {
       {benefitcards.map((card) => {
         return (
           <div key={card.id} className="homebenefits-smallcards">
-            <h3 className="smallcards-heading font-poppins">
-              {card.cardheading}
-            </h3>
-            <p className="smallcards-description font-nunito">
-              {card.carddescription}
-            </p>
-            <a className="smallcards-link font-nunito">
-              {card.buttonlink}
-              <Image
-                className="righticon"
-                width={20}
-                height={20}
-                src="/right icon.png"
-                alt="card_icon"
-              />
-            </a>
+            <SmallCardsHeadingComp cardheading={card.cardheading} />
+            <SmallCardsParaComp carddescription={card.carddescription} />
+            <SmallCardLink buttonlink={card.buttonlink} />
           </div>
         );
       })}

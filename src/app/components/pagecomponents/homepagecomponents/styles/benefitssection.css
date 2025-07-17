@@ -73,6 +73,7 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 0.4rem;
+  text-decoration: none;
 }
 
 /* Default styles (mobile-first approach) */
@@ -103,7 +104,21 @@
   }
 
   .largecard-heading {
-    font-size: 26px;
+    font-size: 21px;
+  }
+
+  .homebenefits-smallcards {
+    padding: 0.4rem;
+    gap: 0.6rem;
+  }
+
+  .smallcards-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .smallcards-description {
+    font-size: 17px;
+    font-weight: 300;
   }
 }
 
@@ -133,7 +148,21 @@
   }
 
   .largecard-heading {
-    font-size: 30px;
+    font-size: 21px;
+  }
+
+  .homebenefits-smallcards {
+    padding: 0.4rem;
+    gap: 0.6rem;
+  }
+
+  .smallcards-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .smallcards-description {
+    font-size: 17px;
+    font-weight: 300;
   }
 }
 
@@ -163,7 +192,21 @@
   }
 
   .largecard-heading {
-    font-size: 30px;
+    font-size: 23px;
+  }
+
+  .homebenefits-smallcards {
+    padding: 0.4rem;
+    gap: 0.6rem;
+  }
+
+  .smallcards-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .smallcards-description {
+    font-size: 17px;
+    font-weight: 300;
   }
 }
 
@@ -193,12 +236,43 @@
   }
 
   .largecard-heading {
-    font-size: 30px;
+    font-size: 23px;
+  }
+
+  .homebenefits-smallcards {
+    padding: 0.4rem;
+    gap: 0.6rem;
+  }
+
+  .smallcards-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .smallcards-description {
+    font-size: 17px;
+    font-weight: 300;
   }
 }
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .largecard-heading {
+    font-size: 25px;
+  }
+
+  .homebenefits-smallcards {
+    padding: 0.9rem;
+    gap: 0.9rem;
+  }
+
+  .smallcards-heading {
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .smallcards-description {
+    font-size: 17px;
+    font-weight: 300;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -213,16 +287,35 @@
   }
 
   .largecard-heading {
-    font-size: 53px;
+    font-size: 35px;
   }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .largecard-heading {
+    font-size: 30px;
+  }
+  .largecard-image {
+    width: 39%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .homebenefits-container {
+    margin-top: 10rem;
+  }
+  .homebenefits-smallcards {
+    padding: 0.9rem;
+    gap: 0.2rem;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .largecard-heading {
+    font-size: 40px;
+  }
   .largecard-image {
     width: 27%;
     height: auto;
@@ -233,7 +326,7 @@
 @media (min-width: 1280px) {
   .homebenefits-container {
     width: 100%;
-    height: 150vh;
+    height: auto;
     padding-top: 4rem;
     /* padding-bottom: 4rem; */
     display: flex;
@@ -247,7 +340,7 @@
   }
 
   .homebenefits-leftsection {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -261,13 +354,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 0.4rem;
     gap: 1rem;
     /* height: 500px; */
   }
 
   .largecard-heading {
-    font-size: 38px;
+    font-size: 52px;
     text-align: center;
     line-height: 1;
     font-weight: 400;
@@ -275,7 +368,7 @@
   }
 
   .largecard-image {
-    width: 64%;
+    width: 24%;
     height: auto;
   }
 
@@ -284,13 +377,13 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 1.9rem;
+    gap: 0.3rem;
     border-left: 6px solid var(--text-color);
     width: 100%;
   }
 
   .smallcards-heading {
-    font-size: 30px;
+    font-size: 21px;
     font-weight: 400;
     color: var(--text-color);
   }
@@ -318,8 +411,12 @@
     background-image: url("/home_benefits_background_1440.png");
   }
   .largecard-image {
-    width: 46%;
+    width: 25%;
     height: auto;
+  }
+
+  .largecard-heading {
+    font-size: 56px;
   }
 }
 
@@ -327,9 +424,19 @@
 @media (min-width: 1600px) {
   .homebenefits-container {
     background-image: url("/home_benefits_background_1600.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homebenefits-leftsection {
+    width: 60%;
+  }
+  .smallcards-heading {
+    font-size: 25px;
   }
   .largecard-image {
-    width: 41%;
+    width: 31%;
     height: auto;
   }
 }

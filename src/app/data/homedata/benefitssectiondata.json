@@ -5,37 +5,37 @@
       "id": "1",
       "cardheading": "Reduced Operational Burden",
       "carddescription": "We handle IT, admin, and finance tasks so your team can focus on core business goals.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     },
     {
       "id": "2",
       "cardheading": "Faster Problem Resolution",
       "carddescription": "With 24/7 support and on-site IT services, technical issues are resolved quickly and efficiently.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     },
     {
       "id": "3",
       "cardheading": "Improved Security & Compliance",
       "carddescription": "Our audits, endpoint protection, and policy management keep your systems safe and regulation-ready.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     },
     {
       "id": "4",
       "cardheading": "Smarter Financial Decisions",
       "carddescription": "Detailed reports, forecasts, and profitability analysis provide clarity to guide strategic growth.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     },
     {
       "id": "5",
       "cardheading": "Scalable Infrastructure",
       "carddescription": "Cloud migrations and server management services grow with your business, without added complexity.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     },
     {
       "id": "6",
       "cardheading": "Stronger Digital Presence",
       "carddescription": "Modern web development with SEO and maintenance ensures your brand stands out and performs online.",
-      "buttonlink": "Our Services "
+      "buttonlink": "/services"
     }
   ]
 }
