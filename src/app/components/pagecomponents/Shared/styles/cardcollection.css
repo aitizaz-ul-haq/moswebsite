@@ -88,10 +88,11 @@
     border-left: none;
     border-bottom: 1px solid lightgray;
     margin-top: 0rem;
+    padding: 0rem;
   }
 
   .card-collection-first-text {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .card-collection-second-text {
