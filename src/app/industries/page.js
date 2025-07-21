@@ -21,9 +21,7 @@ export default function Industries() {
         title={Industriesheadingsectiondata.industries.title}
         description={Industriesheadingsectiondata.industries.description}
         tagtext={Industriesheadingsectiondata.industries.tagtext}
-        backgroundImages={
-          Industriesheadingsectiondata.industries.backgroundImages
-        }
+        backgroundImages={Industriesheadingsectiondata.industries.backgroundImages}
       />
       <CardCollection cards={cards} />
       <CallToAction Calltoactiondata={Calltoactiondata} />

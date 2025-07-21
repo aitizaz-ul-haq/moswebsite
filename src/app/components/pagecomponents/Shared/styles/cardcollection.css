@@ -143,6 +143,7 @@
   .arrow-image {
     width: 100%;
     height: auto;
+    margin-bottom: 4rem;
   }
 
   .cardcollection-card-section {
@@ -159,15 +160,22 @@
 
   .card-collection-first-text {
     font-size: 21px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 400;
   }
 
   .card-collection-second-text {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
   }
 
   .card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     width: 92%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
   }
 }
 
@@ -191,16 +199,23 @@
   }
 
   .card-collection-first-text {
-    font-size: 21px;
+    font-size: 24px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 400;
   }
 
   .card-collection-second-text {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
   }
 
   .card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 15px;
     width: 92%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
   }
 }
 
@@ -224,16 +239,23 @@
   }
 
   .card-collection-first-text {
-    font-size: 21px;
+    font-size: 26px;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 400;
   }
 
   .card-collection-second-text {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: center;
   }
 
   .card-collection-bottom-text {
-    font-size: 14px;
+    font-size: 17px;
     width: 92%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 400;
   }
 }
 
@@ -249,7 +271,7 @@
   }
 
   .card-collection-topsection-container {
-    width: 324px;
+    width: 366px;
     text-align: center;
   }
 }
@@ -257,8 +279,8 @@
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .card-collection-bottom-text {
-    font-size: 14px;
-    width: 92%;
+    font-size: 18px;
+    width: 69%;
     text-align: center;
   }
 }
@@ -285,7 +307,14 @@
   }
 
   .card-collection-topsection-container {
-    width: 324px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 18px;
+    width: 84%;
     text-align: center;
   }
 }
@@ -313,24 +342,34 @@
   }
 
   .card-collection-topsection-container {
-    width: 324px;
+    width: 100%;
     text-align: left;
   }
 
   .card-collection-bottom-text {
-    text-align: left;
+    text-align: center;
+    width: 100%;
   }
 
   .card-collection-bottomsection-container {
-    width: 324px;
+    width: 100%;
+  }
+
+  .arrow-image {
+    width: 162px;
+    height: auto;
   }
 }
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .card-collection-bottom-text {
-    font-size: 14px;
-    width: 100%;
+    font-size: 16px;
+    width: 70%;
+  }
+
+  .card-collection-first-text {
+    font-size: 24px;
   }
 }
 
@@ -340,6 +379,19 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .card-collection-first-text {
+    font-size: 30px;
+  }
+
+  .card-collection-second-text {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .card-collection-bottom-text {
+    font-size: 18px;
+    width: 70%;
+  }
 }
 
 /* 4K screens (>= 1920px) */
