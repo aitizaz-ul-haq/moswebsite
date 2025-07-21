@@ -363,6 +363,7 @@
 @media (min-width: 1440px) {
   .contactformsection-center-section-container {
     background-image: url(/1440_background_contact_form.png);
+    padding-top: 1rem;
   }
 }
 
@@ -370,9 +371,10 @@
 @media (min-width: 1600px) {
   .contactformsection-center-section-container {
     background-image: url(/1600_background_contact_form.png);
+    padding-top: 44rem;
   }
   .contactformsection-top-text-section {
-    margin-top: 31rem;
+    margin-top: 1rem;
   }
 }
 

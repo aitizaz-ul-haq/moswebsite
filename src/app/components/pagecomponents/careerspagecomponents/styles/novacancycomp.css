@@ -247,18 +247,18 @@
   }
 
   .no-vacancy-heading {
-    font-size: 66px;
+    font-size: 56px;
     font-weight: 300;
     color: var(--text-color);
   }
 
   .no-vacancy-parasection {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     gap: 1rem;
   }
 }
@@ -269,6 +269,13 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .no-vacancy-parasection {
+    text-align: left;
+  }
+
+  .no-vacancy-paraone {
+    text-align: left;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
@@ -277,6 +284,10 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
+  .no-vacancy-parasection {
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 /* 4K screens (>= 1920px) */
