@@ -1,12 +1,15 @@
+// import sub componenets
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import AboutHeroData from "@/app/data/shareddata/hersectiondata.json";
-import Aboutheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
 import AboutTextSection from "../components/pagecomponents/aboutpagecomponents/abouttextsection";
-import Abouttextsectiondata from "../data/aboutdata/abouttextsectiondata.json";
 import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
-import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import AboutLowerTextSection from "../components/pagecomponents/aboutpagecomponents/aboutlowertextsection";
+
+// import json data files
+import Abouttextsectiondata from "../data/aboutdata/abouttextsectiondata.json";
+import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
+import AboutHeroData from "@/app/data/shareddata/hersectiondata.json";
+import Aboutheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Aboutlowersectiondata from "../data/aboutdata/aboutlowersectiondata.json";
 
 export default function About() {
