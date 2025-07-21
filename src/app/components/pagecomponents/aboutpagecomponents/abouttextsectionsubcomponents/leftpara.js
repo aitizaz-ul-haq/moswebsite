@@ -1,12 +1,11 @@
+import LeftParaOne from "./aboutparasectionsubcomps/leftparaone";
+import LeftParaTwo from "./aboutparasectionsubcomps/leftparatwo";
+
 export default function LeftPara({ Abouttextsectiondata }) {
   return (
     <div className="abouttext-left-para-section">
-      <p className="sidebyside-leftpara-one font-nunito">
-        {Abouttextsectiondata.leftparaone}
-      </p>
-      <p className="sidebyside-leftpara-two font-nunito">
-        {Abouttextsectiondata.leftparatwo}
-      </p>
+      <LeftParaOne leftparaone={Abouttextsectiondata.leftparaone} />
+      <LeftParaTwo leftparatwo={Abouttextsectiondata.leftparatwo} />
     </div>
   );
 }
