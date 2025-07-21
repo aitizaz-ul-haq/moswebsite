@@ -1,12 +1,11 @@
+import TopSectionHeadingText from "./othercardscomponenetssubcomps/topsectionheadingtext";
+import TopSectionParaSection from "./othercardscomponenetssubcomps/topsectionparasection";
+
 export default function TopSection({ card }) {
   return (
     <div className="card-collection-topsection-container">
-      <p className="card-collection-first-text font-poppins">
-        {card.firsttext}
-      </p>
-      <p className="card-collection-second-text font-nunito">
-        {card.secondtext}
-      </p>
+      <TopSectionHeadingText firsttext={card.firsttext} />
+      <TopSectionParaSection secondtext={card.secondtext} />
     </div>
   );
 }
