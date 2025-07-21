@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-export default function MidSectionImageContainer({ cardimage }) {
+export default function MidSectionImageContainer({ carimage }) {
   return (
     <div className="card-collection-image-container">
       <Image
         className="card-collection-middle-image"
         width={290}
         height={320}
-        src={`/${cardimage}`}
+        src={`/${carimage}`}
         alt="Card Icon"
       />
     </div>
