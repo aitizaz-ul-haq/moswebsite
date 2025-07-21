@@ -1,12 +1,11 @@
-import Image from "next/image";
+import NoVacancyImageContainer from "./novacancyimagecontainer";
+import NoVacancyHeading from "./novavcancyheading";
 
 export default function NoVacancyHeadingSection({ logo, heading }) {
   return (
     <div className="no-vacancy-heading-section">
-      <div className="no-vacancy-image-container">
-        <Image src={logo} width={120} height={120} />
-      </div>
-      <h3 className="no-vacancy-heading font-poppins">{heading}</h3>
+      <NoVacancyImageContainer logo={logo} />
+      <NoVacancyHeading heading={heading} />
     </div>
   );
 }
