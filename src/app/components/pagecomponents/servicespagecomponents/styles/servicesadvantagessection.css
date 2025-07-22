@@ -290,10 +290,10 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .advantages-container {
-    margin-top: 8rem;
+    margin-top: 3rem;
     margin-bottom: 8rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 14rem;
+    padding-bottom: 11rem;
     width: 100%;
     height: auto;
     background-size: cover;
@@ -316,18 +316,19 @@
   .advantages-sidebyside-container {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
+    margin-top: 0rem;
   }
 
   .advantages-sidebyside-leftsection {
-    width: 30%;
+    width: 36%;
     display: flex;
     align-items: stretch; /* Ensures the image stretches to fit the container's height */
   }
 
   .advantages-sidebyside-rightsection {
-    width: 70%;
+    width: 62%;
     background-color: rgba(246, 241, 209, 34%);
     padding-left: 2rem;
     padding-top: 3rem;
@@ -363,7 +364,7 @@
   }
 
   .advantages-text-point {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     color: var(--text-color);
   }
@@ -379,6 +380,10 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .advantages-container {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 18rem;
+    padding-bottom: 14rem;
     background-image: url("/services_advantages_1440_background.png");
   }
 
@@ -395,6 +400,12 @@
 
   .advantages-heading {
     font-size: 160px;
+  }
+
+  .advantages-text-point {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
   }
 }
 
