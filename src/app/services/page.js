@@ -10,8 +10,8 @@ import CallToAction from "../components/pagecomponents/Shared/calltoaction/callt
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
 import Importancesectiondata from "../data/servicesdata/importancesectiondata.json";
-import HomeReviewSection from "../components/pagecomponents/homepagecomponents/homereviewsection";
-import Homereviewsectiondata from "../data/servicesdata/servicesreviewdata.json";
+// import HomeReviewSection from "../components/pagecomponents/homepagecomponents/homereviewsection";
+// import Homereviewsectiondata from "../data/servicesdata/servicesreviewdata.json";
 
 export default function Services() {
   const cards = cardData.features.cards;
