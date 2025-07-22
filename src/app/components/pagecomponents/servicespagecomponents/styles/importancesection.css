@@ -241,7 +241,7 @@
   }
 
   .importance-point-heading {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .importance-description {
@@ -281,7 +281,7 @@
   }
 
   .importance-point-heading {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .importance-description {
@@ -299,6 +299,10 @@
   .importance-description {
     font-size: 17px;
     font-weight: 300;
+  }
+
+  .importance-point-heading {
+    font-size: 21px;
   }
 }
 
@@ -372,7 +376,7 @@
   }
 
   .importance-point-heading {
-    font-size: 20px;
+    font-size: 25px;
     color: var(--text-color);
   }
 

@@ -1,15 +1,19 @@
-import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
+// importing componenet data
 import ServicesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
-import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
-import ServicesAdvantagesSection from "../components/pagecomponents/servicespagecomponents/servicesadvantagessection";
 import Advantagessectiondata from "../data/servicesdata/advantagessectiondata.json";
-import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
-import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
 import Importancesectiondata from "../data/servicesdata/importancesectiondata.json";
+
+// importing page componenets
+import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
+import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
+import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
+import ServicesAdvantagesSection from "../components/pagecomponents/servicespagecomponents/servicesadvantagessection";
+import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
+import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
+
 // import HomeReviewSection from "../components/pagecomponents/homepagecomponents/homereviewsection";
 // import Homereviewsectiondata from "../data/servicesdata/servicesreviewdata.json";
 
