@@ -93,10 +93,10 @@
   }
 
   .teamcenter-title {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 2.1rem;
+    line-height: 1.7rem;
   }
 
   .teamcenter-paragraph-container {
@@ -153,10 +153,10 @@
   }
 
   .teamcenter-title {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 2.1rem;
+    line-height: 1.7rem;
   }
 
   .teamcenter-paragraph-container {
@@ -211,10 +211,10 @@
   }
 
   .teamcenter-title {
-    font-size: 27px;
+    font-size: 22px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 2.2rem;
+    line-height: 1.7rem;
   }
 
   .teamcenter-paragraph-container {
@@ -269,10 +269,10 @@
   }
 
   .teamcenter-title {
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 2.2rem;
+    line-height: 2rem;
   }
 
   .teamcenter-paragraph-container {
@@ -284,7 +284,7 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     font-weight: 300;
   }
@@ -308,7 +308,7 @@
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
   .teamcenter-title {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 0.2rem;
     font-weight: 400;
     line-height: 2.4rem;
@@ -318,10 +318,10 @@
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
   .teamcenter-title {
-    font-size: 37px;
+    font-size: 32px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 3.1rem;
+    line-height: 2.2rem;
   }
 
   .teamcenter-paragraph {
@@ -352,11 +352,11 @@
   }
 
   .teamcenter-title {
-    font-size: 42px;
+    font-size: 36px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 3rem;
-    text-align: center;
+    line-height: 2.3rem;
+    text-align: left;
   }
 
   .teamcenter-paragraph-container {
@@ -368,10 +368,10 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 14px;
-    width: 66%;
+    font-size: 16px;
+    width: 80%;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
   }
 
   .teamcenter-button-container {
@@ -423,11 +423,11 @@
   }
 
   .teamcenter-title {
-    font-size: 42px;
+    font-size: 55px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 3rem;
-    text-align: center;
+    line-height: 3.6rem;
+    text-align: left;
   }
 
   .teamcenter-paragraph-container {
@@ -439,10 +439,10 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 14px;
-    width: 66%;
+    font-size: 13px;
+    width: 71%;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
   }
 
   .teamcenter-button-container {
@@ -498,11 +498,12 @@
   }
 
   .teamcenter-title {
-    font-size: 42px;
+    font-size: 56px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 3.3rem;
     text-align: center;
+    width: 100%;
   }
 
   .teamcenter-paragraph-container {
@@ -515,7 +516,7 @@
 
   .teamcenter-paragraph {
     font-size: 14px;
-    width: 50%;
+    width: 59%;
     font-weight: 300;
     text-align: center;
   }
@@ -573,12 +574,12 @@
   }
 
   .teamcenter-title {
-    font-size: 68px;
+    font-size: 67px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 4rem;
+    line-height: 3.8rem;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   .teamcenter-paragraph-container {
@@ -590,8 +591,8 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 14px;
-    width: 80%;
+    font-size: 16px;
+    width: 59%;
     font-weight: 300;
     display: flex;
     flex-direction: column;
@@ -641,6 +642,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
     height: 43%;
   }
 
@@ -654,12 +656,12 @@
   }
 
   .teamcenter-title {
-    font-size: 81px;
+    font-size: 76px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 4.3rem;
+    line-height: 4.4rem;
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   .teamcenter-paragraph-container {
@@ -671,8 +673,8 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 14px;
-    width: 80%;
+    font-size: 16px;
+    width: 60%;
     font-weight: 300;
     display: flex;
     flex-direction: column;
@@ -716,10 +718,10 @@
     height: 53%;
   }
   .teamcenter-title {
-    font-size: 61px;
+    font-size: 87px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 4.3rem;
+    line-height: 5.4rem;
     text-align: center;
     width: 100%;
   }
@@ -732,7 +734,9 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 23px;
+    font-size: 16px;
+    width: 59%;
+    font-weight: 300;
   }
 
   .teamcenter-button-container {
@@ -754,23 +758,23 @@
     height: 64%;
   }
   .teamcenter-title {
-    font-size: 109px;
+    font-size: 113px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 6.4rem;
+    line-height: 6rem;
     text-align: center;
     width: 80%;
   }
   .teamcenter-paragraph-container {
-    width: 81%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
   }
 
   .teamcenter-paragraph {
-    font-size: 23px;
+    font-size: 19px;
   }
 
   .teamcenter-button-container {
@@ -792,12 +796,12 @@
     height: 64%;
   }
   .teamcenter-title {
-    font-size: 100px;
+    font-size: 152px;
     margin-bottom: 0.2rem;
     font-weight: 400;
-    line-height: 6rem;
+    line-height: 8.3rem;
     text-align: center;
-    width: 70%;
+    width: 90%;
   }
   .teamcenter-paragraph-container {
     width: 100%;
@@ -808,7 +812,7 @@
   }
 
   .teamcenter-paragraph {
-    font-size: 33px;
+    font-size: 25px;
     width: 50%;
   }
 
