@@ -128,9 +128,12 @@
     width: 90%;
     margin-bottom: 4rem;
   }
+  .typeonecard-tag {
+    font-size: 16px;
+  }
 
   .typeonecard-description {
-    color: var(--text-color);
+    color: black;
     font-size: 15px;
     font-weight: 300;
   }
@@ -234,9 +237,13 @@
     margin-bottom: 4rem;
   }
 
+  .typeonecard-tag {
+    font-size: 16px;
+  }
+
   .typeonecard-description {
-    color: var(--text-color);
-    font-size: 17px;
+    color: black;
+    font-size: 15px;
     font-weight: 300;
   }
 
@@ -287,9 +294,13 @@
     margin-bottom: 4rem;
   }
 
+  .typeonecard-tag {
+    font-size: 16px;
+  }
+
   .typeonecard-description {
-    color: var(--text-color);
-    font-size: 19px;
+    color: black;
+    font-size: 16px;
     font-weight: 300;
   }
 
@@ -341,7 +352,7 @@
   }
 
   .typeonecard-description {
-    color: var(--text-color);
+    color: black;
     font-size: 17px;
     font-weight: 300;
   }
@@ -387,6 +398,12 @@
     width: 324px;
     text-align: center;
   }
+
+  .typeonecard-description {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */
@@ -396,12 +413,26 @@
     width: 92%;
     text-align: center;
   }
+
+  .typeonecard-tag {
+    font-size: 22px;
+  }
+
+  .typeonecard-description {
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+  }
 }
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .typeonecard-main-container {
     background-image: url("/featurestypeone_background_1024.png");
+  }
+
+  .typeonecard-tag {
+    font-size: 26px;
   }
 
   .typeonecard-card {
@@ -504,5 +535,15 @@
 @media (min-width: 2560px) {
   .typeonecard-main-container {
     background-image: url("/featurestypeone_background_2560.png");
+  }
+
+  .typeonecard-tag {
+    font-size: 46px;
+  }
+
+  .typeonecard-description {
+    color: black;
+    font-size: 34px;
+    font-weight: 300;
   }
 }
