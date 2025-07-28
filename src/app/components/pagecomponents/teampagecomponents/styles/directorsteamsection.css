@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/dicteam_1920_background.png");
+  background-image: url("/images/dicteam_1920_background.png");
   margin-top: 2rem;
   margin-bottom: 10rem;
   display: flex;
@@ -93,7 +93,7 @@
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_320_background.png");
+    background-image: url("/images/dicteam_320_background.png");
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 2rem;
@@ -141,7 +141,7 @@
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_320_background.png");
+    background-image: url("/images/dicteam_320_background.png");
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 2rem;
@@ -189,7 +189,7 @@
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_320_background.png");
+    background-image: url("/images/dicteam_320_background.png");
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 2rem;
@@ -237,7 +237,7 @@
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_320_background.png");
+    background-image: url("/images/dicteam_320_background.png");
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-top: 2rem;
@@ -285,7 +285,7 @@
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_430_background.png");
+    background-image: url("/images/dicteam_430_background.png");
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
@@ -308,7 +308,7 @@
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_430_background.png");
+    background-image: url("/images/dicteam_430_background.png");
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
@@ -339,7 +339,7 @@
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_768_background.png");
+    background-image: url("/images/dicteam_768_background.png");
   }
   .module {
     width: 50%;
@@ -350,7 +350,7 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_1024_background.png");
+    background-image: url("/images/dicteam_1024_background.png");
     padding-top: 14rem;
     padding-bottom: 10rem;
   }
@@ -391,7 +391,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_1280_background.png");
+    background-image: url("/images/dicteam_1280_background.png");
   }
   .module {
     width: 60%;
@@ -414,7 +414,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_1440_background.png");
+    background-image: url("/images/dicteam_1440_background.png");
   }
   .module {
     width: 52%;
@@ -428,7 +428,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_1920_background.png");
+    background-image: url("/images/dicteam_1920_background.png");
   }
   .dicteam-memebersname {
     font-size: 37px;
@@ -444,7 +444,7 @@
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .dicteam-section-container {
-    background-image: url("/dicteam_2560_background.png");
+    background-image: url("/images/dicteam_2560_background.png");
   }
   .module {
     width: 46%;

@@ -10,7 +10,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/1920_background_contact_form.png);
+  background-image: url("/images/1920_background_contact_form.png");
   position: relative;
   background-color: #fdfdfd;
   width: 100%;
@@ -297,7 +297,7 @@
   }
 
   .contactformsection-center-section-container {
-    background-image: url(/768_background_contact_form.png);
+    background-image: url("/images/768_background_contact_form.png");
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 0rem;
@@ -325,7 +325,7 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .contactformsection-center-section-container {
-    background-image: url(/1024_background_contact_form.png);
+    background-image: url("/images/1024_background_contact_form.png");
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 0rem;
@@ -350,7 +350,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .contactformsection-center-section-container {
-    background-image: url(/1024_background_contact_form.png);
+    background-image: url("/images/1024_background_contact_form.png");
     padding-left: 9rem;
     padding-right: 9rem;
     padding-top: 0rem;
@@ -362,7 +362,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .contactformsection-center-section-container {
-    background-image: url(/1440_background_contact_form.png);
+    background-image: url("/images/1440_background_contact_form.png");
     padding-top: 1rem;
   }
 }
@@ -370,7 +370,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .contactformsection-center-section-container {
-    background-image: url(/1600_background_contact_form.png);
+    background-image: url("/images/1600_background_contact_form.png");
     padding-top: 44rem;
   }
   .contactformsection-top-text-section {
@@ -384,7 +384,7 @@
     background-color: #fdfdfd;
   }
   .contactformsection-center-section-container {
-    background-image: url(/1920_background_contact_form.png);
+    background-image: url("/images/1920_background_contact_form.png");
   }
 
   .contact-form {
@@ -395,7 +395,7 @@
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .contactformsection-center-section-container {
-    background-image: url(/2560_background_contact_form.png);
+    background-image: url("/images/2560_background_contact_form.png");
     display: flex;
     flex-direction: column;
     justify-content: center;

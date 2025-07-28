@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/importance_section_1920_background.png");
+  background-image: url("/images/importance_section_1920_background.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -318,7 +318,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/importance_section_1280_background.png");
+    background-image: url("/images/importance_section_1280_background.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -390,21 +390,21 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .importance-container {
-    background-image: url("/importance_section_1440_background.png");
+    background-image: url("/images/importance_section_1440_background.png");
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .importance-container {
-    background-image: url("/importance_section_1600_background.png");
+    background-image: url("/images/importance_section_1600_background.png");
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .importance-container {
-    background-image: url("/importance_section_1920_background.png");
+    background-image: url("/images/importance_section_1920_background.png");
   }
 
   .importance-point {
@@ -419,7 +419,7 @@
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .importance-container {
-    background-image: url("/importance_section_2560_background.png");
+    background-image: url("/images/importance_section_2560_background.png");
   }
 }
 

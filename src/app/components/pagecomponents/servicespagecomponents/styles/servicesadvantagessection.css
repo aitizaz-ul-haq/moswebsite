@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/services_advantages_1920_background.png");
+  background-image: url("/images/services_advantages_1920_background.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +82,7 @@
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
   .advantages-container {
-    /* background-image: url("/services_advantages_320_background.png"); */
+    /* background-image: url("/images/services_advantages_320_background.png"); */
     margin-top: 8rem;
     margin-bottom: 8rem;
     padding-top: 0rem;
@@ -130,7 +130,7 @@
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
   .advantages-container {
-    /* background-image: url("/services_advantages_320_background.png"); */
+    /* background-image: url("/images/services_advantages_320_background.png"); */
     margin-top: 8rem;
     margin-bottom: 8rem;
     padding-top: 0rem;
@@ -178,7 +178,7 @@
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
   .advantages-container {
-    /* background-image: url("/services_advantages_320_background.png"); */
+    /* background-image: url("/images/services_advantages_320_background.png"); */
     margin-top: 8rem;
     margin-bottom: 8rem;
     padding-top: 0rem;
@@ -226,7 +226,7 @@
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
   .advantages-container {
-    /* background-image: url("/services_advantages_320_background.png"); */
+    /* background-image: url("/images/services_advantages_320_background.png"); */
     margin-top: 8rem;
     margin-bottom: 8rem;
     padding-top: 0rem;
@@ -299,7 +299,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/services_advantages_1024_background.png");
+    background-image: url("/images/services_advantages_1024_background.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -373,7 +373,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .advantages-container {
-    background-image: url("/services_advantages_1280_background.png");
+    background-image: url("/images/services_advantages_1280_background.png");
   }
 }
 
@@ -384,7 +384,7 @@
     margin-bottom: 8rem;
     padding-top: 18rem;
     padding-bottom: 14rem;
-    background-image: url("/services_advantages_1440_background.png");
+    background-image: url("/images/services_advantages_1440_background.png");
   }
 
   .advantages-heading {
@@ -395,7 +395,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .advantages-container {
-    background-image: url("/services_advantages_1600_background.png");
+    background-image: url("/images/services_advantages_1600_background.png");
   }
 
   .advantages-heading {
@@ -412,14 +412,14 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .advantages-container {
-    background-image: url("/services_advantages_1920_background.png");
+    background-image: url("/images/services_advantages_1920_background.png");
   }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .advantages-container {
-    background-image: url("/services_advantages_2560_background.png");
+    background-image: url("/images/services_advantages_2560_background.png");
   }
   .advantages-heading {
     font-size: 190px;
