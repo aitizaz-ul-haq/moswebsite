@@ -5,41 +5,41 @@
         "id": "1",
         "firsttext": "Smarter Financial Insights",
         "secondtext": "Actionable accounting and analysis that improve profitability, optimise operations, and support informed decision-making.",
-        "image": "expertise-1.png",
+        "image": "images/expertise-1.png",
         "bottomtext": "Actionable accounting and analysis that improve profitability, optimise operations, and support informed decision-making."
       },
       {
         "id": "2",
         "firsttext": "Security Comes Standard",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "expertise-2.png",
+        "image": "images/expertise-2.png",
         "bottomtext": "Our compliance consulting, risk audits, and endpoint protection ensure your operations are secure, compliant, and resilient."
       },
       {
         "id": "3",
         "firsttext": "Systems That Scale",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "expertise-3.png",
+        "image": "images/expertise-3.png",
         "bottomtext": "From cloud migrations to infrastructure management, we build IT environments designed to grow with your business."
       },
       {
         "id": "4",
         "firsttext": "People First, Always.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "expertise-4.png",
+        "image": "images/expertise-4.png",
         "bottomtext": "Human-centered support, from live IT helpdesk to tailored training programs that empower your teams every day."
       },
       {
         "id": "5",
         "firsttext": "Web Solutions That Work.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "expertise-5.png",
+        "image": "images/expertise-5.png",
         "bottomtext": "From custom designs to secure deployment, we create digital experiences that elevate your brand and performance."
       },
       {
         "id": "briefcase",
         "type": "briefcase",
-        "image": "briefcase.png"
+        "image": "images/briefcase.png"
       }
     ]
   },
@@ -49,42 +49,42 @@
         "id": "1",
         "firsttext": "Powering Data Precision.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
       {
         "id": "2",
         "firsttext": "Insights You Can Count On.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
       {
         "id": "3",
         "firsttext": "Turning Plans into Results.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
       {
         "id": "4",
         "firsttext": "People First, Always.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
       {
         "id": "5",
         "firsttext": "Web Solutions That Work.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       },
       {
         "id": "6",
         "firsttext": "Web Solutions That Work.",
         "secondtext": "is simply dummy text of the printing.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
       }
     ]
@@ -95,42 +95,42 @@
         "id": "1",
         "firsttext": "Agile Development.",
         "secondtext": "Flexible, adaptive, and efficient workflow.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We follow an iterative, agile development approach to ensure continuous improvement, quick adaptability, and seamless collaboration throughout the project lifecycle."
       },
       {
         "id": "2",
         "firsttext": "User-Centric Design.",
         "secondtext": "Building intuitive and engaging experiences.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "Our methodology focuses on UI/UX best practices to create intuitive, engaging, and user-friendly digital experiences that drive interaction and customer satisfaction."
       },
       {
         "id": "3",
         "firsttext": "Scalable Architecture.",
         "secondtext": "Optimized for growth and performance.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "We build scalable and high-performance architectures that support long-term business growth, ensuring flexibility, reliability, and speed."
       },
       {
         "id": "4",
         "firsttext": "Robust Security.",
         "secondtext": "Ensuring data protection at every level.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "Security is at the core of our development methodology, integrating encryption, authentication, and compliance to safeguard your digital assets."
       },
       {
         "id": "5",
         "firsttext": "SEO & Performance.",
         "secondtext": "Optimized for visibility and speed.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "We implement best SEO practices and performance optimization techniques, ensuring high search engine rankings and fast-loading websites."
       },
       {
         "id": "6",
         "firsttext": "Continuous Testing.",
         "secondtext": "Delivering flawless, bug-free solutions.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "We apply automated and manual testing methodologies to identify and resolve issues early, ensuring seamless functionality and high-quality user experiences."
       }
     ]
@@ -141,42 +141,42 @@
         "id": "1",
         "firsttext": "Process Optimization.",
         "secondtext": "Enhancing efficiency with streamlined workflows.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We refine business processes by identifying inefficiencies, automating repetitive tasks, and optimizing workflows to maximize operational efficiency."
       },
       {
         "id": "2",
         "firsttext": "Automation & AI.",
         "secondtext": "Leveraging technology for smarter operations.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "Our approach integrates automation and AI-driven solutions to reduce manual effort, minimize errors, and boost overall operational performance."
       },
       {
         "id": "3",
         "firsttext": "Performance Monitoring.",
         "secondtext": "Data-driven insights for continuous improvement.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "We implement advanced monitoring tools that track key operational metrics, ensuring transparency, efficiency, and real-time decision-making."
       },
       {
         "id": "4",
         "firsttext": "Risk Management.",
         "secondtext": "Proactive strategies to mitigate business risks.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "Our methodology includes identifying potential risks, implementing mitigation strategies, and ensuring compliance to safeguard business continuity."
       },
       {
         "id": "5",
         "firsttext": "Scalability & Growth.",
         "secondtext": "Future-proofing operations for expansion.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "We design scalable operational frameworks that allow businesses to expand seamlessly, adapting to growth and market demands."
       },
       {
         "id": "6",
         "firsttext": "End-to-End Support.",
         "secondtext": "Seamless operations, 24/7 reliability.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "We offer round-the-clock operational support, ensuring smooth business processes, minimal downtime, and maximum efficiency."
       }
     ]
@@ -187,42 +187,42 @@
         "id": "1",
         "firsttext": "Data Governance.",
         "secondtext": "Ensuring structured, secure data handling.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We establish governance frameworks to ensure data integrity, compliance, and accessibility while minimizing risks and inconsistencies."
       },
       {
         "id": "2",
         "firsttext": "Data Integration.",
         "secondtext": "Connecting and centralizing data sources.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "Our approach unifies data from multiple sources, creating a seamless flow of accurate information across business systems."
       },
       {
         "id": "3",
         "firsttext": "Data Security.",
         "secondtext": "Protecting sensitive information from threats.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "We implement advanced security measures, including encryption, access controls, and monitoring to safeguard critical business data."
       },
       {
         "id": "4",
         "firsttext": "Data Analytics.",
         "secondtext": "Extracting insights for strategic decisions.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "We leverage AI-powered analytics to process data efficiently, uncover trends, and drive informed decision-making across all business functions."
       },
       {
         "id": "5",
         "firsttext": "Big Data Solutions.",
         "secondtext": "Handling large-scale data efficiently.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "Our scalable big data solutions allow businesses to manage, store, and analyze vast amounts of structured and unstructured data with ease."
       },
       {
         "id": "6",
         "firsttext": "Backup & Recovery.",
         "secondtext": "Ensuring business continuity and resilience.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "We provide comprehensive backup and disaster recovery solutions that prevent data loss, minimize downtime, and ensure uninterrupted business operations."
       }
     ]
@@ -233,42 +233,42 @@
         "id": "1",
         "firsttext": "Discover & Assess",
         "secondtext": "Ensuring structured, secure data handling.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We begin by understanding your current infrastructure, identifying pain points, and evaluating security, performance, and support needs to set a solid foundation."
       },
       {
         "id": "2",
         "firsttext": "Plan & Customise",
         "secondtext": "Connecting and centralizing data sources.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "Every IT solution is tailored to your business requirements—whether it’s helpdesk coverage, cloud migration, or compliance alignment—ensuring fit and efficiency."
       },
       {
         "id": "3",
         "firsttext": "Deploy with Precision",
         "secondtext": "Protecting sensitive information from threats.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "Our team implements solutions with minimal disruption, handling everything from on-site support setup to server configuration and cloud integration."
       },
       {
         "id": "4",
         "firsttext": "Secure & Monitor",
         "secondtext": "Extracting insights for strategic decisions.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "We embed endpoint protection, monitor threats in real-time, and enforce compliance controls to safeguard your data and infrastructure."
       },
       {
         "id": "5",
         "firsttext": "Train & Enable",
         "secondtext": "Handling large-scale data efficiently.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "We provide user training and technical documentation so your team understands the systems in place and can operate with confidence."
       },
       {
         "id": "6",
         "firsttext": "Support & Evolve",
         "secondtext": "Ensuring business continuity and resilience.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "Post-deployment, we deliver 24/7 support and continuous improvements—ensuring your IT stays agile, secure, and aligned with business growth."
       }
     ]
@@ -280,42 +280,42 @@
         "id": "1",
         "firsttext": "Efficient Hiring.",
         "secondtext": "Optimizing recruitment for top talent.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We implement structured hiring strategies that attract and retain skilled professionals, ensuring the right fit for your organization."
       },
       {
         "id": "2",
         "firsttext": "Seamless Onboarding.",
         "secondtext": "Enhancing employee integration.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "Our onboarding solutions streamline the transition for new hires, improving engagement and productivity from day one."
       },
       {
         "id": "3",
         "firsttext": "Payroll Accuracy.",
         "secondtext": "Ensuring error-free payroll processing.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "We manage payroll with precision, ensuring timely salary disbursement, tax compliance, and error-free financial transactions."
       },
       {
         "id": "4",
         "firsttext": "Workforce Training.",
         "secondtext": "Developing employee skills and growth.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "Our training programs enhance employee performance, leadership skills, and adaptability in evolving business landscapes."
       },
       {
         "id": "5",
         "firsttext": "Compliance & Risk.",
         "secondtext": "Mitigating HR-related legal risks.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "We ensure labor law compliance, policy enforcement, and risk management strategies to protect businesses from legal challenges."
       },
       {
         "id": "6",
         "firsttext": "Employee Engagement.",
         "secondtext": "Boosting workplace satisfaction.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "We implement strategies that foster a positive work culture, improving employee retention, motivation, and overall job satisfaction."
       }
     ]
@@ -327,42 +327,42 @@
         "id": "1",
         "firsttext": "Strategic Planning.",
         "secondtext": "Defining goals for project success.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "We create structured project plans with clear objectives, milestones, and timelines to drive efficient execution."
       },
       {
         "id": "2",
         "firsttext": "Resource Optimization.",
         "secondtext": "Maximizing efficiency in project execution.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "We allocate resources strategically to balance workloads, improve efficiency, and prevent delays."
       },
       {
         "id": "3",
         "firsttext": "Risk Management.",
         "secondtext": "Proactively mitigating project risks.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "We identify potential risks early, develop mitigation strategies, and ensure continuity through contingency planning."
       },
       {
         "id": "4",
         "firsttext": "Agile Execution.",
         "secondtext": "Flexible and iterative project management.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "We use Agile methodologies to improve adaptability, collaboration, and responsiveness throughout the project lifecycle."
       },
       {
         "id": "5",
         "firsttext": "Performance Tracking.",
         "secondtext": "Monitoring progress in real-time.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "We implement tracking tools and performance metrics to ensure projects stay aligned with business objectives."
       },
       {
         "id": "6",
         "firsttext": "Quality Assurance.",
         "secondtext": "Delivering high-quality project outcomes.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "We maintain rigorous quality control, ensuring project deliverables meet standards, stakeholder expectations, and business goals."
       }
     ]
@@ -374,42 +374,42 @@
         "id": "1",
         "firsttext": "Financial Clarity",
         "secondtext": "Ensuring precise financial records.",
-        "image": "method_one.png",
+        "image": "images/method_one.png",
         "bottomtext": "Our insights go beyond numbers-helping you understand your financial position and plan with precision."
       },
       {
         "id": "2",
         "firsttext": "Accurate Reporting",
         "secondtext": "Adhering to financial laws and regulations.",
-        "image": "method_two.png",
+        "image": "images/method_two.png",
         "bottomtext": "We deliver clean, audit-ready reports that reflect your true financial performance with zero guesswork."
       },
       {
         "id": "3",
         "firsttext": "End-to-End Compliance",
         "secondtext": "Identifying and mitigating financial risks.",
-        "image": "method_three.png",
+        "image": "images/method_three.png",
         "bottomtext": "From tax laws to labour regulations, we ensure every report and process is fully compliant and risk-free."
       },
       {
         "id": "4",
         "firsttext": "Smarter Cost Control",
         "secondtext": "Real-time insights for better decisions.",
-        "image": "method_four.png",
+        "image": "images/method_four.png",
         "bottomtext": "Through detailed analysis, we help you identify waste, improve margins, and boost overall profitability."
       },
       {
         "id": "5",
         "firsttext": "Scalable Support System",
         "secondtext": "Optimizing expenses for profitability.",
-        "image": "method_five.png",
+        "image": "images/method_five.png",
         "bottomtext": "As your business grows, our services adapt-delivering the same accuracy and insight at every stage."
       },
       {
         "id": "6",
         "firsttext": "Informed Decision Making",
         "secondtext": "Ensuring smooth financial audits.",
-        "image": "method_six.png",
+        "image": "images/method_six.png",
         "bottomtext": "With forecasting, KPIs, and performance metrics, we help you make confident, data-backed business decisions."
       }
     ]

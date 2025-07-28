@@ -5,37 +5,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/expertise-1.png",
+        "numericimage": "/images/images/expertise-1.png",
         "cardheading": "Custom Solutions",
         "carddescription": "We create tailored web solutions that align with your business goals, ensuring flexibility and long-term scalability."
       },
       {
         "id": "2",
-        "numericimage": "/expertise-2.png",
+        "numericimage": "/images/expertise-2.png",
         "cardheading": "Scalability",
         "carddescription": "Our websites are built to scale with your growing business, handling increased traffic and expanding functionalities."
       },
       {
         "id": "3",
-        "numericimage": "/expertise-3.png",
+        "numericimage": "/images/expertise-3.png",
         "cardheading": "Performance-Driven",
         "carddescription": "We optimize website performance for fast load times, seamless navigation, and enhanced user engagement."
       },
       {
         "id": "4",
-        "numericimage": "/expertise-4.png",
+        "numericimage": "/images/expertise-4.png",
         "cardheading": "SEO Optimized",
         "carddescription": "Our web solutions follow SEO best practices, improving search rankings and increasing online visibility for better reach."
       },
       {
         "id": "5",
-        "numericimage": "/expertise-5.png",
+        "numericimage": "/images/expertise-5.png",
         "cardheading": "Security First",
         "carddescription": "We implement advanced security measures, protecting against cyber threats, data breaches, and unauthorized access."
       },
       {
         "id": "6",
-        "numericimage": "/expertise-6.png",
+        "numericimage": "/images/expertise-6.png",
         "cardheading": "Cross-Platform",
         "carddescription": "Our websites work seamlessly across all devices and browsers, ensuring a consistent experience for every user."
       }
@@ -47,37 +47,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/expertise-1.png",
+        "numericimage": "/images/expertise-1.png",
         "cardheading": "Process Efficiency",
         "carddescription": "We streamline operations with optimized workflows, improving productivity and minimizing downtime for smooth execution."
       },
       {
         "id": "2",
-        "numericimage": "/expertise-2.png",
+        "numericimage": "/images/expertise-2.png",
         "cardheading": "Automation",
         "carddescription": "We integrate AI and automation tools to eliminate manual inefficiencies, enhancing accuracy and speed in daily tasks."
       },
       {
         "id": "3",
-        "numericimage": "/expertise-3.png",
+        "numericimage": "/images/expertise-3.png",
         "cardheading": "Real-Time Insights",
         "carddescription": "Our data-driven monitoring systems provide actionable insights, allowing for smarter decisions and operational improvements."
       },
       {
         "id": "4",
-        "numericimage": "/expertise-4.png",
+        "numericimage": "/images/expertise-4.png",
         "cardheading": "Risk Mitigation",
         "carddescription": "We identify potential risks and implement mitigation strategies, ensuring compliance and business continuity under all conditions."
       },
       {
         "id": "5",
-        "numericimage": "/expertise-5.png",
+        "numericimage": "/images/expertise-5.png",
         "cardheading": "Scalability",
         "carddescription": "Our solutions are designed to scale, allowing your operations to expand effortlessly without disrupting existing processes."
       },
       {
         "id": "6",
-        "numericimage": "/expertise-6.png",
+        "numericimage": "/images/expertise-6.png",
         "cardheading": "24/7 Support",
         "carddescription": "We provide round-the-clock assistance to keep your business running smoothly with minimal interruptions or delays."
       }
@@ -89,37 +89,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/expertise-1.png",
+        "numericimage": "/images/expertise-1.png",
         "cardheading": "Data Governance",
         "carddescription": "We establish structured governance frameworks, ensuring data integrity, regulatory compliance, and secure data access."
       },
       {
         "id": "2",
-        "numericimage": "/expertise-2.png",
+        "numericimage": "/images/expertise-2.png",
         "cardheading": "Data Security",
         "carddescription": "We implement robust encryption and security protocols to safeguard sensitive business information from cyber threats."
       },
       {
         "id": "3",
-        "numericimage": "/expertise-3.png",
+        "numericimage": "/images/expertise-3.png",
         "cardheading": "Data Integration",
         "carddescription": "We unify data from various sources, enabling seamless data flow across systems for accurate and efficient processing."
       },
       {
         "id": "4",
-        "numericimage": "/expertise-4.png",
+        "numericimage": "/images/expertise-4.png",
         "cardheading": "Advanced Analytics",
         "carddescription": "We transform raw data into actionable insights, using AI-powered tools to enhance decision-making and business intelligence."
       },
       {
         "id": "5",
-        "numericimage": "/expertise-5.png",
+        "numericimage": "/images/expertise-5.png",
         "cardheading": "Big Data Handling",
         "carddescription": "Our scalable big data solutions manage vast datasets efficiently, ensuring speed, accuracy, and seamless analysis."
       },
       {
         "id": "6",
-        "numericimage": "/expertise-6.png",
+        "numericimage": "/images/expertise-6.png",
         "cardheading": "Data Backup & Recovery",
         "carddescription": "We provide secure backup and disaster recovery solutions, ensuring business continuity with minimal data loss risks."
       }
@@ -131,37 +131,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/expertise-1.png",
+        "numericimage": "/images/expertise-1.png",
         "cardheading": "Minimise Downtime Risk",
         "carddescription": "Our 24/7 helpdesk and on-site IT support ensure issues are resolved quickly, keeping your operations running without interruptions."
       },
       {
         "id": "2",
-        "numericimage": "/expertise-2.png",
+        "numericimage": "/images/expertise-2.png",
         "cardheading": "Reliable IT Infrastructure",
         "carddescription": "We manage servers, networks, and systems with precision—delivering stable, scalable, and optimised IT environments for your business."
       },
       {
         "id": "3",
-        "numericimage": "/expertise-3.png",
+        "numericimage": "/images/expertise-3.png",
         "cardheading": "Ensure Cloud Readiness",
         "carddescription": "With expert-led Azure and SharePoint migrations, your organisation transitions securely to the cloud with minimal disruption."
       },
       {
         "id": "4",
-        "numericimage": "/expertise-4.png",
+        "numericimage": "/images/expertise-4.png",
         "cardheading": "Improve Data Security",
         "carddescription": "Endpoint protection, threat monitoring, and access control protocols help protect your business against evolving cyber risks."
       },
       {
         "id": "5",
-        "numericimage": "/expertise-5.png",
+        "numericimage": "/images/expertise-5.png",
         "cardheading": "Stay Compliant Easily",
         "carddescription": "We handle IT compliance, audits, and documentation-ensuring your systems align with regulatory standards without added complexity."
       },
       {
         "id": "6",
-        "numericimage": "/expertise-6.png",
+        "numericimage": "/images/expertise-6.png",
         "cardheading": "Empower Internal Teams",
         "carddescription": "Through user training and clear technical documentation, we equip your staff with the tools and knowledge to work confidently."
       }
@@ -173,37 +173,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/method_one.png",
+        "numericimage": "/images/method_one.png",
         "cardheading": "Strategic Hiring",
         "carddescription": "We utilize data-driven recruitment strategies to identify, attract, and retain top talent suited to your business goals."
       },
       {
         "id": "2",
-        "numericimage": "/method_two.png",
+        "numericimage": "/images/method_two.png",
         "cardheading": "Onboarding Process",
         "carddescription": "We streamline onboarding with structured programs, ensuring new employees integrate seamlessly into your company culture."
       },
       {
         "id": "3",
-        "numericimage": "/method_three.png",
+        "numericimage": "/images/method_three.png",
         "cardheading": "Performance Management",
         "carddescription": "We implement performance tracking systems, regular evaluations, and feedback mechanisms to enhance productivity."
       },
       {
         "id": "4",
-        "numericimage": "/method_four.png",
+        "numericimage": "/images/method_four.png",
         "cardheading": "Workforce Training",
         "carddescription": "We develop tailored training programs to upskill employees, fostering continuous learning and professional growth."
       },
       {
         "id": "5",
-        "numericimage": "/method_five.png",
+        "numericimage": "/images/method_five.png",
         "cardheading": "Compliance & Policies",
         "carddescription": "We ensure HR policies align with labor laws, protecting businesses from legal risks while promoting ethical workplace practices."
       },
       {
         "id": "6",
-        "numericimage": "/method_six.png",
+        "numericimage": "/images/method_six.png",
         "cardheading": "HR Technology Integration",
         "carddescription": "We leverage HR software solutions for payroll, benefits administration, and workforce analytics to improve efficiency."
       }
@@ -215,37 +215,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/method_one.png",
+        "numericimage": "/images/method_one.png",
         "cardheading": "Project Planning",
         "carddescription": "We create structured roadmaps with defined objectives, milestones, and timelines for efficient execution."
       },
       {
         "id": "2",
-        "numericimage": "/method_two.png",
+        "numericimage": "/images/method_two.png",
         "cardheading": "Resource Management",
         "carddescription": "We optimize resource allocation to ensure the right people and tools are used effectively throughout the project."
       },
       {
         "id": "3",
-        "numericimage": "/method_three.png",
+        "numericimage": "/images/method_three.png",
         "cardheading": "Risk Assessment",
         "carddescription": "We identify potential risks, develop mitigation strategies, and implement proactive solutions for project stability."
       },
       {
         "id": "4",
-        "numericimage": "/method_four.png",
+        "numericimage": "/images/method_four.png",
         "cardheading": "Agile Execution",
         "carddescription": "We use Agile methodologies to promote flexibility, adaptability, and collaboration for iterative project delivery."
       },
       {
         "id": "5",
-        "numericimage": "/method_five.png",
+        "numericimage": "/images/method_five.png",
         "cardheading": "Progress Tracking",
         "carddescription": "We implement real-time monitoring systems to track project milestones, ensuring alignment with objectives."
       },
       {
         "id": "6",
-        "numericimage": "/method_six.png",
+        "numericimage": "/images/method_six.png",
         "cardheading": "Quality Assurance",
         "carddescription": "We conduct rigorous quality checks, ensuring high standards and successful project completion with stakeholder satisfaction."
       }
@@ -257,37 +257,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/method_one.png",
+        "numericimage": "/images/method_one.png",
         "cardheading": "Understand Your Business",
         "carddescription": "We begin by analysing your financial structure, goals, and reporting needs to tailor our approach."
       },
       {
         "id": "2",
-        "numericimage": "/method_two.png",
+        "numericimage": "/images/method_two.png",
         "cardheading": "Organise Financial Data",
         "carddescription": "All transactions are accurately recorded and categorised to build a clean foundation for reporting."
       },
       {
         "id": "3",
-        "numericimage": "/method_three.png",
+        "numericimage": "/images/method_three.png",
         "cardheading": "Ensure Full Compliance",
         "carddescription": "Our team applies current tax laws and standards to keep your financial legally sound and audit-ready."
       },
       {
         "id": "4",
-        "numericimage": "/method_four.png",
+        "numericimage": "/images/method_four.png",
         "cardheading": "Analyse for Insight",
         "carddescription": "We examine key metrics, ratios, and performance indicators to uncover trends and opportunities."
       },
       {
         "id": "5",
-        "numericimage": "/method_five.png",
+        "numericimage": "/images/method_five.png",
         "cardheading": "Forecast with Clarity",
         "carddescription": "Using historical and real-time data, we build projections that guide strategic decisions and growth planning."
       },
       {
         "id": "6",
-        "numericimage": "/method_six.png",
+        "numericimage": "/images/method_six.png",
         "cardheading": "Report & Advice",
         "carddescription": "We deliver clear, actionable reports and insights to help you improve profitability and financial control."
       }
@@ -299,37 +299,37 @@
     "cardsdata": [
       {
         "id": "1",
-        "numericimage": "/method_one.png",
+        "numericimage": "/images/method_one.png",
         "cardheading": "Financial Clarity",
         "carddescription": "Our insights go beyond numbers-helping you understand your financial position and plan with precision."
       },
       {
         "id": "2",
-        "numericimage": "/method_two.png",
+        "numericimage": "/images/method_two.png",
         "cardheading": "Accurate Reporting",
         "carddescription": "We deliver clean, audit-ready reports that reflect your true financial performance with zero guesswork."
       },
       {
         "id": "3",
-        "numericimage": "/method_three.png",
+        "numericimage": "/images/method_three.png",
         "cardheading": "End-to-End Compliance",
         "carddescription": "From tax laws to labour regulations, we ensure every report and process is fully compliant and risk-free."
       },
       {
         "id": "4",
-        "numericimage": "/method_four.png",
+        "numericimage": "/images/method_four.png",
         "cardheading": "Smarter Cost Control",
         "carddescription": "Through detailed analysis, we help you identify waste, improve margins, and boost overall profitability."
       },
       {
         "id": "5",
-        "numericimage": "/method_five.png",
+        "numericimage": "/images/method_five.png",
         "cardheading": "Scalable Support System",
         "carddescription": "As your business grows, our services adapt-delivering the same accuracy and insight at every stage."
       },
       {
         "id": "6",
-        "numericimage": "/method_six.png",
+        "numericimage": "/images/method_six.png",
         "cardheading": "Informed Decision Making",
         "carddescription": "With forecasting, KPIs, and performance metrics, we help you make confident, data-backed business decisions."
       }

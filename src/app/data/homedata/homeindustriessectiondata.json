@@ -4,27 +4,27 @@
   "industriesicons": [
     {
       "id": "0",
-      "iconname": "/ind_icon_one.png"
+      "iconname": "/images/ind_icon_one.png"
     },
     {
       "id": "1",
-      "iconname": "/ind_icon_two.png"
+      "iconname": "/images/ind_icon_two.png"
     },
     {
       "id": "2",
-      "iconname": "/ind_icon_three.png"
+      "iconname": "/images/ind_icon_three.png"
     },
     {
       "id": "3",
-      "iconname": "/ind_icon_four.png"
+      "iconname": "/images/ind_icon_four.png"
     },
     {
       "id": "4",
-      "iconname": "/ind_icon_five.png"
+      "iconname": "/images/ind_icon_five.png"
     },
     {
       "id": "5",
-      "iconname": "/ind_icon_six.png"
+      "iconname": "/images/ind_icon_six.png"
     }
   ]
 }

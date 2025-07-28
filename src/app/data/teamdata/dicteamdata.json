@@ -2,21 +2,21 @@
   "memberone": {
     "name": "Muhammad Asim Rasheed",
     "designation": "Financial Controller",
-    "memeberpic": "/asim.png",
+    "memeberpic": "/images/asim.png",
     "facebooklink": "",
     "linkdinlink": ""
   },
   "memebertwo": {
     "name": "Aitaizaz-ul-haq",
     "designation": "Senior Full Stack Web Developer/Designer",
-    "memeberpic": "/atz.png",
+    "memeberpic": "/images/atz.png",
     "facebooklink": "",
     "linkdinlink": ""
   },
   "memeberthree": {
     "name": "Syed Muhammad Arslan Ahmed",
     "designation": "Finance & Admin Manager",
-    "memeberpic": "/arslan.png",
+    "memeberpic": "/images/arslan.png",
     "facebooklink": "",
     "linkdinlink": ""
   }

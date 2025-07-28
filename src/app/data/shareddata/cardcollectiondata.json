@@ -4,41 +4,41 @@
       {
         "id": "arrow",
         "type": "arrow",
-        "image": "card-collection-rightarrow-icon.png"
+        "image": "images/card-collection-rightarrow-icon.png"
       },
       {
         "id": "1",
         "firsttext": "24/7 IT Helpdesk Support",
         "secondtext": "Always-On Tech Assistance",
-        "image": "card-collection-icon-cardone.png",
+        "image": "images/card-collection-icon-cardone.png",
         "bottomtext": "Round-the-clock helpdesk via call, email, and chat for instant issue resolution."
       },
       {
         "id": "2",
         "firsttext": "Cloud & Admin Control",
         "secondtext": "Smart Infrastructure Management",
-        "image": "card-collection-icon-cardtwo.png",
+        "image": "images/card-collection-icon-cardtwo.png",
         "bottomtext": "Secure cloud migrations, licensing, and Microsoft 365 admin, all expertly handled."
       },
       {
         "id": "3",
         "firsttext": "Compliance & Security Consulting",
         "secondtext": "Risk-Ready Business Support",
-        "image": "card-collection-icon-cardthree.png",
+        "image": "images/card-collection-icon-cardthree.png",
         "bottomtext": "Security audits, threat monitoring, and compliance strategies to safeguard your operations."
       },
       {
         "id": "4",
         "firsttext": "Custom Web Solutions",
         "secondtext": "Tailored Digital Experiences",
-        "image": "card-collection-icon-cardfour.png",
+        "image": "images/card-collection-icon-cardfour.png",
         "bottomtext": "Fully customised, responsive websites built for performance, security, and scale."
       },
       {
         "id": "5",
         "firsttext": "SEO & Ongoing Maintenance",
         "secondtext": "Growth-Driven Web Presence",
-        "image": "card-collection-icon-cardfive.png",
+        "image": "images/card-collection-icon-cardfive.png",
         "bottomtext": "Optimised deployment with SEO, analytics, and long-term technical upkeep."
       }
     ]
@@ -49,41 +49,41 @@
       {
         "id": "arrow",
         "type": "arrow",
-        "image": "card-collection-rightarrow-icon.png"
+        "image": "images/card-collection-rightarrow-icon.png"
       },
       {
         "id": "1",
         "firsttext": "Healthcare Stays Compliant",
         "secondtext": "Secure, compliant, and always available",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "Secure infrastructure, endpoint protection, and admin support ensure data safety and regulatory compliance."
       },
       {
         "id": "2",
         "firsttext": "Education Goes Digital",
         "secondtext": "Modern solutions for modern learning",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "From cloud-based systems to custom web portals, we enable smart learning environments and efficient administration."
       },
       {
         "id": "3",
         "firsttext": "Retail Operates Seamlessly",
         "secondtext": "Efficiency and visibility at every step",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We support retail with real-time IT assistance, inventory-friendly accounting, and engaging digital storefronts."
       },
       {
         "id": "4",
         "firsttext": "Finance Runs Smarter",
         "secondtext": "Optimised operations for financial institutions",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "Robust IT support, compliance consulting, and accurate financial reporting streamline critical financial operations."
       },
       {
         "id": "5",
         "firsttext": "Startups Scale Faster",
         "secondtext": "Agile support for growing ventures",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "Our end-to-end services help startups launch, stabilise, and grow, with lean operations and strong digital presence."
       }
     ]
@@ -97,42 +97,42 @@
         "id": "1",
         "firsttext": "Custom Development",
         "secondtext": "Tailored websites built for your business.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "We develop fully customized web solutions, ensuring they align with your brand, goals, and user expectations."
       },
       {
         "id": "2",
         "firsttext": "E-Commerce Solutions",
         "secondtext": "Powerful, secure online stores.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We build high-performance e-commerce platforms with seamless checkout, payment integration, and user-friendly experiences."
       },
       {
         "id": "3",
         "firsttext": "Responsive Design",
         "secondtext": "Optimized for all devices.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We create mobile-friendly, responsive designs that provide seamless experiences across all screens and devices."
       },
       {
         "id": "4",
         "firsttext": "CMS Development",
         "secondtext": "Easy content management.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We develop CMS-based websites using platforms like WordPress and headless CMS, ensuring easy content updates."
       },
       {
         "id": "5",
         "firsttext": "SEO Optimization",
         "secondtext": "Better rankings, more traffic.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We implement SEO best practices to improve visibility, drive organic traffic, and boost search engine rankings."
       },
       {
         "id": "6",
         "firsttext": "Web App Development",
         "secondtext": "Scalable, high-performance apps.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We build fast, secure, and scalable web applications that enhance user engagement and business efficiency."
       }
     ]
@@ -145,42 +145,42 @@
         "id": "1",
         "firsttext": "Strategic Execution & Efficiency",
         "secondtext": "Optimizing operations for seamless execution.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "We implement efficient processes and workflow optimization strategies to ensure seamless execution, increased productivity, and business success."
       },
       {
         "id": "2",
         "firsttext": "Optimization & Automation",
         "secondtext": "Driving  automated workflows.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We streamline operations by leveraging automation and intelligent workflow management, reducing inefficiencies, and enhancing overall business agility."
       },
       {
         "id": "3",
         "firsttext": "Monitoring & Insights",
         "secondtext": "Data-driven insights for operations",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We provide real-time performance monitoring and data analytics, enabling businesses to make informed decisions and continuously improve operational outcomes."
       },
       {
         "id": "4",
         "firsttext": "Compliance Management",
         "secondtext": "Ensuring adherence to regulations",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We establish strong governance frameworks and compliance strategies to mitigate risks, ensure regulatory adherence, and maintain operational integrity."
       },
       {
         "id": "5",
         "firsttext": "Logistics Support",
         "secondtext": "Enhancing supply chain efficiency",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We optimize supply chain operations, ensuring timely delivery, cost efficiency, and a seamless logistics process that aligns with business goals."
       },
       {
         "id": "6",
         "firsttext": "Business Continuity",
         "secondtext": "Ensuring uninterrupted operations",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We design and implement resilience strategies that safeguard operations against disruptions, ensuring business continuity and sustained performance."
       }
     ]
@@ -193,42 +193,42 @@
         "id": "1",
         "firsttext": "Data Governance",
         "secondtext": "Ensuring structured data management.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "We implement governance frameworks that maintain data integrity, compliance, and security while optimizing accessibility for informed decision-making."
       },
       {
         "id": "2",
         "firsttext": "Data Integration",
         "secondtext": "Seamless data unification.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We enable smooth data flow across multiple platforms, ensuring consistency and accessibility across various business operations."
       },
       {
         "id": "3",
         "firsttext": "Data Security",
         "secondtext": "Protecting critical information.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We apply advanced encryption, access controls, and compliance strategies to safeguard sensitive business data from cyber threats and unauthorized access."
       },
       {
         "id": "4",
         "firsttext": "Data Analytics",
         "secondtext": "Transforming data into insights.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We leverage AI-driven analytics to process raw data, uncover trends, and provide actionable insights that drive strategic business decisions."
       },
       {
         "id": "5",
         "firsttext": "Big Data Solutions",
         "secondtext": "Handling complex data sets.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We develop scalable big data architectures that manage and analyze vast amounts of structured and unstructured data efficiently."
       },
       {
         "id": "6",
         "firsttext": "Data Backup & Recovery",
         "secondtext": "Ensuring data resilience.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We provide robust backup and disaster recovery solutions that prevent data loss, ensure business continuity, and minimize downtime."
       }
     ]
@@ -242,42 +242,42 @@
         "id": "1",
         "firsttext": "Helpdesk Support",
         "secondtext": "Ensuring structured data management.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "Our 24/7 IT helpdesk provides immediate assistance via call, email, or chat. We resolve hardware and software issues quickly, minimising downtime and keeping your teams productive around the clock."
       },
       {
         "id": "2",
         "firsttext": "On-Site Assistance",
         "secondtext": "Seamless data unification.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "Level 1 and Level 2 support services offer hands-on troubleshooting at your location. Our technicians ensure smooth daily operations with prompt, professional service when and where it’s needed."
       },
       {
         "id": "3",
         "firsttext": "Infrastructure Management",
         "secondtext": "Protecting critical information.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We manage your servers, networks, and IT environment to ensure maximum uptime and stability. Our administration services cover everything from routine monitoring to advanced configurations."
       },
       {
         "id": "4",
         "firsttext": "Cloud Migration",
         "secondtext": "Transforming data into insights.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "Whether you're shifting to Azure AD or SharePoint, we ensure secure, seamless transitions. We handle user management, licensing, and system integration with zero disruption."
       },
       {
         "id": "5",
         "firsttext": "IT Consultancy",
         "secondtext": "Handling complex data sets.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We provide expert guidance on IT risk, compliance, access control, and endpoint protection. Our consultants help you strengthen your security posture and meet regulatory requirements."
       },
       {
         "id": "6",
         "firsttext": "Threat Monitoring",
         "secondtext": "Ensuring data resilience.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "Our SOC Level 1 & 2 support offers real-time incident response and proactive threat detection. We help prevent breaches and keep your data and systems secure 24/7."
       }
     ]
@@ -288,42 +288,42 @@
         "id": "1",
         "firsttext": "Talent Acquisition",
         "secondtext": "Finding the right people for your business.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "We streamline recruitment by identifying top talent, conducting assessments, and ensuring the right fit for your organization’s needs."
       },
       {
         "id": "2",
         "firsttext": "Employee Onboarding",
         "secondtext": "Seamless integration of new hires.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We design structured onboarding processes that enhance employee experience, ensuring smooth transitions into your company culture."
       },
       {
         "id": "3",
         "firsttext": "Payroll & Compliance",
         "secondtext": "Accurate payroll with full compliance.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We manage payroll processing, tax compliance, and benefits administration, ensuring accuracy and regulatory adherence."
       },
       {
         "id": "4",
         "firsttext": "Performance Management",
         "secondtext": "Driving employee growth and success.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We implement performance evaluation frameworks, goal-setting strategies, and feedback systems to enhance productivity."
       },
       {
         "id": "5",
         "firsttext": "HR Consulting",
         "secondtext": "Expert guidance for HR excellence.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We provide strategic HR consulting to optimize policies, employee relations, and workforce planning for long-term success."
       },
       {
         "id": "6",
         "firsttext": "Workforce Training",
         "secondtext": "Upskilling for business growth.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We offer training programs tailored to improve employee skills, leadership development, and workplace efficiency."
       }
     ]
@@ -334,42 +334,42 @@
         "id": "1",
         "firsttext": "Project Planning",
         "secondtext": "Structured plans for successful execution.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "We develop detailed project roadmaps, defining objectives, timelines, and milestones to ensure seamless execution and goal achievement."
       },
       {
         "id": "2",
         "firsttext": "Resource Allocation",
         "secondtext": "Optimizing resources for efficiency.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We strategically allocate resources, ensuring the right people and tools are in place to maximize productivity and project success."
       },
       {
         "id": "3",
         "firsttext": "Risk Management",
         "secondtext": "Proactively identifying and mitigating risks.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "We assess potential risks, develop contingency plans, and implement mitigation strategies to ensure project stability and continuity."
       },
       {
         "id": "4",
         "firsttext": "Project Monitoring",
         "secondtext": "Tracking progress in real-time.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We implement monitoring tools and KPIs to track performance, ensure adherence to timelines, and adjust strategies as needed."
       },
       {
         "id": "5",
         "firsttext": "Agile Methodology",
         "secondtext": "Adaptive and iterative project execution.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We follow Agile frameworks to enhance collaboration, responsiveness, and flexibility in managing complex projects efficiently."
       },
       {
         "id": "6",
         "firsttext": "Project Delivery",
         "secondtext": "Ensuring timely and successful completion.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "We focus on quality assurance, stakeholder satisfaction, and seamless project handover to achieve business objectives."
       }
     ]
@@ -380,42 +380,42 @@
         "id": "1",
         "firsttext": "Accurate Bookkeeping",
         "secondtext": "Accurate financial records management.",
-        "image": "card-collection-icon-industries-cardone.png",
+        "image": "images/card-collection-icon-industries-cardone.png",
         "bottomtext": "Timely and precise tracking of all financial transactions to ensure clean, audit-ready records."
       },
       {
         "id": "2",
         "firsttext": "Financial Reporting",
         "secondtext": "Transparent and compliant financial statements.",
-        "image": "card-collection-icon-industries-cardtwo.png",
+        "image": "images/card-collection-icon-industries-cardtwo.png",
         "bottomtext": "We deliver essential statements like balance sheets, income statements, and cash flow reports."
       },
       {
         "id": "3",
         "firsttext": "Payroll Management",
         "secondtext": "Ensuring adherence to tax regulations.",
-        "image": "card-collection-icon-industries-cardthree.png",
+        "image": "images/card-collection-icon-industries-cardthree.png",
         "bottomtext": "Full-service payroll processing that ensures timely, compliant, and accurate employee payments."
       },
       {
         "id": "4",
         "firsttext": "Performance Analysis",
         "secondtext": "Ensuring readiness for financial audits.",
-        "image": "card-collection-icon-industries-cardfour.png",
+        "image": "images/card-collection-icon-industries-cardfour.png",
         "bottomtext": "We analyse KPIs, ratios, and cash flow to uncover insights and improve financial decisions."
       },
       {
         "id": "5",
         "firsttext": "Forecasting Tools",
         "secondtext": "Efficient and timely salary processing.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "Strategic budgeting and forecasting solutions to plan for future revenues, costs, and growth."
       },
       {
         "id": "6",
         "firsttext": "Profitability Insights",
         "secondtext": "Strategic financial planning for growth.",
-        "image": "card-collection-icon-industries-cardfive.png",
+        "image": "images/card-collection-icon-industries-cardfive.png",
         "bottomtext": "Detailed cost and margin analysis to help identify your most valuable revenue streams."
       }
     ]
