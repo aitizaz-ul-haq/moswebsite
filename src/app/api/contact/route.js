@@ -38,7 +38,7 @@ export async function POST(req) {
       from: `"${firstname} ${lastname}" <${email}>`,
       // to: "sahmed@fgkltd.com",
       to: "atz.softprgmr@gmail.com",
-      subject: `Contact Form Submission from ${firstname} ${lastname}`,
+      subject: `Contact Form Submission (Via Website) from ${firstname} ${lastname}`,
       // text: `
       //   Name: ${firstname} ${lastname}
       //   Company: ${company}
@@ -49,16 +49,16 @@ export async function POST(req) {
       //   ${message}
       // `,
       html: `
-        <div style="font-family: Arial, sans-serif; padding: 10px;">
+        <div style="font-family: Arial, sans-serif; padding: 40px;">
           <img src="cid:moslogo" alt="MOS Logo" style="height: 30px;" />
-          <h2>Contact Form Submission</h2>
+          <h2>Contact Form Submission from Manage Outsource Website</h2>
           <p><strong>Name:</strong> ${firstname} ${lastname}</p>
           <p><strong>Company:</strong> ${company}</p>
           <p><strong>Phone:</strong> ${phone}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Message:</strong><br>${message}</p>
           <br />
-          <img src="cid:mosfooterlogo" alt="MOS Footer Logo" style="height: 25px;" />
+          <img src="cid:mosfooterlogo" alt="MOS Footer Logo" style="height: 38px;" />
         </div>
       `,
       attachments,
@@ -76,7 +76,7 @@ export async function POST(req) {
             <tr>
               <td align="left">
                 <!-- <img src="https://i.postimg.cc/qv15pn6T/fgk-circular-logo.png" alt="FGK Back Office Services" style="height: 100px;"> -->
-                 <img src="cid:moslogo" alt="Manage Outsource Services" style="height: 200px;">
+                 <img src="cid:moslogo" alt="Manage Outsource Services" style="height: 120px;">
               </td>
               <td align="right">
                 <!-- Empty right section -->
@@ -108,7 +108,7 @@ export async function POST(req) {
                 </p>
               </td>
               <td align="right">
-                <img src="cid:mosfooterlogo" alt="Mos Letter Logo" style="height: 125px;" />
+                <img src="cid:mosfooterlogo" alt="Mos Letter Logo" style="height: 50px;" />
               </td>
             </tr>
           </table>
