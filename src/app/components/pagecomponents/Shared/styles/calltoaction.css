@@ -6,7 +6,7 @@
   padding-bottom: 8rem;
   margin-top: 8rem;
   margin-bottom: 8rem;
-  background-image: url("/calltoaction_1920_background.png");
+  background-image: url("/images/calltoaction_1920_background.png");
 }
 
 .calltoaction-left-text-section {
@@ -58,7 +58,7 @@
 @media (max-width: 320px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_320_background.png");
+    background-image: url("/images/calltoaction_320_background.png");
     padding-top: 0rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -105,7 +105,7 @@
 @media (max-width: 360px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_360_background.png");
+    background-image: url("/images/calltoaction_360_background.png");
     padding-top: 0rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -152,7 +152,7 @@
 @media (max-width: 375px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_375_background.png");
+    background-image: url("/images/calltoaction_375_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -199,7 +199,7 @@
 @media (min-width: 390px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_390_background.png");
+    background-image: url("/images/calltoaction_390_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -246,7 +246,7 @@
 @media (min-width: 430px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_430_background.png");
+    background-image: url("/images/calltoaction_430_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -262,7 +262,7 @@
 @media (min-width: 480px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_480_background.png");
+    background-image: url("/images/calltoaction_480_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -278,7 +278,7 @@
 @media (min-width: 600px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_600_background.png");
+    background-image: url("/images/calltoaction_600_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -304,7 +304,7 @@
     padding-bottom: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_768_background.png);
+    background-image: url("/images/calltoaction_768_background.png");
   }
 
   .calltoaction-left-text-section {
@@ -362,7 +362,7 @@
     padding-bottom: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_1024_background.png);
+    background-image: url("/images/calltoaction_1024_background.png");
   }
 }
 
@@ -376,7 +376,7 @@
     padding-bottom: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_1280_background.png);
+    background-image: url("/images/calltoaction_1280_background.png");
   }
 
   .calltoaction-heading {
@@ -398,7 +398,7 @@
     padding-bottom: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_1440_background.png);
+    background-image: url("/images/calltoaction_1440_background.png");
   }
 
   .calltoaction-heading {
@@ -420,7 +420,7 @@
     padding-bottom: 3rem;
     margin-top: 2rem;
     margin-bottom: 8rem;
-    background-image: url(/calltoaction_1600_background.png);
+    background-image: url("/images/calltoaction_1600_background.png");
   }
 
   .calltoaction-heading {
@@ -443,7 +443,7 @@
     padding-bottom: 5rem;
     margin-top: 2rem;
     margin-bottom: 8rem;
-    background-image: url(/calltoaction_1920_background.png);
+    background-image: url("/images/calltoaction_1920_background.png");
   }
 
   .calltoaction-heading {
@@ -467,7 +467,7 @@
     padding-bottom: 5rem;
     margin-top: 2rem;
     margin-bottom: 8rem;
-    background-image: url(/calltoaction_2560_background.png);
+    background-image: url("/images/calltoaction_2560_background.png");
   }
 
   .calltoaction-heading {
@@ -489,7 +489,7 @@
 @media (width: 414px) and (height: 896px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_414_iphone_xr_background.png");
+    background-image: url("/images/calltoaction_414_iphone_xr_background.png");
     padding-top: 2rem;
     padding-bottom: 3rem;
     margin-top: 2rem;
@@ -544,7 +544,7 @@
 @media (width: 412px) and (height: 915px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_412_pixel_7_background.png");
+    background-image: url("/images/calltoaction_412_pixel_7_background.png");
     padding-top: 2rem;
     padding-bottom: 3rem;
     margin-top: 2rem;
@@ -609,7 +609,7 @@
     padding-bottom: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_ipad-air_820_background.png);
+    background-image: url("/images/calltoaction_ipad-air_820_background.png");
   }
 
   .calltoaction-left-text-section {
@@ -671,7 +671,7 @@
     padding-bottom: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-image: url(/calltoaction_surface_pro_912_background.png);
+    background-image: url("/images/calltoaction_surface_pro_912_background.png");
   }
 
   .calltoaction-left-text-section {
@@ -723,7 +723,7 @@
 @media (width: 540px) and (height: 720px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_Surface_duo_540_background.png");
+    background-image: url("/images/calltoaction_Surface_duo_540_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -770,7 +770,7 @@
 @media (width: 412px) and (height: 914px) {
   .calltoaction-container {
     flex-direction: column;
-    background-image: url("/calltoaction_Surface_duo_540_background.png");
+    background-image: url("/images/calltoaction_Surface_duo_540_background.png");
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;

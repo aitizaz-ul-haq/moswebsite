@@ -13,7 +13,7 @@
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
   .hero-section {
-    background-image: url("/480_background.png");
+    background-image: url("/images/480_background.png");
   }
 
   .homeright-title {
