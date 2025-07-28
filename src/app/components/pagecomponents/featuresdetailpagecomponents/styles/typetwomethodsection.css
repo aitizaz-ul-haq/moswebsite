@@ -19,7 +19,7 @@
 
 .typeoneadv-tag {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   background-color: var(--light-orange);
   display: inline-block;
   padding-left: 0.4rem;
@@ -30,9 +30,9 @@
 }
 
 .typeoneadv-text {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: var(--text-color);
+  color: black;
   display: inline-block;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
@@ -85,8 +85,12 @@
     width: 92%;
   }
 
-  .typeoneadv-text {
+  .typeoneadv-tag {
     font-size: 16px;
+  }
+
+  .typeoneadv-text {
+    font-size: 15px;
   }
 
   .typeoneadv-container {
@@ -151,8 +155,12 @@
     width: 92%;
   }
 
-  .typeoneadv-text {
+  .typeoneadv-tag {
     font-size: 16px;
+  }
+
+  .typeoneadv-text {
+    font-size: 15px;
   }
 
   .typeoneadv-container {
@@ -184,8 +192,12 @@
     width: 92%;
   }
 
-  .typeoneadv-text {
+  .typeoneadv-tag {
     font-size: 16px;
+  }
+
+  .typeoneadv-text {
+    font-size: 17px;
   }
 
   .typeoneadv-container {
@@ -225,8 +237,13 @@
     width: 92%;
   }
 
-  .typeoneadv-text {
+  .typeoneadv-tag {
     font-size: 16px;
+    margin-bottom: 0.7rem;
+  }
+
+  .typeoneadv-text {
+    font-size: 18px;
   }
 
   .typeoneadv-container {
@@ -258,6 +275,15 @@
     background-image: none;
   }
 
+  .typeoneadv-tag {
+    font-size: 22px;
+    margin-bottom: 0.7rem;
+  }
+
+  .typeoneadv-text {
+    font-size: 17px;
+  }
+
   .typeoneadv-advcard {
     width: 42%;
     margin: 0rem;
@@ -266,6 +292,10 @@
 
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
+  .typeoneadv-tag {
+    font-size: 26px;
+    margin-bottom: 0rem;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
@@ -278,7 +308,7 @@
   }
 
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .typeoneadv-container {
@@ -313,7 +343,7 @@
   }
 
   .typeoneadv-text {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .typeoneadv-advcarddescription {
@@ -331,7 +361,7 @@
   }
 
   .typeoneadv-text {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .typeoneadv-advcarddescription {
