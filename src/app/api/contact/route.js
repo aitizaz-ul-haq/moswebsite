@@ -34,8 +34,8 @@ export async function POST(req) {
     // Define the email options for HR
     const hrMailOptions = {
       from: `"${firstname} ${lastname}" <${email}>`,
-      // to: "sahmed@fgkltd.com",
-      to: "atz.softprgmr@gmail.com",
+      to: "sahmed@fgkltd.com",
+      // to: "atz.softprgmr@gmail.com",
       subject: `Contact Form Submission (Via Website) from ${firstname} ${lastname}`,
       // text: `
       //   Name: ${firstname} ${lastname}
@@ -47,7 +47,7 @@ export async function POST(req) {
       //   ${message}
       // `,
       html: `
-        <div style="font-family: Arial, sans-serif; padding: 40px;">
+        <div style="font-family: Arial, sans-serif; padding: 110px;">
           <img src="cid:moslogo" alt="MOS Logo" style="height: 30px;" />
           <h2>Contact Form Submission from Manage Outsource Website</h2>
           <p><strong>Name:</strong> ${firstname} ${lastname}</p>
