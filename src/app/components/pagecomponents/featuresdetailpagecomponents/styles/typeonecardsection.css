@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/featurestypeone_background_1920.png");
+  background-image: url("/images/featurestypeone_background_1920.png");
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
@@ -463,7 +463,7 @@
 /* Medium laptops (>= 1024px) */
 @media (min-width: 1024px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1024.png");
+    background-image: url("/images/featurestypeone_background_1024.png");
   }
 
   .typeonecard-tag {
@@ -498,7 +498,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1280.png");
+    background-image: url("/images/featurestypeone_background_1280.png");
   }
   .typeonecard-card {
     flex-basis: calc(34.33% - 1rem);
@@ -538,7 +538,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1440.png");
+    background-image: url("/images/featurestypeone_background_1440.png");
   }
   .typeonecard-text-container {
     justify-content: flex-end;
@@ -560,14 +560,14 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1600.png");
+    background-image: url("/images/featurestypeone_background_1600.png");
   }
 }
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_1920.png");
+    background-image: url("/images/featurestypeone_background_1920.png");
   }
 
   .typeoncard-collection-first-text {
@@ -587,7 +587,7 @@
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .typeonecard-main-container {
-    background-image: url("/featurestypeone_background_2560.png");
+    background-image: url("/images/featurestypeone_background_2560.png");
   }
 
   .typeonecard-tag {

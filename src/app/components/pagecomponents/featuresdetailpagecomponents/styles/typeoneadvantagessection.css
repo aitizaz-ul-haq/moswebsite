@@ -10,7 +10,7 @@
   align-items: center;
   padding-top: 14rem;
   padding-bottom: 14rem;
-  background-image: url("/features_advantages_background_1920.png");
+  background-image: url("/images/features_advantages_background_1920.png");
 }
 
 .typeoneadv-topsection {
@@ -296,7 +296,7 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .typeoneadv-container {
-    background-image: url("/features_advantages_background_1920.png");
+    background-image: url("/images/features_advantages_background_1920.png");
   }
   .typeoneadv-topsection {
     width: 50%;
@@ -335,7 +335,7 @@
   .typeoneadv-container {
     margin-top: 4rem;
     padding-top: 12rem;
-    background-image: url("/features_advantages_background_1440.png");
+    background-image: url("/images/features_advantages_background_1440.png");
   }
 
   .typeoneadv-text {
@@ -353,7 +353,7 @@
     margin-top: 1rem;
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url("/features_advantages_background_1600.png");
+    background-image: url("/images/features_advantages_background_1600.png");
   }
 
   .typeoneadv-text {
@@ -371,7 +371,7 @@
   .typeoneadv-container {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url("/features_advantages_background_1920.png");
+    background-image: url("/images/features_advantages_background_1920.png");
   }
 }
 
@@ -380,7 +380,7 @@
   .typeoneadv-container {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url("/features_advantages_background_2560.png");
+    background-image: url("/images/features_advantages_background_2560.png");
   }
 }
 

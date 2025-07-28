@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/home_benefits_background_1920.png");
+  background-image: url("/images/home_benefits_background_1920.png");
 }
 
 .homebenefits-leftsection {
@@ -336,7 +336,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/home_benefits_background_1280.png");
+    background-image: url("/images/home_benefits_background_1280.png");
   }
 
   .homebenefits-leftsection {
@@ -408,7 +408,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .homebenefits-container {
-    background-image: url("/home_benefits_background_1440.png");
+    background-image: url("/images/home_benefits_background_1440.png");
   }
   .largecard-image {
     width: 25%;
@@ -423,7 +423,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .homebenefits-container {
-    background-image: url("/home_benefits_background_1600.png");
+    background-image: url("/images/home_benefits_background_1600.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -449,7 +449,7 @@
 @media (min-width: 1920px) {
   .homebenefits-container {
     height: 110vh;
-    background-image: url("/home_benefits_background_1920.png");
+    background-image: url("/images/home_benefits_background_1920.png");
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
@@ -469,7 +469,7 @@
 @media (min-width: 2560px) {
   .homebenefits-container {
     height: 110vh;
-    background-image: url("/home_benefits_background_1920.png");
+    background-image: url("/images/home_benefits_background_1920.png");
     margin-top: 10rem;
     margin-bottom: 10rem;
   }

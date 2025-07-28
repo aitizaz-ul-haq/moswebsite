@@ -9,7 +9,7 @@
   align-items: center;
   padding-left: 5rem;
   padding-right: 5rem;
-  background-image: url("/homeindustries_background_1920.png");
+  background-image: url("/images/homeindustries_background_1920.png");
 }
 
 .homepage-industries-section-text-container {
@@ -274,7 +274,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url("/homeindustries_background_1600.png");
+    background-image: url("/images/homeindustries_background_1600.png");
   }
 
   .homepage-industries-section-text-container {
@@ -347,14 +347,14 @@
     padding-right: 0rem;
     padding-bottom: 6rem;
     padding-top: 9rem;
-    background-image: url(/homeindustries_background_1920.png);
+    background-image: url("/images/homeindustries_background_1920.png");
   }
 }
 
 /* 4K screens (>= 1920px) */
 @media (min-width: 2560px) {
   .homepage-industries-section-container {
-    background-image: url(/homeindustries_background_2560.png);
+    background-image: url("/images/homeindustries_background_2560.png");
   }
 }
 

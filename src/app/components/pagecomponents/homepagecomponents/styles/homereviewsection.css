@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/home_review_background_1920.png");
+  background-image: url("/images/home_review_background_1920.png");
 }
 
 .homereviews-heading {
@@ -467,7 +467,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/home_review_background_1024.png");
+    background-image: url("/images/home_review_background_1024.png");
   }
 
   .homereviews-heading {
@@ -591,7 +591,7 @@
 @media (min-width: 1280px) {
   .homereviews-container {
     gap: 0.4rem;
-    background-image: url("/home_review_background_1280.png");
+    background-image: url("/images/home_review_background_1280.png");
   }
   .homereviews-heading {
     font-size: 86px;
@@ -602,7 +602,7 @@
 @media (min-width: 1440px) {
   .homereviews-container {
     gap: 0.4rem;
-    background-image: url("/home_review_background_1440.png");
+    background-image: url("/images/home_review_background_1440.png");
   }
   .homereviews-heading {
     font-size: 86px;
@@ -613,7 +613,7 @@
 @media (min-width: 1600px) {
   .homereviews-container {
     gap: 0.4rem;
-    background-image: url("/home_review_background_1600.png");
+    background-image: url("/images/home_review_background_1600.png");
   }
   .homereviews-heading {
     font-size: 110px;
@@ -624,7 +624,7 @@
 @media (min-width: 1920px) {
   .homereviews-container {
     gap: 0.4rem;
-    background-image: url("/home_review_background_1920.png");
+    background-image: url("/images/home_review_background_1920.png");
     margin-top: 1rem;
   }
   .homereviews-heading {
@@ -648,7 +648,7 @@
 @media (min-width: 2560px) {
   .homereviews-container {
     gap: 0.4rem;
-    background-image: url("/home_review_background_2560.png");
+    background-image: url("/images/home_review_background_2560.png");
   }
   .homereviews-heading {
     font-size: 179px;
