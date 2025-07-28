@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/about_1920_text_background.png");
+  background-image: url("/images/about_1920_text_background.png");
   padding-top: 0rem;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -203,7 +203,7 @@
     padding-top: 0rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    background-image: url("/about_1024_text_background.png");
+    background-image: url("/images/about_1024_text_background.png");
   }
 
   .abouttext-sidebyside-containers {
@@ -236,7 +236,7 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .abouttext-section-container {
-    background-image: url("/about_1440_text_background.png");
+    background-image: url("/images/about_1440_text_background.png");
   }
 }
 
@@ -247,7 +247,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .abouttext-section-container {
-    background-image: url("/about_1920_text_background.png");
+    background-image: url("/images/about_1920_text_background.png");
   }
 
   .abouttext-left-para-section {

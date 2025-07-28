@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/aboutlower_1920_background.png");
+  background-image: url("/images/aboutlower_1920_background.png");
   margin-top: 4rem;
   margin-bottom: 10rem;
   display: flex;
@@ -253,7 +253,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/aboutlower_768_background.png");
+    background-image: url("/images/aboutlower_768_background.png");
   }
   .aboutlower-text-section-heading {
     font-size: 28px;
@@ -301,7 +301,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/aboutlower_1024_background.png");
+    background-image: url("/images/aboutlower_1024_background.png");
   }
   .aboutlower-text-section-heading {
     font-size: 28px;
@@ -349,7 +349,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/aboutlower_1280_background.png");
+    background-image: url("/images/aboutlower_1280_background.png");
   }
   .aboutlower-text-section-heading {
     font-size: 28px;
@@ -397,7 +397,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/aboutlower_1440_background.png");
+    background-image: url("/images/aboutlower_1440_background.png");
   }
   .aboutlower-text-section-heading {
     font-size: 28px;
@@ -433,7 +433,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
   .aboutlower-text-section-container {
-    background-image: url("/aboutlower_1600_background.png");
+    background-image: url("/images/aboutlower_1600_background.png");
   }
 
   .aboutlower-text-section-leftsection {
@@ -449,7 +449,7 @@
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1920px) {
   .aboutlower-text-section-container {
-    background-image: url("/aboutlower_1920_background.png");
+    background-image: url("/images/aboutlower_1920_background.png");
     margin-bottom: 10rem;
   }
 
