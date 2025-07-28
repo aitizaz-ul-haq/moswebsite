@@ -10,7 +10,7 @@
   align-items: center;
   padding-top: 14rem;
   padding-bottom: 14rem;
-  background-image: url(/features_advantages_background_1920.png);
+  background-image: url("/features_advantages_background_1920.png");
 }
 
 .typeoneadv-topsection {
@@ -19,7 +19,7 @@
 
 .typeoneadv-tag {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   background-color: var(--light-orange);
   display: inline-block;
   padding-left: 0.4rem;
@@ -86,7 +86,10 @@
   }
 
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 0.5rem;
   }
 
   .typeoneadv-container {
@@ -119,7 +122,10 @@
   }
 
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 0.5rem;
   }
 
   .typeoneadv-container {
@@ -152,9 +158,11 @@
   }
 
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 0.5rem;
   }
-
   .typeoneadv-container {
     padding-top: 5rem;
     padding-bottom: 0rem;
@@ -186,8 +194,10 @@
 
   .typeoneadv-text {
     font-size: 16px;
+    font-weight: 300;
+    color: black;
+    margin-top: 0.5rem;
   }
-
   .typeoneadv-container {
     padding-top: 5rem;
     padding-bottom: 0rem;
@@ -217,6 +227,9 @@
 
 /* Larger phones and phablets (>= 480px) */
 @media (min-width: 480px) {
+  .typeoneadv-text {
+    font-size: 17px;
+  }
 }
 
 /* Tablets (>= 600px) */
@@ -225,8 +238,12 @@
     width: 92%;
   }
 
+  .typeoneadv-tag {
+    font-size: 22px;
+  }
+
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .typeoneadv-container {
@@ -258,6 +275,14 @@
     background-image: none;
   }
 
+  .typeoneadv-tag {
+    font-size: 26px;
+  }
+
+  .typeoneadv-text {
+    font-size: 17px;
+  }
+
   .typeoneadv-advcard {
     width: 42%;
     margin: 0rem;
@@ -271,14 +296,15 @@
 /* Large laptops and desktops (>= 1280px) */
 @media (min-width: 1280px) {
   .typeoneadv-container {
-    background-image: url(/features_advantages_background_1920.png);
+    background-image: url("/features_advantages_background_1920.png");
   }
   .typeoneadv-topsection {
     width: 50%;
   }
 
   .typeoneadv-text {
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: 300;
   }
 
   .typeoneadv-container {
@@ -309,11 +335,11 @@
   .typeoneadv-container {
     margin-top: 4rem;
     padding-top: 12rem;
-    background-image: url(/features_advantages_background_1440.png);
+    background-image: url("/features_advantages_background_1440.png");
   }
 
   .typeoneadv-text {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .typeoneadv-advcarddescription {
@@ -327,11 +353,12 @@
     margin-top: 1rem;
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url(/features_advantages_background_1600.png);
+    background-image: url("/features_advantages_background_1600.png");
   }
 
   .typeoneadv-text {
-    font-size: 19px;
+    font-size: 17px;
+    font-weight: 300;
   }
 
   .typeoneadv-advcarddescription {
@@ -344,7 +371,7 @@
   .typeoneadv-container {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url(/features_advantages_background_1920.png);
+    background-image: url("/features_advantages_background_1920.png");
   }
 }
 
@@ -353,7 +380,7 @@
   .typeoneadv-container {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url(/features_advantages_background_2560.png);
+    background-image: url("/features_advantages_background_2560.png");
   }
 }
 
