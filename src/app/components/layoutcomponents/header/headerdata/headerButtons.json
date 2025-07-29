@@ -2,6 +2,7 @@
   {
     "name": "SERVICES",
     "link": "/services",
+    "title": "Our Services",
     "subpages": [
       {
         "name": "IT Consultancy",
@@ -17,6 +18,7 @@
   {
     "name": "INDUSTRIES",
     "link": "/industries",
+    "title": "Industries we serve",
     "subpages": [
       {
         "name": "Financial Services",
@@ -30,7 +32,7 @@
       { "name": "Fintech", "link": "/industries#fintech" }
     ]
   },
-  { "name": "TEAM", "link": "/team" },
-  { "name": "ABOUT", "link": "/about" },
-  { "name": "CAREERS", "link": "/careers" }
+  { "name": "TEAM", "link": "/team", "title": "Meet our team" },
+  { "name": "ABOUT", "link": "/about", "title": "Find out who we are" },
+  { "name": "CAREERS", "link": "/careers", "title": "Join us" }
 ]

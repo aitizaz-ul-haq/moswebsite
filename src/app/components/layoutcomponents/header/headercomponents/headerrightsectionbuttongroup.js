@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import headerButtons from "../headerdata/headerButtons.json";
 import { useState } from "react";
@@ -20,6 +19,7 @@ export default function HeaderRightSectionButtonSection() {
             style={{ textDecoration: "none" }}
             href={button.link}
             className="header-nobackground-button font-nunito"
+            title={button.title}
           >
             {button.name}
           </Link>
