@@ -7,7 +7,7 @@ export default function FooterDescriptionContainer() {
           target="_blank"
           rel="noopener noreferrer"
           title="View our office location on Google Maps"
-          className="ooter-description font-nunito general-linkage"
+          className="footer-description font-nunito general-linkage-color"
         >
           Office no 212 Pakland VISTA, I-8 Markaz Islamabad.
         </a>
