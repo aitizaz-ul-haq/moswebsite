@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ResourceList({ resourceslistdata }) {
   return (
     <ul className="footer-lists">
@@ -6,7 +8,7 @@ export default function ResourceList({ resourceslistdata }) {
       </h4>
       {resourceslistdata.resourceslistitems.map((item, index) => (
         <li key={index} className={`list-items ${item.font}`}>
-          {item.text}
+          <Link href={item.link} className="general-linkage" title="details">{item.text}</Link>
         </li>
       ))}
     </ul>

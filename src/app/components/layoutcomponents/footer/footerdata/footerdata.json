@@ -59,12 +59,11 @@
         },
         "title": "Services",
         "items": [
-          { "text": "Homes", "font": "font-nunito" },
-          { "text": "About Us", "font": "font-nunito" },
-          { "text": "Services", "font": "font-nunito" },
-          { "text": "Contact Us", "font": "font-nunito" },
-          { "text": "FAQ", "font": "font-nunito" },
-          { "text": "Careers", "font": "font-nunito" }
+          { "text": "Home", "font": "font-nunito", "link": "/" },
+          { "text": "About Us", "font": "font-nunito", "link": "/about" },
+          { "text": "Services", "font": "font-nunito", "link": "/services" },
+          { "text": "Contact Us", "font": "font-nunito", "link": "/contact" },
+          { "text": "Careers", "font": "font-nunito", "link": "/careers" }
         ]
       },
       {
@@ -76,12 +75,10 @@
         },
         "title": "Industries",
         "items": [
-          { "text": "Homes", "font": "font-nunito" },
-          { "text": "About Us", "font": "font-nunito" },
-          { "text": "Services", "font": "font-nunito" },
-          { "text": "Contact Us", "font": "font-nunito" },
-          { "text": "FAQ", "font": "font-nunito" },
-          { "text": "Careers", "font": "font-nunito" }
+          { "text": "Finance", "font": "font-nunito" },
+          { "text": "Accountancy", "font": "font-nunito" },
+          { "text": "Web Development", "font": "font-nunito" },
+          { "text": "Tech Support", "font": "font-nunito" }
         ]
       }
     ],
@@ -93,12 +90,32 @@
   "resourceslist": {
     "resourceslisttitle": "Resources",
     "resourceslistitems": [
-      { "text": "Case Studies", "font": "font-nunito" },
-      { "text": "Whitepapers", "font": "font-nunito" },
-      { "text": "eBooks", "font": "font-nunito" },
-      { "text": "Webinars", "font": "font-nunito" },
-      { "text": "Tutorials", "font": "font-nunito" },
-      { "text": "Community Forum", "font": "font-nunito" }
+      {
+        "text": "Accounting",
+        "font": "font-nunito",
+        "link": "/services/accountingandreporting"
+      },
+      {
+        "text": "Custom Websites",
+        "font": "font-nunito",
+        "link": "/services/webdevelopment"
+      },
+      { "text": "IT Support", "font": "font-nunito", "link": "/itconsultancy" },
+      {
+        "text": "Web Design",
+        "font": "font-nunito",
+        "link": "/services/webdevelopment"
+      },
+      {
+        "text": "Reporting",
+        "font": "font-nunito",
+        "link": "/services/accountingandreporting"
+      },
+      {
+        "text": "On-site Assistance",
+        "font": "font-nunito",
+        "link": "/services/itconsultancy"
+      }
     ]
   },
   "supportlist": {
@@ -115,12 +132,11 @@
   "essentialLinkslist": {
     "essentialLinkslisttitle": "Essential Links",
     "essentialLinkslistitems": [
-      { "text": "Homes", "font": "font-nunito" },
-      { "text": "About Us", "font": "font-nunito" },
-      { "text": "Services", "font": "font-nunito" },
-      { "text": "Contact Us", "font": "font-nunito" },
-      { "text": "FAQ", "font": "font-nunito" },
-      { "text": "Careers", "font": "font-nunito" }
+      { "text": "Home", "font": "font-nunito", "link": "/" },
+      { "text": "About Us", "font": "font-nunito", "link": "/about" },
+      { "text": "Services", "font": "font-nunito", "link": "/services" },
+      { "text": "Contact Us", "font": "font-nunito", "link": "/contact" },
+      { "text": "Careers", "font": "font-nunito", "link": "/careers" }
     ]
   }
 }

@@ -3,12 +3,12 @@ import FooterLogoContainer from "./footerleftuppersectionsubcomps/footerlogocont
 
 export default function FooterTopLeftSectionUpperSection({ footerdata }) {
   let logodata = footerdata.footer.logo;
-  let logodescription = footerdata.footer.description;
+  // let logodescription = footerdata.footer.description;
 
   return (
     <div className="footer-top-leftsection-upper-section">
       <FooterLogoContainer footerlogo={logodata.src} />
-      <FooterDescriptionContainer footerdescription={logodescription.text} />
+      <FooterDescriptionContainer />
     </div>
   );
 }

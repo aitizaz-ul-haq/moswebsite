@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function EssentialLinksList({ essentialLinkslistdata }) {
   return (
     <ul className="footer-lists">
@@ -6,7 +8,9 @@ export default function EssentialLinksList({ essentialLinkslistdata }) {
       </h4>
       {essentialLinkslistdata.essentialLinkslistitems.map((item, index) => (
         <li key={index} className={`list-items ${item.font}`}>
+          <Link href={item.link} className="general-linkage" title="explore more">
           {item.text}
+          </Link>
         </li>
       ))}
     </ul>
