@@ -12,8 +12,8 @@ import CallToAction from "./components/pagecomponents/Shared/calltoaction/callto
 import Calltoactiondata from "./data/shareddata/calltoactiondata.json";
 import BenefitsSection from "./components/pagecomponents/homepagecomponents/benefitssection";
 import Benefitssectiondata from "./data/homedata/benefitssectiondata.json";
-import HomeReviewSection from "./components/pagecomponents/homepagecomponents/homereviewsection";
-import Homereviewsectiondata from "./data/homedata/homereviewsectiondata.json";
+// import HomeReviewSection from "./components/pagecomponents/homepagecomponents/homereviewsection";
+// import Homereviewsectiondata from "./data/homedata/homereviewsectiondata.json";
 import HomePageContactUsForm from "./components/pagecomponents/homepagecomponents/homepagecontactusform";
 
 export default function Home() {
