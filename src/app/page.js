@@ -41,7 +41,7 @@ export default function Home() {
       />
       <CallToAction Calltoactiondata={Calltoactiondata} />
       <BenefitsSection Benefitssectiondata={Benefitssectiondata} />
-      <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} />
+      {/* <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} /> */}
       <HomePageContactUsForm />
     </>
   );
