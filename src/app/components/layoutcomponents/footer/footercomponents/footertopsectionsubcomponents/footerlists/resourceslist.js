@@ -8,7 +8,7 @@ export default function ResourceList({ resourceslistdata }) {
       </h4>
       {resourceslistdata.resourceslistitems.map((item, index) => (
         <li key={index} className={`list-items ${item.font}`}>
-          <Link href={item.link} className="general-linkage" title="details">{item.text}</Link>
+          <Link href={item.link} className="general-linkage-color" title="details">{item.text}</Link>
         </li>
       ))}
     </ul>

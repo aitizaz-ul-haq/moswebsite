@@ -20,7 +20,7 @@ export default function FooterBottomRightSectionListsection({ footerdata }) {
               <li key={itemIndex} className={`list-items ${item.font}`}>
                 <Link
                   href={item.link || "/industries"}
-                  className="list-items general-linkage"
+                  className="list-items general-linkage-color"
                   title={`Go to ${item.text}`}
                 >
                   {item.text}
