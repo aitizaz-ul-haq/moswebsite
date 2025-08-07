@@ -20,8 +20,6 @@ import HomeIndustriesSection from "./components/pagecomponents/homepagecomponent
 import CallToAction from "./components/pagecomponents/Shared/calltoaction/calltoaction";
 import BenefitsSection from "./components/pagecomponents/homepagecomponents/benefitssection";
 import HomePageContactUsForm from "./components/pagecomponents/homepagecomponents/homepagecontactusform";
-// import HomeReviewSection from "./components/pagecomponents/homepagecomponents/homereviewsection";
-// import Homereviewsectiondata from "./data/homedata/homereviewsectiondata.json";
 
 export const metadata = {
   title:
@@ -127,7 +125,6 @@ export default function Home() {
       />
       <CallToAction Calltoactiondata={Calltoactiondata} />
       <BenefitsSection Benefitssectiondata={Benefitssectiondata} />
-      {/* <HomeReviewSection Homereviewsectiondata={Homereviewsectiondata} /> */}
       <HomePageContactUsForm />
     </>
   );
