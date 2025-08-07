@@ -78,7 +78,7 @@ export const metadata = {
     title: "Outsourced Business Services | Manage Outsource Services",
     description:
       "Professional outsourcing in IT, accounting, and web development. Let Manage Outsource Services support your operations.",
-    images: ["/images/og-preview.webp"],
+    images: ["/images/mos_homepage_preview_image.webp"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },

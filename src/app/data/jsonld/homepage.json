@@ -8,8 +8,8 @@
       "name": "Manage Outsource Services",
       "description": "Manage Outsource Services offers IT consultancy, custom web development, and accounting & reporting solutions for businesses across industries, especially the financial sector.",
       "inLanguage": "en",
-      "datePublished": "2025-01-01",
-      "dateModified": "2025-08-01",
+      "datePublished": "2025-08-07",
+      "dateModified": "2025-08-07",
       "publisher": {
         "@id": "https://www.manageoutsourceservices.com/#organization"
       }
@@ -47,7 +47,9 @@
         "width": 1200,
         "height": 630,
         "caption": "Manage Outsource Services Website Homepage Preview"
-      }
+      },
+      "datePublished": "2025-08-07",
+      "dateModified": "2025-08-07"
     },
     {
       "@type": "BreadcrumbList",
