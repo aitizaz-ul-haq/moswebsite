@@ -86,9 +86,6 @@ export const metadata = {
   },
 
   manifest: "/manifest.webmanifest",
-
-  themeColor: "#4b4e6d", // Tailored to your brand; feel free to adjust
-
   robots: {
     index: true,
     follow: true,
