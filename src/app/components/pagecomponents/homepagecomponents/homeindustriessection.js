@@ -1,8 +1,7 @@
-import "./styles/homeindustriessection.css";
-
 import HomeIndHeading from "./homeindsubcomponents/homeindheading";
 import HomeIndDescription from "./homeindsubcomponents/homeinddescription";
 import HomeIndGrid from "./homeindsubcomponents/homeindgrid";
+import "./styles/homeindustriessection.css";
 
 export default function HomeIndustriesSection({ Homeindustriessectiondata }) {
   return (

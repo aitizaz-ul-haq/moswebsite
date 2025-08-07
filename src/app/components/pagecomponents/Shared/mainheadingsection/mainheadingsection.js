@@ -1,6 +1,6 @@
-import "../styles/mainheadingsection.css";
 import MainHeadingSectionTitleContainer from "./mainheadingsectioncomps/mainheadingsectiontitlecontainer";
 import MainHeadingSectionLowerSectionContainer from "./mainheadingsectioncomps/mainheadingsectionlowersectioncontainer";
+import "../styles/mainheadingsection.css";
 
 export default function MainHeadingSection({
   title,
