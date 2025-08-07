@@ -8,9 +8,7 @@ export default function HomeIndustriesSection({ Homeindustriessectiondata }) {
     <div className="homepage-industries-section-container">
       <div className="homepage-industries-section-text-container">
         <HomeIndHeading Homeindustriessectiondata={Homeindustriessectiondata} />
-        <HomeIndDescription
-          Homeindustriessectiondata={Homeindustriessectiondata}
-        />
+        <HomeIndDescription Homeindustriessectiondata={Homeindustriessectiondata}/>
         <HomeIndGrid Homeindustriessectiondata={Homeindustriessectiondata} />
       </div>
     </div>
