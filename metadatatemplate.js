@@ -1,26 +1,3 @@
-// importing tools
-import Script from "next/script";
-
-// json data import
-import Homepageherodata from "@/app/data/shareddata/hersectiondata.json";
-import Homepageheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
-import Homecarddata from "../app/data/homedata/homecardcollectiondata.json";
-import Calltoactiondata from "./data/shareddata/calltoactiondata.json";
-import Homeadvantegessectiondata from "./data/homedata/homeadvantegessectiondata.json";
-import Homeindustriessectiondata from "../app/data/homedata/homeindustriessectiondata.json";
-import Benefitssectiondata from "./data/homedata/benefitssectiondata.json";
-import Homepagejsonld from "@/app/data/jsonld/homepage.json";
-
-// importing componenets
-import MainPageHeroSection from "./components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "./components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import ExpertiseCollection from "./components/pagecomponents/homepagecomponents/expertisecollection";
-import HomeAdvantagesSection from "./components/pagecomponents/homepagecomponents/homeadvantegessection";
-import HomeIndustriesSection from "./components/pagecomponents/homepagecomponents/homeindustriessection";
-import CallToAction from "./components/pagecomponents/Shared/calltoaction/calltoaction";
-import BenefitsSection from "./components/pagecomponents/homepagecomponents/benefitssection";
-import HomePageContactUsForm from "./components/pagecomponents/homepagecomponents/homepagecontactusform";
-
 export const metadata = {
   title: "Outsourced Business Services | Manage Outsource Services",
   description:
@@ -110,6 +87,8 @@ export const metadata = {
 
   manifest: "/manifest.webmanifest",
 
+  themeColor: "#4b4e6d", // Tailored to your brand; feel free to adjust
+
   robots: {
     index: true,
     follow: true,
@@ -131,39 +110,3 @@ export const metadata = {
   category: "Business Services",
   datePublished: "2025-08-07",
 };
-
-export default function Home() {
-  const cards = Homecarddata.home.cards;
-  return (
-    <>
-      <Script
-        id="jsonld-homepage"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(Homepagejsonld) }}
-      />
-      <MainPageHeroSection
-        title={Homepageherodata.home.title}
-        paragraph={Homepageherodata.home.paragraph}
-        textOrientation={Homepageherodata.home.textOrientation}
-        backgroundImages={Homepageherodata.home.backgroundImages}
-      />
-      <MainHeadingSection
-        title={Homepageheadingsectiondata.home.title}
-        description={Homepageheadingsectiondata.home.description}
-        tagtext={Homepageheadingsectiondata.home.tagtext}
-        backgroundImages={Homepageheadingsectiondata.home.backgroundImages}
-      />
-      <ExpertiseCollection cards={cards} />
-      <HomeAdvantagesSection
-        Homeadvantegessectiondata={Homeadvantegessectiondata}
-      />
-      <HomeIndustriesSection
-        Homeindustriessectiondata={Homeindustriessectiondata}
-      />
-      <CallToAction Calltoactiondata={Calltoactiondata} />
-      <BenefitsSection Benefitssectiondata={Benefitssectiondata} />
-      <HomePageContactUsForm />
-    </>
-  );
-}
