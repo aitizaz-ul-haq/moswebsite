@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.manageoutsourceservices.com/#website",
+      "url": "https://www.manageoutsourceservices.com",
+      "name": "Manage Outsource Services",
+      "description": "Manage Outsource Services offers IT consultancy, custom web development, and accounting & reporting solutions for businesses across industries, especially the financial sector.",
+      "inLanguage": "en",
+      "datePublished": "2025-08-07",
+      "dateModified": "2025-08-07",
+      "publisher": {
+        "@id": "https://www.manageoutsourceservices.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.manageoutsourceservices.com/#organization",
+      "name": "Manage Outsource Services",
+      "url": "https://www.manageoutsourceservices.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.manageoutsourceservices.com/images/mos-logo.webp",
+        "width": 600,
+        "height": 600
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/manageoutsourceservices",
+        "https://www.instagram.com/manageoutsourceservices",
+        "https://www.facebook.com/manageoutsourceservices"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.manageoutsourceservices.com/careers#webpage",
+      "url": "https://www.manageoutsourceservices.com/careers",
+      "name": "Careers | Manage Outsource Services",
+      "description": "Explore career opportunities at Manage Outsource Services. Join our growing team in IT consultancy, accounting, and web development.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.manageoutsourceservices.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.manageoutsourceservices.com/images/mos_careerspage_preview_image.webp",
+        "width": 1200,
+        "height": 630,
+        "caption": "Careers at Manage Outsource Services"
+      },
+      "datePublished": "2025-08-07",
+      "dateModified": "2025-08-07"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.manageoutsourceservices.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Careers",
+          "item": "https://www.manageoutsourceservices.com/careers"
+        }
+      ]
+    }
+  ]
+}

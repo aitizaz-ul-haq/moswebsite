@@ -137,7 +137,7 @@ export default function Services() {
   return (
     <>
       <Script
-        id="jsonld-homepage"
+        id="jsonld-servicespage"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(Servicespagejsonld) }}

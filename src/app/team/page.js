@@ -121,7 +121,7 @@ export default function Team() {
   return (
     <>
       <Script
-        id="jsonld-homepage"
+        id="jsonld-teampage"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(Teampagejsonld) }}
