@@ -35,19 +35,19 @@ export const metadata = {
   authors: [
     {
       name: "Manage Outsource Services",
-      url: "https://www.manageoutsourceservices.com",
+      url: "https://www.manageoutsource.com",
     },
   ],
   creator: "Manage Outsource Services",
   publisher: "Manage Outsource Services",
 
-  metadataBase: new URL("https://www.manageoutsourceservices.com"),
+  metadataBase: new URL("https://www.manageoutsource.com"),
 
   openGraph: {
     title: "Industries We Serve | Manage Outsource Services",
     description:
       "Explore our industry-focused services across finance, healthcare, retail, and more. Manage Outsource Services delivers tailored business support for every sector.",
-    url: "https://www.manageoutsourceservices.com/industries",
+    url: "https://www.manageoutsource.com/industries",
     siteName: "Manage Outsource Services",
     images: [
       {
@@ -119,7 +119,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.manageoutsourceservices.com/industries",
+    canonical: "https://www.manageoutsource.com/industries",
   },
 
   category: "Business Services",

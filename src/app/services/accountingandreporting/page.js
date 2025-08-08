@@ -34,19 +34,19 @@ export const metadata = {
   authors: [
     {
       name: "Manage Outsource Services",
-      url: "https://www.manageoutsourceservices.com",
+      url: "https://www.manageoutsources.com",
     },
   ],
   creator: "Manage Outsource Services",
   publisher: "Manage Outsource Services",
 
-  metadataBase: new URL("https://www.manageoutsourceservices.com"),
+  metadataBase: new URL("https://www.manageoutsources.com"),
 
   openGraph: {
     title: "Accounting and Reporting Services | Manage Outsource Services",
     description:
       "Accurate and scalable accounting and reporting services tailored to meet compliance standards and business needs. Powered by the experts at Manage Outsource Services.",
-    url: "https://www.manageoutsourceservices.com/services/accounting-and-reporting",
+    url: "https://www.manageoutsource.com/services/accountingandreporting",
     siteName: "Manage Outsource Services",
     images: [
       {
@@ -119,7 +119,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.manageoutsourceservices.com/services/accounting-and-reporting",
+      "https://www.manageoutsource.com/services/accountingandreporting",
   },
 
   category: "Accounting Services",

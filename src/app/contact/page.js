@@ -31,19 +31,19 @@ export const metadata = {
   authors: [
     {
       name: "Manage Outsource Services",
-      url: "https://www.manageoutsourceservices.com",
+      url: "https://www.manageoutsource.com",
     },
   ],
   creator: "Manage Outsource Services",
   publisher: "Manage Outsource Services",
 
-  metadataBase: new URL("https://www.manageoutsourceservices.com"),
+  metadataBase: new URL("https://www.manageoutsource.com"),
 
   openGraph: {
     title: "Contact Us | Manage Outsource Services",
     description:
       "Need help with IT, development, or accounting services? Contact our team today and we’ll respond promptly to your business needs.",
-    url: "https://www.manageoutsourceservices.com/contact",
+    url: "https://www.manageoutsource.com/contact",
     siteName: "Manage Outsource Services",
     images: [
       {
@@ -115,7 +115,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.manageoutsourceservices.com/contact",
+    canonical: "https://www.manageoutsource.com/contact",
   },
 
   category: "Contact",

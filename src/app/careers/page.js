@@ -36,19 +36,19 @@ export const metadata = {
   authors: [
     {
       name: "Manage Outsource Services",
-      url: "https://www.manageoutsourceservices.com",
+      url: "https://www.manageoutsource.com",
     },
   ],
   creator: "Manage Outsource Services",
   publisher: "Manage Outsource Services",
 
-  metadataBase: new URL("https://www.manageoutsourceservices.com"),
+  metadataBase: new URL("https://www.manageoutsource.com"),
 
   openGraph: {
     title: "Careers | Manage Outsource Services",
     description:
       "Discover career opportunities at Manage Outsource Services. Join our growing team of professionals in IT, development, and accounting.",
-    url: "https://www.manageoutsourceservices.com/careers",
+    url: "https://www.manageoutsource.com/careers",
     siteName: "Manage Outsource Services",
     images: [
       {
@@ -120,7 +120,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.manageoutsourceservices.com/careers",
+    canonical: "https://www.manageoutsource.com/careers",
   },
 
   category: "Careers",
