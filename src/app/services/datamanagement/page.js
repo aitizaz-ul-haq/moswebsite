@@ -1,4 +1,7 @@
-import FeaturesTypeOne from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypeone";
+// importing tools
+import Script from "next/script";
+
+// importing componenet data
 import DataMagdata from "@/app/data/shareddata/hersectiondata.json";
 import DataMagsolutionscarddata from "@/app/data/shareddata/cardcollectiondata.json";
 import OpSupMehodologydata from "@/app/data/homedata/homecardcollectiondata.json";
@@ -6,6 +9,10 @@ import Mainheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata
 import Calltoactiondata from "@/app/data/shareddata/calltoactiondata.json";
 import Advsectdata from "@/app/data/shareddata/typeoneadvantagesdata.json";
 import Datamanagementjsonld from "@/app/data/jsonld/datamanagement.json";
+
+// importing page component
+import FeaturesTypeOne from "@/app/components/pagecomponents/featuresdetailpagecomponents/featurestypeone";
+
 
 export const metadata = {
   title: "Data Management Services | Manage Outsource Services",
@@ -154,7 +161,7 @@ export default function DataManagement() {
 
   return (
     <>
-     <Script
+      <Script
         id="jsonld-datamanagementpage"
         type="application/ld+json"
         strategy="afterInteractive"
