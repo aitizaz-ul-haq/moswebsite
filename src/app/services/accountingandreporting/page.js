@@ -176,7 +176,7 @@ export default function AccountingAndReporting() {
           __html: JSON.stringify(Accountingandreportingjsonld),
         }}
       />
-      ;
+
       <FeaturesTypeTwo
         herosectiontitle={herosectiontitle}
         herosectionparagraph={herosectionparagraph}
