@@ -47,13 +47,13 @@ export const metadata = {
     siteName: "Manage Outsource Services",
     images: [
       {
-        url: "/images/mos_teampage_preview_image.webp",
+        url: "https://www.manageoutsource.com/images/mos_teampage_preview_image.webp",
         width: 1200,
         height: 630,
         alt: "Manage Outsource Services Team Preview",
       },
       {
-        url: "/images/mos_logo.webp",
+        url: "https://www.manageoutsource.com/images/mos_logo.webp",
         width: 600,
         height: 600,
         alt: "Manage Outsource Services Logo",
@@ -67,33 +67,33 @@ export const metadata = {
     title: "Our Team | Manage Outsource Services",
     description:
       "Get to know the people behind Manage Outsource Services – specialists in IT, web, and business support.",
-    images: ["/images/mos_teampage_preview_image.webp"],
+    images: ["https://www.manageoutsource.com/images/mos_teampage_preview_image.webp"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
   icons: {
     icon: [
-      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       {
-        url: "/images/android-chrome-192x192.png",
+        url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        url: "/images/android-chrome-512x512.png",
+        url: "https://www.manageoutsource.com/images/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
       },
     ],
     apple: [
       {
-        url: "/images/apple-touch-icon.png",
+        url: "https://www.manageoutsource.com/images/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
   },
   manifest: "/manifest.webmanifest",
   robots: {

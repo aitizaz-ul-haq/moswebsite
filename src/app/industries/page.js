@@ -51,13 +51,13 @@ export const metadata = {
     siteName: "Manage Outsource Services",
     images: [
       {
-        url: "/images/mos_industriespage_preview_image",
+        url: "https://www.manageoutsource.com/images/mos_industriespage_preview_image",
         width: 1200,
         height: 630,
         alt: "Manage Outsource Services - Industries We Serve",
       },
       {
-        url: "/images/mos_logo.webp",
+        url: "https://www.manageoutsource.com/images/mos_logo.webp",
         width: 600,
         height: 600,
         alt: "Manage Outsource Services Logo",
@@ -72,34 +72,34 @@ export const metadata = {
     title: "Industries We Serve | Manage Outsource Services",
     description:
       "Manage Outsource Services supports multiple sectors, offering tailored IT, accounting, and development solutions for industry-specific needs.",
-    images: ["/images/mos_industriespage_preview_image"],
+    images: ["https://www.manageoutsource.com/images/mos_industriespage_preview_image"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       {
-        url: "/images/android-chrome-192x192.png",
+        url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        url: "/images/android-chrome-512x512.png",
+        url: "https://www.manageoutsource.com/images/android-chrome-512x512.png",
         sizes: "512x512",
         type: "image/png",
       },
     ],
     apple: [
       {
-        url: "/images/apple-touch-icon.png",
+        url: "https://www.manageoutsource.com/images/apple-touch-icon.png",
         sizes: "180x180",
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
   },
 
   manifest: "/manifest.webmanifest",
