@@ -57,7 +57,7 @@ export const metadata = {
     siteName: "Manage Outsource Services",
     images: [
       {
-        url: "/images/services-page-preview.webp",
+        url: "/images/mos_servicespage_preview_image.webp",
         width: 1200,
         height: 630,
         alt: "Manage Outsource Services - Services Page",
@@ -78,7 +78,7 @@ export const metadata = {
     title: "Our Services | Manage Outsource Services",
     description:
       "Detailed overview of our outsourced services in IT consultancy, web development, and accounting. Discover how we support business success.",
-    images: ["/images/services-page-preview.webp"],
+    images: ["/images/mos_servicespage_preview_image.webp"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },

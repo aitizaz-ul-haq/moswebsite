@@ -3,25 +3,25 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://www.manageoutsourceservices.com/#website",
-      "url": "https://www.manageoutsourceservices.com",
+      "@id": "https://www.manageoutsource.com/#website",
+      "url": "https://www.manageoutsource.com",
       "name": "Manage Outsource Services",
       "description": "Manage Outsource Services offers IT consultancy, custom web development, and accounting & reporting solutions for businesses across industries, especially the financial sector.",
       "inLanguage": "en",
       "datePublished": "2025-08-07",
       "dateModified": "2025-08-07",
       "publisher": {
-        "@id": "https://www.manageoutsourceservices.com/#organization"
+        "@id": "https://www.manageoutsource.com/#organization"
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://www.manageoutsourceservices.com/#organization",
+      "@id": "https://www.manageoutsource.com/#organization",
       "name": "Manage Outsource Services",
-      "url": "https://www.manageoutsourceservices.com",
+      "url": "https://www.manageoutsource.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.manageoutsourceservices.com/images/mos-logo.webp",
+        "url": "https://www.manageoutsource.com/images/mos-logo.webp",
         "width": 600,
         "height": 600
       },
@@ -33,17 +33,17 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.manageoutsourceservices.com/services/data-management#webpage",
-      "url": "https://www.manageoutsourceservices.com/services/data-management",
+      "@id": "https://www.manageoutsource.com/services/data-management#webpage",
+      "url": "https://www.manageoutsource.com/services/data-management",
       "name": "Data Management Services | Manage Outsource Services",
       "description": "Secure and structured data management services designed to optimise business information flow, storage, and accessibility.",
       "inLanguage": "en",
       "isPartOf": {
-        "@id": "https://www.manageoutsourceservices.com/#website"
+        "@id": "https://www.manageoutsource.com/#website"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://www.manageoutsourceservices.com/images/services-datamanagement-preview.webp",
+        "url": "https://www.manageoutsource.com/images/services-datamanagement-preview.webp",
         "width": 1200,
         "height": 630,
         "caption": "Data Management Services - Manage Outsource Services"
@@ -58,19 +58,19 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.manageoutsourceservices.com"
+          "item": "https://www.manageoutsource.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://www.manageoutsourceservices.com/services"
+          "item": "https://www.manageoutsource.com/services"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Data Management",
-          "item": "https://www.manageoutsourceservices.com/services/data-management"
+          "item": "https://www.manageoutsource.com/services/data-management"
         }
       ]
     }

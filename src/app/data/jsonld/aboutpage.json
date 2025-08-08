@@ -3,25 +3,25 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://www.manageoutsourceservices.com/#website",
-      "url": "https://www.manageoutsourceservices.com",
+      "@id": "https://www.manageoutsource.com/#website",
+      "url": "https://www.manageoutsource.com",
       "name": "Manage Outsource Services",
       "description": "Manage Outsource Services offers IT consultancy, custom web development, and accounting & reporting solutions for businesses across industries, especially the financial sector.",
       "inLanguage": "en",
       "datePublished": "2025-08-07",
       "dateModified": "2025-08-07",
       "publisher": {
-        "@id": "https://www.manageoutsourceservices.com/#organization"
+        "@id": "https://www.manageoutsource.com/#organization"
       }
     },
     {
       "@type": "Organization",
-      "@id": "https://www.manageoutsourceservices.com/#organization",
+      "@id": "https://www.manageoutsource.com/#organization",
       "name": "Manage Outsource Services",
-      "url": "https://www.manageoutsourceservices.com",
+      "url": "https://www.manageoutsource.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.manageoutsourceservices.com/images/mos-logo.webp",
+        "url": "https://www.manageoutsource.com/images/mos-logo.webp",
         "width": 600,
         "height": 600
       },
@@ -33,17 +33,17 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.manageoutsourceservices.com/about#webpage",
-      "url": "https://www.manageoutsourceservices.com/about",
+      "@id": "https://www.manageoutsource.com/about#webpage",
+      "url": "https://www.manageoutsource.com/about",
       "name": "About Us | Manage Outsource Services",
       "description": "Learn more about Manage Outsource Services, our mission, team, and values. We deliver tailored outsourcing solutions across IT, web development, and accounting.",
       "inLanguage": "en",
       "isPartOf": {
-        "@id": "https://www.manageoutsourceservices.com/#website"
+        "@id": "https://www.manageoutsource.com/#website"
       },
       "primaryImageOfPage": {
         "@type": "ImageObject",
-        "url": "https://www.manageoutsourceservices.com/images/mos_aboutpage_preview_image.webp",
+        "url": "https://www.manageoutsource.com/images/mos_aboutpage_preview_image.webp",
         "width": 1200,
         "height": 630,
         "caption": "About Manage Outsource Services - Team, Mission, Values"
@@ -58,13 +58,13 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.manageoutsourceservices.com"
+          "item": "https://www.manageoutsource.com"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "About",
-          "item": "https://www.manageoutsourceservices.com/about"
+          "item": "https://www.manageoutsource.com/about"
         }
       ]
     }
