@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const baseUrl = "https://www.manageoutsourceservices.com";
+  const baseUrl = "https://www.manageoutsource.com/";
 
   const staticPages = [
     "", // Home
