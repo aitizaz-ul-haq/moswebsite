@@ -49,7 +49,7 @@ export const metadata = {
     siteName: "Manage Outsource Services",
     images: [
       {
-        url: "/images/services-itconsulting-preview.webp",
+        url: "/images/mos_itconsultingpage_preview_image.webp",
         width: 1200,
         height: 630,
         alt: "IT Consulting Services - Manage Outsource Services",
@@ -70,7 +70,7 @@ export const metadata = {
     title: "IT Consulting Services | Manage Outsource Services",
     description:
       "Partner with us for professional IT consulting services designed to optimise operations and drive innovation.",
-    images: ["/images/services-itconsulting-preview.webp"],
+    images: ["/images/mos_itconsultingpage_preview_image.webp"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },

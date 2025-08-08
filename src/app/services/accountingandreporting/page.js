@@ -50,7 +50,7 @@ export const metadata = {
     siteName: "Manage Outsource Services",
     images: [
       {
-        url: "/images/services-accounting-preview.webp",
+        url: "/images/mos_accountingpage_preview_image.webp",
         width: 1200,
         height: 630,
         alt: "Accounting and Reporting Services - Manage Outsource Services",
@@ -71,7 +71,7 @@ export const metadata = {
     title: "Accounting and Reporting Services | Manage Outsource Services",
     description:
       "Streamline your financial operations with our outsourced accounting and reporting services. Trusted by growing businesses for accuracy and compliance.",
-    images: ["/images/services-accounting-preview.webp"],
+    images: ["/images/mos_accountingpage_preview_image.webp"],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
