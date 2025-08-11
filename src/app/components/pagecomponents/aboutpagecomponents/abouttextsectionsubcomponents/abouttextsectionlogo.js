@@ -7,6 +7,7 @@ export default function AboutTextSectionLogo() {
         width={920}
         height={920}
         src={"/mos_logo.png"}
+        alt="mos logo"
       />
     </div>
   );
