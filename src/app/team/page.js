@@ -1,5 +1,10 @@
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // importing tools
 import Script from "next/script";
+import nextDynamic from "next/dynamic";
 
 // componenet data imports
 import TeamHeroData from "@/app/data/shareddata/hersectiondata.json";
@@ -10,9 +15,20 @@ import Teampagejsonld from "@/app/data/jsonld/teampage.json";
 
 // page componenets
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import ExecutiveTeamSection from "../components/pagecomponents/teampagecomponents/executiveteamsection";
-import TeamMemebersSection from "../components/pagecomponents/teampagecomponents/teammemberssection";
+const MainHeadingSection = nextDynamic(() =>
+  import(
+    "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+  )
+);
+
+const ExecutiveTeamSection = nextDynamic(() =>
+  import("../components/pagecomponents/teampagecomponents/executiveteamsection")
+);
+
+// (typo kept as-is to match your file name)
+const TeamMemebersSection = nextDynamic(() =>
+  import("../components/pagecomponents/teampagecomponents/teammemberssection")
+);
 
 export const metadata = {
   title: "Our Team | Manage Outsource Services",
@@ -67,14 +83,24 @@ export const metadata = {
     title: "Our Team | Manage Outsource Services",
     description:
       "Get to know the people behind Manage Outsource Services – specialists in IT, web, and business support.",
-    images: ["https://www.manageoutsource.com/images/mos_teampage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_teampage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -93,7 +119,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
   manifest: "/manifest.webmanifest",
   robots: {

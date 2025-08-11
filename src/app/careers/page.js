@@ -1,7 +1,13 @@
-// importing tools
-import Script from "next/script";
+// app/careers/page.tsx (or page.js)
 
-// import json data
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
+import Script from "next/script";
+import nextDynamic from "next/dynamic";
+
+// ---- data ----
 import CareersHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Applyformdata from "../data/careersdata/applyformdata.json";
 import PositionsSectionData from "@/app/data/careersdata/positionsdata.json";
@@ -9,12 +15,36 @@ import Careersheadingsectiondata from "@/app/data/shareddata/mainheadingsectiond
 import NoVacancySectionData from "@/app/data/careersdata/novacancy.json";
 import Careerspagejsonld from "@/app/data/jsonld/careerspage.json";
 
-// importing components
+// ---- eager (above-the-fold) ----
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import PositionsSections from "../components/pagecomponents/careerspagecomponents/positionssection";
-import NoVacancyComp from "../components/pagecomponents/careerspagecomponents/novacancycomp";
-import ApplyForm from "../components/pagecomponents/careerspagecomponents/applyform";
+
+// ---- lazy (code-split, still SSG — no placeholders) ----
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+
+const PositionsSections = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/careerspagecomponents/positionssection"
+    ),
+  { loading: () => null }
+);
+
+const NoVacancyComp = nextDynamic(
+  () =>
+    import("../components/pagecomponents/careerspagecomponents/novacancycomp"),
+  { loading: () => null }
+);
+
+const ApplyForm = nextDynamic(
+  () => import("../components/pagecomponents/careerspagecomponents/applyform"),
+  { loading: () => null }
+);
 
 export const metadata = {
   title: "Careers | Manage Outsource Services",
@@ -73,15 +103,25 @@ export const metadata = {
     title: "Careers | Manage Outsource Services",
     description:
       "Explore job opportunities at Manage Outsource Services. Build your future with our IT, development, and accounting teams.",
-    images: ["https://www.manageoutsource.com/images/mos_careerspage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_careerspage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -100,7 +140,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",

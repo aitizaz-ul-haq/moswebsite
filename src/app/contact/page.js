@@ -1,15 +1,36 @@
-// importing tools
-import Script from "next/script";
+// app/contact/page.tsx (or page.js)
 
-// importing json data
+// Optional: lock this page to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
+import Script from "next/script";
+import nextDynamic from "next/dynamic";
+
+// ---- data ----
 import ContactHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Connectheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Contactpagejsonld from "@/app/data/jsonld/contactpage.json";
 
-// importing components
+// ---- eager (above-the-fold) ----
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import ContactFormSection from "../components/pagecomponents/contactpagecomponents/contactformsection";
+
+// ---- lazy (code-split, still SSG; no placeholders) ----
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+
+const ContactFormSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/contactpagecomponents/contactformsection"
+    ),
+  { loading: () => null }
+);
 
 export const metadata = {
   title: "Contact Us | Manage Outsource Services",
@@ -68,15 +89,25 @@ export const metadata = {
     title: "Contact Us | Manage Outsource Services",
     description:
       "Have a question or project? Contact Manage Outsource Services for professional support in IT consultancy, development, and accounting.",
-    images: ["https://www.manageoutsource.com/images/mos_contactpage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_contactpage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -95,7 +126,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",

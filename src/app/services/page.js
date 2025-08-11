@@ -1,7 +1,12 @@
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // importing tools
 import Script from "next/script";
+import nextDynamic from "next/dynamic";
 
-// importing componenet data
+// importing component data
 import ServicesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Servicesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
@@ -10,13 +15,45 @@ import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import Importancesectiondata from "../data/servicesdata/importancesectiondata.json";
 import Servicespagejsonld from "@/app/data/jsonld/services.json";
 
-// importing page componenets
+// importing page components
+// EAGER (above-the-fold)
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
-import ServicesAdvantagesSection from "../components/pagecomponents/servicespagecomponents/servicesadvantagessection";
-import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
-import ImportanceSection from "../components/pagecomponents/servicespagecomponents/importancesection";
+
+// LAZY (code-split, still SSG — no ssr:false)
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+
+const CardCollection = nextDynamic(
+  () =>
+    import("../components/pagecomponents/Shared/cardcollection/cardcollection"),
+  { loading: () => null }
+);
+
+const ServicesAdvantagesSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/servicespagecomponents/servicesadvantagessection"
+    ),
+  { loading: () => null }
+);
+
+const CallToAction = dynamic(
+  () => import("../components/pagecomponents/Shared/calltoaction/calltoaction"),
+  { loading: () => null }
+);
+
+const ImportanceSection = dynamic(
+  () =>
+    import(
+      "../components/pagecomponents/servicespagecomponents/importancesection"
+    ),
+  { loading: () => null }
+);
 
 // import HomeReviewSection from "../components/pagecomponents/homepagecomponents/homereviewsection";
 // import Homereviewsectiondata from "../data/servicesdata/servicesreviewdata.json";
@@ -78,15 +115,25 @@ export const metadata = {
     title: "Our Services | Manage Outsource Services",
     description:
       "Detailed overview of our outsourced services in IT consultancy, web development, and accounting. Discover how we support business success.",
-    images: ["https://www.manageoutsource.com/images/mos_servicespage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_servicespage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -105,7 +152,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",

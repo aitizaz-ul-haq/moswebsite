@@ -1,12 +1,40 @@
+// app/about/page.tsx (or page.js)
+
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // importing tools
 import Script from "next/script";
+import nextDynamic from "next/dynamic";
 
-// import sub componenets
+// import sub components
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import AboutTextSection from "../components/pagecomponents/aboutpagecomponents/abouttextsection";
-import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
-import AboutLowerTextSection from "../components/pagecomponents/aboutpagecomponents/aboutlowertextsection";
+
+// lazy (code-split, still SSG — no ssr:false and no placeholders)
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+const AboutTextSection = nextDynamic(
+  () =>
+    import("../components/pagecomponents/aboutpagecomponents/abouttextsection"),
+  { loading: () => null }
+);
+const CallToAction = nextDynamic(
+  () => import("../components/pagecomponents/Shared/calltoaction/calltoaction"),
+  { loading: () => null }
+);
+const AboutLowerTextSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/aboutpagecomponents/aboutlowertextsection"
+    ),
+  { loading: () => null }
+);
 
 // import json data files
 import Abouttextsectiondata from "../data/aboutdata/abouttextsectiondata.json";
@@ -73,15 +101,25 @@ export const metadata = {
     title: "About Us | Manage Outsource Services",
     description:
       "Meet the people behind Manage Outsource Services and learn how we deliver impactful outsourcing solutions across industries.",
-    images: ["https://www.manageoutsource.com/images/mos_aboutpage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_aboutpage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -100,7 +138,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",

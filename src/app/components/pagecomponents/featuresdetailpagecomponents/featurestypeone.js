@@ -1,9 +1,36 @@
+import nextDynamic from "next/dynamic";
+
+// eager (above the fold)
 import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
-import TypeOneCardSection from "./typeonesubcomps/typeonecardsection";
-import FeaturesMethodTypeOne from "./featuresmethodtypeone";
-import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
-import CallToAction from "../Shared/calltoaction/calltoaction";
-import TypeOneAdvantagesSection from "./typeonesubcomps/typeoneadvantagessection/typeoneadvantagessection";
+
+// lazy (code-split, still SSG — don’t set ssr:false)
+const TypeOneCardSection = nextDynamic(
+  () => import("./typeonesubcomps/typeonecardsection"),
+  { loading: () => null }
+);
+
+const FeaturesMethodTypeOne = nextDynamic(
+  () => import("./featuresmethodtypeone"),
+  { loading: () => null }
+);
+
+const MainHeadingSection = nextDynamic(
+  () => import("../Shared/mainheadingsection/mainheadingsection"),
+  { loading: () => null }
+);
+
+const CallToAction = nextDynamic(
+  () => import("../Shared/calltoaction/calltoaction"),
+  { loading: () => null }
+);
+
+const TypeOneAdvantagesSection = nextDynamic(
+  () =>
+    import(
+      "./typeonesubcomps/typeoneadvantagessection/typeoneadvantagessection"
+    ),
+  { loading: () => null }
+);
 import "./styles/featurestypeone.css";
 
 export default function FeaturesTypeOne({

@@ -1,5 +1,10 @@
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // importing tools
 import Script from "next/script";
+import nextDynamic from "next/dynamic";
 
 // json data import
 import Homepageherodata from "@/app/data/shareddata/hersectiondata.json";
@@ -13,13 +18,29 @@ import Homepagejsonld from "@/app/data/jsonld/homepage.json";
 
 // importing componenets
 import MainPageHeroSection from "./components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "./components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import ExpertiseCollection from "./components/pagecomponents/homepagecomponents/expertisecollection";
-import HomeAdvantagesSection from "./components/pagecomponents/homepagecomponents/homeadvantegessection";
-import HomeIndustriesSection from "./components/pagecomponents/homepagecomponents/homeindustriessection";
-import CallToAction from "./components/pagecomponents/Shared/calltoaction/calltoaction";
-import BenefitsSection from "./components/pagecomponents/homepagecomponents/benefitssection";
-import HomePageContactUsForm from "./components/pagecomponents/homepagecomponents/homepagecontactusform";
+const MainHeadingSection = nextDynamic(() =>
+  import(
+    "./components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+  )
+);
+const ExpertiseCollection = nextDynamic(() =>
+  import("./components/pagecomponents/homepagecomponents/expertisecollection")
+);
+const HomeAdvantagesSection = nextDynamic(() =>
+  import("./components/pagecomponents/homepagecomponents/homeadvantegessection")
+);
+const HomeIndustriesSection = nextDynamic(() =>
+  import("./components/pagecomponents/homepagecomponents/homeindustriessection")
+);
+const CallToAction = nextDynamic(() =>
+  import("./components/pagecomponents/Shared/calltoaction/calltoaction")
+);
+const BenefitsSection = nextDynamic(() =>
+  import("./components/pagecomponents/homepagecomponents/benefitssection")
+);
+const HomePageContactUsForm = nextDynamic(() =>
+  import("./components/pagecomponents/homepagecomponents/homepagecontactusform")
+);
 
 export const metadata = {
   title: "Outsourced Business Services | Manage Outsource Services",
@@ -78,15 +99,25 @@ export const metadata = {
     title: "Outsourced Business Services | Manage Outsource Services",
     description:
       "Professional outsourcing in IT, accounting, and web development. Let Manage Outsource Services support your operations.",
-    images: ["https://www.manageoutsource.com/images/mos_homepage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_homepage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -105,7 +136,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",

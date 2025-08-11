@@ -1,3 +1,6 @@
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // importing tools
 import Script from "next/script";
 
@@ -70,15 +73,25 @@ export const metadata = {
     title: "Web Development Services | Manage Outsource Services",
     description:
       "Professional web development solutions tailored for business success — secure, scalable, and fully responsive. Powered by Manage Outsource Services.",
-    images: ["https://www.manageoutsource.com/images/mos_webdevelopmentpage_preview_image.webp"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_webdevelopmentpage_preview_image.webp",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -97,7 +110,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",
@@ -117,8 +135,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical:
-      "https://www.manageoutsource.com/services/webdevelopment",
+    canonical: "https://www.manageoutsource.com/services/webdevelopment",
   },
 
   category: "Web Development Services",
@@ -161,7 +178,9 @@ export default function WebDevelopment() {
         id="jsonld-webdevelopmentpage"
         type="application/ld+json"
         strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(Webdevelopmentjsonld) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(Webdevelopmentjsonld),
+        }}
       />
       <FeaturesTypeOne
         Webdevherotitle={Webdevherotitle}

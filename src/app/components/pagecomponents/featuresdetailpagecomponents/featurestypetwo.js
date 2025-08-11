@@ -1,9 +1,40 @@
-import MainPageHeroSection from "../Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../Shared/mainheadingsection/mainheadingsection";
-import CardCollection from "../Shared/cardcollection/cardcollection";
-import TypeTwoMethodSection from "./typetwosubcomps/typetwomethodsection/typetwomethodsection";
-import CallToAction from "../Shared/calltoaction/calltoaction";
-import FeaturesMethodTypeOne from "./featuresmethodtypeone";
+import nextDynamic from "next/dynamic";
+
+// Eager (no code-splitting) — we want instant hero content + interactivity if needed
+import MainPageHeroSection from "@/app/components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
+
+// Lazy (code-split, still SSG because we DO NOT set ssr:false)
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "@/app/components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+
+const CardCollection = nextDynamic(
+  () =>
+    import(
+      "@/app/components/pagecomponents/Shared/cardcollection/cardcollection"
+    ),
+  { loading: () => null }
+);
+
+const TypeTwoMethodSection = nextDynamic(
+  () => import("./typetwosubcomps/typetwomethodsection/typetwomethodsection"),
+  { loading: () => null }
+);
+
+const CallToAction = nextDynamic(
+  () =>
+    import("@/app/components/pagecomponents/Shared/calltoaction/calltoaction"),
+  { loading: () => null }
+);
+
+const FeaturesMethodTypeOne = nextDynamic(
+  () => import("./featuresmethodtypeone"),
+  { loading: () => null }
+);
 export default function FeaturesTypeTwo({
   herosectiontitle,
   herosectionparagraph,

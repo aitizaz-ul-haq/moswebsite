@@ -1,19 +1,43 @@
-// importing tools
-import Script from "next/script";
 
-// importing componenet data imports
+
+// Optional: lock to SSG
+export const dynamic = "force-static";
+export const revalidate = false;
+
+import Script from "next/script";
+import nextDynamic from "next/dynamic";
+
+// ---- data imports (unchanged)
 import IndustriesHeroData from "@/app/data/shareddata/hersectiondata.json";
 import Industriesheadingsectiondata from "@/app/data/shareddata/mainheadingsectiondata.json";
 import Calltoactiondata from "../data/shareddata/calltoactiondata.json";
 import Industriespagejsonld from "@/app/data/jsonld/industriespage.json";
 import cardData from "@/app/data/shareddata/cardcollectiondata.json";
 
-//importing components
+// ---- eager (above the fold)
 import MainPageHeroSection from "../components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
-import MainHeadingSection from "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection";
-import CardCollection from "../components/pagecomponents/Shared/cardcollection/cardcollection";
-import CallToAction from "../components/pagecomponents/Shared/calltoaction/calltoaction";
 
+// ---- lazy (code-split, still SSG — no ssr:false)
+const MainHeadingSection = nextDynamic(
+  () =>
+    import(
+      "../components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
+    ),
+  { loading: () => null }
+);
+
+const CardCollection = nextDynamic(
+  () =>
+    import("../components/pagecomponents/Shared/cardcollection/cardcollection"),
+  { loading: () => null }
+);
+
+const CallToAction = nextDynamic(
+  () => import("../components/pagecomponents/Shared/calltoaction/calltoaction"),
+  { loading: () => null }
+);
+
+// ...render as usual below
 
 export const metadata = {
   title: "Industries We Serve | Manage Outsource Services",
@@ -72,15 +96,25 @@ export const metadata = {
     title: "Industries We Serve | Manage Outsource Services",
     description:
       "Manage Outsource Services supports multiple sectors, offering tailored IT, accounting, and development solutions for industry-specific needs.",
-    images: ["https://www.manageoutsource.com/images/mos_industriespage_preview_image"],
+    images: [
+      "https://www.manageoutsource.com/images/mos_industriespage_preview_image",
+    ],
     creator: "@manageoutsource",
     site: "@manageoutsource",
   },
 
   icons: {
     icon: [
-      { url: "https://www.manageoutsource.com/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "https://www.manageoutsource.com/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://www.manageoutsource.com/images/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
       {
         url: "https://www.manageoutsource.com/images/android-chrome-192x192.png",
         sizes: "192x192",
@@ -99,7 +133,12 @@ export const metadata = {
         type: "image/png",
       },
     ],
-    shortcut: [{ url: "https://www.manageoutsource.com/images/favicon.ico", type: "image/x-icon" }],
+    shortcut: [
+      {
+        url: "https://www.manageoutsource.com/images/favicon.ico",
+        type: "image/x-icon",
+      },
+    ],
   },
 
   manifest: "/manifest.webmanifest",
@@ -126,7 +165,6 @@ export const metadata = {
   datePublished: "2025-08-07",
 };
 
-
 export default function Industries() {
   const cards = cardData.industries.cards;
   return (
@@ -135,7 +173,9 @@ export default function Industries() {
         id="jsonld-industriespage"
         type="application/ld+json"
         strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(Industriespagejsonld) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(Industriespagejsonld),
+        }}
       />
       <MainPageHeroSection
         title={IndustriesHeroData.industries.title}
@@ -147,7 +187,9 @@ export default function Industries() {
         title={Industriesheadingsectiondata.industries.title}
         description={Industriesheadingsectiondata.industries.description}
         tagtext={Industriesheadingsectiondata.industries.tagtext}
-        backgroundImages={Industriesheadingsectiondata.industries.backgroundImages}
+        backgroundImages={
+          Industriesheadingsectiondata.industries.backgroundImages
+        }
       />
       <CardCollection cards={cards} />
       <CallToAction Calltoactiondata={Calltoactiondata} />
