@@ -8,6 +8,7 @@ export default function MthCardMagesSection({ image }) {
         className="typeoneadv-numbers"
         width={1720}
         height={1720}
+        alt="numeric_value-icons"
       />
     </>
   );
