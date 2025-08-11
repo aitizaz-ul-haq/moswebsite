@@ -71,6 +71,8 @@
   background-color: var(--light-orange);
 }
 
+
+
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
   .homeright-text-wrapper {
@@ -492,6 +494,21 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  .homeright-title {
+    animation: fadeInRight 0.4s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+
+  .homeright-paragraph {
+    animation: fadeInBottom 0.4s ease-out 0.5s forwards;
+    opacity: 0;
+  }
+
+  .homeright-button-container {
+    animation: fadeInBottom 0.4s ease-out 0.6s forwards;
+    opacity: 0;
   }
 }
 

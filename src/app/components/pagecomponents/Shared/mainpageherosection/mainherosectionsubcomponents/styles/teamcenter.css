@@ -545,6 +545,21 @@
     background-color: var(--light-yellow);
     border: none;
   }
+
+  .teamcenter-title {
+    animation: fadeInRight 0.4s ease-out 0.3s forwards;
+    opacity: 0;
+  }
+
+  .teamcenter-paragraph {
+    animation: fadeInBottom 0.4s ease-out 0.5s forwards;
+    opacity: 0;
+  }
+
+  .teamcenter-button-container {
+    animation: fadeInBottom 0.4s ease-out 0.6s forwards;
+    opacity: 0;
+  }
 }
 
 /* Large laptops and desktops (>= 1280px) */
