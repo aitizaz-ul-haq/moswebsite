@@ -5,7 +5,12 @@ export default function HeaderLeftSection() {
   return (
     <div className="header-left-logosection">
       <Link href="/" title="home">
-        <Image src="/mos_website.png" alt="FGK logo" width={190} height={48} />
+        <Image
+          src="/images/Manage_outsource_logo_2x_header.png"
+          alt="FGK logo"
+          width={180}
+          height={32}
+        />
       </Link>
     </div>
   );

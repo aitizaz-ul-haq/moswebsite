@@ -6,9 +6,9 @@ export default function FooterLogoContainer({ footerlogo }) {
     <div className="footer-logo-container">
       <Link href="/" className="general-linkage" title="Home">
         <Image
-          className="footer-logo-container"
-          width={1922}
-          height={1922}
+          // className="footer-logo-container"
+          width={140}
+          height={140}
           src={footerlogo}
           alt="footer logo"
         />
