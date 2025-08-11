@@ -1,3 +1,4 @@
+import RevealOnScroll from "@/app/components/utils/RevealOnScroll";
 import MainHeadingSectionTitleContainer from "./mainheadingsectioncomps/mainheadingsectiontitlecontainer";
 import MainHeadingSectionLowerSectionContainer from "./mainheadingsectioncomps/mainheadingsectionlowersectioncontainer";
 import "../styles/mainheadingsection.css";
@@ -28,12 +29,33 @@ export default function MainHeadingSection({
         "--bg-2560": `url(${backgroundImages["2560px"]})`,
       }}
     >
-      <div className="mainheadingsection-container">
+      {/* <div className="mainheadingsection-container">
         <MainHeadingSectionTitleContainer title={title} />
         <MainHeadingSectionLowerSectionContainer
           tagtext={tagtext}
           description={description}
         />
+      </div>
+    </div> */}
+      <div className="mainheadingsection-container">
+        {/* Title: fade from top */}
+        <RevealOnScroll
+          className="reveal fade-left"
+          visibleClassName="is-visible"
+        >
+          <MainHeadingSectionTitleContainer title={title} />
+        </RevealOnScroll>
+
+        {/* Lower: fade from bottom */}
+        <RevealOnScroll
+          className="reveal fade-right"
+          visibleClassName="is-visible"
+        >
+          <MainHeadingSectionLowerSectionContainer
+            tagtext={tagtext}
+            description={description}
+          />
+        </RevealOnScroll>
       </div>
     </div>
   );
