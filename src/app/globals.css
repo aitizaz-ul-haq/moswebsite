@@ -57,6 +57,8 @@ footer {
 
 .general-linkage {
   text-decoration: none;
+  display: inline-block; /* ensures padding applies to clickable area */
+  padding: 8px 12px; /* makes it easier to tap */
   /* color: inherit; */
 }
 
@@ -165,5 +167,3 @@ footer {
     animation: fadeInRight 350ms ease-out forwards;
   }
 }
-
-
