@@ -4,10 +4,11 @@ export default function ContactFormSectionLogoSection() {
   return (
     <div className="contactformsection-top-logo-container">
       <Image
-        width={240}
+        width={190}
         height={190}
         className="contact-form-logo"
-        src="/mos_logo.png"
+        src="/images/mos_aboutpage_logo_2x.png"
+        alt="manage_outsource_logo"
       />
     </div>
   );
