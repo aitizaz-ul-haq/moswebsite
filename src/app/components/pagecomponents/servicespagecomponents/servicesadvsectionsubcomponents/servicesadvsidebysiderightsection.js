@@ -12,6 +12,7 @@ export default function ServicesAdvSideBySideRightSection({ itemspoints }) {
                 className="listitem-bullet"
                 width={20}
                 height={20}
+                alt="list-bullet"
               />
               <p className="advantages-text-point font-nunito">{item}</p>
             </div>

@@ -8,6 +8,7 @@ export default function NumericImageSection({numberingimg}) {
         width={1920}
         height={1920}
         src={numberingimg}
+        alt="numeric-points-value"
       />
     </div>
   );
