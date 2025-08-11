@@ -547,12 +547,12 @@
   }
 
   .teamcenter-title {
-    animation: fadeInRight 0.4s ease-out 0.3s forwards;
+    animation: fadeInTop 0.4s ease-out 0.3s forwards;
     opacity: 0;
   }
 
   .teamcenter-paragraph {
-    animation: fadeInBottom 0.4s ease-out 0.5s forwards;
+    animation: fadeInLeft 0.4s ease-out 0.5s forwards;
     opacity: 0;
   }
 

@@ -500,12 +500,12 @@
   }
 
   .industriesleft-title {
-    animation: fadeInRight 0.4s ease-out 0.3s forwards;
+    animation: fadeInLeft 0.4s ease-out 0.3s forwards;
     opacity: 0;
   }
 
   .industriesleft-paragraph {
-    animation: fadeInBottom 0.4s ease-out 0.5s forwards;
+    animation: fadeInRight 0.4s ease-out 0.5s forwards;
     opacity: 0;
   }
 
