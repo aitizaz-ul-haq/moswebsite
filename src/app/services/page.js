@@ -42,12 +42,12 @@ const ServicesAdvantagesSection = nextDynamic(
   { loading: () => null }
 );
 
-const CallToAction = dynamic(
+const CallToAction = nextDynamic(
   () => import("../components/pagecomponents/Shared/calltoaction/calltoaction"),
   { loading: () => null }
 );
 
-const ImportanceSection = dynamic(
+const ImportanceSection = nextDynamic(
   () =>
     import(
       "../components/pagecomponents/servicespagecomponents/importancesection"
