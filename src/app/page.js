@@ -19,9 +19,7 @@ import Homepagejsonld from "@/app/data/jsonld/homepage.json";
 // importing componenets
 import MainPageHeroSection from "./components/pagecomponents/Shared/mainpageherosection/mainpageherosection";
 const MainHeadingSection = nextDynamic(() =>
-  import(
-    "./components/pagecomponents/Shared/mainheadingsection/mainheadingsection"
-  )
+  import("./components/pagecomponents/Shared/mainheadingsection/mainheadingsection")
 );
 const ExpertiseCollection = nextDynamic(() =>
   import("./components/pagecomponents/homepagecomponents/expertisecollection")
