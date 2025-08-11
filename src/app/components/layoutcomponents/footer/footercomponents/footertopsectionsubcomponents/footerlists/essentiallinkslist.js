@@ -9,9 +9,9 @@ export default function EssentialLinksList({ essentialLinkslistdata }) {
     <ul className="footer-lists" aria-labelledby={headingId}>
       {/* Heading inside an <li> with role="presentation" so it's not counted as a list item */}
       <li role="presentation" className="essential-links-title font-poppins" style={{ listStyle: "none" }}>
-        <h4 id={headingId} className="essential-links-title font-poppins">
+        <h3 id={headingId} className="essential-links-title font-poppins">
           {essentialLinkslistdata.essentialLinkslisttitle}
-        </h4>
+        </h3>
       </li>
 
       {essentialLinkslistdata.essentialLinkslistitems.map((item, index) => (

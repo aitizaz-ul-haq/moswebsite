@@ -7,9 +7,9 @@ export default function ResourceList({ resourceslistdata }) {
   return (
     <ul className="footer-lists" aria-labelledby={headingId}>
       <li role="presentation" className="resources-title font-poppins" style={{ listStyle: "none" }}>
-        <h4 id={headingId} className="resources-title font-poppins">
+        <h3 id={headingId} className="resources-title font-poppins">
           {resourceslistdata.resourceslisttitle}
-        </h4>
+        </h3>
       </li>
 
       {resourceslistdata.resourceslistitems.map((item, index) => (

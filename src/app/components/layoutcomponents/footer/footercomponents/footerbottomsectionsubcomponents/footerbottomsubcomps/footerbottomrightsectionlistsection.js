@@ -27,9 +27,9 @@ export default function FooterBottomRightSectionListsection({ footerdata }) {
                 className="resources-title font-poppins"
                 style={{ listStyle: "none" }} // avoids a bullet next to the heading
               >
-                <h4 id={headingId} className="resources-title font-poppins">
+                <h3 id={headingId} className="resources-title font-poppins">
                   {industry.title}
-                </h4>
+                </h3>
               </li>
 
               {industry.items.map((item, itemIndex) => (
