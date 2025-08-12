@@ -1,24 +1,24 @@
 import Link from "next/link";
 
-export default function ResourceList({ resourceslistdata }) {
+export default function ResourceList({ resourceslistdata, uid = "" }) {
   const headingId =
-    (resourceslistdata.id || resourceslistdata.slug || "resources") + "-heading";
+    (resourceslistdata.id || resourceslistdata.slug || `resources${uid}`) + "-heading";
 
   return (
-    <ul className="footer-lists" aria-labelledby={headingId}>
-      <li role="presentation" className="resources-title font-poppins" style={{ listStyle: "none" }}>
-        <h3 id={headingId} className="resources-title font-poppins">
-          {resourceslistdata.resourceslisttitle}
-        </h3>
-      </li>
+    <div className="footer-lists">
+      <h3 id={headingId} className="resources-title font-poppins">
+        {resourceslistdata.resourceslisttitle}
+      </h3>
 
-      {resourceslistdata.resourceslistitems.map((item, index) => (
-        <li key={index} className={`list-items ${item.font}`}>
-          <Link href={item.link} className="general-linkage-color">
-            {item.text}
-          </Link>
-        </li>
-      ))}
-    </ul>
+      <ul className="footer-lists" aria-labelledby={headingId}>
+        {resourceslistdata.resourceslistitems.map((item, index) => (
+          <li key={index} className={`list-items ${item.font}`}>
+            <Link href={item.link} className="general-linkage-color">
+              {item.text}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

@@ -5,10 +5,9 @@ export default function FooterBottomRightSectionListsection({ footerdata }) {
   return (
     <div className="footer-bottom-rightsection-listsection">
       {footerdata?.footer?.industries?.map((industry, index) => {
-        const headingId =
-          `${(industry?.title || "industry")
-            .toLowerCase()
-            .replace(/\s+/g, "-")}-${index}-heading`;
+        const headingId = `${(industry?.title || "industry")
+          .toLowerCase()
+          .replace(/\s+/g, "-")}-${index}-heading`;
 
         return (
           <div key={index} className={`footer-list-${index + 1}`}>
@@ -20,24 +19,16 @@ export default function FooterBottomRightSectionListsection({ footerdata }) {
               alt={industry.icon.alt}
             />
 
-            <ul className="footer-bottom-list-settings" aria-labelledby={headingId}>
-              {/* Heading as a presentational list item so UL only contains LIs */}
-              <li
-                role="presentation"
-                className="resources-title font-poppins"
-                style={{ listStyle: "none" }} // avoids a bullet next to the heading
-              >
-                <h3 id={headingId} className="resources-title font-poppins">
-                  {industry.title}
-                </h3>
-              </li>
+            <h3 id={headingId} className="resources-title font-poppins">
+              {industry.title}
+            </h3>
 
+            <ul className="footer-bottom-list-settings" aria-labelledby={headingId}>
               {industry.items.map((item, itemIndex) => (
                 <li key={itemIndex} className={`list-items ${item.font}`}>
                   <Link
                     href={item.link || "/industries"}
                     className="general-linkage-color"
-                    title={`Go to ${item.text}`}
                   >
                     {item.text}
                   </Link>

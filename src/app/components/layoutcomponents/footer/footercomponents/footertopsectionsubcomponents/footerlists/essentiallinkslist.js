@@ -1,30 +1,24 @@
 import Link from "next/link";
 
-export default function EssentialLinksList({ essentialLinkslistdata }) {
+export default function EssentialLinksList({ essentialLinkslistdata, uid = "" }) {
   const headingId =
-    (essentialLinkslistdata.id || essentialLinkslistdata.slug || "essential-links") +
-    "-heading";
+    (essentialLinkslistdata.id || essentialLinkslistdata.slug || `essential${uid}`) + "-heading";
 
   return (
-    <ul className="footer-lists" aria-labelledby={headingId}>
-      {/* Heading inside an <li> with role="presentation" so it's not counted as a list item */}
-      <li role="presentation" className="essential-links-title font-poppins" style={{ listStyle: "none" }}>
-        <h3 id={headingId} className="essential-links-title font-poppins">
-          {essentialLinkslistdata.essentialLinkslisttitle}
-        </h3>
-      </li>
+    <div className="footer-lists">
+      <h3 id={headingId} className="essential-links-title font-poppins">
+        {essentialLinkslistdata.essentialLinkslisttitle}
+      </h3>
 
-      {essentialLinkslistdata.essentialLinkslistitems.map((item, index) => (
-        <li key={index} className={`list-items ${item.font}`}>
-          <Link
-            href={item.link}
-            className="general-linkage-color"
-            title="explore more"
-          >
-            {item.text}
-          </Link>
-        </li>
-      ))}
-    </ul>
+      <ul className="footer-lists" aria-labelledby={headingId}>
+        {essentialLinkslistdata.essentialLinkslistitems.map((item, index) => (
+          <li key={index} className={`list-items ${item.font}`}>
+            <Link href={item.link} className="general-linkage-color">
+              {item.text}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
