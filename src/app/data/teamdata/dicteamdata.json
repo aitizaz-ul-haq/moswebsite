@@ -1,22 +1,28 @@
 {
   "memberone": {
     "name": "Muhammad Asim Rasheed",
+    "width": "356",
+    "height": "410",
     "designation": "Financial Controller",
-    "memeberpic": "/images/asim.png",
+    "memeberpic": "/images/asimmos.png",
     "facebooklink": "",
     "linkdinlink": ""
   },
   "memebertwo": {
     "name": "Aitaizaz-ul-haq",
+    "width": "358",
+    "height": "410",
     "designation": "Senior Full Stack Web Developer/Designer",
-    "memeberpic": "/images/atz.png",
+    "memeberpic": "/images/atzaz.png",
     "facebooklink": "",
     "linkdinlink": ""
   },
   "memeberthree": {
     "name": "Syed Muhammad Arslan Ahmed",
+    "width": "358",
+    "height": "410",
     "designation": "Finance & Admin Manager",
-    "memeberpic": "/images/arslan.png",
+    "memeberpic": "/images/arslan_mos.png",
     "facebooklink": "",
     "linkdinlink": ""
   }

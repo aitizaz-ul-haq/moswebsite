@@ -9,6 +9,8 @@ export default function TeamMembersSectionCardContainer({ membersArray }) {
           <TeamMembersSectionImageContainer
             memberpic={member.memeberpic}
             membername={member.name}
+            picwidth={member.width}
+            picheight={member.height}
           />
           <TeamMembersSectionInfoContainer
             memeberheading={member.name}
