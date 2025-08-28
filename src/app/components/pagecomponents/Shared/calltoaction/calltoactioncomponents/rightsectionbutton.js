@@ -1,5 +1,7 @@
+import Link from "next/link";
+
 export default function RightSectionButton() {
   return (
-    <button className="calltoaction-button font-nunito">CONTACT US</button>
+    <Link href="/contact" className="calltoaction-button font-nunito">CONTACT US</Link>
   );
 }
