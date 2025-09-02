@@ -49,7 +49,8 @@ export async function POST(req) {
     // --- HR EMAIL ---
     const hrMailOptions = {
       from: `"${name}" <${email}>`,
-      to: "s.ahmed@manageoutsource.com", // HR email
+    //   to: "s.ahmed@manageoutsource.com", 
+       to: "atz.softprgmr@gmail.com", 
       subject: `Job Application: ${position}`,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
@@ -108,12 +109,12 @@ export async function POST(req) {
                 <strong>Manage Outsource Services</strong><br>
                 Office no 212, Pakland VISTA,<br>
                 I-8 Markaz Islamabad.<br>
-                <p>
+                <!--  <p>
                   Follow us on:
                   <a href="https://instagram.com/" target="_blank">Instagram</a> |
                   <a href="https://facebook.com" target="_blank">Facebook</a> |
                   <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                </p>
+                </p> -->
               </td>
               <td align="right">
                 <img src="cid:mosfooterlogo" alt="MOS Footer Logo" style="height: 50px;" />

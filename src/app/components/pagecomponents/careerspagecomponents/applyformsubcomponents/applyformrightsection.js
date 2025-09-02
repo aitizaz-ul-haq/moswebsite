@@ -40,7 +40,13 @@ export default function ApplyFormRightSection() {
             <label htmlFor="name" className="applyform-label font-poppins">
               Name
             </label>
-            <input type="text" id="name" name="name" className="applyform-input" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="applyform-input"
+              required
+            />
           </div>
         </div>
 
@@ -49,7 +55,13 @@ export default function ApplyFormRightSection() {
             <label htmlFor="email" className="applyform-label font-poppins">
               Email
             </label>
-            <input type="email" id="email" name="email" className="applyform-input" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="applyform-input"
+              required
+            />
           </div>
         </div>
 
@@ -58,7 +70,13 @@ export default function ApplyFormRightSection() {
             <label htmlFor="phone" className="applyform-label font-poppins">
               Phone
             </label>
-            <input type="tel" id="phone" name="phone" className="applyform-input" required />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              className="applyform-input"
+              required
+            />
           </div>
         </div>
 
@@ -67,26 +85,39 @@ export default function ApplyFormRightSection() {
             <label htmlFor="address" className="applyform-label font-poppins">
               Address
             </label>
-            <input type="text" id="address" name="address" className="applyform-input" required />
+            <input
+              type="text"
+              id="address"
+              name="address"
+              className="applyform-input"
+              required
+            />
           </div>
         </div>
 
         <div className="applyform-row">
           <div className="applyform-group position-applied">
             <label htmlFor="position" className="applyform-label font-poppins">
-              Position Applied For
+              Open Position
             </label>
-            <select id="position" name="position" className="applyform-input font-nunito" required>
+            <select
+              id="position"
+              name="position"
+              className="applyform-input font-nunito"
+              required
+            >
               <option value="">Select Position</option>
-              <option value="Data-Analyst">Data Analyst</option>
-              <option value="IT-Support-Analyst-Level-3">IT Support Analyst Level 3</option>
-              <option value="Operations-Analyst">Operations Analyst</option>
+              {/* <option value="Data-Analyst">Data Analyst</option> */}
+              <option value="IT-Support-Analyst-Level-3">
+                IT Support Analyst Level 3
+              </option>
+              {/* <option value="Operations-Analyst">Operations Analyst</option> */}
             </select>
           </div>
         </div>
 
-        <div className="applyform-row">
-          <div className="applyform-group resume full-width">
+        {/* <div className="applyform-row">
+          <div className="applyform-group resume">
             <label htmlFor="resume" className="applyform-label font-poppins">
               Upload Resume
             </label>
@@ -99,6 +130,34 @@ export default function ApplyFormRightSection() {
               required
             />
           </div>
+        </div> */}
+
+        <div className="applyform-row">
+          <div className="applyform-group resume">
+            <label htmlFor="resume" className="applyform-label font-poppins">
+              Upload Resume
+            </label>
+
+            {/* Hidden file input */}
+            <input
+              type="file"
+              id="resume"
+              name="resume"
+              className="applyform-file-input"
+              accept=".pdf,.doc,.docx,.rtf"
+              required
+            />
+
+            {/* Custom styled button */}
+            <label
+              htmlFor="resume"
+              className="applyform-upload-button font-nunito"
+            >
+              Choose File
+            </label>
+
+           
+          </div>
         </div>
 
         <div className="applyform-row">
@@ -106,12 +165,22 @@ export default function ApplyFormRightSection() {
             <label htmlFor="message" className="applyform-label font-poppins">
               Message
             </label>
-            <textarea id="message" name="message" rows="5" className="applyform-textarea" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              className="applyform-textarea"
+              required
+            ></textarea>
           </div>
         </div>
 
         <div className="applyform-row button-row">
-          <button type="submit" className="applyform-submit-button font-nunito" disabled={loading}>
+          <button
+            type="submit"
+            className="applyform-submit-button font-nunito"
+            disabled={loading}
+          >
             {loading ? "Submitting..." : "SUBMIT"}
           </button>
         </div>

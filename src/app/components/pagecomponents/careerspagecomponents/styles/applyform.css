@@ -144,6 +144,37 @@
   background-color: #ffd37e; /* Hover effect */
 }
 
+/* Hide default file input */
+.applyform-file-input {
+  display: none;
+}
+
+/* Custom button */
+.applyform-upload-button {
+  display: inline-block;
+  background-color: #f6f1d1; /* use your theme color */
+  color: #4b4e6d;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+}
+
+.applyform-upload-button:hover {
+  background-color: #ffd37e; /* darker green hover */
+}
+
+/* File name display */
+.applyform-file-name {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
 /* Default styles (mobile-first approach) */
 
 /* Small phones (<= 320px) */
