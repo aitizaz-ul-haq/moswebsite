@@ -469,6 +469,7 @@
     flex-direction: row;
     padding-top: 0rem;
     margin-top: 10rem;
+    margin-bottom: 2rem;
   }
 
   .applyform-left-section {
@@ -517,8 +518,8 @@
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
   .applyform-container {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
   }
 
   .positions-section-container {
@@ -530,6 +531,10 @@
 
 /* Ultra-wide screens (>= 1600px) */
 @media (min-width: 1600px) {
+  .applyform-container {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
