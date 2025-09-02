@@ -100,7 +100,14 @@
 }
 
 .button-row {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.form-status {
+  color: #4b4e6d;
 }
 
 /* Submit button styling */

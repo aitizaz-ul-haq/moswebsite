@@ -155,8 +155,6 @@ export default function ApplyFormRightSection() {
             >
               Choose File
             </label>
-
-           
           </div>
         </div>
 
@@ -183,9 +181,8 @@ export default function ApplyFormRightSection() {
           >
             {loading ? "Submitting..." : "SUBMIT"}
           </button>
+          {success && <p className="form-status font-nunito">{success}</p>}
         </div>
-
-        {success && <p className="form-status">{success}</p>}
       </form>
     </div>
   );

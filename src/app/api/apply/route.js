@@ -49,8 +49,8 @@ export async function POST(req) {
     // --- HR EMAIL ---
     const hrMailOptions = {
       from: `"${name}" <${email}>`,
-    //   to: "s.ahmed@manageoutsource.com", 
-       to: "atz.softprgmr@gmail.com", 
+      to: "s.ahmed@manageoutsource.com", 
+    //    to: "atz.softprgmr@gmail.com", 
       subject: `Job Application: ${position}`,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
