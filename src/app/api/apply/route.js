@@ -86,9 +86,9 @@ export async function POST(req) {
           </table>
           
           <!-- Middle Section -->
-          <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family: inter, serif;">
+         <!-- <h1 style="text-align: center; color: #333; font-size: 24px; font-weight: 300; font-family: inter, serif;">
             Thank You for contacting Manage Outsource Services
-          </h1>
+          </h1> -->
           <p style="font-size: 16px; color: #555; text-align: left;">Dear ${name},</p>
           <p style="font-size: 16px; color: #555; text-align: left;">
             We have successfully received your application for the <strong>${position}</strong> role.

@@ -78,9 +78,9 @@ export default function ApplyFormRightSection() {
             </label>
             <select id="position" name="position" className="applyform-input font-nunito" required>
               <option value="">Select Position</option>
-              <option value="data-analyst">Data Analyst</option>
-              <option value="it-support-analyst">IT Support Analyst</option>
-              <option value="operations-analyst">Operations Analyst</option>
+              <option value="Data-Analyst">Data Analyst</option>
+              <option value="IT-Support-Analyst-Level-3">IT Support Analyst Level 3</option>
+              <option value="Operations-Analyst">Operations Analyst</option>
             </select>
           </div>
         </div>
