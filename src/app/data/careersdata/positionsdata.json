@@ -1,23 +1,56 @@
 {
   "enable": {
-    "enabled": "No"
+    "enabled": "Yes"
   },
   "positionsbanner": {
     "bannerlink": "/images/Positions..png"
   },
 
   "toppositiondata": {
-    "title": "IT Support Analyst",
-    "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+    "title": "",
+    "description": ""
   },
 
   "midpositiondata": {
-    "title": "Data Analyst",
-    "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+    "title": "IT Support Analyst – Level 3 – Job Specification",
+    "descriptionbrief": "We are looking for an experienced IT Support Analyst who can operate Level 3 support, providing efficient, proactive, and expert-level service. Having the experience to help us give our clients the support experience they need and to develop our business. Have excellent spoken English, studies taken in English. Very good understanding of Microsoft 365 services and but not essential ESET Security Services. Excellent knowledge in PC repairs/Build.",
+    "descriptionparaone": "A well-established London based IT company provides exceptional IT support to a range of small businesses who are predominantly in the UK supporting the financial sector.",
+    "descriptionparatwo": "We pride ourselves on learning and understanding the needs of our clients, enabling us to give them excellent service. It goes without saying that you will need to have strong communication skills otherwise the technical knowledge you have will be wasted!",
+    "descriptionparathree": "Our clients expect you to have all the usual technical knowledge they would expect from a company like ours whilst also understanding the demands of businesses that operate in a regulated environment. Your attention to detail, strict confidentiality, good organisational skills, excellent technical knowledge and a desire to help clients with their IT related issues will enable you to succeed in this role.",
+    "descriptionparafour": "The company was started 11 years ago and has developed a strong reputation with our clients for great service coupled with embracing up to date IT solutions.",
+    "descriptionparafive": "We are looking for an experienced IT Support Analyst who can operate Level 3 support, providing efficient, proactive, and expert-level service. Having the experience to help us give our clients the support experience they need and to develop our business. Have excellent spoken English, studies taken in English. Very good understanding of Microsoft 365 services and but not essential ESET Security Services. Excellent knowledge in PC repairs/Build.",
+    "descriptionparasix": "An excellent level of English is a pre-requisite for this role.",
+    "descriptionparaseven": "The IT Support Analyst will be responsible for the following tasks:",
+    "listitemone": "Handle complex, unresolved issues escalated by Level 1 and Level 2 support.",
+    "listitemtwo": "Conduct root cause analysis for recurring or critical technical problems.",
+    "listitemthree": "Administer and troubleshoot:",
+    "sublistitemone": "Windows Server environments (2016–2022)",
+    "sublistitemtwo": "Active Directory, Group Policy Objects, DNS/DHCP, and Windows Server roles (e.g., File Services, Remote Access)",
+    "listitemfour": "Design, implement, and maintain virtual environments (e.g., Hyper-V, VMware, or cloud-hosted VMs).",
+    "listitemfive": "Managing and Administrating O365 All Admin Centre’s for Internal Company and Clients as well.",
+    "listitemsix": "Manage Azure AD sync, hybrid identity issues, and conditional access policies.",
+    "listitemseven": "Maintain SharePoint platform and creating and managing sites.",
+    "listitemeight": "Support and troubleshoot Microsoft Intune, Endpoint Manager, or other RMM tools.",
+    "listitemnine": "Monitor and manage backup systems, EDR platforms, and infrastructure alerts.",
+    "listitemten": "Support and troubleshoot M365 security &amp; compliance features (e.g., DLP, retention, auditing).",
+    "listitemeleven": "Deploy tools and applications across the organization to protect all machines from malware and external threats.",
+    "listitemtwelve": "Write and deploy PowerShell scripts or automation workflows to streamline support tasks.",
+    "listitemthirteen": "Participate in change management processes, such as system upgrades and application rollouts.",
+    "listitemfourteen": "Provide mentorship and guidance to junior support team members.",
+    "secondtitle": "Required Qualification & Skills",
+    "secondtitleitemone": "Graduate in related discipline, Information Technology, Computer Science",
+    "secondtitleitemtwo": "Prior experience of 5 years performing IT Support functions at level 3 in a remote working environment.",
+    "secondtitleitemthree": "Strong knowledge of operating systems and networks, advanced tools and applications.",
+    "secondtitleitemfour": "Strong problem solving, time management and communication skills.",
+    "Thirdtitle": "Other Information",
+    "thirdtitleitemone": "Timing: Winter: 10:00 AM to 07:00PM Summer: 09:00 Am to 06:00PM.",
+    "thirdtitleitemtwo": "Working Days: From Monday to Friday.",
+    "thirdtitleitemthree": "Location Preference: Rawalpindi &amp; Islamabad",
+    "lastmessage": "If you believe your background meets the criteria, please submit your CV with a cover letter."
   },
 
   "bottompositiondata": {
-    "title": "Operations Analyst",
-    "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+    "title": "",
+    "description": ""
   }
 }

@@ -10,9 +10,9 @@ export default function TopPosition({ toppositiondata }) {
         </p>
       </div>
       <div className="position-right-section">
-        <button className="positions-details-button font-nunito">
+        {/* <button className="positions-details-button font-nunito">
           DETAILS
-        </button>
+        </button> */}
       </div>
     </div>
   );

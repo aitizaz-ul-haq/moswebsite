@@ -4,23 +4,23 @@
   "instructions": [
     {
       "id": "1",
-      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      "instruction": "Ensure that you fill in every mandatory field in the application form"
     },
     {
       "id": "2",
-      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      "instruction": "Upload an updated CV (PDF format) and a tailored cover letter explaining why you are suitable for the role."
     },
     {
       "id": "3",
-      "instruction": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      "instruction": "Provide correct personal information, valid contact details, and professional email addresses so we can reach you easily."
     },
     {
       "id": "4",
-      "instruction": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      "instruction": "Double-check your form inputs and uploaded files for accuracy, spelling, and formatting before clicking submit."
     },
     {
       "id": "5",
-      "instruction": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      "instruction": "Please submit the form only once per vacancy. Duplicate submissions may delay processing. You will receive a confirmation email after successful submission."
     }
   ]
 }

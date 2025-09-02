@@ -352,6 +352,11 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .applyform-container {
+    flex-direction: column;
+    padding-top: 0rem;
+    margin-bottom: 20rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -382,6 +387,10 @@
 
 /* Small laptops and larger tablets (>= 768px) */
 @media (min-width: 768px) {
+  .applyform-container {
+    margin-top: 25rem;
+    margin-bottom: 20rem;
+  }
   .contact-applyform {
     width: 50%;
     max-width: 900px;
@@ -469,6 +478,16 @@
 
 /* Extra-large desktops (>= 1440px) */
 @media (min-width: 1440px) {
+  .applyform-container {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .positions-section-container {
+    /* padding-top: 4rem; */
+    padding-bottom: 5rem;
+    /* padding-left: 4rem; */
+  }
 }
 
 /* Ultra-wide screens (>= 1600px) */
