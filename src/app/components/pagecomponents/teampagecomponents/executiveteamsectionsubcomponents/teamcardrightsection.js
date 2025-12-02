@@ -9,7 +9,7 @@ export default function TeamCardRightSection({ card }) {
       <TeamCardTitle card={card} />
       <TeamCardDesignation card={card} />
       <TeamCardDescription card={card} />
-      <TeamCardSocials card={card} />
+      {/* <TeamCardSocials card={card} /> */}
     </div>
   );
 }
