@@ -77,6 +77,9 @@ export default function JobDetailsModal({ isOpen, onClose, job }) {
           {job.listitemtwelve && <li>{job.listitemtwelve}</li>}
           {job.listitemthirteen && <li>{job.listitemthirteen}</li>}
           {job.listitemfourteen && <li>{job.listitemfourteen}</li>}
+          {job.listitemfifteen && <li>{job.listitemfifteen}</li>}
+          {job.listitemsixteen && <li>{job.listitemsixteen}</li>}
+          {job.listitemseventeen && <li>{job.listitemseventeen}</li>}
         </ul>
 
         {/* Qualifications */}
@@ -88,6 +91,13 @@ export default function JobDetailsModal({ isOpen, onClose, job }) {
               {job.secondtitleitemtwo && <li>{job.secondtitleitemtwo}</li>}
               {job.secondtitleitemthree && <li>{job.secondtitleitemthree}</li>}
               {job.secondtitleitemfour && <li>{job.secondtitleitemfour}</li>}
+
+              {job.secondtitleitemfive && <li>{job.secondtitleitemfive}</li>}
+              {job.secondtitleitemsix && <li>{job.secondtitleitemsix}</li>}
+              {job.secondtitleitemseven && <li>{job.secondtitleitemseven}</li>}
+              {job.secondtitleitemeight && <li>{job.secondtitleitemeight}</li>}
+              {job.secondtitleitemnine && <li>{job.secondtitleitemnine}</li>}
+              {job.secondtitleitemten && <li>{job.secondtitleitemten}</li>}
             </ul>
           </>
         )}
@@ -100,6 +110,9 @@ export default function JobDetailsModal({ isOpen, onClose, job }) {
               {job.thirdtitleitemone && <li>{job.thirdtitleitemone}</li>}
               {job.thirdtitleitemtwo && <li>{job.thirdtitleitemtwo}</li>}
               {job.thirdtitleitemthree && <li>{job.thirdtitleitemthree}</li>}
+
+              {job.thirdtitleitemfour && <li>{job.thirdtitleitemfour}</li>}
+              {job.thirdtitleitemfive && <li>{job.thirdtitleitemfive}</li>}
             </ul>
           </>
         )}
