@@ -22,14 +22,14 @@
     "subpages": [
       {
         "name": "Financial Services",
-        "link": "/industries#financial-services"
+        "link": "/industries"
       },
       {
         "name": "Accountancy & Finance",
-        "link": "/industries#accountancy-finance"
+        "link": "/industries"
       },
       { "name": "Tech Support", "link": "/industries#tech-support" },
-      { "name": "Fintech", "link": "/industries#fintech" }
+      { "name": "Fintech", "link": "/industries" }
     ]
   },
   { "name": "TEAM", "link": "/team", "title": "Meet our team" },

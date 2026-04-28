@@ -209,6 +209,9 @@
 
 /* Small phones (<= 320px) */
 @media (max-width: 320px) {
+  .footer-container {
+    margin-top: 20rem;
+  }
   .footer-top-section {
     display: flex;
     flex-direction: column;
@@ -289,6 +292,9 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 360px) {
+  .footer-container {
+    margin-top: 25rem;
+  }
   .footer-top-section {
     display: flex;
     flex-direction: column;
@@ -369,6 +375,9 @@
 
 /* Standard small phones (<= 360px) */
 @media (max-width: 375px) {
+  .footer-container {
+    margin-top: 25rem;
+  }
   .footer-top-section {
     display: flex;
     flex-direction: column;
@@ -449,6 +458,9 @@
 
 /* iPhone 14, 15 (standard model) */
 @media (min-width: 390px) {
+  .footer-container {
+    margin-top: 25rem;
+  }
   .footer-top-section {
     display: flex;
     flex-direction: column;
@@ -529,6 +541,9 @@
 
 /* iPhone 14 Pro, 15 Pro */
 @media (min-width: 430px) {
+  .footer-container {
+    margin-top: 1rem;
+  }
 }
 
 /* Larger phones and phablets (>= 480px) */
@@ -540,6 +555,9 @@
 
 /* Tablets (>= 600px) */
 @media (min-width: 600px) {
+  .footer-container {
+    margin-top: 2rem;
+  }
 }
 
 /* Small laptops and larger tablets (>= 768px) */

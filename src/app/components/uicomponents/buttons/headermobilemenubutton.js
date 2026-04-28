@@ -83,28 +83,36 @@ export default function HeaderMobileMenuButton() {
                     Overview
                   </Link>
                 </li>
-                <li className="font-nunito">
+                {/* <li className="font-nunito">
                   <Link
                     href="/services/operationssupport"
                     onClick={handleMenuItemClick}
                   >
                     Operations Support
                   </Link>
-                </li>
-                <li className="font-nunito">
+                </li> */}
+                {/* <li className="font-nunito">
                   <Link
                     href="/services/datamanagement"
                     onClick={handleMenuItemClick}
                   >
                     Data Management
                   </Link>
-                </li>
-                <li className="font-nunito">
+                </li> */}
+                {/* <li className="font-nunito">
                   <Link
                     href="/services/projectmanagement"
                     onClick={handleMenuItemClick}
                   >
                     Project Management
+                  </Link>
+                </li> */}
+                <li className="font-nunito">
+                  <Link
+                    href="/services/itconsultancy"
+                    onClick={handleMenuItemClick}
+                  >
+                    IT Consultancy
                   </Link>
                 </li>
                 <li className="font-nunito">
@@ -123,14 +131,14 @@ export default function HeaderMobileMenuButton() {
                     Web Development
                   </Link>
                 </li>
-                <li className="font-nunito">
+                {/* <li className="font-nunito">
                   <Link
                     href="/services/humanresources"
                     onClick={handleMenuItemClick}
                   >
                     Human Resources
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li>
@@ -147,7 +155,7 @@ export default function HeaderMobileMenuButton() {
               >
                 <li className="font-nunito">
                   <Link
-                    href="/industries/technology"
+                    href="/industries"
                     onClick={handleMenuItemClick}
                   >
                     Financial Services
@@ -155,7 +163,7 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li className="font-nunito">
                   <Link
-                    href="/industries/healthcare"
+                    href="/industries"
                     onClick={handleMenuItemClick}
                   >
                     Accountancy & Finance
@@ -163,7 +171,7 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li className="font-nunito">
                   <Link
-                    href="/industries/finance"
+                    href="/industries"
                     onClick={handleMenuItemClick}
                   >
                     Tech Support
@@ -171,17 +179,17 @@ export default function HeaderMobileMenuButton() {
                 </li>
                 <li className="font-nunito">
                   <Link
-                    href="/industries/education"
+                    href="/industries"
                     onClick={handleMenuItemClick}
                   >
                     Fintech
                   </Link>
                 </li>
-                <li className="font-nunito">
+                {/* <li className="font-nunito">
                   <Link href="/industries/retail" onClick={handleMenuItemClick}>
                     Insurance
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </li>
             <li className="font-poppins">
