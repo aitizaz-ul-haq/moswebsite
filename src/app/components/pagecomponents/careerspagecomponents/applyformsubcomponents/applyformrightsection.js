@@ -107,9 +107,9 @@ export default function ApplyFormRightSection() {
               required
             >
               <option value="">Select Position</option>
-              <option value="Hr-and-Admin-Executive">Hr and Admin Executive</option>
-              <option value="IT-Support-Analyst-Level-3">
-                IT Support Analyst Level 3
+              {/* <option value="Hr-and-Admin-Executive">Hr and Admin Executive</option> */}
+              <option value="IT-Support-Analyst-Level-2">
+                IT Support Analyst - Level 2
               </option>
               {/* <option value="Operations-Analyst">Operations Analyst</option> */}
             </select>
