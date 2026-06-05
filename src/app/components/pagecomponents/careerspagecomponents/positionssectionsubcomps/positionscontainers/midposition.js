@@ -16,14 +16,14 @@ export default function MidPosition({ midpositiondata }) {
             {midpositiondata.descriptionbrief}
           </p>
         </div>
-        <div className="position-right-section">
+        {/* <div className="position-right-section">
           <button
             className="positions-details-button font-nunito"
             onClick={() => setIsOpen(true)}
           >
             DETAILS
           </button>
-        </div>
+        </div> */}
       </div>
 
       <JobDetailsModal
